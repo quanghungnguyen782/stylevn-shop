@@ -1,0 +1,6 @@
+services:
+  - name: stylevn-shop
+    type: web
+    runtime: static
+    staticPublishPath: ./
+    buildCommand: echo "No build step needed"

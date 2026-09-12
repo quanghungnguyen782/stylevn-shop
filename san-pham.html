@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sản Phẩm - StyleVN Shop</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div>☎ Hotline: 1900 6868 | Giao hàng toàn quốc</div>
+    <div class="topbar-links">
+      <a href="#">Tải App</a>
+      <a href="san-pham.html?filter=sale">Flash Sale</a>
+      <a href="lien-he.html">Hệ Thống Cửa Hàng</a>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Style<span>VN</span></a>
+    <form class="search-box" onsubmit="event.preventDefault(); location.href='san-pham.html?q='+encodeURIComponent(this.q.value)">
+      <input type="text" name="q" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+      <button type="submit">🔍</button>
+    </form>
+    <div class="header-actions">
+      <a href="#" class="action-item"><span class="icon">👤</span> Tài khoản</a>
+      <a href="gio-hang.html" class="action-item"><span class="icon">🛒</span> Giỏ hàng<span class="cart-count">0</span></a>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <ul id="nav-menu"></ul>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="breadcrumb"><a href="index.html">Trang chủ</a> / <span id="crumb-label">Sản phẩm</span></div>
+  <h1 class="page-title" id="page-title">Tất Cả Sản Phẩm</h1>
+
+  <div class="listing-layout">
+    <aside>
+      <div class="filter-box">
+        <h3>Danh Mục</h3>
+        <div id="cat-filters"></div>
+      </div>
+      <div class="filter-box">
+        <h3>Khoảng Giá</h3>
+        <label><input type="radio" name="price" value="all" checked> Tất cả</label>
+        <label><input type="radio" name="price" value="0-200000"> Dưới 200.000₫</label>
+        <label><input type="radio" name="price" value="200000-350000"> 200.000₫ - 350.000₫</label>
+        <label><input type="radio" name="price" value="350000-500000"> 350.000₫ - 500.000₫</label>
+        <label><input type="radio" name="price" value="500000-99999999"> Trên 500.000₫</label>
+      </div>
+    </aside>
+
+    <div>
+      <div class="listing-toolbar">
+        <span id="result-count">0 sản phẩm</span>
+        <select id="sort-select">
+          <option value="default">Mặc định</option>
+          <option value="price-asc">Giá tăng dần</option>
+          <option value="price-desc">Giá giảm dần</option>
+          <option value="sold">Bán chạy nhất</option>
+          <option value="new">Mới nhất</option>
+        </select>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+      <div id="no-result" style="display:none;text-align:center;padding:60px 0;color:#888;">
+        Không tìm thấy sản phẩm phù hợp.
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>StyleVN Shop</h4>
+      <ul><li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li></ul>
+      <div class="social-icons"><a href="#">FB</a><a href="#">IG</a><a href="#">TT</a></div>
+    </div>
+    <div class="footer-col">
+      <h4>Về Chúng Tôi</h4>
+      <ul><li><a href="lien-he.html">Giới thiệu</a></li><li><a href="lien-he.html">Hệ thống cửa hàng</a></li><li><a href="lien-he.html">Tuyển dụng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Chính Sách</h4>
+      <ul><li><a href="#">Chính sách đổi trả</a></li><li><a href="#">Chính sách bảo mật</a></li><li><a href="#">Hướng dẫn mua hàng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Liên Hệ</h4>
+      <ul><li>Hotline: 1900 6868</li><li>Email: support@stylevn.shop</li><li>Địa chỉ: 123 Nguyễn Trãi, Q.1, TP.HCM</li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 StyleVN Shop. All rights reserved.</div>
+</footer>
+
+<script src="js/products-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("nav-menu").innerHTML = CATEGORIES.map(
+    (c) => `<li><a href="san-pham.html?cat=${c.slug}">${c.name}</a></li>`
+  ).join("");
+
+  const params = new URLSearchParams(location.search);
+  let activeCats = new Set(params.get("cat") ? [params.get("cat")] : []);
+  const query = params.get("q") || "";
+  const initFilter = params.get("filter");
+  const initSort = params.get("sort");
+
+  // Render category filter checkboxes
+  const catFiltersEl = document.getElementById("cat-filters");
+  catFiltersEl.innerHTML = CATEGORIES.map(
+    (c) => `<label><input type="checkbox" value="${c.slug}" ${activeCats.has(c.slug) ? "checked" : ""}> ${c.icon} ${c.name}</label>`
+  ).join("");
+  catFiltersEl.querySelectorAll("input[type=checkbox]").forEach((cb) => {
+    cb.addEventListener("change", () => {
+      if (cb.checked) activeCats.add(cb.value);
+      else activeCats.delete(cb.value);
+      render();
+    });
+  });
+
+  document.querySelectorAll("input[name=price]").forEach((r) => r.addEventListener("change", render));
+
+  const sortSelect = document.getElementById("sort-select");
+  if (initSort === "sold") sortSelect.value = "sold";
+  sortSelect.addEventListener("change", render);
+
+  // Page title
+  if (query) {
+    document.getElementById("page-title").textContent = `Kết quả tìm kiếm: "${query}"`;
+    document.getElementById("crumb-label").textContent = "Tìm kiếm";
+  } else if (activeCats.size === 1) {
+    const name = getCategoryName([...activeCats][0]);
+    document.getElementById("page-title").textContent = name;
+    document.getElementById("crumb-label").textContent = name;
+  } else if (initFilter === "sale") {
+    document.getElementById("page-title").textContent = "Flash Sale - Giá Sốc";
+  } else if (initFilter === "new") {
+    document.getElementById("page-title").textContent = "Hàng Mới Về";
+  }
+
+  function render() {
+    let list = [...PRODUCTS];
+
+    if (query) {
+      const q = query.toLowerCase();
+      list = list.filter((p) => p.name.toLowerCase().includes(q));
+    }
+    if (activeCats.size > 0) {
+      list = list.filter((p) => activeCats.has(p.category));
+    }
+    if (initFilter === "sale") list = list.filter((p) => p.badge === "sale");
+    if (initFilter === "new") list = list.filter((p) => p.badge === "new");
+
+    const priceVal = document.querySelector("input[name=price]:checked").value;
+    if (priceVal !== "all") {
+      const [min, max] = priceVal.split("-").map(Number);
+      list = list.filter((p) => p.price >= min && p.price <= max);
+    }
+
+    switch (sortSelect.value) {
+      case "price-asc": list.sort((a, b) => a.price - b.price); break;
+      case "price-desc": list.sort((a, b) => b.price - a.price); break;
+      case "sold": list.sort((a, b) => b.sold - a.sold); break;
+      case "new": list.sort((a, b) => b.id - a.id); break;
+    }
+
+    document.getElementById("result-count").textContent = `${list.length} sản phẩm`;
+    const grid = document.getElementById("product-grid");
+    const noResult = document.getElementById("no-result");
+    if (list.length === 0) {
+      grid.innerHTML = "";
+      noResult.style.display = "block";
+    } else {
+      noResult.style.display = "none";
+      grid.innerHTML = list.map(productCardHTML).join("");
+    }
+  }
+
+  render();
+</script>
+</body>
+</html>

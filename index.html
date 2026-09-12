@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StyleVN Shop - Thời Trang Nam Nữ Chính Hãng, Giá Tốt Mỗi Ngày</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+  <div class="container">
+    <div>☎ Hotline: 1900 6868 | Giao hàng toàn quốc</div>
+    <div class="topbar-links">
+      <a href="#">Tải App</a>
+      <a href="san-pham.html?filter=sale">Flash Sale</a>
+      <a href="lien-he.html">Hệ Thống Cửa Hàng</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Style<span>VN</span></a>
+    <form class="search-box" onsubmit="event.preventDefault(); location.href='san-pham.html?q='+encodeURIComponent(this.q.value)">
+      <input type="text" name="q" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+      <button type="submit">🔍</button>
+    </form>
+    <div class="header-actions">
+      <a href="#" class="action-item"><span class="icon">👤</span> Tài khoản</a>
+      <a href="gio-hang.html" class="action-item"><span class="icon">🛒</span> Giỏ hàng<span class="cart-count">0</span></a>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <ul id="nav-menu"></ul>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- Hero slider -->
+  <div class="hero" id="hero">
+    <div class="hero-slide active" style="background-image:url('https://picsum.photos/seed/banner1/1200/500')">
+      <div class="hero-slide-content">
+        <h2>BỘ SƯU TẬP THU ĐÔNG 2026</h2>
+        <p>Giảm giá đến 50% cho toàn bộ áo khoác và áo len</p>
+        <a href="san-pham.html?cat=ao-khoac" class="btn">Mua Ngay</a>
+      </div>
+    </div>
+    <div class="hero-slide" style="background-image:url('https://picsum.photos/seed/banner2/1200/500')">
+      <div class="hero-slide-content">
+        <h2>FLASH SALE MỖI NGÀY</h2>
+        <p>Săn deal giá sốc chỉ từ 99.000₫</p>
+        <a href="san-pham.html?filter=sale" class="btn">Săn Deal</a>
+      </div>
+    </div>
+    <div class="hero-slide" style="background-image:url('https://picsum.photos/seed/banner3/1200/500')">
+      <div class="hero-slide-content">
+        <h2>HÀNG MỚI VỀ MỖI TUẦN</h2>
+        <p>Cập nhật xu hướng thời trang mới nhất</p>
+        <a href="san-pham.html?filter=new" class="btn">Khám Phá</a>
+      </div>
+    </div>
+    <div class="hero-dots" id="hero-dots"></div>
+  </div>
+
+  <!-- Category grid -->
+  <section class="section">
+    <div class="section-head"><h2>Danh Mục Sản Phẩm</h2></div>
+    <div class="cat-grid" id="cat-grid"></div>
+  </section>
+
+  <!-- Flash sale -->
+  <section class="section">
+    <div class="section-head flash-head">
+      <h2>Flash Sale</h2>
+      <div class="timer" id="timer">
+        <span id="t-h">00</span><span>:</span><span id="t-m">00</span><span>:</span><span id="t-s">00</span>
+      </div>
+      <a href="san-pham.html?filter=sale">Xem tất cả →</a>
+    </div>
+    <div class="product-grid" id="flash-grid"></div>
+  </section>
+
+  <!-- Best sellers -->
+  <section class="section">
+    <div class="section-head"><h2>Bán Chạy Nhất</h2><a href="san-pham.html?sort=sold">Xem tất cả →</a></div>
+    <div class="product-grid" id="bestseller-grid"></div>
+  </section>
+
+  <!-- Promo banners -->
+  <section class="section" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+    <a href="san-pham.html?cat=vay-dam" style="border-radius:8px;overflow:hidden;">
+      <img src="https://picsum.photos/seed/promo1/600/300" alt="Váy đầm" style="width:100%;">
+    </a>
+    <a href="san-pham.html?cat=do-the-thao" style="border-radius:8px;overflow:hidden;">
+      <img src="https://picsum.photos/seed/promo2/600/300" alt="Đồ thể thao" style="width:100%;">
+    </a>
+  </section>
+
+  <!-- New arrivals -->
+  <section class="section">
+    <div class="section-head"><h2>Hàng Mới Về</h2><a href="san-pham.html?filter=new">Xem tất cả →</a></div>
+    <div class="product-grid" id="new-grid"></div>
+  </section>
+
+</main>
+
+<!-- Newsletter -->
+<div class="newsletter">
+  <h2>Đăng ký nhận ưu đãi</h2>
+  <p>Nhận ngay voucher 50.000₫ cho đơn hàng đầu tiên</p>
+  <form class="newsletter-form">
+    <input type="email" placeholder="Nhập email của bạn" required>
+    <button class="btn" type="submit">Đăng Ký</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>StyleVN Shop</h4>
+      <ul>
+        <li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li>
+      </ul>
+      <div class="social-icons">
+        <a href="#">FB</a><a href="#">IG</a><a href="#">TT</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Về Chúng Tôi</h4>
+      <ul>
+        <li><a href="lien-he.html">Giới thiệu</a></li>
+        <li><a href="lien-he.html">Hệ thống cửa hàng</a></li>
+        <li><a href="lien-he.html">Tuyển dụng</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Chính Sách</h4>
+      <ul>
+        <li><a href="#">Chính sách đổi trả</a></li>
+        <li><a href="#">Chính sách bảo mật</a></li>
+        <li><a href="#">Hướng dẫn mua hàng</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Liên Hệ</h4>
+      <ul>
+        <li>Hotline: 1900 6868</li>
+        <li>Email: support@stylevn.shop</li>
+        <li>Địa chỉ: 123 Nguyễn Trãi, Q.1, TP.HCM</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 StyleVN Shop. All rights reserved.</div>
+</footer>
+
+<script src="js/products-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  // Render nav menu
+  document.getElementById("nav-menu").innerHTML = CATEGORIES.map(
+    (c) => `<li><a href="san-pham.html?cat=${c.slug}">${c.name}</a></li>`
+  ).join("");
+
+  // Category grid
+  renderCategoryGrid(document.getElementById("cat-grid"));
+
+  // Flash sale = sản phẩm có badge sale
+  document.getElementById("flash-grid").innerHTML = PRODUCTS
+    .filter((p) => p.badge === "sale")
+    .slice(0, 8)
+    .map(productCardHTML)
+    .join("");
+
+  // Best seller = sort theo sold
+  document.getElementById("bestseller-grid").innerHTML = [...PRODUCTS]
+    .sort((a, b) => b.sold - a.sold)
+    .slice(0, 8)
+    .map(productCardHTML)
+    .join("");
+
+  // New arrivals
+  document.getElementById("new-grid").innerHTML = PRODUCTS
+    .filter((p) => p.badge === "new")
+    .concat(PRODUCTS.slice(-4))
+    .slice(0, 8)
+    .map(productCardHTML)
+    .join("");
+
+  // Hero slider
+  const slides = document.querySelectorAll(".hero-slide");
+  const dotsWrap = document.getElementById("hero-dots");
+  dotsWrap.innerHTML = slides.length
+    ? [...slides].map((_, i) => `<span data-i="${i}" class="${i === 0 ? "active" : ""}"></span>`).join("")
+    : "";
+  let heroIndex = 0;
+  function showSlide(i) {
+    slides.forEach((s, idx) => s.classList.toggle("active", idx === i));
+    dotsWrap.querySelectorAll("span").forEach((d, idx) => d.classList.toggle("active", idx === i));
+    heroIndex = i;
+  }
+  dotsWrap.querySelectorAll("span").forEach((d) => d.addEventListener("click", () => showSlide(+d.dataset.i)));
+  setInterval(() => showSlide((heroIndex + 1) % slides.length), 4000);
+
+  // Countdown timer (giả lập đếm ngược đến cuối ngày)
+  function updateTimer() {
+    const now = new Date();
+    const end = new Date();
+    end.setHours(23, 59, 59, 999);
+    let diff = Math.max(0, end - now) / 1000;
+    const h = String(Math.floor(diff / 3600)).padStart(2, "0");
+    const m = String(Math.floor((diff % 3600) / 60)).padStart(2, "0");
+    const s = String(Math.floor(diff % 60)).padStart(2, "0");
+    document.getElementById("t-h").textContent = h;
+    document.getElementById("t-m").textContent = m;
+    document.getElementById("t-s").textContent = s;
+  }
+  updateTimer();
+  setInterval(updateTimer, 1000);
+</script>
+</body>
+</html>

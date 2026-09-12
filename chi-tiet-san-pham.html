@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title-tag">Chi Tiết Sản Phẩm - StyleVN Shop</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div>☎ Hotline: 1900 6868 | Giao hàng toàn quốc</div>
+    <div class="topbar-links">
+      <a href="#">Tải App</a>
+      <a href="san-pham.html?filter=sale">Flash Sale</a>
+      <a href="lien-he.html">Hệ Thống Cửa Hàng</a>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Style<span>VN</span></a>
+    <form class="search-box" onsubmit="event.preventDefault(); location.href='san-pham.html?q='+encodeURIComponent(this.q.value)">
+      <input type="text" name="q" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+      <button type="submit">🔍</button>
+    </form>
+    <div class="header-actions">
+      <a href="#" class="action-item"><span class="icon">👤</span> Tài khoản</a>
+      <a href="gio-hang.html" class="action-item"><span class="icon">🛒</span> Giỏ hàng<span class="cart-count">0</span></a>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <ul id="nav-menu"></ul>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="breadcrumb">
+    <a href="index.html">Trang chủ</a> / <a id="crumb-cat" href="#"></a> / <span id="crumb-name"></span>
+  </div>
+
+  <div class="pd-layout" id="pd-root"></div>
+
+  <div class="section">
+    <div class="section-head"><h2>Sản Phẩm Liên Quan</h2></div>
+    <div class="product-grid" id="related-grid"></div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>StyleVN Shop</h4>
+      <ul><li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li></ul>
+      <div class="social-icons"><a href="#">FB</a><a href="#">IG</a><a href="#">TT</a></div>
+    </div>
+    <div class="footer-col">
+      <h4>Về Chúng Tôi</h4>
+      <ul><li><a href="lien-he.html">Giới thiệu</a></li><li><a href="lien-he.html">Hệ thống cửa hàng</a></li><li><a href="lien-he.html">Tuyển dụng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Chính Sách</h4>
+      <ul><li><a href="#">Chính sách đổi trả</a></li><li><a href="#">Chính sách bảo mật</a></li><li><a href="#">Hướng dẫn mua hàng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Liên Hệ</h4>
+      <ul><li>Hotline: 1900 6868</li><li>Email: support@stylevn.shop</li><li>Địa chỉ: 123 Nguyễn Trãi, Q.1, TP.HCM</li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 StyleVN Shop. All rights reserved.</div>
+</footer>
+
+<script src="js/products-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("nav-menu").innerHTML = CATEGORIES.map(
+    (c) => `<li><a href="san-pham.html?cat=${c.slug}">${c.name}</a></li>`
+  ).join("");
+
+  const params = new URLSearchParams(location.search);
+  const id = Number(params.get("id"));
+  const product = getProductById(id);
+
+  if (!product) {
+    document.getElementById("pd-root").innerHTML = `<p style="padding:60px 0;">Không tìm thấy sản phẩm. <a href="san-pham.html">Quay lại danh sách sản phẩm</a></p>`;
+  } else {
+    document.getElementById("page-title-tag").textContent = product.name + " - StyleVN Shop";
+    document.getElementById("crumb-cat").textContent = getCategoryName(product.category);
+    document.getElementById("crumb-cat").href = `san-pham.html?cat=${product.category}`;
+    document.getElementById("crumb-name").textContent = product.name;
+
+    let selectedSize = product.sizes[0];
+    let selectedColor = product.colors[0];
+    const discount = product.oldPrice ? Math.round(100 - (product.price / product.oldPrice) * 100) : 0;
+
+    document.getElementById("pd-root").innerHTML = `
+      <div>
+        <div class="pd-gallery-main"><img id="main-img" src="${product.image}" alt="${product.name}"></div>
+        <div class="pd-thumbs">
+          ${[product.image, product.image.replace("/500/650", "/501/650"), product.image.replace("/500/650", "/502/650")]
+            .map((src, i) => `<img src="${src}" class="${i === 0 ? "active" : ""}" onclick="document.getElementById('main-img').src=this.src; document.querySelectorAll('.pd-thumbs img').forEach(t=>t.classList.remove('active')); this.classList.add('active')">`)
+            .join("")}
+        </div>
+      </div>
+      <div>
+        <h1 class="pd-title">${product.name}</h1>
+        <div class="pd-meta">
+          <span>⭐ ${product.rating} (${product.sold} đánh giá)</span>
+          <span>Đã bán ${product.sold}</span>
+        </div>
+        <div class="pd-price-box">
+          <span class="pd-price-now">${formatPrice(product.price)}</span>
+          ${product.oldPrice ? `<span class="price-old">${formatPrice(product.oldPrice)}</span> <span class="badge sale" style="position:static;">-${discount}%</span>` : ""}
+        </div>
+        <div class="pd-option">
+          <h4>Kích thước</h4>
+          <div id="size-options">
+            ${product.sizes.map((s) => `<span class="option-pill ${s === selectedSize ? "active" : ""}" data-size="${s}">${s}</span>`).join("")}
+          </div>
+        </div>
+        <div class="pd-option">
+          <h4>Màu sắc</h4>
+          <div id="color-options">
+            ${product.colors.map((c) => `<span class="option-pill ${c === selectedColor ? "active" : ""}" data-color="${c}">${c}</span>`).join("")}
+          </div>
+        </div>
+        <div class="pd-option">
+          <h4>Số lượng</h4>
+          <div class="qty-box">
+            <button onclick="changeQty(-1)">−</button>
+            <input type="number" id="qty-input" value="1" min="1">
+            <button onclick="changeQty(1)">+</button>
+          </div>
+        </div>
+        <div class="pd-actions">
+          <button class="btn btn-outline" onclick="handleAddToCart()">🛒 Thêm Vào Giỏ</button>
+          <button class="btn" onclick="handleBuyNow()">Mua Ngay</button>
+        </div>
+        <div class="pd-desc">
+          <h3>Mô Tả Sản Phẩm</h3>
+          <p>${product.name} thuộc danh mục ${getCategoryName(product.category)}, chất liệu cao cấp, form dáng chuẩn, thoải mái vận động. Sản phẩm được kiểm định chất lượng kỹ lưỡng trước khi đến tay khách hàng. Cam kết đổi trả miễn phí trong 7 ngày nếu không vừa ý.</p>
+        </div>
+      </div>
+    `;
+
+    document.querySelectorAll("#size-options .option-pill").forEach((el) => {
+      el.addEventListener("click", () => {
+        selectedSize = el.dataset.size;
+        document.querySelectorAll("#size-options .option-pill").forEach((e) => e.classList.remove("active"));
+        el.classList.add("active");
+      });
+    });
+    document.querySelectorAll("#color-options .option-pill").forEach((el) => {
+      el.addEventListener("click", () => {
+        selectedColor = el.dataset.color;
+        document.querySelectorAll("#color-options .option-pill").forEach((e) => e.classList.remove("active"));
+        el.classList.add("active");
+      });
+    });
+
+    window.changeQty = function (delta) {
+      const input = document.getElementById("qty-input");
+      input.value = Math.max(1, Number(input.value) + delta);
+    };
+    window.handleAddToCart = function () {
+      const qty = Number(document.getElementById("qty-input").value);
+      addToCart(product.id, selectedSize, selectedColor, qty);
+      showToast(`Đã thêm ${qty} "${product.name}" vào giỏ hàng`);
+    };
+    window.handleBuyNow = function () {
+      const qty = Number(document.getElementById("qty-input").value);
+      addToCart(product.id, selectedSize, selectedColor, qty);
+      location.href = "gio-hang.html";
+    };
+
+    // Related products
+    const related = PRODUCTS.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+    document.getElementById("related-grid").innerHTML = related.map(productCardHTML).join("");
+  }
+</script>
+</body>
+</html>

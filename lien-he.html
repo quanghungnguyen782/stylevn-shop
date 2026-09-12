@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liên Hệ - StyleVN Shop</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div>☎ Hotline: 1900 6868 | Giao hàng toàn quốc</div>
+    <div class="topbar-links">
+      <a href="#">Tải App</a>
+      <a href="san-pham.html?filter=sale">Flash Sale</a>
+      <a href="lien-he.html">Hệ Thống Cửa Hàng</a>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Style<span>VN</span></a>
+    <form class="search-box" onsubmit="event.preventDefault(); location.href='san-pham.html?q='+encodeURIComponent(this.q.value)">
+      <input type="text" name="q" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+      <button type="submit">🔍</button>
+    </form>
+    <div class="header-actions">
+      <a href="#" class="action-item"><span class="icon">👤</span> Tài khoản</a>
+      <a href="gio-hang.html" class="action-item"><span class="icon">🛒</span> Giỏ hàng<span class="cart-count">0</span></a>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <ul id="nav-menu"></ul>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="breadcrumb"><a href="index.html">Trang chủ</a> / Liên hệ</div>
+  <h1 class="page-title">Liên Hệ Với Chúng Tôi</h1>
+
+  <div class="contact-grid">
+    <div>
+      <div class="info-card">
+        <h3 style="margin-bottom:10px;">Thông Tin Cửa Hàng</h3>
+        <p>📍 Địa chỉ: 123 Nguyễn Trãi, Quận 1, TP.HCM</p>
+        <p>☎ Hotline: 1900 6868</p>
+        <p>✉ Email: support@stylevn.shop</p>
+        <p>🕒 Giờ mở cửa: 8:00 - 22:00 (Tất cả các ngày trong tuần)</p>
+      </div>
+      <div class="info-card">
+        <h3 style="margin-bottom:10px;">Hệ Thống Chi Nhánh</h3>
+        <p>• Chi nhánh Quận 1: 123 Nguyễn Trãi, Q.1, TP.HCM</p>
+        <p>• Chi nhánh Cầu Giấy: 45 Xuân Thủy, Cầu Giấy, Hà Nội</p>
+        <p>• Chi nhánh Hải Châu: 88 Lê Duẩn, Hải Châu, Đà Nẵng</p>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3 style="margin-bottom:10px;">Gửi Yêu Cầu Cho Chúng Tôi</h3>
+      <form id="contact-form">
+        <div class="form-group">
+          <label>Họ và tên</label>
+          <input type="text" required placeholder="Nhập họ tên">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" required placeholder="Nhập email">
+        </div>
+        <div class="form-group">
+          <label>Số điện thoại</label>
+          <input type="tel" placeholder="Nhập số điện thoại">
+        </div>
+        <div class="form-group">
+          <label>Nội dung</label>
+          <textarea rows="5" required placeholder="Bạn cần hỗ trợ gì?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-block">Gửi Yêu Cầu</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>StyleVN Shop</h4>
+      <ul><li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li></ul>
+      <div class="social-icons"><a href="#">FB</a><a href="#">IG</a><a href="#">TT</a></div>
+    </div>
+    <div class="footer-col">
+      <h4>Về Chúng Tôi</h4>
+      <ul><li><a href="lien-he.html">Giới thiệu</a></li><li><a href="lien-he.html">Hệ thống cửa hàng</a></li><li><a href="lien-he.html">Tuyển dụng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Chính Sách</h4>
+      <ul><li><a href="#">Chính sách đổi trả</a></li><li><a href="#">Chính sách bảo mật</a></li><li><a href="#">Hướng dẫn mua hàng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Liên Hệ</h4>
+      <ul><li>Hotline: 1900 6868</li><li>Email: support@stylevn.shop</li><li>Địa chỉ: 123 Nguyễn Trãi, Q.1, TP.HCM</li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 StyleVN Shop. All rights reserved.</div>
+</footer>
+
+<script src="js/products-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("nav-menu").innerHTML = CATEGORIES.map(
+    (c) => `<li><a href="san-pham.html?cat=${c.slug}">${c.name}</a></li>`
+  ).join("");
+
+  document.getElementById("contact-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    showToast("Đã gửi yêu cầu! Chúng tôi sẽ liên hệ lại sớm nhất.");
+    e.target.reset();
+  });
+</script>
+</body>
+</html>

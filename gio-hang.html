@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Giỏ Hàng - StyleVN Shop</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div>☎ Hotline: 1900 6868 | Giao hàng toàn quốc</div>
+    <div class="topbar-links">
+      <a href="#">Tải App</a>
+      <a href="san-pham.html?filter=sale">Flash Sale</a>
+      <a href="lien-he.html">Hệ Thống Cửa Hàng</a>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Style<span>VN</span></a>
+    <form class="search-box" onsubmit="event.preventDefault(); location.href='san-pham.html?q='+encodeURIComponent(this.q.value)">
+      <input type="text" name="q" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+      <button type="submit">🔍</button>
+    </form>
+    <div class="header-actions">
+      <a href="#" class="action-item"><span class="icon">👤</span> Tài khoản</a>
+      <a href="gio-hang.html" class="action-item"><span class="icon">🛒</span> Giỏ hàng<span class="cart-count">0</span></a>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <ul id="nav-menu"></ul>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="breadcrumb"><a href="index.html">Trang chủ</a> / Giỏ hàng</div>
+  <h1 class="page-title">Giỏ Hàng Của Bạn</h1>
+
+  <div id="cart-content"></div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>StyleVN Shop</h4>
+      <ul><li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li></ul>
+      <div class="social-icons"><a href="#">FB</a><a href="#">IG</a><a href="#">TT</a></div>
+    </div>
+    <div class="footer-col">
+      <h4>Về Chúng Tôi</h4>
+      <ul><li><a href="lien-he.html">Giới thiệu</a></li><li><a href="lien-he.html">Hệ thống cửa hàng</a></li><li><a href="lien-he.html">Tuyển dụng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Chính Sách</h4>
+      <ul><li><a href="#">Chính sách đổi trả</a></li><li><a href="#">Chính sách bảo mật</a></li><li><a href="#">Hướng dẫn mua hàng</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Liên Hệ</h4>
+      <ul><li>Hotline: 1900 6868</li><li>Email: support@stylevn.shop</li><li>Địa chỉ: 123 Nguyễn Trãi, Q.1, TP.HCM</li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 StyleVN Shop. All rights reserved.</div>
+</footer>
+
+<script src="js/products-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("nav-menu").innerHTML = CATEGORIES.map(
+    (c) => `<li><a href="san-pham.html?cat=${c.slug}">${c.name}</a></li>`
+  ).join("");
+
+  function renderCart() {
+    const cart = getCart();
+    const root = document.getElementById("cart-content");
+
+    if (cart.length === 0) {
+      root.innerHTML = `
+        <div class="empty-cart">
+          <div class="icon">🛒</div>
+          <p>Giỏ hàng của bạn đang trống.</p>
+          <br>
+          <a href="san-pham.html" class="btn">Tiếp Tục Mua Sắm</a>
+        </div>`;
+      return;
+    }
+
+    let total = 0;
+    const rows = cart.map((item, index) => {
+      const p = getProductById(item.id);
+      const lineTotal = p.price * item.qty;
+      total += lineTotal;
+      return `
+        <tr>
+          <td>
+            <div class="cart-item-info">
+              <img src="${p.image}" alt="${p.name}">
+              <div>
+                <div>${p.name}</div>
+                <div style="color:#888;font-size:12px;">Size: ${item.size} | Màu: ${item.color}</div>
+              </div>
+            </div>
+          </td>
+          <td>${formatPrice(p.price)}</td>
+          <td>
+            <div class="cart-qty">
+              <button onclick="changeCartQty(${index}, -1)">−</button>
+              <input type="number" value="${item.qty}" min="1" onchange="setCartQty(${index}, this.value)">
+              <button onclick="changeCartQty(${index}, 1)">+</button>
+            </div>
+          </td>
+          <td>${formatPrice(lineTotal)}</td>
+          <td><span class="remove-btn" onclick="removeItem(${index})">✕ Xóa</span></td>
+        </tr>
+      `;
+    }).join("");
+
+    root.innerHTML = `
+      <table class="cart-table">
+        <thead>
+          <tr><th>Sản phẩm</th><th>Đơn giá</th><th>Số lượng</th><th>Thành tiền</th><th></th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="cart-summary">
+        <div class="cart-summary-row"><span>Tạm tính</span><span>${formatPrice(total)}</span></div>
+        <div class="cart-summary-row"><span>Phí vận chuyển</span><span>${total > 0 ? "Miễn phí" : "0₫"}</span></div>
+        <div class="cart-summary-row total"><span>Tổng cộng</span><span>${formatPrice(total)}</span></div>
+        <button class="btn btn-block" onclick="checkout()">Tiến Hành Thanh Toán</button>
+      </div>
+    `;
+  }
+
+  window.changeCartQty = function (index, delta) {
+    const cart = getCart();
+    updateCartQtyAt(index, cart[index].qty + delta);
+    renderCart();
+  };
+  window.setCartQty = function (index, value) {
+    updateCartQtyAt(index, Number(value));
+    renderCart();
+  };
+  window.removeItem = function (index) {
+    removeFromCartAt(index);
+    renderCart();
+  };
+  window.checkout = function () {
+    showToast("Đặt hàng thành công! Cảm ơn bạn đã mua sắm tại StyleVN Shop.");
+    saveCart([]);
+    setTimeout(renderCart, 300);
+  };
+
+  renderCart();
+</script>
+</body>
+</html>
