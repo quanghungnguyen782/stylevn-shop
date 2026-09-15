@@ -1,0 +1,18 @@
+import Link from "next/link";
+
+export function BrandStory() {
+  return (
+    <section className="border-t border-line px-4 py-20 text-center md:px-8">
+      <p className="mx-auto max-w-2xl font-display text-2xl leading-snug md:text-4xl">
+        &ldquo;Được tạo ra cho cuộc sống hàng ngày.&rdquo;
+      </p>
+      <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted">
+        StyleVN tuyển chọn những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế hàng đầu, mang đến sự
+        lựa chọn đa dạng với mức giá hợp lý — cho mọi khoảnh khắc vận động của bạn.
+      </p>
+      <Link href="/ve-thuong-hieu" className="mt-6 inline-block text-sm underline-offset-4 hover:underline">
+        Tìm hiểu thêm về chúng tôi →
+      </Link>
+    </section>
+  );
+}

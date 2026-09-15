@@ -1,0 +1,64 @@
+import {
+  getAllProducts,
+  getBestSellers,
+  getFlashSaleProducts,
+  getProductsByCategory,
+} from "@/lib/product-service";
+import { CATEGORIES } from "@/lib/constants";
+import { Hero } from "@/components/marketing/Hero";
+import { FeaturedCategories } from "@/components/marketing/FeaturedCategories";
+import { CollectionStory } from "@/components/marketing/CollectionStory";
+import { BestSellerCarousel } from "@/components/marketing/BestSellerCarousel";
+import { BrandStory } from "@/components/marketing/BrandStory";
+import { Newsletter } from "@/components/marketing/Newsletter";
+import { ProductGrid } from "@/components/product/ProductGrid";
+
+function pickModelImage(products: { images: string[] }[], fallback: string): string {
+  for (const p of products) {
+    const modelShot = p.images.find((src) => src.includes("model"));
+    if (modelShot) return modelShot;
+  }
+  return fallback;
+}
+
+export default async function HomePage() {
+  const allProducts = await getAllProducts();
+  const flashSale = await getFlashSaleProducts(8);
+  const bestSellers = await getBestSellers(8);
+
+  const categoryTiles = await Promise.all(
+    CATEGORIES.map(async (c) => {
+      const products = await getProductsByCategory(c.slug);
+      return {
+        slug: c.slug,
+        name: c.name,
+        imageUrl: products[0]?.images[0] ?? "/images/placeholder-product.jpg",
+      };
+    })
+  );
+
+  const heroImage = pickModelImage(allProducts, allProducts[0]?.images[0] ?? "/images/placeholder-product.jpg");
+  const storyImage = pickModelImage(
+    allProducts.slice().reverse(),
+    allProducts[allProducts.length - 1]?.images[0] ?? "/images/placeholder-product.jpg"
+  );
+
+  return (
+    <>
+      <Hero imageUrl={heroImage} />
+      <FeaturedCategories tiles={categoryTiles} />
+
+      <section className="px-4 py-16 md:px-8 md:py-24">
+        <div className="mb-8 flex items-end justify-between">
+          <h2 className="font-display text-2xl md:text-3xl">Sản Phẩm Nổi Bật</h2>
+        </div>
+        <ProductGrid products={flashSale} />
+      </section>
+
+      <CollectionStory imageUrl={storyImage} />
+      <BestSellerCarousel products={bestSellers} />
+      <BrandStory />
+      <Newsletter />
+    </>
+  );
+}

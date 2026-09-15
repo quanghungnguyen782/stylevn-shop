@@ -1,45 +1,36 @@
-# StyleVN Shop
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Website bán quần áo (thời trang nam nữ), xây dựng bằng HTML/CSS/JavaScript thuần, không cần build step hay backend. Dữ liệu sản phẩm là mẫu tĩnh, giỏ hàng lưu trong `localStorage` của trình duyệt.
+## Getting Started
 
-Phong cách giao diện tham khảo từ [vuahanghieu.com](https://vuahanghieu.com/) (banner slider, danh mục dạng lưới, flash sale đếm ngược, badge giảm giá/hot/mới).
-
-## Cấu trúc
-
-- `index.html` — Trang chủ
-- `san-pham.html` — Danh sách sản phẩm (lọc, sắp xếp, tìm kiếm)
-- `chi-tiet-san-pham.html` — Chi tiết sản phẩm
-- `gio-hang.html` — Giỏ hàng
-- `lien-he.html` — Liên hệ
-- `css/style.css` — Toàn bộ style
-- `js/products-data.js` — Dữ liệu sản phẩm mẫu
-- `js/main.js` — Logic giỏ hàng, render sản phẩm, toast...
-
-## Chạy thử ở local
-
-Không cần cài đặt gì, chỉ cần một server tĩnh bất kỳ, ví dụ:
+First, run the development server:
 
 ```bash
-python3 -m http.server 8000
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-rồi mở `http://localhost:8000`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deploy lên Render
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Repo đã có sẵn `render.yaml` (Render Blueprint) cấu hình sẵn dạng Static Site, không cần build:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. Đẩy (push) repo này lên GitHub/GitLab.
-2. Vào [Render Dashboard](https://dashboard.render.com/) → **New** → **Blueprint**.
-3. Chọn repo vừa push, Render sẽ tự đọc `render.yaml` và tạo service tên `stylevn-shop`.
-4. Bấm **Apply** để deploy.
+## Learn More
 
-Hoặc deploy thủ công không cần `render.yaml`:
+To learn more about Next.js, take a look at the following resources:
 
-1. **New** → **Static Site**.
-2. Chọn repo.
-3. Build Command: để trống.
-4. Publish Directory: `.` (thư mục gốc).
-5. Bấm **Create Static Site**.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Sau khi deploy xong, Render sẽ cấp một domain dạng `https://stylevn-shop.onrender.com`.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
