@@ -8,7 +8,7 @@ export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: `${SITE_NAME} Shop`,
+    name: SITE_NAME,
     url: SITE_URL,
     description:
       "Điểm đến đa thương hiệu thể thao cao cấp: Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.",

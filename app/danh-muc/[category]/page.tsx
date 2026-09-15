@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { CATEGORIES } from "@/lib/constants";
+import { CATEGORIES, SITE_NAME } from "@/lib/constants";
 import { getProductsByCategory } from "@/lib/product-service";
 import { getCategoryName } from "@/lib/product-meta";
 import { ProductListingClient } from "@/components/plp/ProductListingClient";
@@ -26,7 +26,7 @@ export async function generateMetadata({
   const name = getCategoryName(category);
   return {
     title: name,
-    description: `Mua ${name.toLowerCase()} chính hãng đa thương hiệu tại StyleVN.`,
+    description: `Mua ${name.toLowerCase()} chính hãng đa thương hiệu tại ${SITE_NAME}.`,
   };
 }
 

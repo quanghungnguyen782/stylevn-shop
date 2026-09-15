@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SITE_NAME } from "@/lib/constants";
 
 export function BrandStory() {
   return (
@@ -7,7 +8,7 @@ export function BrandStory() {
         &ldquo;Được tạo ra cho cuộc sống hàng ngày.&rdquo;
       </p>
       <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted">
-        StyleVN tuyển chọn những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế hàng đầu, mang đến sự
+        {SITE_NAME} tuyển chọn những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế hàng đầu, mang đến sự
         lựa chọn đa dạng với mức giá hợp lý — cho mọi khoảnh khắc vận động của bạn.
       </p>
       <Link href="/ve-thuong-hieu" className="mt-6 inline-block text-sm underline-offset-4 hover:underline">

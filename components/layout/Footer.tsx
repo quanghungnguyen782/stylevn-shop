@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SITE_NAME } from "@/lib/constants";
 
 const COLUMNS = [
   {
@@ -12,7 +13,7 @@ const COLUMNS = [
     ],
   },
   {
-    title: "Về StyleVN",
+    title: `Về ${SITE_NAME}`,
     links: [
       { href: "/ve-thuong-hieu", label: "Câu chuyện thương hiệu" },
       { href: "/lien-he", label: "Tuyển dụng" },
@@ -35,7 +36,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1440px] px-4 py-14 md:px-8">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
-            <p className="font-display text-xl">StyleVN</p>
+            <p className="font-display text-xl">{SITE_NAME}</p>
             <p className="mt-3 max-w-xs text-sm text-muted">
               Điểm đến đa thương hiệu thể thao cao cấp — Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.
             </p>
@@ -61,7 +62,7 @@ export function Footer() {
           ))}
         </div>
         <div className="mt-12 border-t border-line pt-6 text-xs text-muted">
-          © {new Date().getFullYear()} StyleVN Shop. All rights reserved.
+          © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
         </div>
       </div>
     </footer>

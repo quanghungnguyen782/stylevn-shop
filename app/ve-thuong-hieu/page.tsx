@@ -1,10 +1,11 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { getAllProducts } from "@/lib/product-service";
+import { SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Về Chúng Tôi",
-  description: "Câu chuyện thương hiệu StyleVN — điểm đến đa thương hiệu thể thao cao cấp.",
+  description: `Câu chuyện thương hiệu ${SITE_NAME} — điểm đến đa thương hiệu thể thao cao cấp.`,
 };
 
 export default async function BrandStoryPage() {
@@ -23,7 +24,7 @@ export default async function BrandStoryPage() {
           <p className="text-xs uppercase tracking-[0.3em] text-muted">Câu Chuyện Của Chúng Tôi</p>
           <h1 className="font-display text-3xl leading-tight md:text-4xl">Được tạo ra cho cuộc sống hàng ngày.</h1>
           <p className="max-w-md text-sm leading-relaxed text-muted">
-            StyleVN ra đời với mong muốn mang những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế —
+            {SITE_NAME} ra đời với mong muốn mang những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế —
             Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — đến gần hơn với người Việt, ở mức giá hợp lý
             và trải nghiệm mua sắm tinh gọn, đáng tin cậy.
           </p>
@@ -33,7 +34,7 @@ export default async function BrandStoryPage() {
       <section className="mx-auto max-w-[800px] px-4 py-16 text-center md:px-8">
         <h2 className="mb-4 font-display text-2xl">Cam Kết Của Chúng Tôi</h2>
         <p className="text-sm leading-relaxed text-muted">
-          Mỗi sản phẩm tại StyleVN đều được tuyển chọn kỹ lưỡng, đảm bảo nguồn gốc chính hãng. Chúng tôi tin
+          Mỗi sản phẩm tại {SITE_NAME} đều được tuyển chọn kỹ lưỡng, đảm bảo nguồn gốc chính hãng. Chúng tôi tin
           rằng phong cách không cần phải phức tạp — chỉ cần đúng với nhịp sống của bạn.
         </p>
       </section>

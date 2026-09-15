@@ -1,4 +1,4 @@
-# StyleVN Shop
+# LyleAuthentic
 
 Website bán hàng thể thao đa thương hiệu (Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste), xây dựng bằng Next.js (App Router) + TypeScript + Tailwind CSS v4 với hệ thống thiết kế riêng (không sao chép giao diện của các thương hiệu tham khảo).
 

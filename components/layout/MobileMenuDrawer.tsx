@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import { Drawer } from "@/components/ui/Drawer";
-import { NAV_LINKS, CATEGORIES } from "@/lib/constants";
+import { NAV_LINKS, CATEGORIES, SITE_NAME } from "@/lib/constants";
 
 export function MobileMenuDrawer({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
-    <Drawer open={open} onClose={onClose} side="left" title="StyleVN" widthClassName="w-[85%] sm:w-[380px]">
+    <Drawer open={open} onClose={onClose} side="left" title={SITE_NAME} widthClassName="w-[85%] sm:w-[380px]">
       <nav className="flex flex-col px-5 py-4">
         {NAV_LINKS.map((link) => (
           <Link

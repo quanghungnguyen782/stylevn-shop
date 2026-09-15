@@ -7,6 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { organizationJsonLd } from "@/lib/seo";
 import { SITE_URL } from "@/lib/seo";
+import { SITE_NAME } from "@/lib/constants";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -22,13 +23,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "StyleVN — Thể Thao Đa Thương Hiệu Cao Cấp",
-    template: "%s | StyleVN",
+    default: `${SITE_NAME} — Thể Thao Đa Thương Hiệu Cao Cấp`,
+    template: `%s | ${SITE_NAME}`,
   },
   description:
-    "StyleVN tuyển chọn thời trang thể thao từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — chính hãng, giá tốt.",
+    `${SITE_NAME} tuyển chọn thời trang thể thao từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — chính hãng, giá tốt.`,
   openGraph: {
-    siteName: "StyleVN",
+    siteName: SITE_NAME,
     type: "website",
     locale: "vi_VN",
   },

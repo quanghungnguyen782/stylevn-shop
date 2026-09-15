@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Liên Hệ",
-  description: "Thông tin liên hệ, vận chuyển, đổi trả và câu hỏi thường gặp tại StyleVN.",
+  description: `Thông tin liên hệ, vận chuyển, đổi trả và câu hỏi thường gặp tại ${SITE_NAME}.`,
 };
 
 export default function ContactPage() {
@@ -16,7 +17,7 @@ export default function ContactPage() {
           <h2 className="mb-4 text-xs font-semibold uppercase tracking-wide">Thông Tin Cửa Hàng</h2>
           <ul className="flex flex-col gap-2 text-sm text-muted">
             <li>Hotline: 1900 6868</li>
-            <li>Email: support@stylevn.shop</li>
+            <li>Email: support@lyleauthentic.com</li>
             <li>Địa chỉ: 123 Nguyễn Trãi, Q.1, TP.HCM</li>
             <li>Giờ mở cửa: 8:00 - 22:00, tất cả các ngày</li>
           </ul>
@@ -52,7 +53,7 @@ export default function ContactPage() {
       <section id="faq" className="border-t border-line py-8">
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide">Câu Hỏi Thường Gặp</h2>
         <div className="flex flex-col gap-4 text-sm text-muted">
-          <p><strong className="text-ink">Sản phẩm có chính hãng không?</strong><br />Toàn bộ sản phẩm tại StyleVN đều là hàng chính hãng từ các thương hiệu đối tác.</p>
+          <p><strong className="text-ink">Sản phẩm có chính hãng không?</strong><br />Toàn bộ sản phẩm tại {SITE_NAME} đều là hàng chính hãng từ các thương hiệu đối tác.</p>
           <p><strong className="text-ink">Tôi có thể thanh toán bằng cách nào?</strong><br />Hiện hỗ trợ thanh toán khi nhận hàng (COD) và chuyển khoản ngân hàng.</p>
         </div>
       </section>
@@ -68,7 +69,7 @@ export default function ContactPage() {
       <section id="dieu-khoan" className="border-t border-line py-8">
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide">Điều Khoản Sử Dụng</h2>
         <p className="text-sm text-muted">
-          Bằng việc sử dụng website, bạn đồng ý với các điều khoản mua hàng và chính sách của StyleVN.
+          Bằng việc sử dụng website, bạn đồng ý với các điều khoản mua hàng và chính sách của {SITE_NAME}.
         </p>
       </section>
 

@@ -8,7 +8,7 @@ import { SearchOverlay } from "@/components/search/SearchOverlay";
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { useCart } from "@/lib/cart-context";
 import { useWishlist } from "@/lib/wishlist-context";
-import { NAV_LINKS } from "@/lib/constants";
+import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
 import { IconBag, IconHeart, IconMenu, IconSearch, IconUser } from "@/components/ui/icons";
 
 export function Header() {
@@ -28,7 +28,7 @@ export function Header() {
           </div>
 
           <Link href="/" className="font-display text-xl tracking-tight md:text-2xl">
-            StyleVN
+            {SITE_NAME}
           </Link>
 
           <nav className="hidden items-center gap-7 md:flex">

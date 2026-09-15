@@ -1,6 +1,6 @@
 import type { Brand, Category } from "@/types/product";
 
-export const SITE_NAME = "StyleVN";
+export const SITE_NAME = "LyleAuthentic";
 
 export const CATEGORIES: Category[] = [
   { slug: "ao", name: "Áo & Áo Khoác" },
