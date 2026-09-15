@@ -19,16 +19,32 @@ export function ContactForm() {
       }}
     >
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Họ và tên</label>
-        <input required className="w-full border border-line px-4 py-3 text-sm outline-none focus:border-ink" />
+        <label htmlFor="contact-name" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Họ và tên
+        </label>
+        <input id="contact-name" required className="w-full border border-line px-4 py-3 text-sm outline-none focus:border-ink" />
       </div>
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Email</label>
-        <input required type="email" className="w-full border border-line px-4 py-3 text-sm outline-none focus:border-ink" />
+        <label htmlFor="contact-email" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Email
+        </label>
+        <input
+          id="contact-email"
+          required
+          type="email"
+          className="w-full border border-line px-4 py-3 text-sm outline-none focus:border-ink"
+        />
       </div>
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Nội dung</label>
-        <textarea required rows={4} className="w-full border border-line px-4 py-3 text-sm outline-none focus:border-ink" />
+        <label htmlFor="contact-message" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Nội dung
+        </label>
+        <textarea
+          id="contact-message"
+          required
+          rows={4}
+          className="w-full border border-line px-4 py-3 text-sm outline-none focus:border-ink"
+        />
       </div>
       <Button type="submit" variant="primary" size="lg">
         Gửi Yêu Cầu

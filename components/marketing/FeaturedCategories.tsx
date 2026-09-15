@@ -23,7 +23,7 @@ export function FeaturedCategories({ tiles }: { tiles: CategoryTile[] }) {
             >
               <Image
                 src={tile.imageUrl}
-                alt={category?.name ?? tile.name}
+                alt=""
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"

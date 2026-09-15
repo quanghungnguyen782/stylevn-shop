@@ -43,6 +43,7 @@ export function Drawer({
         open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
       )}
       aria-hidden={!open}
+      inert={!open}
     >
       <button
         aria-label="Đóng"

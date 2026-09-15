@@ -5,6 +5,7 @@ import { CATEGORIES } from "@/lib/constants";
 import { getProductsByCategory } from "@/lib/product-service";
 import { getCategoryName } from "@/lib/product-meta";
 import { ProductListingClient } from "@/components/plp/ProductListingClient";
+import { ProductListingSkeleton } from "@/components/plp/ProductListingSkeleton";
 import type { CategorySlug } from "@/types/product";
 
 export function generateStaticParams() {
@@ -38,10 +39,11 @@ export default async function CategoryPage({
   if (!isValidCategory(category)) notFound();
 
   const products = await getProductsByCategory(category);
+  const title = getCategoryName(category);
 
   return (
-    <Suspense>
-      <ProductListingClient products={products} title={getCategoryName(category)} />
+    <Suspense fallback={<ProductListingSkeleton title={title} />}>
+      <ProductListingClient products={products} title={title} />
     </Suspense>
   );
 }

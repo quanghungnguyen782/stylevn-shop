@@ -22,8 +22,11 @@ export function StepCustomerInfo({
       }}
     >
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Họ và tên</label>
+        <label htmlFor="checkout-name" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Họ và tên
+        </label>
         <input
+          id="checkout-name"
           required
           value={form.name}
           onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -31,8 +34,11 @@ export function StepCustomerInfo({
         />
       </div>
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Email</label>
+        <label htmlFor="checkout-email" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Email
+        </label>
         <input
+          id="checkout-email"
           required
           type="email"
           value={form.email}
@@ -41,8 +47,11 @@ export function StepCustomerInfo({
         />
       </div>
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Số điện thoại</label>
+        <label htmlFor="checkout-phone" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Số điện thoại
+        </label>
         <input
+          id="checkout-phone"
           required
           type="tel"
           value={form.phone}

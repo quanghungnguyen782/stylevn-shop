@@ -24,8 +24,11 @@ export function StepShippingAddress({
       }}
     >
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Địa chỉ</label>
+        <label htmlFor="checkout-address" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Địa chỉ
+        </label>
         <input
+          id="checkout-address"
           required
           value={form.address}
           onChange={(e) => setForm({ ...form, address: e.target.value })}
@@ -34,8 +37,11 @@ export function StepShippingAddress({
         />
       </div>
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Phường / Xã</label>
+        <label htmlFor="checkout-ward" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Phường / Xã
+        </label>
         <input
+          id="checkout-ward"
           required
           value={form.ward}
           onChange={(e) => setForm({ ...form, ward: e.target.value })}
@@ -43,8 +49,11 @@ export function StepShippingAddress({
         />
       </div>
       <div>
-        <label className="mb-1 block text-xs uppercase tracking-wide text-muted">Tỉnh / Thành phố</label>
+        <label htmlFor="checkout-city" className="mb-1 block text-xs uppercase tracking-wide text-muted">
+          Tỉnh / Thành phố
+        </label>
         <input
+          id="checkout-city"
           required
           value={form.city}
           onChange={(e) => setForm({ ...form, city: e.target.value })}

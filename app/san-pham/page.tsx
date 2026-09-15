@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getAllProducts } from "@/lib/product-service";
 import { ProductListingClient } from "@/components/plp/ProductListingClient";
+import { ProductListingSkeleton } from "@/components/plp/ProductListingSkeleton";
 
 export const metadata: Metadata = {
   title: "Tất Cả Sản Phẩm",
@@ -12,7 +13,7 @@ export default async function AllProductsPage() {
   const products = await getAllProducts();
 
   return (
-    <Suspense>
+    <Suspense fallback={<ProductListingSkeleton title="Tất Cả Sản Phẩm" />}>
       <ProductListingClient products={products} title="Tất Cả Sản Phẩm" />
     </Suspense>
   );
