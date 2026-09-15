@@ -49,12 +49,23 @@
         <div id="cat-filters"></div>
       </div>
       <div class="filter-box">
+        <h3>Thương Hiệu</h3>
+        <div id="brand-filters"></div>
+      </div>
+      <div class="filter-box">
+        <h3>Giới Tính</h3>
+        <label><input type="radio" name="gender" value="all" checked> Tất cả</label>
+        <label><input type="radio" name="gender" value="Nam"> Nam</label>
+        <label><input type="radio" name="gender" value="Nữ"> Nữ</label>
+        <label><input type="radio" name="gender" value="Unisex"> Unisex</label>
+      </div>
+      <div class="filter-box">
         <h3>Khoảng Giá</h3>
         <label><input type="radio" name="price" value="all" checked> Tất cả</label>
-        <label><input type="radio" name="price" value="0-200000"> Dưới 200.000₫</label>
-        <label><input type="radio" name="price" value="200000-350000"> 200.000₫ - 350.000₫</label>
-        <label><input type="radio" name="price" value="350000-500000"> 350.000₫ - 500.000₫</label>
-        <label><input type="radio" name="price" value="500000-99999999"> Trên 500.000₫</label>
+        <label><input type="radio" name="price" value="0-300000"> Dưới 300.000₫</label>
+        <label><input type="radio" name="price" value="300000-700000"> 300.000₫ - 700.000₫</label>
+        <label><input type="radio" name="price" value="700000-1200000"> 700.000₫ - 1.200.000₫</label>
+        <label><input type="radio" name="price" value="1200000-99999999"> Trên 1.200.000₫</label>
       </div>
     </aside>
 
@@ -65,11 +76,12 @@
           <option value="default">Mặc định</option>
           <option value="price-asc">Giá tăng dần</option>
           <option value="price-desc">Giá giảm dần</option>
-          <option value="sold">Bán chạy nhất</option>
+          <option value="discount">Giảm giá nhiều nhất</option>
           <option value="new">Mới nhất</option>
         </select>
       </div>
       <div class="product-grid" id="product-grid"></div>
+      <div class="pagination" id="pagination"></div>
       <div id="no-result" style="display:none;text-align:center;padding:60px 0;color:#888;">
         Không tìm thấy sản phẩm phù hợp.
       </div>
@@ -81,7 +93,7 @@
   <div class="container footer-grid">
     <div class="footer-col">
       <h4>StyleVN Shop</h4>
-      <ul><li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li></ul>
+      <ul><li>Hàng thể thao chính hãng Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.</li></ul>
       <div class="social-icons"><a href="#">FB</a><a href="#">IG</a><a href="#">TT</a></div>
     </div>
     <div class="footer-col">
@@ -109,9 +121,13 @@
 
   const params = new URLSearchParams(location.search);
   let activeCats = new Set(params.get("cat") ? [params.get("cat")] : []);
+  let activeBrands = new Set(params.get("brand") ? [params.get("brand")] : []);
   const query = params.get("q") || "";
   const initFilter = params.get("filter");
   const initSort = params.get("sort");
+
+  const PAGE_SIZE = 24;
+  let currentPage = 1;
 
   // Render category filter checkboxes
   const catFiltersEl = document.getElementById("cat-filters");
@@ -122,15 +138,31 @@
     cb.addEventListener("change", () => {
       if (cb.checked) activeCats.add(cb.value);
       else activeCats.delete(cb.value);
+      currentPage = 1;
       render();
     });
   });
 
-  document.querySelectorAll("input[name=price]").forEach((r) => r.addEventListener("change", render));
+  // Render brand filter checkboxes
+  const brandFiltersEl = document.getElementById("brand-filters");
+  brandFiltersEl.innerHTML = BRANDS.map(
+    (b) => `<label><input type="checkbox" value="${b.slug}" ${activeBrands.has(b.slug) ? "checked" : ""}> ${b.name}</label>`
+  ).join("");
+  brandFiltersEl.querySelectorAll("input[type=checkbox]").forEach((cb) => {
+    cb.addEventListener("change", () => {
+      if (cb.checked) activeBrands.add(cb.value);
+      else activeBrands.delete(cb.value);
+      currentPage = 1;
+      render();
+    });
+  });
+
+  document.querySelectorAll("input[name=price]").forEach((r) => r.addEventListener("change", () => { currentPage = 1; render(); }));
+  document.querySelectorAll("input[name=gender]").forEach((r) => r.addEventListener("change", () => { currentPage = 1; render(); }));
 
   const sortSelect = document.getElementById("sort-select");
-  if (initSort === "sold") sortSelect.value = "sold";
-  sortSelect.addEventListener("change", render);
+  if (initSort === "discount") sortSelect.value = "discount";
+  sortSelect.addEventListener("change", () => { currentPage = 1; render(); });
 
   // Page title
   if (query) {
@@ -140,10 +172,12 @@
     const name = getCategoryName([...activeCats][0]);
     document.getElementById("page-title").textContent = name;
     document.getElementById("crumb-label").textContent = name;
+  } else if (activeBrands.size === 1) {
+    const name = getBrandName([...activeBrands][0]);
+    document.getElementById("page-title").textContent = name;
+    document.getElementById("crumb-label").textContent = name;
   } else if (initFilter === "sale") {
     document.getElementById("page-title").textContent = "Flash Sale - Giá Sốc";
-  } else if (initFilter === "new") {
-    document.getElementById("page-title").textContent = "Hàng Mới Về";
   }
 
   function render() {
@@ -151,13 +185,22 @@
 
     if (query) {
       const q = query.toLowerCase();
-      list = list.filter((p) => p.name.toLowerCase().includes(q));
+      list = list.filter((p) => p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q));
     }
     if (activeCats.size > 0) {
       list = list.filter((p) => activeCats.has(p.category));
     }
-    if (initFilter === "sale") list = list.filter((p) => p.badge === "sale");
-    if (initFilter === "new") list = list.filter((p) => p.badge === "new");
+    if (activeBrands.size > 0) {
+      list = list.filter((p) => activeBrands.has(p.brand));
+    }
+    if (initFilter === "sale") {
+      list = list.filter((p) => productBadge(p)?.cls === "sale" || productBadge(p)?.cls === "hot");
+    }
+
+    const genderVal = document.querySelector("input[name=gender]:checked").value;
+    if (genderVal !== "all") {
+      list = list.filter((p) => p.gender === genderVal);
+    }
 
     const priceVal = document.querySelector("input[name=price]:checked").value;
     if (priceVal !== "all") {
@@ -168,20 +211,48 @@
     switch (sortSelect.value) {
       case "price-asc": list.sort((a, b) => a.price - b.price); break;
       case "price-desc": list.sort((a, b) => b.price - a.price); break;
-      case "sold": list.sort((a, b) => b.sold - a.sold); break;
+      case "discount": list.sort((a, b) => discountPercent(b) - discountPercent(a)); break;
       case "new": list.sort((a, b) => b.id - a.id); break;
     }
 
     document.getElementById("result-count").textContent = `${list.length} sản phẩm`;
     const grid = document.getElementById("product-grid");
     const noResult = document.getElementById("no-result");
+    const paginationEl = document.getElementById("pagination");
+
     if (list.length === 0) {
       grid.innerHTML = "";
+      paginationEl.innerHTML = "";
       noResult.style.display = "block";
-    } else {
-      noResult.style.display = "none";
-      grid.innerHTML = list.map(productCardHTML).join("");
+      return;
     }
+    noResult.style.display = "none";
+
+    const totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+    currentPage = Math.min(currentPage, totalPages);
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageItems = list.slice(start, start + PAGE_SIZE);
+
+    grid.innerHTML = pageItems.map(productCardHTML).join("");
+    renderPagination(totalPages);
+  }
+
+  function renderPagination(totalPages) {
+    const el = document.getElementById("pagination");
+    if (totalPages <= 1) { el.innerHTML = ""; return; }
+    let html = `<button ${currentPage === 1 ? "disabled" : ""} data-page="${currentPage - 1}">‹</button>`;
+    for (let i = 1; i <= totalPages; i++) {
+      html += `<button class="${i === currentPage ? "active" : ""}" data-page="${i}">${i}</button>`;
+    }
+    html += `<button ${currentPage === totalPages ? "disabled" : ""} data-page="${currentPage + 1}">›</button>`;
+    el.innerHTML = html;
+    el.querySelectorAll("button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        currentPage = Number(btn.dataset.page);
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    });
   }
 
   render();

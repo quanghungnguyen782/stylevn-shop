@@ -55,7 +55,7 @@
   <div class="container footer-grid">
     <div class="footer-col">
       <h4>StyleVN Shop</h4>
-      <ul><li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li></ul>
+      <ul><li>Hàng thể thao chính hãng Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.</li></ul>
       <div class="social-icons"><a href="#">FB</a><a href="#">IG</a><a href="#">TT</a></div>
     </div>
     <div class="footer-col">
@@ -94,27 +94,32 @@
     document.getElementById("crumb-name").textContent = product.name;
 
     let selectedSize = product.sizes[0];
-    let selectedColor = product.colors[0];
-    const discount = product.oldPrice ? Math.round(100 - (product.price / product.oldPrice) * 100) : 0;
+    const discount = discountPercent(product);
+    const badge = productBadge(product);
+    const fallbackImg = `https://picsum.photos/seed/${product.code}/500/650`;
+    const gallery = product.images.length ? product.images : [fallbackImg];
 
     document.getElementById("pd-root").innerHTML = `
       <div>
-        <div class="pd-gallery-main"><img id="main-img" src="${product.image}" alt="${product.name}"></div>
+        <div class="pd-gallery-main"><img id="main-img" src="${gallery[0]}" onerror="this.src='${fallbackImg}'" alt="${product.name}"></div>
+        ${gallery.length > 1 ? `
         <div class="pd-thumbs">
-          ${[product.image, product.image.replace("/500/650", "/501/650"), product.image.replace("/500/650", "/502/650")]
-            .map((src, i) => `<img src="${src}" class="${i === 0 ? "active" : ""}" onclick="document.getElementById('main-img').src=this.src; document.querySelectorAll('.pd-thumbs img').forEach(t=>t.classList.remove('active')); this.classList.add('active')">`)
-            .join("")}
-        </div>
+          ${gallery.map((src, i) => `<img src="${src}" onerror="this.src='${fallbackImg}'" class="${i === 0 ? "active" : ""}" onclick="document.getElementById('main-img').src=this.src; document.querySelectorAll('.pd-thumbs img').forEach(t=>t.classList.remove('active')); this.classList.add('active')">`).join("")}
+        </div>` : ""}
       </div>
       <div>
+        <div class="brand-tag" style="font-size:13px;">${getBrandName(product.brand)} · Mã: ${product.code}</div>
         <h1 class="pd-title">${product.name}</h1>
         <div class="pd-meta">
-          <span>⭐ ${product.rating} (${product.sold} đánh giá)</span>
-          <span>Đã bán ${product.sold}</span>
+          <span>Giới tính: ${product.gender}</span>
+          <span>Danh mục: ${getCategoryName(product.category)}</span>
         </div>
         <div class="pd-price-box">
           <span class="pd-price-now">${formatPrice(product.price)}</span>
           ${product.oldPrice ? `<span class="price-old">${formatPrice(product.oldPrice)}</span> <span class="badge sale" style="position:static;">-${discount}%</span>` : ""}
+          <div class="stock-line ${product.stock <= 5 ? "low" : ""}" style="margin-top:10px;">
+            ${product.stock > 0 ? `Còn lại: ${product.stock} sản phẩm${product.stock <= 5 ? " - sắp hết hàng!" : ""}` : "Tạm hết hàng"}
+          </div>
         </div>
         <div class="pd-option">
           <h4>Kích thước</h4>
@@ -123,26 +128,20 @@
           </div>
         </div>
         <div class="pd-option">
-          <h4>Màu sắc</h4>
-          <div id="color-options">
-            ${product.colors.map((c) => `<span class="option-pill ${c === selectedColor ? "active" : ""}" data-color="${c}">${c}</span>`).join("")}
-          </div>
-        </div>
-        <div class="pd-option">
           <h4>Số lượng</h4>
           <div class="qty-box">
             <button onclick="changeQty(-1)">−</button>
-            <input type="number" id="qty-input" value="1" min="1">
+            <input type="number" id="qty-input" value="1" min="1" max="${product.stock}">
             <button onclick="changeQty(1)">+</button>
           </div>
         </div>
         <div class="pd-actions">
-          <button class="btn btn-outline" onclick="handleAddToCart()">🛒 Thêm Vào Giỏ</button>
-          <button class="btn" onclick="handleBuyNow()">Mua Ngay</button>
+          <button class="btn btn-outline" onclick="handleAddToCart()" ${product.stock <= 0 ? "disabled" : ""}>🛒 Thêm Vào Giỏ</button>
+          <button class="btn" onclick="handleBuyNow()" ${product.stock <= 0 ? "disabled" : ""}>${product.stock <= 0 ? "Hết Hàng" : "Mua Ngay"}</button>
         </div>
         <div class="pd-desc">
           <h3>Mô Tả Sản Phẩm</h3>
-          <p>${product.name} thuộc danh mục ${getCategoryName(product.category)}, chất liệu cao cấp, form dáng chuẩn, thoải mái vận động. Sản phẩm được kiểm định chất lượng kỹ lưỡng trước khi đến tay khách hàng. Cam kết đổi trả miễn phí trong 7 ngày nếu không vừa ý.</p>
+          <p>${product.name} - thương hiệu ${getBrandName(product.brand)}, mã hàng ${product.code}, thuộc danh mục ${getCategoryName(product.category)}. Sản phẩm chính hãng, chất liệu cao cấp, form dáng chuẩn. Cam kết đổi trả miễn phí trong 7 ngày nếu không vừa ý.</p>
         </div>
       </div>
     `;
@@ -154,32 +153,31 @@
         el.classList.add("active");
       });
     });
-    document.querySelectorAll("#color-options .option-pill").forEach((el) => {
-      el.addEventListener("click", () => {
-        selectedColor = el.dataset.color;
-        document.querySelectorAll("#color-options .option-pill").forEach((e) => e.classList.remove("active"));
-        el.classList.add("active");
-      });
-    });
 
     window.changeQty = function (delta) {
       const input = document.getElementById("qty-input");
-      input.value = Math.max(1, Number(input.value) + delta);
+      const max = product.stock || 1;
+      input.value = Math.min(max, Math.max(1, Number(input.value) + delta));
     };
     window.handleAddToCart = function () {
       const qty = Number(document.getElementById("qty-input").value);
-      addToCart(product.id, selectedSize, selectedColor, qty);
+      addToCart(product.id, selectedSize, qty);
       showToast(`Đã thêm ${qty} "${product.name}" vào giỏ hàng`);
     };
     window.handleBuyNow = function () {
       const qty = Number(document.getElementById("qty-input").value);
-      addToCart(product.id, selectedSize, selectedColor, qty);
+      addToCart(product.id, selectedSize, qty);
       location.href = "gio-hang.html";
     };
 
-    // Related products
-    const related = PRODUCTS.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
-    document.getElementById("related-grid").innerHTML = related.map(productCardHTML).join("");
+    // Related products: cùng thương hiệu + danh mục, nếu không đủ thì lấy cùng danh mục
+    let related = PRODUCTS.filter((p) => p.brand === product.brand && p.category === product.category && p.id !== product.id);
+    if (related.length < 4) {
+      related = related.concat(
+        PRODUCTS.filter((p) => p.category === product.category && p.id !== product.id && !related.includes(p))
+      );
+    }
+    document.getElementById("related-grid").innerHTML = related.slice(0, 4).map(productCardHTML).join("");
   }
 </script>
 </body>

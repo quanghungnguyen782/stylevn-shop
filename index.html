@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>StyleVN Shop - Thời Trang Nam Nữ Chính Hãng, Giá Tốt Mỗi Ngày</title>
+<title>StyleVN Shop - Adidas, Nike, Asics, Li-Ning... Chính Hãng Giá Tốt</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -46,23 +46,23 @@
   <div class="hero" id="hero">
     <div class="hero-slide active" style="background-image:url('https://picsum.photos/seed/banner1/1200/500')">
       <div class="hero-slide-content">
-        <h2>BỘ SƯU TẬP THU ĐÔNG 2026</h2>
-        <p>Giảm giá đến 50% cho toàn bộ áo khoác và áo len</p>
-        <a href="san-pham.html?cat=ao-khoac" class="btn">Mua Ngay</a>
+        <h2>ADIDAS &amp; NIKE CHÍNH HÃNG</h2>
+        <p>Giảm giá đến 70% cho hàng loạt sản phẩm thể thao</p>
+        <a href="san-pham.html?filter=sale" class="btn">Mua Ngay</a>
       </div>
     </div>
     <div class="hero-slide" style="background-image:url('https://picsum.photos/seed/banner2/1200/500')">
       <div class="hero-slide-content">
-        <h2>FLASH SALE MỖI NGÀY</h2>
-        <p>Săn deal giá sốc chỉ từ 99.000₫</p>
-        <a href="san-pham.html?filter=sale" class="btn">Săn Deal</a>
+        <h2>GIÀY THỂ THAO ĐA THƯƠNG HIỆU</h2>
+        <p>Asics, Li-Ning, 361 Degrees - giá tốt mỗi ngày</p>
+        <a href="san-pham.html?cat=giay" class="btn">Săn Deal</a>
       </div>
     </div>
     <div class="hero-slide" style="background-image:url('https://picsum.photos/seed/banner3/1200/500')">
       <div class="hero-slide-content">
-        <h2>HÀNG MỚI VỀ MỖI TUẦN</h2>
-        <p>Cập nhật xu hướng thời trang mới nhất</p>
-        <a href="san-pham.html?filter=new" class="btn">Khám Phá</a>
+        <h2>THỜI TRANG LACOSTE</h2>
+        <p>Áo, quần phong cách thể thao lịch lãm</p>
+        <a href="san-pham.html?brand=lacoste" class="btn">Khám Phá</a>
       </div>
     </div>
     <div class="hero-dots" id="hero-dots"></div>
@@ -72,6 +72,12 @@
   <section class="section">
     <div class="section-head"><h2>Danh Mục Sản Phẩm</h2></div>
     <div class="cat-grid" id="cat-grid"></div>
+  </section>
+
+  <!-- Brand strip -->
+  <section class="section">
+    <div class="section-head"><h2>Thương Hiệu</h2></div>
+    <div class="brand-strip" id="brand-strip"></div>
   </section>
 
   <!-- Flash sale -->
@@ -86,25 +92,25 @@
     <div class="product-grid" id="flash-grid"></div>
   </section>
 
-  <!-- Best sellers -->
+  <!-- Giảm giá sốc -->
   <section class="section">
-    <div class="section-head"><h2>Bán Chạy Nhất</h2><a href="san-pham.html?sort=sold">Xem tất cả →</a></div>
+    <div class="section-head"><h2>Giảm Giá Sốc</h2><a href="san-pham.html?sort=discount">Xem tất cả →</a></div>
     <div class="product-grid" id="bestseller-grid"></div>
   </section>
 
   <!-- Promo banners -->
   <section class="section" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-    <a href="san-pham.html?cat=vay-dam" style="border-radius:8px;overflow:hidden;">
-      <img src="https://picsum.photos/seed/promo1/600/300" alt="Váy đầm" style="width:100%;">
+    <a href="san-pham.html?cat=giay" style="border-radius:8px;overflow:hidden;">
+      <img src="https://picsum.photos/seed/promo1/600/300" alt="Giày thể thao" style="width:100%;">
     </a>
-    <a href="san-pham.html?cat=do-the-thao" style="border-radius:8px;overflow:hidden;">
-      <img src="https://picsum.photos/seed/promo2/600/300" alt="Đồ thể thao" style="width:100%;">
+    <a href="san-pham.html?cat=ao" style="border-radius:8px;overflow:hidden;">
+      <img src="https://picsum.photos/seed/promo2/600/300" alt="Áo thể thao" style="width:100%;">
     </a>
   </section>
 
-  <!-- New arrivals -->
+  <!-- Đa dạng thương hiệu -->
   <section class="section">
-    <div class="section-head"><h2>Hàng Mới Về</h2><a href="san-pham.html?filter=new">Xem tất cả →</a></div>
+    <div class="section-head"><h2>Đa Dạng Thương Hiệu</h2><a href="san-pham.html">Xem tất cả →</a></div>
     <div class="product-grid" id="new-grid"></div>
   </section>
 
@@ -126,7 +132,7 @@
     <div class="footer-col">
       <h4>StyleVN Shop</h4>
       <ul>
-        <li>Thời trang nam nữ chính hãng, cam kết chất lượng, đổi trả trong 7 ngày.</li>
+        <li>Hàng thể thao chính hãng Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste. Cam kết chất lượng, đổi trả trong 7 ngày.</li>
       </ul>
       <div class="social-icons">
         <a href="#">FB</a><a href="#">IG</a><a href="#">TT</a>
@@ -171,24 +177,29 @@
   // Category grid
   renderCategoryGrid(document.getElementById("cat-grid"));
 
-  // Flash sale = sản phẩm có badge sale
-  document.getElementById("flash-grid").innerHTML = PRODUCTS
-    .filter((p) => p.badge === "sale")
+  // Brand strip
+  renderBrandStrip(document.getElementById("brand-strip"));
+
+  // Flash sale = sản phẩm sắp hết hàng hoặc giảm giá sâu nhất
+  document.getElementById("flash-grid").innerHTML = [...PRODUCTS]
+    .sort((a, b) => a.stock - b.stock)
     .slice(0, 8)
     .map(productCardHTML)
     .join("");
 
-  // Best seller = sort theo sold
+  // Giảm giá sốc = sort theo % giảm giá
   document.getElementById("bestseller-grid").innerHTML = [...PRODUCTS]
-    .sort((a, b) => b.sold - a.sold)
+    .sort((a, b) => discountPercent(b) - discountPercent(a))
     .slice(0, 8)
     .map(productCardHTML)
     .join("");
 
-  // New arrivals
-  document.getElementById("new-grid").innerHTML = PRODUCTS
-    .filter((p) => p.badge === "new")
-    .concat(PRODUCTS.slice(-4))
+  // Đa dạng thương hiệu: lấy đều từ mỗi brand
+  const perBrand = [];
+  BRANDS.forEach((b) => {
+    perBrand.push(...PRODUCTS.filter((p) => p.brand === b.slug).slice(0, 2));
+  });
+  document.getElementById("new-grid").innerHTML = perBrand
     .slice(0, 8)
     .map(productCardHTML)
     .join("");

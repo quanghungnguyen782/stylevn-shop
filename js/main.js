@@ -14,15 +14,13 @@ function saveCart(cart) {
   updateCartCount();
 }
 
-function addToCart(productId, size, color, qty = 1) {
+function addToCart(productId, size, qty = 1) {
   const cart = getCart();
-  const existing = cart.find(
-    (i) => i.id === productId && i.size === size && i.color === color
-  );
+  const existing = cart.find((i) => i.id === productId && i.size === size);
   if (existing) {
     existing.qty += qty;
   } else {
-    cart.push({ id: productId, size, color, qty });
+    cart.push({ id: productId, size, qty });
   }
   saveCart(cart);
 }
@@ -66,25 +64,29 @@ function showToast(message) {
 }
 
 // ===== Render helpers =====
-function renderStars(rating) {
-  const full = Math.round(rating);
-  return "★".repeat(full) + "☆".repeat(5 - full);
+function discountPercent(p) {
+  return p.oldPrice ? Math.round(100 - (p.price / p.oldPrice) * 100) : 0;
+}
+
+function productBadge(p) {
+  if (p.stock <= 5) return { cls: "hot", label: "Sắp hết hàng" };
+  if (discountPercent(p) >= 65) return { cls: "sale", label: "Sale" };
+  return null;
 }
 
 function productCardHTML(p) {
-  const discount = p.oldPrice
-    ? Math.round(100 - (p.price / p.oldPrice) * 100)
-    : 0;
+  const discount = discountPercent(p);
+  const badge = productBadge(p);
   return `
     <div class="product-card">
       <a href="chi-tiet-san-pham.html?id=${p.id}">
         <div class="product-thumb">
-          ${p.badge ? `<span class="badge ${p.badge}">${p.badge === "sale" ? "Sale" : p.badge === "hot" ? "Hot" : "Mới"}</span>` : ""}
+          ${badge ? `<span class="badge ${badge.cls}">${badge.label}</span>` : ""}
           ${discount ? `<span class="discount-tag">-${discount}%</span>` : ""}
-          <img src="${p.image}" alt="${p.name}" loading="lazy">
+          <img src="${p.images[0]}" alt="${p.name}" loading="lazy" onerror="this.src='https://picsum.photos/seed/${p.code}/500/650'">
         </div>
         <div class="product-info">
-          <div class="product-rating"><span class="stars">${renderStars(p.rating)}</span> · Đã bán ${p.sold}</div>
+          <div class="brand-tag">${getBrandName(p.brand)}</div>
           <div class="product-name">${p.name}</div>
           <div class="product-price">
             <span class="price-now">${formatPrice(p.price)}</span>
@@ -103,7 +105,7 @@ function quickAdd(id, e) {
   e.preventDefault();
   e.stopPropagation();
   const p = getProductById(id);
-  addToCart(id, p.sizes[0], p.colors[0], 1);
+  addToCart(id, p.sizes[0], 1);
   showToast(`Đã thêm "${p.name}" vào giỏ hàng`);
 }
 
@@ -114,6 +116,12 @@ function renderCategoryGrid(container) {
       <div class="cat-icon">${c.icon}</div>
       <div class="cat-name">${c.name}</div>
     </a>`
+  ).join("");
+}
+
+function renderBrandStrip(container) {
+  container.innerHTML = BRANDS.map(
+    (b) => `<a class="brand-pill" href="san-pham.html?brand=${b.slug}">${b.name}</a>`
   ).join("");
 }
 

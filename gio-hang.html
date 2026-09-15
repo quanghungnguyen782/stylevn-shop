@@ -99,10 +99,10 @@
         <tr>
           <td>
             <div class="cart-item-info">
-              <img src="${p.image}" alt="${p.name}">
+              <img src="${p.images[0] || `https://picsum.photos/seed/${p.code}/500/650`}" alt="${p.name}">
               <div>
                 <div>${p.name}</div>
-                <div style="color:#888;font-size:12px;">Size: ${item.size} | Màu: ${item.color}</div>
+                <div style="color:#888;font-size:12px;">${getBrandName(p.brand)} · Size: ${item.size}</div>
               </div>
             </div>
           </td>
