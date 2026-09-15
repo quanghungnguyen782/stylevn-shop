@@ -22,7 +22,7 @@ export const NAV_LINKS = [
   { href: "/san-pham?sort=new", label: "Hàng Mới" },
   { href: "/san-pham?gender=Nam", label: "Nam" },
   { href: "/san-pham?gender=N%E1%BB%AF", label: "Nữ" },
-  { href: "/ve-thuong-hieu", label: "Bộ Sưu Tập" },
+  { href: "/ve-thuong-hieu", label: "Về Chúng Tôi" },
   { href: "/san-pham?sale=1", label: "Sale" },
 ];
 
