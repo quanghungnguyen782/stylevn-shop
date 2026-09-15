@@ -60,6 +60,19 @@ function slugify(str: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+// Retail markup on top of the wholesale-derived prices: products priced
+// under 500.000₫ get a higher percentage markup, at or above get a lower
+// one — requested by the client so margin is proportionally larger on
+// cheaper items. Applied identically to price and oldPrice so the
+// displayed discount percentage is unaffected, only the VND amounts grow.
+const MARKUP_THRESHOLD = 500_000;
+const HIGH_PRICE_MARKUP = 1.18;
+const LOW_PRICE_MARKUP = 1.25;
+
+function applyMarkup(amount: number, markup: number): number {
+  return Math.round((amount * markup) / 1000) * 1000;
+}
+
 function sanitizeImages(images: string[]): string[] {
   const valid = images.filter(
     (src) => src.startsWith("http") && !src.includes("picsum.photos")
@@ -110,6 +123,8 @@ function main() {
     }
     seenSlugs.add(slug);
 
+    const markup = p.price >= MARKUP_THRESHOLD ? HIGH_PRICE_MARKUP : LOW_PRICE_MARKUP;
+
     return {
       id: p.id,
       slug,
@@ -118,8 +133,8 @@ function main() {
       brand: p.brand,
       category: p.category,
       gender: p.gender,
-      price: p.price,
-      oldPrice: p.oldPrice,
+      price: applyMarkup(p.price, markup),
+      oldPrice: applyMarkup(p.oldPrice, markup),
       stock: p.stock,
       sizes: p.sizes,
       images: sanitizeImages(p.images),
