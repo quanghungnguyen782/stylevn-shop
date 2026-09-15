@@ -9,12 +9,12 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "assets.adidas.com" },
       { protocol: "https", hostname: "encrypted-tbn0.gstatic.com" },
     ],
-    // Capped below the defaults (which go up to 3840) — the layout never
-    // renders wider than 1440px, so larger buckets only add transcode/
-    // transfer cost (a major LCP cost for the full-bleed Hero image) with
-    // no visible benefit.
-    deviceSizes: [375, 430, 768, 1024, 1440, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256],
+    // Render's free-tier web service only gets ~0.1 vCPU, which makes the
+    // on-demand resize/re-encode behind /_next/image (sharp) take 1-3s per
+    // image — even on a cache hit. Serving the original CDN images
+    // unoptimized (no resize step at all) is far faster there in practice;
+    // revisit if this ever runs on a plan with real CPU.
+    unoptimized: true,
   },
 };
 
