@@ -22,7 +22,7 @@ export function MobileMenuDrawer({ open, onClose }: { open: boolean; onClose: ()
         {CATEGORIES.map((c) => (
           <Link
             key={c.slug}
-            href={`/san-pham/${c.slug}`}
+            href={`/danh-muc/${c.slug}`}
             onClick={onClose}
             className="border-b border-line py-3 text-sm"
           >

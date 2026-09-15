@@ -18,7 +18,7 @@ export function FeaturedCategories({ tiles }: { tiles: CategoryTile[] }) {
           return (
             <Link
               key={tile.slug}
-              href={`/san-pham/${tile.slug}`}
+              href={`/danh-muc/${tile.slug}`}
               className="group relative aspect-[3/4] overflow-hidden bg-canvas"
             >
               <Image
