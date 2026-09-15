@@ -2,7 +2,7 @@ import { getBrandName } from "@/lib/product-meta";
 import { SITE_NAME } from "@/lib/constants";
 import type { Product } from "@/types/product";
 
-export const SITE_URL = "https://stylevn-shop.onrender.com";
+export const SITE_URL = "https://lyleauthentic.onrender.com";
 
 export function organizationJsonLd() {
   return {

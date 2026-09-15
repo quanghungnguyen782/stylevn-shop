@@ -56,4 +56,4 @@ Repo có sẵn `render.yaml` cấu hình Web Service (Node), vì trang cần `ne
 
 Hoặc tạo thủ công: **New** → **Web Service** → Build Command `npm install && npm run build`, Start Command `npm start`.
 
-Domain mặc định dạng `https://stylevn-shop.onrender.com`.
+Domain mặc định dạng `https://lyleauthentic.onrender.com`.

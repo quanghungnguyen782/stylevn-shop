@@ -1,5 +1,5 @@
 services:
-  - name: stylevn-shop
+  - name: lyleauthentic
     type: web
     runtime: node
     plan: free
