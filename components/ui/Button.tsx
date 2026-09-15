@@ -53,8 +53,13 @@ export function Button(props: ButtonProps) {
     );
   }
 
-  const { href: _href, ...buttonProps } = props as ButtonAsButton;
+  const { href: _href, variant: _variant, size: _size, className: _className, children: _children, ...buttonProps } =
+    props as ButtonAsButton;
   void _href;
+  void _variant;
+  void _size;
+  void _className;
+  void _children;
   return (
     <button className={classes} {...buttonProps}>
       {children}

@@ -10,7 +10,7 @@ interface CategoryTile {
 
 export function FeaturedCategories({ tiles }: { tiles: CategoryTile[] }) {
   return (
-    <section className="px-4 py-16 md:px-8 md:py-24">
+    <section className="px-4 py-12 md:px-8 md:py-16">
       <h2 className="mb-8 font-display text-2xl md:text-3xl">Danh Mục Nổi Bật</h2>
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
         {tiles.map((tile) => {

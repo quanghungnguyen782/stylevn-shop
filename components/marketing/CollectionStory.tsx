@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 export function CollectionStory({ imageUrl }: { imageUrl: string }) {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2">
-      <div className="relative aspect-[4/5] md:aspect-auto">
+      <div className="relative aspect-[4/5]">
         <Image src={imageUrl} alt="" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
       </div>
       <div className="flex flex-col items-start justify-center gap-4 bg-surface px-6 py-14 md:px-16">

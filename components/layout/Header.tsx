@@ -47,17 +47,19 @@ export function Header() {
             <IconButton aria-label="Tìm kiếm" onClick={() => setSearchOpen(true)}>
               <IconSearch />
             </IconButton>
-            <IconButton aria-label="Tài khoản" className="hidden md:inline-flex">
-              <IconUser />
-            </IconButton>
-            <IconButton aria-label="Danh sách yêu thích" className="relative hidden md:inline-flex">
-              <IconHeart />
-              {wishlistIds.length > 0 && (
-                <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-[10px] text-canvas">
-                  {wishlistIds.length}
-                </span>
-              )}
-            </IconButton>
+            <div className="hidden md:flex md:items-center">
+              <IconButton aria-label="Tài khoản">
+                <IconUser />
+              </IconButton>
+              <IconButton aria-label="Danh sách yêu thích" className="relative">
+                <IconHeart />
+                {wishlistIds.length > 0 && (
+                  <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-[10px] text-canvas">
+                    {wishlistIds.length}
+                  </span>
+                )}
+              </IconButton>
+            </div>
             <IconButton aria-label="Giỏ hàng" className="relative" onClick={openCart}>
               <IconBag />
               {totalCount > 0 && (

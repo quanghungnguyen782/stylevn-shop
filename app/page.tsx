@@ -13,9 +13,9 @@ import { BrandStory } from "@/components/marketing/BrandStory";
 import { Newsletter } from "@/components/marketing/Newsletter";
 import { ProductGrid } from "@/components/product/ProductGrid";
 
-function pickModelImage(products: { images: string[] }[], fallback: string): string {
+function pickModelImage(products: { images: string[] }[], fallback: string, exclude?: string): string {
   for (const p of products) {
-    const modelShot = p.images.find((src) => src.includes("model"));
+    const modelShot = p.images.find((src) => src.includes("model") && src !== exclude);
     if (modelShot) return modelShot;
   }
   return fallback;
@@ -40,7 +40,8 @@ export default async function HomePage() {
   const heroImage = pickModelImage(allProducts, allProducts[0]?.images[0] ?? "/images/placeholder-product.jpg");
   const storyImage = pickModelImage(
     allProducts.slice().reverse(),
-    allProducts[allProducts.length - 1]?.images[0] ?? "/images/placeholder-product.jpg"
+    allProducts[allProducts.length - 1]?.images[0] ?? "/images/placeholder-product.jpg",
+    heroImage
   );
 
   return (
@@ -48,7 +49,7 @@ export default async function HomePage() {
       <Hero imageUrl={heroImage} />
       <FeaturedCategories tiles={categoryTiles} />
 
-      <section className="px-4 py-16 md:px-8 md:py-24">
+      <section className="px-4 py-12 md:px-8 md:py-16">
         <div className="mb-8 flex items-end justify-between">
           <h2 className="font-display text-2xl md:text-3xl">Sản Phẩm Nổi Bật</h2>
         </div>

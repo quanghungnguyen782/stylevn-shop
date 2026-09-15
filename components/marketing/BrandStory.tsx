@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function BrandStory() {
   return (
-    <section className="border-t border-line px-4 py-20 text-center md:px-8">
+    <section className="border-t border-line px-4 py-14 text-center md:px-8">
       <p className="mx-auto max-w-2xl font-display text-2xl leading-snug md:text-4xl">
         &ldquo;Được tạo ra cho cuộc sống hàng ngày.&rdquo;
       </p>
