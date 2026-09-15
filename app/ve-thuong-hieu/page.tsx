@@ -1,0 +1,50 @@
+import Image from "next/image";
+import type { Metadata } from "next";
+import { getAllProducts } from "@/lib/product-service";
+
+export const metadata: Metadata = {
+  title: "Về Chúng Tôi",
+  description: "Câu chuyện thương hiệu StyleVN — điểm đến đa thương hiệu thể thao cao cấp.",
+};
+
+export default async function BrandStoryPage() {
+  const products = await getAllProducts();
+  const imageUrl = products.find((p) => p.images[0]?.includes("model"))?.images[0] ?? products[0]?.images[0];
+
+  return (
+    <div>
+      <section className="grid grid-cols-1 md:grid-cols-2">
+        <div className="relative aspect-[4/5] md:aspect-auto">
+          {imageUrl && (
+            <Image src={imageUrl} alt="" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+          )}
+        </div>
+        <div className="flex flex-col justify-center gap-4 bg-surface px-6 py-14 md:px-16">
+          <p className="text-xs uppercase tracking-[0.3em] text-muted">Câu Chuyện Của Chúng Tôi</p>
+          <h1 className="font-display text-3xl leading-tight md:text-4xl">Được tạo ra cho cuộc sống hàng ngày.</h1>
+          <p className="max-w-md text-sm leading-relaxed text-muted">
+            StyleVN ra đời với mong muốn mang những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế —
+            Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — đến gần hơn với người Việt, ở mức giá hợp lý
+            và trải nghiệm mua sắm tinh gọn, đáng tin cậy.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-[800px] px-4 py-16 text-center md:px-8">
+        <h2 className="mb-4 font-display text-2xl">Cam Kết Của Chúng Tôi</h2>
+        <p className="text-sm leading-relaxed text-muted">
+          Mỗi sản phẩm tại StyleVN đều được tuyển chọn kỹ lưỡng, đảm bảo nguồn gốc chính hãng. Chúng tôi tin
+          rằng phong cách không cần phải phức tạp — chỉ cần đúng với nhịp sống của bạn.
+        </p>
+      </section>
+
+      <section id="ben-vung" className="border-t border-line px-4 py-16 text-center md:px-8">
+        <h2 className="mb-4 font-display text-2xl">Phát Triển Bền Vững</h2>
+        <p className="mx-auto max-w-2xl text-sm leading-relaxed text-muted">
+          Chúng tôi ưu tiên hợp tác với các thương hiệu có cam kết rõ ràng về vật liệu và quy trình sản xuất
+          bền vững, đồng thời khuyến khích khách hàng sử dụng sản phẩm lâu dài thay vì tiêu dùng ngắn hạn.
+        </p>
+      </section>
+    </div>
+  );
+}
