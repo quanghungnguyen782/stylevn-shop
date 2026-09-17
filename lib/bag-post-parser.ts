@@ -227,6 +227,77 @@ function checkBounds(price: number, raw: string): { price: number; raw: string; 
   return { price, raw, warning: null };
 }
 
+export interface FieldEdit {
+  field: "name" | "brand" | "category" | "condition" | "price" | "size" | "accessories";
+  raw: string;
+}
+
+/**
+ * Post-publish correction commands — sellers can send e.g. "Sửa giá: 25tr"
+ * or "Đổi tên: ..." at any point after a listing is already live to patch
+ * just that one field, without having to redo the whole post. Verb (sửa/
+ * đổi/cập nhật) + field keyword before the ":", diacritics-insensitive,
+ * same matching style as FIELD_LABELS above.
+ */
+const EDIT_FIELD_KEYWORDS: Record<FieldEdit["field"], string[]> = {
+  name: ["ten"],
+  brand: ["hang", "thuong hieu"],
+  category: ["loai", "loai hang"],
+  condition: ["tinh trang"],
+  price: ["gia"],
+  size: ["size", "kich thuoc", "kich co"],
+  accessories: ["phu kien", "phu kien kem theo"],
+};
+
+const EDIT_VERBS = ["sua", "doi", "cap nhat"];
+
+const EDIT_LABELS: Record<string, FieldEdit["field"]> = Object.fromEntries(
+  (Object.entries(EDIT_FIELD_KEYWORDS) as [FieldEdit["field"], string[]][]).flatMap(([field, keywords]) =>
+    keywords.flatMap((kw) => EDIT_VERBS.map((verb) => [`${verb} ${kw}`, field]))
+  )
+);
+
+export function parseEditCommands(rawText: string): FieldEdit[] {
+  const lines = rawText
+    .trim()
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
+
+  const edits: FieldEdit[] = [];
+  for (const line of lines) {
+    const colonIndex = line.indexOf(":");
+    if (colonIndex === -1) continue;
+    const label = removeDiacritics(line.slice(0, colonIndex)).trim();
+    const field = EDIT_LABELS[label];
+    if (!field) continue;
+    const value = line.slice(colonIndex + 1).trim();
+    if (value) edits.push({ field, raw: value });
+  }
+  return edits;
+}
+
+export function parseSingleBrand(value: string) {
+  return parseBrand(removeDiacritics(value));
+}
+
+export function parseSingleCategory(value: string) {
+  return parseCategory(value.toLowerCase());
+}
+
+export function parseSinglePrice(value: string): { price: number | null; raw: string | null; warning: string | null } {
+  const result = extractPrice(value);
+  if (result === "ambiguous") {
+    return { price: null, raw: null, warning: "Có nhiều số giống giá, không rõ giá nào đúng" };
+  }
+  if (result) return checkBounds(result.price, result.raw);
+  return { price: null, raw: null, warning: "Không tìm thấy giá" };
+}
+
+export function parseSingleCondition(value: string): "new" | "used" {
+  return /\bpass\b/i.test(removeDiacritics(value)) ? "used" : "new";
+}
+
 export function parseBagPost(rawText: string): ParsedBagPost {
   const warnings: string[] = [];
   const trimmed = rawText.trim();

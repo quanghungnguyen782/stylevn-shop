@@ -1,5 +1,14 @@
+import { revalidatePath } from "next/cache";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
-import { parseBagPost } from "@/lib/bag-post-parser";
+import {
+  parseBagPost,
+  parseEditCommands,
+  parseSingleBrand,
+  parseSingleCategory,
+  parseSingleCondition,
+  parseSinglePrice,
+} from "@/lib/bag-post-parser";
+import type { FieldEdit } from "@/lib/bag-post-parser";
 import { sendZaloMessage } from "@/lib/zalo-bot";
 import { removeDiacritics } from "@/lib/text-utils";
 import { formatPrice } from "@/lib/format";
@@ -238,6 +247,11 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     return;
   }
 
+  const edits = parseEditCommands(text);
+  if (edits.length > 0 && (await applyEditCommands(chatId, edits))) {
+    return;
+  }
+
   const created = await insertCollecting(chatId, message.from, text);
   await finalizeSubmission(created);
 }
@@ -444,4 +458,112 @@ async function promoteQueuedIfAny(chatId: string): Promise<void> {
     .single();
 
   if (promoted) await sendConfirmationMessage(promoted);
+}
+
+// ============================================================
+// Post-publish corrections ("Sửa giá: ...", "Đổi tên: ...")
+// ============================================================
+
+/**
+ * Applies field-level corrections to the most recently published listing in
+ * this chat — lets a seller fix a typo or reprice an item after it's already
+ * live, without redoing the whole post. Returns false (no-op) if there's
+ * nothing published yet for this chat, so the caller can fall through to
+ * treating the text as the start of a new post instead.
+ */
+async function applyEditCommands(chatId: string, edits: FieldEdit[]): Promise<boolean> {
+  const supabase = getSupabaseAdmin();
+
+  const { data: target } = await supabase
+    .from("bag_submissions")
+    .select("*")
+    .eq("chat_id", chatId)
+    .eq("status", "published")
+    .order("published_at", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (!target) return false;
+
+  const patch: Record<string, unknown> = {};
+  const changeLines: string[] = [];
+  const warnings: string[] = [];
+
+  for (const edit of edits) {
+    switch (edit.field) {
+      case "name":
+        patch.name = edit.raw;
+        changeLines.push(`Tên → ${edit.raw}`);
+        break;
+      case "brand": {
+        const r = parseSingleBrand(edit.raw);
+        if (r.warning || !r.slug) {
+          warnings.push(r.warning ?? "Không nhận diện được thương hiệu");
+          break;
+        }
+        patch.brand = r.slug;
+        patch.brand_raw = r.raw;
+        changeLines.push(`Thương hiệu → ${r.name}`);
+        break;
+      }
+      case "category": {
+        const r = parseSingleCategory(edit.raw);
+        if (r.warning || !r.slug) {
+          warnings.push(r.warning ?? "Không nhận diện được loại hàng");
+          break;
+        }
+        patch.item_category = r.slug;
+        patch.item_category_raw = r.raw;
+        changeLines.push(`Loại hàng → ${r.name}`);
+        break;
+      }
+      case "condition": {
+        const condition = parseSingleCondition(edit.raw);
+        patch.condition = condition;
+        changeLines.push(`Tình trạng → ${condition === "used" ? "Đã qua sử dụng (pass)" : "Mới"}`);
+        break;
+      }
+      case "price": {
+        const r = parseSinglePrice(edit.raw);
+        if (r.warning || r.price == null) {
+          warnings.push(r.warning ?? "Không nhận diện được giá");
+          break;
+        }
+        patch.price = r.price;
+        patch.price_raw = r.raw;
+        changeLines.push(`Giá → ${formatPrice(r.price)}`);
+        break;
+      }
+      case "size":
+        patch.size = edit.raw;
+        changeLines.push(`Size → ${edit.raw}`);
+        break;
+      case "accessories":
+        patch.accessories = edit.raw;
+        changeLines.push(`Phụ kiện kèm theo → ${edit.raw}`);
+        break;
+    }
+  }
+
+  if (Object.keys(patch).length > 0) {
+    patch.updated_at = new Date().toISOString();
+    await supabase.from("bag_submissions").update(patch).eq("id", target.id);
+
+    if (target.slug) {
+      try {
+        revalidatePath("/hang-hieu");
+        revalidatePath(`/hang-hieu/${target.slug}`);
+      } catch (err) {
+        console.error("revalidatePath failed after edit command", err);
+      }
+    }
+  }
+
+  const lines = ["✏️ Đã cập nhật tin đăng:", ""];
+  if (target.slug) lines.push(`${SITE_URL}/hang-hieu/${target.slug}`, "");
+  lines.push(...changeLines.map((l) => `• ${l}`));
+  if (warnings.length > 0) lines.push("", `⚠️ ${warnings.join("; ")}`);
+
+  await sendZaloMessage(chatId, lines.join("\n"));
+  return true;
 }
