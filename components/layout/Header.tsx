@@ -9,12 +9,36 @@ import { CartDrawer } from "@/components/cart/CartDrawer";
 import { useCart } from "@/lib/cart-context";
 import { useWishlist } from "@/lib/wishlist-context";
 import { CATEGORIES, NAV_LINKS, SITE_NAME } from "@/lib/constants";
+import { ITEM_CATEGORIES } from "@/lib/bag-post-parser";
 import { IconBag, IconHeart, IconMenu, IconSearch, IconUser } from "@/components/ui/icons";
 
 function getGenderFromHref(href: string): string | null {
   const queryString = href.split("?")[1];
   if (!queryString) return null;
   return new URLSearchParams(queryString).get("gender");
+}
+
+interface DropdownItem {
+  slug: string;
+  name: string;
+  href: string;
+}
+
+function getDropdownItems(href: string): DropdownItem[] | null {
+  if (href === "/hang-hieu") {
+    return ITEM_CATEGORIES.map((c) => ({ slug: c.slug, name: c.name, href: `/hang-hieu?category=${c.slug}` }));
+  }
+
+  const gender = getGenderFromHref(href);
+  if (gender) {
+    return CATEGORIES.map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      href: `/san-pham?gender=${encodeURIComponent(gender)}&category=${c.slug}`,
+    }));
+  }
+
+  return null;
 }
 
 export function Header() {
@@ -39,9 +63,9 @@ export function Header() {
 
           <nav className="hidden h-full items-stretch gap-7 md:flex">
             {NAV_LINKS.map((link) => {
-              const gender = getGenderFromHref(link.href);
+              const dropdownItems = getDropdownItems(link.href);
 
-              if (!gender) {
+              if (!dropdownItems) {
                 return (
                   <Link
                     key={link.href}
@@ -62,13 +86,13 @@ export function Header() {
                     {link.label}
                   </Link>
                   <div className="invisible absolute left-0 top-full z-50 min-w-[200px] border border-line bg-canvas py-2 opacity-0 shadow-lg transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
-                    {CATEGORIES.map((c) => (
+                    {dropdownItems.map((item) => (
                       <Link
-                        key={c.slug}
-                        href={`/san-pham?gender=${encodeURIComponent(gender)}&category=${c.slug}`}
+                        key={item.slug}
+                        href={item.href}
                         className="block whitespace-nowrap px-4 py-2 text-sm text-ink/80 hover:bg-surface hover:text-accent"
                       >
-                        {c.name}
+                        {item.name}
                       </Link>
                     ))}
                   </div>
