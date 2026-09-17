@@ -1,6 +1,7 @@
 import { revalidatePath } from "next/cache";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
 import {
+  isListCommand,
   parseBagPost,
   parseDeleteCommand,
   parseEditCommands,
@@ -278,6 +279,11 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     return;
   }
 
+  if (isListCommand(text)) {
+    await handleListCommand(chatId);
+    return;
+  }
+
   const deleteCommand = parseDeleteCommand(text);
   if (deleteCommand) {
     await handleDeleteCommand(chatId, deleteCommand.id);
@@ -508,6 +514,34 @@ async function promoteQueuedIfAny(chatId: string): Promise<void> {
 // ============================================================
 
 /**
+ * "Danh sách" — every published listing's Mã/name/price for this chat, so a
+ * seller can look up an ID without scrolling back through chat history.
+ */
+async function handleListCommand(chatId: string): Promise<void> {
+  const supabase = getSupabaseAdmin();
+  const { data } = await supabase
+    .from("bag_submissions")
+    .select("display_id, name, price")
+    .eq("chat_id", chatId)
+    .eq("status", "published")
+    .order("display_id", { ascending: true })
+    .limit(30);
+
+  if (!data || data.length === 0) {
+    await sendZaloMessage(chatId, "Bạn chưa có sản phẩm nào đang hiển thị trên web.");
+    return;
+  }
+
+  const lines = ["📋 Danh sách sản phẩm đang bán:", ""];
+  for (const item of data) {
+    lines.push(`#${item.display_id} - ${item.name ?? "-"} - ${item.price ? formatPrice(item.price) : "Liên hệ"}`);
+  }
+  lines.push("", `Nhắn "Mã: <số>" kèm dòng "Sửa ..." để chỉnh sửa, hoặc "Xoá <số>" để gỡ khỏi web.`);
+
+  await sendZaloMessage(chatId, lines.join("\n"));
+}
+
+/**
  * Finds the listing a post-publish command should apply to: a specific
  * "Mã"/display_id if the seller gave one, otherwise the most recently
  * published listing in this chat.
@@ -545,7 +579,7 @@ async function handleDeleteCommand(chatId: string, targetId: number | null): Pro
     await sendZaloMessage(
       chatId,
       targetId != null
-        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web.`
+        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web. Nhắn "Danh sách" để xem các mã hiện có.`
         : "Bạn chưa có sản phẩm nào đang hiển thị trên web để gỡ."
     );
     return;
@@ -586,7 +620,7 @@ async function applyEditCommands(chatId: string, edits: FieldEdit[], targetId: n
     await sendZaloMessage(
       chatId,
       targetId != null
-        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web.`
+        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web. Nhắn "Danh sách" để xem các mã hiện có.`
         : "Bạn chưa có sản phẩm nào đang hiển thị trên web để sửa."
     );
     return;

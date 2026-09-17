@@ -14,6 +14,11 @@ export function BagProductCard({ product }: { product: BagProduct }) {
           {product.condition === "used" && <Badge tone="ink">Đã qua sử dụng</Badge>}
           {product.condition === "new" && <Badge tone="muted">Mới</Badge>}
         </div>
+        {product.displayId != null && (
+          <div className="absolute right-2 top-2 z-10">
+            <Badge tone="muted">#{product.displayId}</Badge>
+          </div>
+        )}
         {cover ? (
           <Image
             src={cover}

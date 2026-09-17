@@ -333,6 +333,13 @@ export function parseDeleteCommand(rawText: string): { id: number | null } | nul
   return { id: match[1] ? parseInt(match[1], 10) : null };
 }
 
+const LIST_PATTERN = /^(danh sach|ds|list)[.!\s]*$/i;
+
+/** "Danh sách" / "Ds" — looks up every currently-published listing's Mã, so a seller can find the ID of a product without scrolling back through chat history. */
+export function isListCommand(rawText: string): boolean {
+  return LIST_PATTERN.test(removeDiacritics(rawText.trim()));
+}
+
 export function parseBagPost(rawText: string): ParsedBagPost {
   const warnings: string[] = [];
   const trimmed = rawText.trim();
