@@ -400,7 +400,7 @@ async function publishSubmission(submission: BagSubmissionRow): Promise<void> {
     return;
   }
 
-  const baseSlug = slugify(claimed.name || "tui-xach") || "tui-xach";
+  const baseSlug = slugify(claimed.name || "hang-hieu") || "hang-hieu";
   const slug = `${baseSlug}-${claimed.id.slice(0, 8)}`;
   const now = new Date().toISOString();
 
@@ -409,7 +409,7 @@ async function publishSubmission(submission: BagSubmissionRow): Promise<void> {
     .update({ status: "published", slug, confirmed_at: now, published_at: now })
     .eq("id", claimed.id);
 
-  await sendZaloMessage(claimed.chat_id, `✅ Đã đăng thành công! Xem tại: ${SITE_URL}/tui-xach/${slug}`);
+  await sendZaloMessage(claimed.chat_id, `✅ Đã đăng thành công! Xem tại: ${SITE_URL}/hang-hieu/${slug}`);
 
   await promoteQueuedIfAny(claimed.chat_id);
 }
