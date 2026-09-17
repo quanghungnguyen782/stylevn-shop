@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    `${SITE_NAME} chuyên đồ thể thao chính hãng giảm giá từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste, cùng hàng hiệu authentic đã qua kiểm định.`,
+    `${SITE_NAME} chuyên hàng hiệu authentic đã qua kiểm định, cùng đồ thể thao chính hãng giảm giá từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.`,
   openGraph: {
     siteName: SITE_NAME,
     type: "website",

@@ -19,10 +19,10 @@ export const BRANDS: Brand[] = [
 ];
 
 export const NAV_LINKS = [
+  { href: "/hang-hieu", label: "Hàng Hiệu" },
   { href: "/san-pham?sale=1", label: "Sale" },
   { href: "/san-pham?gender=Nam", label: "Nam" },
   { href: "/san-pham?gender=N%E1%BB%AF", label: "Nữ" },
-  { href: "/hang-hieu", label: "Hàng Hiệu" },
   { href: "/ve-thuong-hieu", label: "Về Chúng Tôi" },
 ];
 

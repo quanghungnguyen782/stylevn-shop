@@ -4,8 +4,10 @@ import {
   getFlashSaleProducts,
   getProductsByCategory,
 } from "@/lib/product-service";
+import { getAllBagProducts } from "@/lib/bag-product-service";
 import { CATEGORIES } from "@/lib/constants";
 import { Hero } from "@/components/marketing/Hero";
+import { LuxuryShowcase } from "@/components/marketing/LuxuryShowcase";
 import { FeaturedCategories } from "@/components/marketing/FeaturedCategories";
 import { CollectionStory } from "@/components/marketing/CollectionStory";
 import { BestSellerCarousel } from "@/components/marketing/BestSellerCarousel";
@@ -25,6 +27,7 @@ export default async function HomePage() {
   const allProducts = await getAllProducts();
   const flashSale = await getFlashSaleProducts(8);
   const bestSellers = await getBestSellers(8);
+  const bagProducts = (await getAllBagProducts()).slice(0, 8);
 
   const categoryTiles = await Promise.all(
     CATEGORIES.map(async (c) => {
@@ -47,6 +50,7 @@ export default async function HomePage() {
   return (
     <>
       <Hero imageUrl={heroImage} />
+      <LuxuryShowcase products={bagProducts} />
       <FeaturedCategories tiles={categoryTiles} />
 
       <section className="px-4 py-12 md:px-8 md:py-16">

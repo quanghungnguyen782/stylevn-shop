@@ -15,19 +15,19 @@ export function Hero({ imageUrl }: { imageUrl: string }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/10 to-transparent" />
       <div className="relative z-10 px-4 pb-16 text-canvas md:px-8 md:pb-24">
-        <p className="mb-3 text-xs uppercase tracking-[0.3em] text-canvas/80">Giá Xả Kho</p>
+        <p className="mb-3 text-xs uppercase tracking-[0.3em] text-canvas/80">Hàng Hiệu Authentic</p>
         <h1 className="max-w-xl font-display text-4xl leading-[1.1] md:text-6xl">
-          Đồ thể thao chính hãng giảm giá, hàng hiệu authentic đã qua kiểm định.
+          Hàng hiệu authentic đã qua kiểm định, đồ thể thao chính hãng giảm giá.
         </h1>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Button href="/san-pham?sale=1" variant="accent" size="lg">
-            Xem Sale
+          <Button href="/hang-hieu" variant="accent" size="lg">
+            Xem Hàng Hiệu
           </Button>
           <Link
-            href="/hang-hieu"
+            href="/san-pham?sale=1"
             className="inline-flex items-center justify-center gap-2 border border-canvas px-8 py-4 text-base uppercase tracking-wide text-canvas transition-colors duration-200 hover:bg-canvas hover:text-ink"
           >
-            Hàng Hiệu
+            Xem Sale
           </Link>
         </div>
       </div>

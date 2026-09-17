@@ -38,8 +38,8 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <p className="font-display text-xl">{SITE_NAME}</p>
             <p className="mt-3 max-w-xs text-sm text-muted">
-              Đồ thể thao chính hãng giảm giá — Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — cùng hàng hiệu
-              authentic đã qua kiểm định.
+              Hàng hiệu authentic đã qua kiểm định, cùng đồ thể thao chính hãng giảm giá — Adidas, Nike, Asics,
+              Li-Ning, 361 Degrees, Lacoste.
             </p>
             <div className="mt-4 flex gap-4 text-sm text-muted">
               <a href="#" className="hover:text-accent">Facebook</a>

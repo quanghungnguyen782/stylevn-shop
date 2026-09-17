@@ -5,7 +5,7 @@ import { SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Về Chúng Tôi",
-  description: `Câu chuyện thương hiệu ${SITE_NAME} — đồ thể thao chính hãng giảm giá và hàng hiệu authentic đã qua kiểm định.`,
+  description: `Câu chuyện thương hiệu ${SITE_NAME} — hàng hiệu authentic đã qua kiểm định và đồ thể thao chính hãng giảm giá.`,
 };
 
 export default async function BrandStoryPage() {
@@ -24,9 +24,9 @@ export default async function BrandStoryPage() {
           <p className="text-xs uppercase tracking-[0.3em] text-muted">Câu Chuyện Của Chúng Tôi</p>
           <h1 className="font-display text-3xl leading-tight md:text-4xl">Được tạo ra cho cuộc sống hàng ngày.</h1>
           <p className="max-w-md text-sm leading-relaxed text-muted">
-            {SITE_NAME} ra đời với mong muốn mang những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế —
-            Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — đến gần hơn với người Việt, ở mức giá xả kho tốt
-            nhất, cùng những món đồ hiệu authentic đã qua kiểm định cho ai yêu thích hàng hiệu.
+            {SITE_NAME} ra đời với mong muốn mang những món đồ hiệu authentic đã qua kiểm định đến gần hơn với
+            người yêu hàng hiệu, cùng những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế — Adidas, Nike,
+            Asics, Li-Ning, 361 Degrees, Lacoste — ở mức giá xả kho tốt nhất.
           </p>
         </div>
       </section>
