@@ -41,6 +41,17 @@ export async function POST(req: NextRequest) {
     }
   } catch (err) {
     console.error("zalo-webhook handler error", event.event_name, err);
+    try {
+      const supabase = getSupabaseAdmin();
+      await supabase.from("webhook_errors").insert({
+        event_name: event.event_name,
+        error_message: err instanceof Error ? err.message : String(err),
+        error_stack: err instanceof Error ? (err.stack ?? null) : null,
+        payload: event,
+      });
+    } catch (logErr) {
+      console.error("failed to record webhook_errors row", logErr);
+    }
   }
 
   try {
