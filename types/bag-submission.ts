@@ -21,6 +21,8 @@ export interface BagSubmissionRow {
   condition: "new" | "used" | null;
   price: number | null;
   price_raw: string | null;
+  size: string | null;
+  accessories: string | null;
   parse_warnings: string[];
   slug: string | null;
   from_user_id: string | null;

@@ -66,6 +66,8 @@ export interface ParsedBagPost {
   condition: "new" | "used";
   price: number | null;
   priceRaw: string | null;
+  size: string | null;
+  accessories: string | null;
   warnings: string[];
 }
 
@@ -82,17 +84,23 @@ const MAX_PRICE = 500_000_000;
  *   Hãng: <LV / Gucci / Chanel / Dior / Hermès / YSL / Prada / Balenciaga / Fendi / Celine / Bottega Veneta / Coach / Miu Miu>
  *   Tình trạng: Mới / Pass
  *   Giá: <vd 21tr hoặc 21.000.000>
+ *   Size: <vd 38, M, 25cm... nếu có>
+ *   Phụ kiện kèm theo: <vd hộp, túi vải, bill, thẻ bảo hành... nếu có>
  *
  * A labeled line always wins over the free-text heuristics below (exact
  * match on the text before ":", diacritics-insensitive) — this is additive:
  * posts without labels still fall back to the original heuristics, so the
- * old free-form style keeps working.
+ * old free-form style keeps working. Size/accessories have no fixed keyword
+ * list (values are too varied — "38", "M", "25cm"...) so they're captured
+ * as-is with no matching/warning, unlike brand/category.
  */
 const FIELD_LABELS = {
   name: ["ten"],
   category: ["loai", "loai hang", "phan loai"],
   brand: ["hang", "thuong hieu", "brand", "hieu"],
   condition: ["tinh trang", "tt"],
+  size: ["size", "kich thuoc", "kich co"],
+  accessories: ["phu kien", "phu kien kem theo", "kem theo"],
 } as const;
 
 function findLabeledValue(lines: string[], labels: readonly string[]): string | null {
@@ -235,6 +243,8 @@ export function parseBagPost(rawText: string): ParsedBagPost {
       condition: "new",
       price: null,
       priceRaw: null,
+      size: null,
+      accessories: null,
       warnings: ["Không có nội dung mô tả"],
     };
   }
@@ -265,6 +275,9 @@ export function parseBagPost(rawText: string): ParsedBagPost {
   const priceResult = parsePrice(trimmed);
   if (priceResult.warning) warnings.push(priceResult.warning);
 
+  const size = findLabeledValue(lines, FIELD_LABELS.size);
+  const accessories = findLabeledValue(lines, FIELD_LABELS.accessories);
+
   return {
     name,
     brand: brandResult.slug,
@@ -276,6 +289,8 @@ export function parseBagPost(rawText: string): ParsedBagPost {
     condition,
     price: priceResult.price,
     priceRaw: priceResult.raw,
+    size,
+    accessories,
     warnings,
   };
 }

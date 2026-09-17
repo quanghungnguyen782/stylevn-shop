@@ -31,6 +31,8 @@ function toBagProduct(row: SubmissionWithPhotos): BagProduct {
     itemCategoryName: row.item_category_raw,
     condition: row.condition,
     price: row.price,
+    size: row.size,
+    accessories: row.accessories,
     images,
     publishedAt: row.published_at ?? row.created_at,
   };

@@ -8,6 +8,8 @@ export interface BagProduct {
   itemCategoryName: string | null;
   condition: "new" | "used" | null;
   price: number | null;
+  size: string | null;
+  accessories: string | null;
   images: string[];
   publishedAt: string;
 }

@@ -266,6 +266,8 @@ async function finalizeSubmission(submission: BagSubmissionRow): Promise<void> {
       condition: parsed.condition,
       price: parsed.price,
       price_raw: parsed.priceRaw,
+      size: parsed.size,
+      accessories: parsed.accessories,
       parse_warnings: parsed.warnings,
       status: nextStatus,
       updated_at: new Date().toISOString(),
@@ -295,6 +297,8 @@ async function applyCorrection(submission: BagSubmissionRow, text: string): Prom
       condition: parsed.condition,
       price: parsed.price,
       price_raw: parsed.priceRaw,
+      size: parsed.size,
+      accessories: parsed.accessories,
       parse_warnings: parsed.warnings,
       updated_at: new Date().toISOString(),
     })
@@ -320,8 +324,12 @@ async function sendConfirmationMessage(submission: BagSubmissionRow): Promise<vo
     `Thương hiệu: ${submission.brand_raw ?? "⚠️ Chưa xác định"}`,
     `Tình trạng: ${submission.condition === "used" ? "Đã qua sử dụng (pass)" : "Mới"}`,
     `Giá: ${submission.price ? formatPrice(submission.price) : "⚠️ Không nhận diện được"}`,
-    `Số ảnh: ${count ?? 0}`,
   ];
+
+  if (submission.size) lines.push(`Size: ${submission.size}`);
+  if (submission.accessories) lines.push(`Phụ kiện kèm theo: ${submission.accessories}`);
+
+  lines.push(`Số ảnh: ${count ?? 0}`);
 
   if (submission.parse_warnings.length > 0) {
     lines.push("", `⚠️ ${submission.parse_warnings.join("; ")}`);

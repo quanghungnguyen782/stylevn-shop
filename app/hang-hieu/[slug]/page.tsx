@@ -75,6 +75,23 @@ export default async function BagProductDetailPage({
             {product.price ? formatPrice(product.price) : "Liên hệ để biết giá"}
           </p>
 
+          {(product.size || product.accessories) && (
+            <dl className="mb-6 flex flex-col gap-1 text-sm">
+              {product.size && (
+                <div className="flex gap-2">
+                  <dt className="text-muted">Size:</dt>
+                  <dd>{product.size}</dd>
+                </div>
+              )}
+              {product.accessories && (
+                <div className="flex gap-2">
+                  <dt className="text-muted">Phụ kiện kèm theo:</dt>
+                  <dd>{product.accessories}</dd>
+                </div>
+              )}
+            </dl>
+          )}
+
           <Button href="/lien-he" variant="primary" size="lg" className="w-full sm:w-auto">
             Liên Hệ Đặt Hàng
           </Button>
