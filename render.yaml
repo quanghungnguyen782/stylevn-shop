@@ -10,4 +10,14 @@ services:
         value: 20.x
       - key: NEXT_TELEMETRY_DISABLED
         value: "1"
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: ZALO_BOT_TOKEN
+        sync: false
+      - key: ZALO_WEBHOOK_SECRET_TOKEN
+        sync: false
     healthCheckPath: /

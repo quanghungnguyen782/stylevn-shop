@@ -1,14 +1,6 @@
 import { getBrandName, getCategoryName } from "@/lib/product-meta";
+import { removeDiacritics } from "@/lib/text-utils";
 import type { Product } from "@/types/product";
-
-function removeDiacritics(str: string): string {
-  return str
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/đ/g, "d")
-    .replace(/Đ/g, "D")
-    .toLowerCase();
-}
 
 interface SearchEntry {
   product: Product;
