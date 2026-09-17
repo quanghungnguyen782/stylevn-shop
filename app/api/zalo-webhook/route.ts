@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
-import { handleImageEvent, handleTextEvent } from "@/lib/bag-submission-service";
+import { handleImageEvent, handleTextEvent, nudgeStaleCollectingSubmissions } from "@/lib/bag-submission-service";
 import type { ZaloImageMessage, ZaloTextMessage, ZaloWebhookEvent } from "@/types/zalo-webhook";
 
 export async function POST(req: NextRequest) {
@@ -41,6 +41,12 @@ export async function POST(req: NextRequest) {
     }
   } catch (err) {
     console.error("zalo-webhook handler error", event.event_name, err);
+  }
+
+  try {
+    await nudgeStaleCollectingSubmissions();
+  } catch (err) {
+    console.error("nudgeStaleCollectingSubmissions failed", err);
   }
 
   return NextResponse.json({ ok: true });

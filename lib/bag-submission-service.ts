@@ -8,6 +8,13 @@ import type { BagSubmissionRow } from "@/types/bag-submission";
 import type { ZaloFrom, ZaloImageMessage, ZaloTextMessage } from "@/types/zalo-webhook";
 
 const COLLECTING_WINDOW_MS = 30_000;
+// Zalo can deliver a multi-photo album out of order, with a few images
+// trailing well behind the caption (observed ~25s in practice) — if a photo
+// arrives after its submission already finalized, attach it there instead
+// of starting an orphan submission, as long as it's still fresh enough that
+// the client hasn't replied "OK" yet.
+const LATE_ATTACH_WINDOW_MS = 5 * 60 * 1000;
+const NUDGE_THRESHOLD_MS = 60_000;
 const CONFIRMATION_EXPIRY_MS = 48 * 60 * 60 * 1000;
 const OK_PATTERN = /^(ok|oke|okay)[.!\s]*$/i;
 
@@ -26,7 +33,7 @@ export async function handleImageEvent(message: ZaloImageMessage): Promise<void>
   const supabase = getSupabaseAdmin();
   const chatId = message.chat.id;
 
-  const submission = await getOrCreateCollecting(chatId, message.from);
+  const submission = await findTargetForPhoto(chatId, message.from);
 
   const { data: lastPhoto } = await supabase
     .from("bag_submission_photos")
@@ -52,9 +59,20 @@ export async function handleImageEvent(message: ZaloImageMessage): Promise<void>
     .from("bag_submissions")
     .update({ last_event_at: new Date().toISOString() })
     .eq("id", submission.id);
+
+  if (submission.status === "awaiting_confirmation") {
+    // Late-arriving photo attached to an already-finalized submission — resend
+    // the confirmation so the client sees the updated photo count before OK.
+    const { data: refreshed } = await supabase
+      .from("bag_submissions")
+      .select("*")
+      .eq("id", submission.id)
+      .single();
+    if (refreshed) await sendConfirmationMessage(refreshed);
+  }
 }
 
-async function getOrCreateCollecting(chatId: string, from: ZaloFrom): Promise<BagSubmissionRow> {
+async function findTargetForPhoto(chatId: string, from: ZaloFrom): Promise<BagSubmissionRow> {
   const supabase = getSupabaseAdmin();
 
   const { data: existing } = await supabase
@@ -72,7 +90,61 @@ async function getOrCreateCollecting(chatId: string, from: ZaloFrom): Promise<Ba
     await supabase.from("bag_submissions").update({ status: "expired" }).eq("id", existing.id);
   }
 
+  // No active 'collecting' row for this chat — check whether this is a
+  // trailing photo for a submission that was *just* finalized rather than
+  // the start of a brand new post.
+  const { data: recentAwaiting } = await supabase
+    .from("bag_submissions")
+    .select("*")
+    .eq("chat_id", chatId)
+    .eq("status", "awaiting_confirmation")
+    .maybeSingle();
+
+  if (recentAwaiting) {
+    const age = Date.now() - new Date(recentAwaiting.updated_at).getTime();
+    if (age <= LATE_ATTACH_WINDOW_MS) return recentAwaiting;
+  }
+
   return insertCollecting(chatId, from);
+}
+
+/**
+ * Best-effort sweep for 'collecting' submissions that received photos but
+ * never got a caption — without this, they'd sit invisible forever. Cheap
+ * enough to run opportunistically on every webhook invocation (bounded,
+ * indexed on status).
+ */
+export async function nudgeStaleCollectingSubmissions(): Promise<void> {
+  const supabase = getSupabaseAdmin();
+  const cutoff = new Date(Date.now() - NUDGE_THRESHOLD_MS).toISOString();
+
+  const { data: stale } = await supabase
+    .from("bag_submissions")
+    .select("*")
+    .eq("status", "collecting")
+    .is("raw_text", null)
+    .is("nudged_at", null)
+    .lt("last_event_at", cutoff)
+    .limit(10);
+
+  for (const submission of stale ?? []) {
+    const { count } = await supabase
+      .from("bag_submission_photos")
+      .select("id", { count: "exact", head: true })
+      .eq("submission_id", submission.id);
+
+    if (!count) continue; // nothing collected at all yet — nothing to nudge about
+
+    await supabase
+      .from("bag_submissions")
+      .update({ nudged_at: new Date().toISOString() })
+      .eq("id", submission.id);
+
+    await sendZaloMessage(
+      submission.chat_id,
+      `Mình đã nhận được ${count} ảnh nhưng chưa thấy mô tả (tên/giá/thương hiệu). Gửi giúp mình dòng mô tả để hoàn tất tin đăng nhé!`
+    );
+  }
 }
 
 async function insertCollecting(
@@ -189,6 +261,8 @@ async function finalizeSubmission(submission: BagSubmissionRow): Promise<void> {
       name: parsed.name,
       brand: parsed.brand,
       brand_raw: parsed.brandRaw,
+      item_category: parsed.category,
+      item_category_raw: parsed.categoryRaw,
       condition: parsed.condition,
       price: parsed.price,
       price_raw: parsed.priceRaw,
@@ -216,6 +290,8 @@ async function applyCorrection(submission: BagSubmissionRow, text: string): Prom
       name: parsed.name,
       brand: parsed.brand,
       brand_raw: parsed.brandRaw,
+      item_category: parsed.category,
+      item_category_raw: parsed.categoryRaw,
       condition: parsed.condition,
       price: parsed.price,
       price_raw: parsed.priceRaw,
@@ -240,6 +316,7 @@ async function sendConfirmationMessage(submission: BagSubmissionRow): Promise<vo
     "📦 Đã nhận tin đăng mới:",
     "",
     `Tên: ${submission.name ?? "-"}`,
+    `Loại hàng: ${submission.item_category_raw ?? "⚠️ Chưa xác định"}`,
     `Thương hiệu: ${submission.brand_raw ?? "⚠️ Chưa xác định"}`,
     `Tình trạng: ${submission.condition === "used" ? "Đã qua sử dụng (pass)" : "Mới"}`,
     `Giá: ${submission.price ? formatPrice(submission.price) : "⚠️ Không nhận diện được"}`,

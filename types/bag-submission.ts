@@ -16,6 +16,8 @@ export interface BagSubmissionRow {
   name: string | null;
   brand: string | null;
   brand_raw: string | null;
+  item_category: string | null;
+  item_category_raw: string | null;
   condition: "new" | "used" | null;
   price: number | null;
   price_raw: string | null;

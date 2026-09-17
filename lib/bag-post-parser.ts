@@ -22,11 +22,47 @@ export const BAG_BRANDS: BagBrand[] = [
   { slug: "miu-miu", name: "Miu Miu", keywords: ["miu miu", "miumiu"] },
 ];
 
+export interface ItemCategory {
+  slug: string;
+  name: string;
+  keywords: string[];
+}
+
+/**
+ * Matched against the ORIGINAL text (lowercased, diacritics kept) rather
+ * than the diacritics-stripped normalization used for brand matching —
+ * several common Vietnamese words collide once stripped (e.g. "đẹp"
+ * (beautiful) and "dép" (sandal) both become "dep"), which would
+ * misclassify almost every post that says a product looks "đẹp". Sellers
+ * do type Vietnamese with proper diacritics for ordinary words like these
+ * (unlike foreign brand names, which are often typed without accents).
+ */
+export const ITEM_CATEGORIES: ItemCategory[] = [
+  { slug: "tui-xach", name: "Túi xách", keywords: ["túi xách", "túi"] },
+  { slug: "vi", name: "Ví", keywords: ["ví da", "ví"] },
+  { slug: "giay-dep", name: "Giày dép", keywords: ["giày", "dép", "sandal", "sneaker"] },
+  { slug: "quan-ao", name: "Quần áo", keywords: ["quần", "áo", "váy", "đầm", "vest"] },
+  { slug: "khan", name: "Khăn", keywords: ["khăn", "scarf"] },
+  { slug: "that-lung", name: "Thắt lưng", keywords: ["thắt lưng", "dây lưng", "belt"] },
+  { slug: "nuoc-hoa", name: "Nước hoa", keywords: ["nước hoa", "perfume"] },
+  { slug: "kinh", name: "Kính", keywords: ["kính mắt", "mắt kính", "kính"] },
+  {
+    slug: "trang-suc",
+    name: "Trang sức",
+    keywords: ["trang sức", "vòng tay", "dây chuyền", "nhẫn"],
+  },
+  { slug: "dong-ho", name: "Đồng hồ", keywords: ["đồng hồ", "watch"] },
+  { slug: "mu-non", name: "Mũ nón", keywords: ["mũ", "nón", "cap"] },
+];
+
 export interface ParsedBagPost {
   name: string | null;
   brand: string | null;
   brandName: string | null;
   brandRaw: string | null;
+  category: string | null;
+  categoryName: string | null;
+  categoryRaw: string | null;
   condition: "new" | "used";
   price: number | null;
   priceRaw: string | null;
@@ -41,6 +77,17 @@ function escapeRegex(str: string): string {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+/**
+ * JS's `\b` is ASCII-word-based, so it silently fails to find a boundary
+ * next to an accented Vietnamese letter (e.g. "áo", "đầm", "ví", "mũ" —
+ * anything starting or ending in á/đ/í/ũ/etc. would never match). This
+ * builds an equivalent boundary using Unicode letter/number properties
+ * instead, which handles accented characters correctly.
+ */
+function keywordPattern(keyword: string): RegExp {
+  return new RegExp(`(?<![\\p{L}\\p{N}])${escapeRegex(keyword)}(?![\\p{L}\\p{N}])`, "iu");
+}
+
 function parseName(rawText: string): string | null {
   const line = rawText
     .split(/\r?\n/)
@@ -52,7 +99,7 @@ function parseName(rawText: string): string | null {
 function parseBrand(normalizedText: string): { slug: string | null; name: string | null; raw: string | null; warning: string | null } {
   const matches: BagBrand[] = [];
   for (const brand of BAG_BRANDS) {
-    const hit = brand.keywords.some((kw) => new RegExp(`\\b${escapeRegex(kw)}\\b`, "i").test(normalizedText));
+    const hit = brand.keywords.some((kw) => keywordPattern(kw).test(normalizedText));
     if (hit) matches.push(brand);
   }
 
@@ -62,6 +109,25 @@ function parseBrand(normalizedText: string): { slug: string | null; name: string
   if (matches.length > 1) {
     const names = matches.map((m) => m.name).join(", ");
     return { slug: null, name: null, raw: names, warning: `Phát hiện nhiều thương hiệu có thể khớp (${names}), vui lòng xác nhận lại` };
+  }
+  return { slug: matches[0].slug, name: matches[0].name, raw: matches[0].name, warning: null };
+}
+
+function parseCategory(
+  loweredText: string
+): { slug: string | null; name: string | null; raw: string | null; warning: string | null } {
+  const matches: ItemCategory[] = [];
+  for (const category of ITEM_CATEGORIES) {
+    const hit = category.keywords.some((kw) => keywordPattern(kw).test(loweredText));
+    if (hit) matches.push(category);
+  }
+
+  if (matches.length === 0) {
+    return { slug: null, name: null, raw: null, warning: "Không nhận diện được loại hàng" };
+  }
+  if (matches.length > 1) {
+    const names = matches.map((m) => m.name).join(", ");
+    return { slug: null, name: null, raw: names, warning: `Phát hiện nhiều loại hàng có thể khớp (${names}), vui lòng xác nhận lại` };
   }
   return { slug: matches[0].slug, name: matches[0].name, raw: matches[0].name, warning: null };
 }
@@ -128,6 +194,9 @@ export function parseBagPost(rawText: string): ParsedBagPost {
       brand: null,
       brandName: null,
       brandRaw: null,
+      category: null,
+      categoryName: null,
+      categoryRaw: null,
       condition: "new",
       price: null,
       priceRaw: null,
@@ -136,12 +205,16 @@ export function parseBagPost(rawText: string): ParsedBagPost {
   }
 
   const normalized = removeDiacritics(trimmed);
+  const lowered = trimmed.toLowerCase();
 
   const name = parseName(trimmed);
   if (!name) warnings.push("Không xác định được tên sản phẩm");
 
   const brandResult = parseBrand(normalized);
   if (brandResult.warning) warnings.push(brandResult.warning);
+
+  const categoryResult = parseCategory(lowered);
+  if (categoryResult.warning) warnings.push(categoryResult.warning);
 
   const condition: "new" | "used" = /\bpass\b/i.test(normalized) ? "used" : "new";
 
@@ -153,6 +226,9 @@ export function parseBagPost(rawText: string): ParsedBagPost {
     brand: brandResult.slug,
     brandName: brandResult.name,
     brandRaw: brandResult.raw,
+    category: categoryResult.slug,
+    categoryName: categoryResult.name,
+    categoryRaw: categoryResult.raw,
     condition,
     price: priceResult.price,
     priceRaw: priceResult.raw,
