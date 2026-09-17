@@ -73,6 +73,41 @@ const PRICE_LABEL_LINE = /(pass|gi[áa]|price)\s*:?\s*/i;
 const MIN_PRICE = 500_000;
 const MAX_PRICE = 500_000_000;
 
+/**
+ * Recommended posting template (given to sellers so the bot can read a post
+ * with zero ambiguity):
+ *
+ *   Tên: <tên sản phẩm>
+ *   Loại: <túi xách / ví / giày dép / quần áo / khăn / thắt lưng / nước hoa / kính / trang sức / đồng hồ / mũ nón>
+ *   Hãng: <LV / Gucci / Chanel / Dior / Hermès / YSL / Prada / Balenciaga / Fendi / Celine / Bottega Veneta / Coach / Miu Miu>
+ *   Tình trạng: Mới / Pass
+ *   Giá: <vd 21tr hoặc 21.000.000>
+ *
+ * A labeled line always wins over the free-text heuristics below (exact
+ * match on the text before ":", diacritics-insensitive) — this is additive:
+ * posts without labels still fall back to the original heuristics, so the
+ * old free-form style keeps working.
+ */
+const FIELD_LABELS = {
+  name: ["ten"],
+  category: ["loai", "loai hang", "phan loai"],
+  brand: ["hang", "thuong hieu", "brand", "hieu"],
+  condition: ["tinh trang", "tt"],
+} as const;
+
+function findLabeledValue(lines: string[], labels: readonly string[]): string | null {
+  for (const line of lines) {
+    const colonIndex = line.indexOf(":");
+    if (colonIndex === -1) continue;
+    const label = removeDiacritics(line.slice(0, colonIndex)).trim();
+    if ((labels as readonly string[]).includes(label)) {
+      const value = line.slice(colonIndex + 1).trim();
+      if (value) return value;
+    }
+  }
+  return null;
+}
+
 function escapeRegex(str: string): string {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -206,17 +241,26 @@ export function parseBagPost(rawText: string): ParsedBagPost {
 
   const normalized = removeDiacritics(trimmed);
   const lowered = trimmed.toLowerCase();
+  const lines = trimmed.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
 
-  const name = parseName(trimmed);
+  const labeledName = findLabeledValue(lines, FIELD_LABELS.name);
+  const name = labeledName ?? parseName(trimmed);
   if (!name) warnings.push("Không xác định được tên sản phẩm");
 
-  const brandResult = parseBrand(normalized);
+  const labeledBrand = findLabeledValue(lines, FIELD_LABELS.brand);
+  const brandResult = parseBrand(labeledBrand ? removeDiacritics(labeledBrand) : normalized);
   if (brandResult.warning) warnings.push(brandResult.warning);
 
-  const categoryResult = parseCategory(lowered);
+  const labeledCategory = findLabeledValue(lines, FIELD_LABELS.category);
+  const categoryResult = parseCategory(labeledCategory ? labeledCategory.toLowerCase() : lowered);
   if (categoryResult.warning) warnings.push(categoryResult.warning);
 
-  const condition: "new" | "used" = /\bpass\b/i.test(normalized) ? "used" : "new";
+  const labeledCondition = findLabeledValue(lines, FIELD_LABELS.condition);
+  const condition: "new" | "used" = /\bpass\b/i.test(
+    removeDiacritics(labeledCondition ?? normalized)
+  )
+    ? "used"
+    : "new";
 
   const priceResult = parsePrice(trimmed);
   if (priceResult.warning) warnings.push(priceResult.warning);
