@@ -17,6 +17,16 @@ import type { BagSubmissionRow } from "@/types/bag-submission";
 import type { ZaloFrom, ZaloImageMessage, ZaloTextMessage } from "@/types/zalo-webhook";
 
 const COLLECTING_WINDOW_MS = 30_000;
+// A single real album upload has been observed to spread its photos over up
+// to ~25-30s — but without this second cap, a "collecting" row's window
+// keeps rolling forward on every new photo (via last_event_at), so it can
+// stay open indefinitely as long as *something* arrives every <30s. That
+// let two genuinely different products get merged into one listing when a
+// seller moved on to photographing a new item shortly after leaving the
+// first one uncaptioned. Capping total time since the FIRST photo bounds
+// this — comfortably above any real single upload, but well short of "the
+// seller has clearly moved on to something else."
+const MAX_COLLECTING_SPAN_MS = 90_000;
 // Zalo can deliver a multi-photo album out of order, with a few images
 // trailing well behind the caption (observed ~25s in practice) — if a photo
 // arrives after its submission already finalized, attach it there instead
@@ -26,6 +36,7 @@ const LATE_ATTACH_WINDOW_MS = 5 * 60 * 1000;
 const NUDGE_THRESHOLD_MS = 60_000;
 const CONFIRMATION_EXPIRY_MS = 48 * 60 * 60 * 1000;
 const OK_PATTERN = /^(ok|oke|okay)[.!\s]*$/i;
+const CANCEL_PATTERN = /^(huy|bo qua|cancel)[.!\s]*$/i;
 
 function slugify(str: string): string {
   return removeDiacritics(str)
@@ -92,10 +103,15 @@ async function findTargetForPhoto(chatId: string, from: ZaloFrom): Promise<BagSu
     .maybeSingle();
 
   if (existing) {
-    const age = Date.now() - new Date(existing.last_event_at).getTime();
-    if (age <= COLLECTING_WINDOW_MS) return existing;
-    // Stale — never got a caption. Retire it so a fresh submission can start
-    // (the partial unique index only allows one 'collecting' row per chat).
+    const idleMs = Date.now() - new Date(existing.last_event_at).getTime();
+    const totalSpanMs = Date.now() - new Date(existing.first_event_at).getTime();
+    if (idleMs <= COLLECTING_WINDOW_MS && totalSpanMs <= MAX_COLLECTING_SPAN_MS) {
+      return existing;
+    }
+    // Stale (idle too long) or open too long overall (likely a different
+    // item started since, never captioned) — retire it so a fresh
+    // submission can start (the partial unique index only allows one
+    // 'collecting' row per chat).
     await supabase.from("bag_submissions").update({ status: "expired" }).eq("id", existing.id);
   }
 
@@ -151,7 +167,7 @@ export async function nudgeStaleCollectingSubmissions(): Promise<void> {
 
     await sendZaloMessage(
       submission.chat_id,
-      `Mình đã nhận được ${count} ảnh nhưng chưa thấy mô tả (tên/giá/thương hiệu). Gửi giúp mình dòng mô tả để hoàn tất tin đăng nhé!`
+      `Mình đã nhận được ${count} ảnh nhưng chưa thấy mô tả (tên/giá/thương hiệu). Gửi giúp mình dòng mô tả để hoàn tất tin đăng nhé! (Nếu đây không phải sản phẩm bạn định đăng, nhắn "Huỷ" để bỏ nhóm ảnh này.)`
     );
   }
 }
@@ -225,6 +241,19 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     .maybeSingle();
 
   if (collecting && !collecting.raw_text) {
+    if (CANCEL_PATTERN.test(removeDiacritics(text.trim()))) {
+      const { count } = await supabase
+        .from("bag_submission_photos")
+        .select("id", { count: "exact", head: true })
+        .eq("submission_id", collecting.id);
+      await supabase.from("bag_submissions").update({ status: "cancelled" }).eq("id", collecting.id);
+      await sendZaloMessage(
+        chatId,
+        `Đã huỷ nhóm ${count ?? 0} ảnh chưa có mô tả. Gửi ảnh sản phẩm mới bất cứ lúc nào nhé!`
+      );
+      return;
+    }
+
     await supabase
       .from("bag_submissions")
       .update({ raw_text: text, last_event_at: new Date().toISOString() })
