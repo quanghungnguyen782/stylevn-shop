@@ -64,7 +64,10 @@ export default async function BagProductDetailPage({
           {product.brandName && (
             <p className="text-xs uppercase tracking-wide text-muted">{product.brandName}</p>
           )}
-          <h1 className="mt-1 mb-4 font-display text-2xl md:text-3xl">{product.name}</h1>
+          <h1 className="mt-1 mb-1 font-display text-2xl md:text-3xl">{product.name}</h1>
+          {product.displayId != null && (
+            <p className="mb-3 text-xs text-muted">Mã sản phẩm: #{product.displayId}</p>
+          )}
 
           <div className="mb-3 flex gap-2">
             {product.condition === "used" && <Badge tone="ink">Đã qua sử dụng</Badge>}

@@ -298,6 +298,41 @@ export function parseSingleCondition(value: string): "new" | "used" {
   return /\bpass\b/i.test(removeDiacritics(value)) ? "used" : "new";
 }
 
+const TARGET_ID_LABELS = ["ma", "id", "ma san pham"];
+
+/**
+ * Every published listing gets a short numeric "Mã" (display_id) — sellers
+ * reference it with a "Mã: <n>" line alongside "Sửa ..." commands to target
+ * an older listing instead of the most recently published one (the default
+ * when no ID line is given).
+ */
+export function parseEditTargetId(rawText: string): number | null {
+  const lines = rawText
+    .trim()
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
+  const value = findLabeledValue(lines, TARGET_ID_LABELS);
+  if (!value) return null;
+  const match = value.match(/\d+/);
+  return match ? parseInt(match[0], 10) : null;
+}
+
+const DELETE_PATTERN = /^xoa\b\s*(?:#|ma\s+|san\s*pham\s+)?(\d+)?\s*[.!]?\s*$/i;
+
+/**
+ * "Xoá" (optionally with a "Mã"/#id) unpublishes a listing from the site.
+ * Only matched against the first line, same as OK_PATTERN — this is meant
+ * to be a standalone command, not mixed with other content.
+ */
+export function parseDeleteCommand(rawText: string): { id: number | null } | null {
+  const firstLine = rawText.trim().split(/\r?\n/)[0] ?? "";
+  const stripped = removeDiacritics(firstLine).trim();
+  const match = DELETE_PATTERN.exec(stripped);
+  if (!match) return null;
+  return { id: match[1] ? parseInt(match[1], 10) : null };
+}
+
 export function parseBagPost(rawText: string): ParsedBagPost {
   const warnings: string[] = [];
   const trimmed = rawText.trim();

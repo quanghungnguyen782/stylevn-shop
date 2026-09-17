@@ -1,5 +1,6 @@
 export interface BagProduct {
   id: string;
+  displayId: number | null;
   slug: string;
   name: string;
   brand: string | null;

@@ -2,7 +2,9 @@ import { revalidatePath } from "next/cache";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
 import {
   parseBagPost,
+  parseDeleteCommand,
   parseEditCommands,
+  parseEditTargetId,
   parseSingleBrand,
   parseSingleCategory,
   parseSingleCondition,
@@ -276,8 +278,15 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     return;
   }
 
+  const deleteCommand = parseDeleteCommand(text);
+  if (deleteCommand) {
+    await handleDeleteCommand(chatId, deleteCommand.id);
+    return;
+  }
+
   const edits = parseEditCommands(text);
-  if (edits.length > 0 && (await applyEditCommands(chatId, edits))) {
+  if (edits.length > 0) {
+    await applyEditCommands(chatId, edits, parseEditTargetId(text));
     return;
   }
 
@@ -455,12 +464,17 @@ async function publishSubmission(submission: BagSubmissionRow): Promise<void> {
   const slug = `${baseSlug}-${claimed.id.slice(0, 8)}`;
   const now = new Date().toISOString();
 
+  const { data: displayId } = await supabase.rpc("next_bag_display_id");
+
   await supabase
     .from("bag_submissions")
-    .update({ status: "published", slug, confirmed_at: now, published_at: now })
+    .update({ status: "published", slug, display_id: displayId, confirmed_at: now, published_at: now })
     .eq("id", claimed.id);
 
-  await sendZaloMessage(claimed.chat_id, `✅ Đã đăng thành công! Xem tại: ${SITE_URL}/hang-hieu/${slug}`);
+  await sendZaloMessage(
+    claimed.chat_id,
+    `✅ Đã đăng thành công! Mã sản phẩm: #${displayId}\nXem tại: ${SITE_URL}/hang-hieu/${slug}`
+  );
 
   await promoteQueuedIfAny(claimed.chat_id);
 }
@@ -490,20 +504,29 @@ async function promoteQueuedIfAny(chatId: string): Promise<void> {
 }
 
 // ============================================================
-// Post-publish corrections ("Sửa giá: ...", "Đổi tên: ...")
+// Post-publish corrections ("Sửa giá: ...", "Đổi tên: ...", "Xoá #3")
 // ============================================================
 
 /**
- * Applies field-level corrections to the most recently published listing in
- * this chat — lets a seller fix a typo or reprice an item after it's already
- * live, without redoing the whole post. Returns false (no-op) if there's
- * nothing published yet for this chat, so the caller can fall through to
- * treating the text as the start of a new post instead.
+ * Finds the listing a post-publish command should apply to: a specific
+ * "Mã"/display_id if the seller gave one, otherwise the most recently
+ * published listing in this chat.
  */
-async function applyEditCommands(chatId: string, edits: FieldEdit[]): Promise<boolean> {
+async function findPublishedTarget(chatId: string, targetId: number | null): Promise<BagSubmissionRow | null> {
   const supabase = getSupabaseAdmin();
 
-  const { data: target } = await supabase
+  if (targetId != null) {
+    const { data } = await supabase
+      .from("bag_submissions")
+      .select("*")
+      .eq("chat_id", chatId)
+      .eq("status", "published")
+      .eq("display_id", targetId)
+      .maybeSingle();
+    return data ?? null;
+  }
+
+  const { data } = await supabase
     .from("bag_submissions")
     .select("*")
     .eq("chat_id", chatId)
@@ -511,8 +534,63 @@ async function applyEditCommands(chatId: string, edits: FieldEdit[]): Promise<bo
     .order("published_at", { ascending: false })
     .limit(1)
     .maybeSingle();
+  return data ?? null;
+}
 
-  if (!target) return false;
+async function handleDeleteCommand(chatId: string, targetId: number | null): Promise<void> {
+  const supabase = getSupabaseAdmin();
+  const target = await findPublishedTarget(chatId, targetId);
+
+  if (!target) {
+    await sendZaloMessage(
+      chatId,
+      targetId != null
+        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web.`
+        : "Bạn chưa có sản phẩm nào đang hiển thị trên web để gỡ."
+    );
+    return;
+  }
+
+  await supabase
+    .from("bag_submissions")
+    .update({ status: "unpublished", updated_at: new Date().toISOString() })
+    .eq("id", target.id);
+
+  if (target.slug) {
+    try {
+      revalidatePath("/hang-hieu");
+      revalidatePath(`/hang-hieu/${target.slug}`);
+    } catch (err) {
+      console.error("revalidatePath failed after delete command", err);
+    }
+  }
+
+  await sendZaloMessage(
+    chatId,
+    `🗑️ Đã gỡ sản phẩm #${target.display_id} ("${target.name ?? "-"}") khỏi website.`
+  );
+}
+
+/**
+ * Applies field-level corrections to a published listing — lets a seller
+ * fix a typo or reprice an item after it's already live, without redoing
+ * the whole post. Targets a specific "Mã"/display_id if given, otherwise
+ * the most recently published listing in this chat.
+ */
+async function applyEditCommands(chatId: string, edits: FieldEdit[], targetId: number | null): Promise<void> {
+  const supabase = getSupabaseAdmin();
+
+  const target = await findPublishedTarget(chatId, targetId);
+
+  if (!target) {
+    await sendZaloMessage(
+      chatId,
+      targetId != null
+        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web.`
+        : "Bạn chưa có sản phẩm nào đang hiển thị trên web để sửa."
+    );
+    return;
+  }
 
   const patch: Record<string, unknown> = {};
   const changeLines: string[] = [];
@@ -588,11 +666,11 @@ async function applyEditCommands(chatId: string, edits: FieldEdit[]): Promise<bo
     }
   }
 
-  const lines = ["✏️ Đã cập nhật tin đăng:", ""];
+  const lines = [`✏️ Đã cập nhật tin đăng #${target.display_id}:`, ""];
   if (target.slug) lines.push(`${SITE_URL}/hang-hieu/${target.slug}`, "");
   lines.push(...changeLines.map((l) => `• ${l}`));
+  if (changeLines.length === 0) lines.push("(Không có trường nào được cập nhật)");
   if (warnings.length > 0) lines.push("", `⚠️ ${warnings.join("; ")}`);
 
   await sendZaloMessage(chatId, lines.join("\n"));
-  return true;
 }

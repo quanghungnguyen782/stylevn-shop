@@ -23,6 +23,7 @@ function toBagProduct(row: SubmissionWithPhotos): BagProduct {
 
   return {
     id: row.id,
+    displayId: row.display_id,
     slug: row.slug ?? row.id,
     name: row.name ?? "Sản phẩm hàng hiệu",
     brand: row.brand,

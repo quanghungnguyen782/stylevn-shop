@@ -5,12 +5,14 @@ export type BagSubmissionStatus =
   | "publishing"
   | "published"
   | "expired"
-  | "cancelled";
+  | "cancelled"
+  | "unpublished";
 
 export interface BagSubmissionRow {
   id: string;
   chat_id: string;
   status: BagSubmissionStatus;
+  display_id: number | null;
   category: string;
   raw_text: string | null;
   name: string | null;
