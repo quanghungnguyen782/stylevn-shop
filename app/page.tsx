@@ -51,7 +51,7 @@ export default async function HomePage() {
 
       <section className="px-4 py-12 md:px-8 md:py-16">
         <div className="mb-8 flex items-end justify-between">
-          <h2 className="font-display text-2xl md:text-3xl">Sản Phẩm Nổi Bật</h2>
+          <h2 className="font-display text-2xl md:text-3xl">Đang Giảm Giá Sâu</h2>
         </div>
         <ProductGrid products={flashSale} />
       </section>

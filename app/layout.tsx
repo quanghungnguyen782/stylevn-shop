@@ -23,11 +23,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Thể Thao Đa Thương Hiệu Cao Cấp`,
+    default: `${SITE_NAME} — Hàng Hiệu & Đồ Thể Thao Sale Chính Hãng`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    `${SITE_NAME} tuyển chọn thời trang thể thao từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — chính hãng, giá tốt.`,
+    `${SITE_NAME} chuyên đồ thể thao chính hãng giảm giá từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste, cùng hàng hiệu authentic đã qua kiểm định.`,
   openGraph: {
     siteName: SITE_NAME,
     type: "website",

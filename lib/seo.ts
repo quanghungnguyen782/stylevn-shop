@@ -11,7 +11,7 @@ export function organizationJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     description:
-      "Điểm đến đa thương hiệu thể thao cao cấp: Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.",
+      "Chuyên đồ thể thao chính hãng giảm giá (Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste) và hàng hiệu authentic đã qua kiểm định.",
   };
 }
 

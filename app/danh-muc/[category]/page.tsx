@@ -26,7 +26,7 @@ export async function generateMetadata({
   const name = getCategoryName(category);
   return {
     title: name,
-    description: `Mua ${name.toLowerCase()} chính hãng đa thương hiệu tại ${SITE_NAME}.`,
+    description: `Mua ${name.toLowerCase()} chính hãng giảm giá tại ${SITE_NAME}.`,
   };
 }
 
