@@ -8,8 +8,14 @@ import { SearchOverlay } from "@/components/search/SearchOverlay";
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { useCart } from "@/lib/cart-context";
 import { useWishlist } from "@/lib/wishlist-context";
-import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
+import { CATEGORIES, NAV_LINKS, SITE_NAME } from "@/lib/constants";
 import { IconBag, IconHeart, IconMenu, IconSearch, IconUser } from "@/components/ui/icons";
+
+function getGenderFromHref(href: string): string | null {
+  const queryString = href.split("?")[1];
+  if (!queryString) return null;
+  return new URLSearchParams(queryString).get("gender");
+}
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,16 +37,44 @@ export function Header() {
             {SITE_NAME}
           </Link>
 
-          <nav className="hidden items-center gap-7 md:flex">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm uppercase tracking-wide text-ink/80 transition-colors hover:text-accent"
-              >
-                {link.label}
-              </Link>
-            ))}
+          <nav className="hidden h-full items-stretch gap-7 md:flex">
+            {NAV_LINKS.map((link) => {
+              const gender = getGenderFromHref(link.href);
+
+              if (!gender) {
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="flex items-center text-sm uppercase tracking-wide text-ink/80 transition-colors hover:text-accent"
+                  >
+                    {link.label}
+                  </Link>
+                );
+              }
+
+              return (
+                <div key={link.href} className="group relative flex items-center">
+                  <Link
+                    href={link.href}
+                    className="text-sm uppercase tracking-wide text-ink/80 transition-colors hover:text-accent"
+                  >
+                    {link.label}
+                  </Link>
+                  <div className="invisible absolute left-0 top-full z-50 min-w-[200px] border border-line bg-canvas py-2 opacity-0 shadow-lg transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
+                    {CATEGORIES.map((c) => (
+                      <Link
+                        key={c.slug}
+                        href={`/san-pham?gender=${encodeURIComponent(gender)}&category=${c.slug}`}
+                        className="block whitespace-nowrap px-4 py-2 text-sm text-ink/80 hover:bg-surface hover:text-accent"
+                      >
+                        {c.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
           </nav>
 
           <div className="flex items-center gap-1">

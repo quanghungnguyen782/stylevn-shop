@@ -25,10 +25,12 @@ export function ProductListingClient({
   const initialQuery = searchParams.get("q") ?? "";
   const initialSaleOnly = searchParams.get("sale") === "1";
   const initialGender = searchParams.get("gender");
+  const initialCategory = searchParams.get("category");
   const initialSort = (searchParams.get("sort") as SortOption) ?? (initialSaleOnly ? "discount" : "default");
 
   const [brands, setBrands] = useState<string[]>([]);
   const [gender, setGender] = useState<string | null>(initialGender);
+  const [category, setCategory] = useState<string | null>(initialCategory);
   const [priceRange, setPriceRange] = useState<PriceRange | null>(null);
   const [sort, setSort] = useState<SortOption>(initialSort);
   const [query, setQuery] = useState(initialQuery);
@@ -41,8 +43,8 @@ export function ProductListingClient({
   );
 
   const filtered = useMemo(
-    () => filterAndSortProducts(scopedProducts, { brands, gender, priceRange, sort, query }),
-    [scopedProducts, brands, gender, priceRange, sort, query]
+    () => filterAndSortProducts(scopedProducts, { brands, gender, category, priceRange, sort, query }),
+    [scopedProducts, brands, gender, category, priceRange, sort, query]
   );
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
@@ -77,6 +79,8 @@ export function ProductListingClient({
         onRemoveBrand={toggleBrand}
         gender={gender}
         onRemoveGender={() => setGender(null)}
+        category={category}
+        onRemoveCategory={() => setCategory(null)}
         priceRange={priceRange}
         onRemovePriceRange={() => setPriceRange(null)}
         query={query}

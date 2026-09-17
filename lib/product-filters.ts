@@ -6,6 +6,7 @@ import type { PriceRange, SortOption } from "@/types/filters";
 export interface ProductFilterState {
   brands: string[];
   gender: string | null;
+  category: string | null;
   priceRange: PriceRange | null;
   sort: SortOption;
   query: string;
@@ -22,6 +23,9 @@ export function filterAndSortProducts(products: Product[], state: ProductFilterS
   }
   if (state.gender) {
     result = result.filter((p) => p.gender === state.gender);
+  }
+  if (state.category) {
+    result = result.filter((p) => p.category === state.category);
   }
   if (state.priceRange) {
     const { min, max } = state.priceRange;

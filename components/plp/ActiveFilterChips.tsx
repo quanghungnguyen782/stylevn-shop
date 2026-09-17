@@ -1,4 +1,4 @@
-import { getBrandName } from "@/lib/product-meta";
+import { getBrandName, getCategoryName } from "@/lib/product-meta";
 import type { PriceRange } from "@/types/filters";
 
 interface Chip {
@@ -12,6 +12,8 @@ interface ActiveFilterChipsProps {
   onRemoveBrand: (slug: string) => void;
   gender: string | null;
   onRemoveGender: () => void;
+  category: string | null;
+  onRemoveCategory: () => void;
   priceRange: PriceRange | null;
   onRemovePriceRange: () => void;
   query: string;
@@ -23,6 +25,8 @@ export function ActiveFilterChips({
   onRemoveBrand,
   gender,
   onRemoveGender,
+  category,
+  onRemoveCategory,
   priceRange,
   onRemovePriceRange,
   query,
@@ -31,6 +35,7 @@ export function ActiveFilterChips({
   const chips: Chip[] = [
     ...brands.map((slug) => ({ key: `brand-${slug}`, label: getBrandName(slug), onRemove: () => onRemoveBrand(slug) })),
     ...(gender ? [{ key: "gender", label: gender, onRemove: onRemoveGender }] : []),
+    ...(category ? [{ key: "category", label: getCategoryName(category), onRemove: onRemoveCategory }] : []),
     ...(priceRange ? [{ key: "price", label: priceRange.label, onRemove: onRemovePriceRange }] : []),
     ...(query ? [{ key: "query", label: `"${query}"`, onRemove: onRemoveQuery }] : []),
   ];
