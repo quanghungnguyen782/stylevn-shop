@@ -12,6 +12,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/san-pham`, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/hang-hieu`, changeFrequency: "daily", priority: 0.9 },
+    { url: `${SITE_URL}/authenticity`, changeFrequency: "monthly", priority: 0.3 },
     { url: `${SITE_URL}/lien-he`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/ve-thuong-hieu`, changeFrequency: "monthly", priority: 0.4 },
   ];
@@ -30,6 +31,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const bagProductRoutes: MetadataRoute.Sitemap = bagProducts.map((p) => ({
     url: `${SITE_URL}/hang-hieu/${p.slug}`,
+    lastModified: p.publishedAt,
     changeFrequency: "weekly",
     priority: 0.6,
   }));

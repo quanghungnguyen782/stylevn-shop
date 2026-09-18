@@ -15,9 +15,9 @@ export function Hero({ imageUrl }: { imageUrl: string }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/10 to-transparent" />
       <div className="relative z-10 px-4 pb-16 text-canvas md:px-8 md:pb-24">
-        <p className="mb-3 text-xs uppercase tracking-[0.3em] text-canvas/80">Hàng Hiệu Authentic</p>
+        <p className="mb-3 text-xs uppercase tracking-[0.3em] text-canvas/80">Authentic Pieces. Better Prices.</p>
         <h1 className="max-w-xl font-display text-4xl leading-[1.1] md:text-6xl">
-          Hàng hiệu authentic đã qua kiểm định, đồ thể thao chính hãng giảm giá.
+          Hàng hiệu authentic, đồ thể thao chính hãng giảm giá.
         </h1>
         <div className="mt-8 flex flex-wrap gap-3">
           <Button href="/hang-hieu" variant="accent" size="lg">

@@ -36,3 +36,12 @@ export const POPULAR_SEARCH_KEYWORDS = [
 ];
 
 export const FREE_SHIPPING_THRESHOLD = 1_000_000;
+
+/**
+ * No real public Zalo OA/personal chat link exists yet (the bot token in
+ * this project is for the seller's own posting pipeline, not customer
+ * support). Every "Chat Zalo" CTA points here until a real zalo.me link is
+ * available — swap this one constant, never hardcode a link at each call
+ * site.
+ */
+export const ZALO_CONTACT_URL = "/lien-he";

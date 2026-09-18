@@ -38,7 +38,9 @@ export default function ContactPage() {
       <section id="doi-tra" className="border-t border-line py-8">
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide">Đổi Trả</h2>
         <p className="text-sm text-muted">
-          Đổi trả miễn phí trong 7 ngày kể từ ngày nhận hàng nếu sản phẩm còn nguyên tem mác, chưa qua sử dụng.
+          Với đồ thể thao: đổi trả miễn phí trong 7 ngày kể từ ngày nhận hàng nếu sản phẩm còn nguyên tem mác,
+          chưa qua sử dụng. Với hàng hiệu: tình trạng sản phẩm (mới/đã qua sử dụng) được ghi rõ trong tin đăng —
+          vui lòng trao đổi qua Zalo để xác nhận trước khi đặt hàng.
         </p>
       </section>
 
@@ -53,7 +55,7 @@ export default function ContactPage() {
       <section id="faq" className="border-t border-line py-8">
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide">Câu Hỏi Thường Gặp</h2>
         <div className="flex flex-col gap-4 text-sm text-muted">
-          <p><strong className="text-ink">Sản phẩm có chính hãng không?</strong><br />Toàn bộ sản phẩm tại {SITE_NAME} đều là hàng chính hãng từ các thương hiệu đối tác.</p>
+          <p><strong className="text-ink">Sản phẩm có chính hãng không?</strong><br />Toàn bộ sản phẩm tại {SITE_NAME} đều là hàng chính hãng. {SITE_NAME} không phải đại lý ủy quyền của các thương hiệu, chỉ là nhà bán lẻ sản phẩm chính hãng.</p>
           <p><strong className="text-ink">Tôi có thể thanh toán bằng cách nào?</strong><br />Hiện hỗ trợ thanh toán khi nhận hàng (COD) và chuyển khoản ngân hàng.</p>
         </div>
       </section>

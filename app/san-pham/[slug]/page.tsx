@@ -6,7 +6,7 @@ import {
   getRelatedProducts,
 } from "@/lib/product-service";
 import { getBrandName, getCategoryName } from "@/lib/product-meta";
-import { productJsonLd, SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, productJsonLd, SITE_URL } from "@/lib/seo";
 import { ProductGallery } from "@/components/product/ProductGallery";
 import { ProductPurchasePanel } from "@/components/product/ProductPurchasePanel";
 import { ProductGrid } from "@/components/product/ProductGrid";
@@ -53,6 +53,10 @@ export default async function ProductDetailPage({
 
   const related = await getRelatedProducts(product, 4);
   const url = `${SITE_URL}/san-pham/${product.slug}`;
+  const breadcrumbItems = [
+    { name: getCategoryName(product.category), url: `${SITE_URL}/danh-muc/${product.category}` },
+    { name: product.name, url },
+  ];
 
   return (
     <div className="mx-auto max-w-[1440px] px-4 py-8 md:px-8 md:py-12">
@@ -60,6 +64,11 @@ export default async function ProductDetailPage({
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd(product, url)) }}
+      />
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(breadcrumbItems)) }}
       />
 
       <nav className="mb-6 text-xs text-muted">

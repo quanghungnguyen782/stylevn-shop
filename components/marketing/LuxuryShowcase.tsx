@@ -9,7 +9,7 @@ export function LuxuryShowcase({ products }: { products: BagProduct[] }) {
     <section className="px-4 py-12 md:px-8 md:py-16">
       <div className="mb-8 flex items-end justify-between">
         <div>
-          <p className="mb-2 text-xs uppercase tracking-[0.3em] text-muted">Authentic Đã Qua Kiểm Định</p>
+          <p className="mb-2 text-xs uppercase tracking-[0.3em] text-muted">Authentic · Ảnh Chụp Thực Tế</p>
           <h2 className="font-display text-2xl md:text-3xl">Hàng Hiệu Mới Về</h2>
         </div>
         <Link href="/hang-hieu" className="text-sm underline-offset-4 hover:underline">

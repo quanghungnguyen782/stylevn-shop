@@ -5,6 +5,7 @@ import { Providers } from "@/components/providers/Providers";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { SkipLink } from "@/components/layout/SkipLink";
+import { ZaloFloatingButton } from "@/components/layout/ZaloFloatingButton";
 import { organizationJsonLd } from "@/lib/seo";
 import { SITE_URL } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/constants";
@@ -27,11 +28,14 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    `${SITE_NAME} chuyên hàng hiệu authentic đã qua kiểm định, cùng đồ thể thao chính hãng giảm giá từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.`,
+    `${SITE_NAME} chuyên hàng hiệu authentic, ảnh chụp từ sản phẩm thật, cùng đồ thể thao chính hãng giảm giá từ Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste.`,
   openGraph: {
     siteName: SITE_NAME,
     type: "website",
     locale: "vi_VN",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
@@ -51,6 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </main>
           <Footer />
+          <ZaloFloatingButton />
         </Providers>
       </body>
     </html>

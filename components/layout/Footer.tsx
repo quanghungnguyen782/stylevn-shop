@@ -1,11 +1,18 @@
 import Link from "next/link";
-import { SITE_NAME } from "@/lib/constants";
+import { SITE_NAME, ZALO_CONTACT_URL } from "@/lib/constants";
 
 const COLUMNS = [
   {
-    title: "Chăm Sóc Khách Hàng",
+    title: `Về ${SITE_NAME}`,
     links: [
+      { href: "/ve-thuong-hieu", label: "Câu chuyện thương hiệu" },
+      { href: "/authenticity", label: "Authenticity" },
       { href: "/lien-he", label: "Liên hệ" },
+    ],
+  },
+  {
+    title: "Hỗ Trợ",
+    links: [
       { href: "/lien-he#van-chuyen", label: "Vận chuyển" },
       { href: "/lien-he#doi-tra", label: "Đổi trả" },
       { href: "/lien-he#faq", label: "Câu hỏi thường gặp" },
@@ -13,15 +20,7 @@ const COLUMNS = [
     ],
   },
   {
-    title: `Về ${SITE_NAME}`,
-    links: [
-      { href: "/ve-thuong-hieu", label: "Câu chuyện thương hiệu" },
-      { href: "/lien-he", label: "Tuyển dụng" },
-      { href: "/ve-thuong-hieu#ben-vung", label: "Phát triển bền vững" },
-    ],
-  },
-  {
-    title: "Pháp Lý",
+    title: "Chính Sách",
     links: [
       { href: "/lien-he#bao-mat", label: "Chính sách bảo mật" },
       { href: "/lien-he#dieu-khoan", label: "Điều khoản sử dụng" },
@@ -38,13 +37,11 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <p className="font-display text-xl">{SITE_NAME}</p>
             <p className="mt-3 max-w-xs text-sm text-muted">
-              Hàng hiệu authentic đã qua kiểm định, cùng đồ thể thao chính hãng giảm giá — Adidas, Nike, Asics,
-              Li-Ning, 361 Degrees, Lacoste.
+              Hàng hiệu authentic, ảnh chụp từ sản phẩm thật, cùng đồ thể thao chính hãng giảm giá — Adidas, Nike,
+              Asics, Li-Ning, 361 Degrees, Lacoste.
             </p>
             <div className="mt-4 flex gap-4 text-sm text-muted">
-              <a href="#" className="hover:text-accent">Facebook</a>
-              <a href="#" className="hover:text-accent">Instagram</a>
-              <a href="#" className="hover:text-accent">TikTok</a>
+              <Link href={ZALO_CONTACT_URL} className="hover:text-accent">Zalo</Link>
             </div>
           </div>
           {COLUMNS.map((col) => (

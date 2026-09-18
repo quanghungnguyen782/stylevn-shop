@@ -5,7 +5,7 @@ import { SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Về Chúng Tôi",
-  description: `Câu chuyện thương hiệu ${SITE_NAME} — hàng hiệu authentic đã qua kiểm định và đồ thể thao chính hãng giảm giá.`,
+  description: `Câu chuyện thương hiệu ${SITE_NAME} — hàng hiệu authentic và đồ thể thao chính hãng giảm giá.`,
 };
 
 export default async function BrandStoryPage() {
@@ -24,9 +24,9 @@ export default async function BrandStoryPage() {
           <p className="text-xs uppercase tracking-[0.3em] text-muted">Câu Chuyện Của Chúng Tôi</p>
           <h1 className="font-display text-3xl leading-tight md:text-4xl">Được tạo ra cho cuộc sống hàng ngày.</h1>
           <p className="max-w-md text-sm leading-relaxed text-muted">
-            {SITE_NAME} ra đời với mong muốn mang những món đồ hiệu authentic đã qua kiểm định đến gần hơn với
-            người yêu hàng hiệu, cùng những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế — Adidas, Nike,
-            Asics, Li-Ning, 361 Degrees, Lacoste — ở mức giá xả kho tốt nhất.
+            {SITE_NAME} ra đời với mong muốn mang những món đồ hiệu authentic, ảnh chụp từ sản phẩm thật, đến gần
+            hơn với người yêu hàng hiệu, cùng những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế —
+            Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste — ở mức giá xả kho tốt nhất.
           </p>
         </div>
       </section>
@@ -42,8 +42,8 @@ export default async function BrandStoryPage() {
       <section id="ben-vung" className="border-t border-line px-4 py-16 text-center md:px-8">
         <h2 className="mb-4 font-display text-2xl">Phát Triển Bền Vững</h2>
         <p className="mx-auto max-w-2xl text-sm leading-relaxed text-muted">
-          Chúng tôi ưu tiên hợp tác với các thương hiệu có cam kết rõ ràng về vật liệu và quy trình sản xuất
-          bền vững, đồng thời khuyến khích khách hàng sử dụng sản phẩm lâu dài thay vì tiêu dùng ngắn hạn.
+          Mua hàng hiệu đã qua sử dụng và đồ thể thao xả kho là một cách kéo dài vòng đời sản phẩm thay vì tiêu
+          dùng ngắn hạn — chúng tôi khuyến khích khách hàng lựa chọn những món đồ bền, dùng được lâu dài.
         </p>
       </section>
     </div>

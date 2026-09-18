@@ -6,6 +6,8 @@ import { BagProductCard } from "@/components/product/BagProductCard";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { formatPrice } from "@/lib/format";
+import { ZALO_CONTACT_URL } from "@/lib/constants";
+import { bagProductJsonLd, breadcrumbJsonLd, SITE_URL } from "@/lib/seo";
 
 export const revalidate = 60;
 export const dynamicParams = true;
@@ -42,9 +44,28 @@ export default async function BagProductDetailPage({
   if (!product) notFound();
 
   const related = await getRelatedBagProducts(product, 4);
+  const url = `${SITE_URL}/hang-hieu/${product.slug}`;
+  const breadcrumbItems = [
+    { name: "Hàng Hiệu", url: `${SITE_URL}/hang-hieu` },
+    ...(product.itemCategoryName
+      ? [{ name: product.itemCategoryName, url: `${SITE_URL}/hang-hieu?category=${product.itemCategory}` }]
+      : []),
+    { name: product.name, url },
+  ];
 
   return (
     <div className="mx-auto max-w-[1440px] px-4 py-8 md:px-8 md:py-12">
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bagProductJsonLd(product, url)) }}
+      />
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(breadcrumbItems)) }}
+      />
+
       <nav className="mb-6 text-xs text-muted">
         <span>Hàng Hiệu</span>
         {product.itemCategoryName && (
@@ -95,13 +116,14 @@ export default async function BagProductDetailPage({
             </dl>
           )}
 
-          <Button href="/lien-he" variant="primary" size="lg" className="w-full sm:w-auto">
-            Liên Hệ Đặt Hàng
+          <Button href={ZALO_CONTACT_URL} variant="primary" size="lg" className="w-full sm:w-auto">
+            💬 Hỏi Qua Zalo
           </Button>
 
           <div className="mt-8 flex flex-col gap-2 text-xs text-muted">
-            <p>Hàng hiệu chính hãng, đã qua kiểm định trước khi đăng bán.</p>
-            <p>Liên hệ hotline hoặc Zalo để được tư vấn và xác nhận tình trạng sản phẩm.</p>
+            <p>✓ Ảnh chụp trực tiếp từ sản phẩm thật, không dùng ảnh mạng.</p>
+            <p>✓ Tình trạng sản phẩm được ghi rõ trong tin đăng.</p>
+            <p>✓ Liên hệ Zalo để được tư vấn và xác nhận thêm trước khi đặt hàng.</p>
           </div>
         </div>
       </div>

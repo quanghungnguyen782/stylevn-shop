@@ -80,3 +80,11 @@ export function IconChevronRight(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+export function IconChat(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base(props)}>
+      <path d="M4 5h16v11H8l-4 4V5z" />
+    </svg>
+  );
+}

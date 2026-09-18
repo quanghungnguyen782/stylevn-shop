@@ -8,6 +8,7 @@ import { formatPrice, discountPercent, isLowStock } from "@/lib/format";
 import { Button } from "@/components/ui/Button";
 import { IconHeart } from "@/components/ui/icons";
 import { Badge } from "@/components/ui/Badge";
+import { FREE_SHIPPING_THRESHOLD, ZALO_CONTACT_URL } from "@/lib/constants";
 import type { Product } from "@/types/product";
 
 export function ProductPurchasePanel({ product }: { product: Product }) {
@@ -102,9 +103,14 @@ export function ProductPurchasePanel({ product }: { product: Product }) {
         </button>
       </div>
 
-      <div className="mt-8 flex flex-col gap-2 text-xs text-muted">
-        <p>Giao hàng nhanh 2-4 ngày, miễn phí cho đơn từ 1.000.000₫.</p>
-        <p>Đổi trả miễn phí trong 7 ngày nếu sản phẩm còn nguyên tem, chưa qua sử dụng.</p>
+      <Button href={ZALO_CONTACT_URL} variant="ghost" size="md" className="mt-4 w-full">
+        💬 Hỏi Qua Zalo
+      </Button>
+
+      <div className="mt-6 flex flex-col gap-2 text-xs text-muted">
+        <p>✓ Giao hàng nhanh 2-4 ngày, miễn phí cho đơn từ {formatPrice(FREE_SHIPPING_THRESHOLD)}.</p>
+        <p>✓ Đổi trả miễn phí trong 7 ngày nếu sản phẩm còn nguyên tem, chưa qua sử dụng.</p>
+        <p>✓ Thông tin sản phẩm minh bạch, hỗ trợ tư vấn qua Zalo.</p>
       </div>
     </div>
   );
