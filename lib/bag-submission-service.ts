@@ -1,6 +1,7 @@
 import { revalidatePath } from "next/cache";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
 import {
+  ITEM_CATEGORIES,
   isHelpCommand,
   isListCommand,
   parseBagPost,
@@ -13,6 +14,7 @@ import {
   parseSinglePrice,
 } from "@/lib/bag-post-parser";
 import type { FieldEdit } from "@/lib/bag-post-parser";
+import { getAiFieldSuggestions } from "@/lib/ai-extract";
 import { sendZaloMessage } from "@/lib/zalo-bot";
 import { removeDiacritics } from "@/lib/text-utils";
 import { formatPrice } from "@/lib/format";
@@ -356,9 +358,81 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
   await finalizeSubmission(created);
 }
 
+/**
+ * Runs the deterministic parser, then — only for whatever it couldn't
+ * determine (category/brand/price still null) — asks the AI to look at the
+ * submission's own photos and fill the gap. This is what makes "loại hàng"
+ * detectable from a photo alone when the caption never states it in words.
+ * Never overrides a field the deterministic parser already resolved.
+ */
+async function resolveParsedFields(rawText: string, submissionId: string) {
+  const parsed = parseBagPost(rawText);
+
+  const needsHelp = !parsed.category || !parsed.brand || parsed.price == null;
+  if (!needsHelp) return parsed;
+
+  const supabase = getSupabaseAdmin();
+  const { data: photos } = await supabase
+    .from("bag_submission_photos")
+    .select("photo_url")
+    .eq("submission_id", submissionId)
+    .order("position");
+
+  const photoUrls = (photos ?? []).map((p) => p.photo_url);
+  if (photoUrls.length === 0) return parsed;
+
+  const ai = await getAiFieldSuggestions(photoUrls, rawText);
+  if (!ai) return parsed;
+
+  const result = { ...parsed };
+  const aiFilled: string[] = [];
+  const supersededWarnings = new Set<string>();
+
+  if (!result.category && ai.category) {
+    const category = ITEM_CATEGORIES.find((c) => c.slug === ai.category);
+    if (category) {
+      result.category = category.slug;
+      result.categoryName = category.name;
+      result.categoryRaw = category.name;
+      aiFilled.push("Loại hàng");
+      supersededWarnings.add("Không nhận diện được loại hàng");
+    }
+  }
+  if (!result.brand && ai.brand) {
+    const r = parseSingleBrand(ai.brand);
+    result.brand = r.slug;
+    result.brandName = r.name;
+    result.brandRaw = r.raw;
+    aiFilled.push("Thương hiệu");
+    supersededWarnings.add("Không nhận diện được thương hiệu");
+  }
+  if (result.price == null && ai.price) {
+    result.price = ai.price;
+    result.priceRaw = String(ai.price);
+    aiFilled.push("Giá");
+    supersededWarnings.add("Không tìm thấy giá");
+  }
+  if (!result.name && ai.name) {
+    result.name = ai.name;
+    aiFilled.push("Tên");
+    supersededWarnings.add("Không xác định được tên sản phẩm");
+  }
+  if (!result.size && ai.size) result.size = ai.size;
+  if (!result.accessories && ai.accessories) result.accessories = ai.accessories;
+
+  if (aiFilled.length > 0) {
+    result.warnings = [
+      ...result.warnings.filter((w) => !supersededWarnings.has(w)),
+      `🤖 AI tự nhận diện từ ảnh: ${aiFilled.join(", ")} — vui lòng kiểm tra lại trước khi xác nhận.`,
+    ];
+  }
+
+  return result;
+}
+
 async function finalizeSubmission(submission: BagSubmissionRow): Promise<void> {
   const supabase = getSupabaseAdmin();
-  const parsed = parseBagPost(submission.raw_text ?? "");
+  const parsed = await resolveParsedFields(submission.raw_text ?? "", submission.id);
 
   const { data: existingAwaiting } = await supabase
     .from("bag_submissions")
@@ -419,7 +493,7 @@ async function applyCorrection(submission: BagSubmissionRow, text: string): Prom
     return;
   }
 
-  const parsed = parseBagPost(text);
+  const parsed = await resolveParsedFields(text, submission.id);
 
   const { data: updated } = await supabase
     .from("bag_submissions")
