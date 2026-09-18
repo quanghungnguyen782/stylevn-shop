@@ -8,7 +8,7 @@ async function logAiError(context: string, detail: unknown): Promise<void> {
     const supabase = getSupabaseAdmin();
     await supabase.from("webhook_errors").insert({
       event_name: `ai-extract:${context}`,
-      error_message: detail instanceof Error ? detail.message : String(detail),
+      error_message: detail instanceof Error ? detail.message : JSON.stringify(detail),
       error_stack: detail instanceof Error ? (detail.stack ?? null) : null,
       payload: typeof detail === "object" ? (detail as Record<string, unknown>) : { detail: String(detail) },
     });
@@ -38,13 +38,19 @@ interface FewShotExample {
 
 const GEMINI_MODEL = "gemini-3.6-flash";
 const MAX_IMAGES = 4;
-const MAX_RETRIES = 3;
+const MAX_RETRIES = 2;
+const RETRY_BACKOFF_MS = 1000;
+// A seller waiting on the Zalo confirmation reply feels every extra second —
+// if the AI hasn't answered by this point (slow model, sustained "high
+// demand" 503s...), give up and let the caller fall back to the plain
+// text-only parse rather than making them wait any longer.
+const AI_TIMEOUT_MS = 8000;
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-/** The free tier occasionally returns 503 "high demand" — worth one or two quick retries before giving up. */
+/** The free tier occasionally returns 503 "high demand" — worth one quick retry before giving up. */
 async function callGeminiWithRetry(url: string, body: unknown): Promise<Response | null> {
   for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
     const res = await fetch(url, {
@@ -59,7 +65,7 @@ async function callGeminiWithRetry(url: string, body: unknown): Promise<Response
       await logAiError("http-error", { status: res.status, body: bodyText });
       return null;
     }
-    await sleep(1500 * (attempt + 1));
+    await sleep(RETRY_BACKOFF_MS);
   }
   return null;
 }
@@ -117,6 +123,26 @@ export async function getAiFieldSuggestions(
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) return null;
 
+  let timeoutId: ReturnType<typeof setTimeout>;
+  const timeout = new Promise<null>((resolve) => {
+    timeoutId = setTimeout(() => {
+      void logAiError("timeout", { message: `Exceeded ${AI_TIMEOUT_MS}ms, proceeding without AI` });
+      resolve(null);
+    }, AI_TIMEOUT_MS);
+  });
+
+  try {
+    return await Promise.race([runAiExtraction(apiKey, photoUrls, captionText), timeout]);
+  } finally {
+    clearTimeout(timeoutId!);
+  }
+}
+
+async function runAiExtraction(
+  apiKey: string,
+  photoUrls: string[],
+  captionText: string
+): Promise<AiExtractedFields | null> {
   try {
     const [images, examples] = await Promise.all([
       Promise.all(photoUrls.slice(0, MAX_IMAGES).map(fetchImageAsBase64)),
