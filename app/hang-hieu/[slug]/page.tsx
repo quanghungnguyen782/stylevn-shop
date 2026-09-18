@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { getAllBagProducts, getBagProductBySlug, getRelatedBagProducts } from "@/lib/bag-product-service";
 import { ProductGallery } from "@/components/product/ProductGallery";
 import { BagProductCard } from "@/components/product/BagProductCard";
+import { RecordView } from "@/components/product/RecordView";
+import { RecentlyViewedSection } from "@/components/product/RecentlyViewedSection";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { formatPrice } from "@/lib/format";
@@ -65,6 +67,7 @@ export default async function BagProductDetailPage({
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(breadcrumbItems)) }}
       />
+      <RecordView type="hang-hieu" slug={product.slug} />
 
       <nav className="mb-6 text-xs text-muted">
         <span>Hàng Hiệu</span>
@@ -138,6 +141,8 @@ export default async function BagProductDetailPage({
           </div>
         </section>
       )}
+
+      <RecentlyViewedSection excludeSlug={product.slug} />
     </div>
   );
 }

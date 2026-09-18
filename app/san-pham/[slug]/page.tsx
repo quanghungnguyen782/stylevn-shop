@@ -10,6 +10,8 @@ import { breadcrumbJsonLd, productJsonLd, SITE_URL } from "@/lib/seo";
 import { ProductGallery } from "@/components/product/ProductGallery";
 import { ProductPurchasePanel } from "@/components/product/ProductPurchasePanel";
 import { ProductGrid } from "@/components/product/ProductGrid";
+import { RecordView } from "@/components/product/RecordView";
+import { RecentlyViewedSection } from "@/components/product/RecentlyViewedSection";
 import { Accordion } from "@/components/ui/Accordion";
 
 export async function generateStaticParams() {
@@ -70,6 +72,7 @@ export default async function ProductDetailPage({
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(breadcrumbItems)) }}
       />
+      <RecordView type="san-pham" slug={product.slug} />
 
       <nav className="mb-6 text-xs text-muted">
         <span>{getCategoryName(product.category)}</span>
@@ -111,6 +114,8 @@ export default async function ProductDetailPage({
           <ProductGrid products={related} />
         </section>
       )}
+
+      <RecentlyViewedSection excludeSlug={product.slug} />
     </div>
   );
 }
