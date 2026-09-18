@@ -156,6 +156,31 @@ function parseBrand(normalizedText: string): { slug: string | null; name: string
   return { slug: matches[0].slug, name: matches[0].name, raw: matches[0].name, warning: null };
 }
 
+function slugifyBrand(str: string): string {
+  return removeDiacritics(str)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/**
+ * BAG_BRANDS is a curated list of the brands seen often enough to warrant a
+ * canonical name/slug (so "LV" resolves to "Louis Vuitton", not literally
+ * "LV") — it was never meant to be an exhaustive whitelist of every luxury
+ * brand that exists. An explicit "Hãng: <name>" label isn't ambiguous the
+ * way scanning free text for a keyword is, so unlike parseBrand() above,
+ * this never rejects a brand just because it isn't one of our ~13 keywords.
+ */
+function resolveBrandFromLabel(value: string): { slug: string; name: string; raw: string; warning: null } {
+  const normalized = removeDiacritics(value);
+  for (const brand of BAG_BRANDS) {
+    const hit = brand.keywords.some((kw) => keywordPattern(kw).test(normalized));
+    if (hit) return { slug: brand.slug, name: brand.name, raw: brand.name, warning: null };
+  }
+  const raw = value.trim();
+  return { slug: slugifyBrand(raw), name: raw, raw, warning: null };
+}
+
 function parseCategory(
   loweredText: string
 ): { slug: string | null; name: string | null; raw: string | null; warning: string | null } {
@@ -287,7 +312,7 @@ export function parseEditCommands(rawText: string): FieldEdit[] {
 }
 
 export function parseSingleBrand(value: string) {
-  return parseBrand(removeDiacritics(value));
+  return resolveBrandFromLabel(value);
 }
 
 export function parseSingleCategory(value: string) {
@@ -387,7 +412,7 @@ export function parseBagPost(rawText: string): ParsedBagPost {
   if (!name) warnings.push("Không xác định được tên sản phẩm");
 
   const labeledBrand = findLabeledValue(lines, FIELD_LABELS.brand);
-  const brandResult = parseBrand(labeledBrand ? removeDiacritics(labeledBrand) : normalized);
+  const brandResult = labeledBrand ? resolveBrandFromLabel(labeledBrand) : parseBrand(normalized);
   if (brandResult.warning) warnings.push(brandResult.warning);
 
   const labeledCategory = findLabeledValue(lines, FIELD_LABELS.category);
