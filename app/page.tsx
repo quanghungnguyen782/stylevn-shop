@@ -25,6 +25,24 @@ function pickModelImage(products: { images: string[] }[], fallback: string, excl
   return fallback;
 }
 
+// Hand-picked lifestyle/model shots for the homepage hero carousel — the
+// catalog only tags ~60 images as "model" shots (all Adidas), and most are
+// near-duplicates or have rendering artifacts, so this is curated rather
+// than the first N in catalog order.
+const HERO_SLUGS = [
+  "ao-polo-poly-jm1203",
+  "ao-gio-co-mu-jm5742",
+  "bo-quan-ao-the-thao-jx5529",
+  "ao-t-shirt-poly-ji8129",
+  "quan-short-chun-cotton-tong-hop-jf3348",
+];
+
+function pickHeroImages(products: { slug: string; images: string[] }[], fallback: string): string[] {
+  const bySlug = new Map(products.map((p) => [p.slug, p]));
+  const images = HERO_SLUGS.map((slug) => bySlug.get(slug)?.images[0]).filter((src): src is string => Boolean(src));
+  return images.length > 0 ? images : [fallback];
+}
+
 export default async function HomePage() {
   const allProducts = await getAllProducts();
   const flashSale = await getFlashSaleProducts(8);
@@ -43,16 +61,16 @@ export default async function HomePage() {
     })
   );
 
-  const heroImage = pickModelImage(allProducts, allProducts[0]?.images[0] ?? "/images/placeholder-product.jpg");
+  const heroImages = pickHeroImages(allProducts, allProducts[0]?.images[0] ?? "/images/placeholder-product.jpg");
   const storyImage = pickModelImage(
     allProducts.slice().reverse(),
     allProducts[allProducts.length - 1]?.images[0] ?? "/images/placeholder-product.jpg",
-    heroImage
+    heroImages[0]
   );
 
   return (
     <>
-      <Hero imageUrl={heroImage} />
+      <Hero images={heroImages} />
       <LuxuryShowcase products={bagProducts} />
       <FeaturedCategories tiles={categoryTiles} />
 
