@@ -257,6 +257,14 @@ const EDIT_LABELS: Record<string, FieldEdit["field"]> = Object.fromEntries(
   )
 );
 
+const SORTED_EDIT_LABELS = Object.keys(EDIT_LABELS).sort((a, b) => b.length - a.length);
+
+/**
+ * Matches both "Sửa tên: LV" (labeled-line style, like FIELD_LABELS above)
+ * and "sua ten LV" (no colon) — sellers type these commands quickly and
+ * often skip the colon, and silently mis-parsing it as a brand-new post
+ * (the fallback when nothing matches) is much worse than being lenient here.
+ */
 export function parseEditCommands(rawText: string): FieldEdit[] {
   const lines = rawText
     .trim()
@@ -266,13 +274,14 @@ export function parseEditCommands(rawText: string): FieldEdit[] {
 
   const edits: FieldEdit[] = [];
   for (const line of lines) {
-    const colonIndex = line.indexOf(":");
-    if (colonIndex === -1) continue;
-    const label = removeDiacritics(line.slice(0, colonIndex)).trim();
-    const field = EDIT_LABELS[label];
-    if (!field) continue;
-    const value = line.slice(colonIndex + 1).trim();
-    if (value) edits.push({ field, raw: value });
+    const stripped = removeDiacritics(line).toLowerCase();
+    for (const label of SORTED_EDIT_LABELS) {
+      const match = stripped.match(new RegExp(`^${escapeRegex(label)}(?:\\s*:\\s*|\\s+)(.+)$`, "i"));
+      if (!match) continue;
+      const value = line.slice(line.length - match[1].length).trim();
+      if (value) edits.push({ field: EDIT_LABELS[label], raw: value });
+      break;
+    }
   }
   return edits;
 }
@@ -338,6 +347,13 @@ const LIST_PATTERN = /^(danh sach|ds|list)[.!\s]*$/i;
 /** "Danh sách" / "Ds" — looks up every currently-published listing's Mã, so a seller can find the ID of a product without scrolling back through chat history. */
 export function isListCommand(rawText: string): boolean {
   return LIST_PATTERN.test(removeDiacritics(rawText.trim()));
+}
+
+const HELP_PATTERN = /^(\/help|help|tro giup|huong dan|\?)[.!\s]*$/i;
+
+/** "/help" / "Trợ giúp" / "?" — a seller asked for this in testing, so it exists now. */
+export function isHelpCommand(rawText: string): boolean {
+  return HELP_PATTERN.test(removeDiacritics(rawText.trim()));
 }
 
 export function parseBagPost(rawText: string): ParsedBagPost {

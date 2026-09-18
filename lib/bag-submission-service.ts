@@ -1,6 +1,7 @@
 import { revalidatePath } from "next/cache";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
 import {
+  isHelpCommand,
   isListCommand,
   parseBagPost,
   parseDeleteCommand,
@@ -220,6 +221,11 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
   const chatId = message.chat.id;
   const text = message.text;
 
+  if (isHelpCommand(text)) {
+    await sendHelpMessage(chatId);
+    return;
+  }
+
   const { data: awaiting } = await supabase
     .from("bag_submissions")
     .select("*")
@@ -341,6 +347,28 @@ async function finalizeSubmission(submission: BagSubmissionRow): Promise<void> {
 
 async function applyCorrection(submission: BagSubmissionRow, text: string): Promise<void> {
   const supabase = getSupabaseAdmin();
+
+  // A "Sửa tên: ..." style correction targets just that one field — applying
+  // it as a full parseBagPost() re-parse (the fallback below) would discard
+  // every other already-confirmed field, since parseBagPost only ever sees
+  // the new text in isolation.
+  const edits = parseEditCommands(text);
+  if (edits.length > 0) {
+    const { patch, warnings } = buildFieldPatch(edits);
+    patch.parse_warnings = warnings;
+    patch.updated_at = new Date().toISOString();
+
+    const { data: updated } = await supabase
+      .from("bag_submissions")
+      .update(patch)
+      .eq("id", submission.id)
+      .select()
+      .single();
+
+    if (updated) await sendConfirmationMessage(updated);
+    return;
+  }
+
   const parsed = parseBagPost(text);
 
   const { data: updated } = await supabase
@@ -513,6 +541,24 @@ async function promoteQueuedIfAny(chatId: string): Promise<void> {
 // Post-publish corrections ("Sửa giá: ...", "Đổi tên: ...", "Xoá #3")
 // ============================================================
 
+/** "/help" — usable at any point in the flow, including mid-correction. */
+async function sendHelpMessage(chatId: string): Promise<void> {
+  const lines = [
+    "📖 Hướng dẫn nhanh:",
+    "",
+    "Đăng bài mới: gửi ảnh sản phẩm, sau đó gửi mô tả (Tên/Loại/Hãng/Tình trạng/Giá — mỗi dòng có nhãn). Trả lời \"OK\" để đăng lên web.",
+    "",
+    "Sửa 1 trường (trước hoặc sau khi đăng): \"Sửa tên: ...\", \"Sửa giá: ...\", \"Sửa tình trạng: ...\" — có hay không dấu \":\" đều được.",
+    "",
+    "Sửa sản phẩm cũ: thêm dòng \"Mã: <số>\" trước dòng Sửa.",
+    "",
+    "\"Danh sách\" — xem mã + tên + giá mọi sản phẩm đang đăng.",
+    "\"Xoá\" hoặc \"Xoá <mã>\" — gỡ sản phẩm khỏi web.",
+    "\"Huỷ\" — bỏ nhóm ảnh chưa có mô tả.",
+  ];
+  await sendZaloMessage(chatId, lines.join("\n"));
+}
+
 /**
  * "Danh sách" — every published listing's Mã/name/price for this chat, so a
  * seller can look up an ID without scrolling back through chat history.
@@ -606,26 +652,17 @@ async function handleDeleteCommand(chatId: string, targetId: number | null): Pro
 }
 
 /**
- * Applies field-level corrections to a published listing — lets a seller
- * fix a typo or reprice an item after it's already live, without redoing
- * the whole post. Targets a specific "Mã"/display_id if given, otherwise
- * the most recently published listing in this chat.
+ * Turns "Sửa <field>: <value>" commands into a DB patch + human-readable
+ * change summary — shared by post-publish edits (applyEditCommands) and
+ * pre-publish corrections (applyCorrection), so both understand the same
+ * syntax instead of pre-publish corrections only supporting "retype the
+ * whole caption".
  */
-async function applyEditCommands(chatId: string, edits: FieldEdit[], targetId: number | null): Promise<void> {
-  const supabase = getSupabaseAdmin();
-
-  const target = await findPublishedTarget(chatId, targetId);
-
-  if (!target) {
-    await sendZaloMessage(
-      chatId,
-      targetId != null
-        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web. Nhắn "Danh sách" để xem các mã hiện có.`
-        : "Bạn chưa có sản phẩm nào đang hiển thị trên web để sửa."
-    );
-    return;
-  }
-
+function buildFieldPatch(edits: FieldEdit[]): {
+  patch: Record<string, unknown>;
+  changeLines: string[];
+  warnings: string[];
+} {
   const patch: Record<string, unknown> = {};
   const changeLines: string[] = [];
   const warnings: string[] = [];
@@ -685,6 +722,26 @@ async function applyEditCommands(chatId: string, edits: FieldEdit[], targetId: n
         break;
     }
   }
+
+  return { patch, changeLines, warnings };
+}
+
+async function applyEditCommands(chatId: string, edits: FieldEdit[], targetId: number | null): Promise<void> {
+  const supabase = getSupabaseAdmin();
+
+  const target = await findPublishedTarget(chatId, targetId);
+
+  if (!target) {
+    await sendZaloMessage(
+      chatId,
+      targetId != null
+        ? `Không tìm thấy sản phẩm có mã #${targetId} đang hiển thị trên web. Nhắn "Danh sách" để xem các mã hiện có.`
+        : "Bạn chưa có sản phẩm nào đang hiển thị trên web để sửa."
+    );
+    return;
+  }
+
+  const { patch, changeLines, warnings } = buildFieldPatch(edits);
 
   if (Object.keys(patch).length > 0) {
     patch.updated_at = new Date().toISOString();
