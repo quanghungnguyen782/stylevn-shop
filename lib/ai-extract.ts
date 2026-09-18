@@ -1,5 +1,5 @@
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
-import { ITEM_CATEGORIES } from "@/lib/bag-post-parser";
+import { ITEM_CATEGORIES, UNASSIGNED_CATEGORY_SLUG } from "@/lib/bag-post-parser";
 
 // Render's free-tier logs API only surfaces build/deploy logs, not runtime
 // console output — this is the only way to actually see what went wrong.
@@ -124,7 +124,9 @@ export async function getAiFieldSuggestions(
     ]);
     const validImages = images.filter((img): img is { mimeType: string; data: string } => img !== null);
 
-    const categorySlugs = ITEM_CATEGORIES.map((c) => c.slug);
+    // "Chưa xác định" is a fallback assigned only when even the AI can't tell
+    // — never a real guess, so it's not offered to the model as an option.
+    const categorySlugs = ITEM_CATEGORIES.map((c) => c.slug).filter((s) => s !== UNASSIGNED_CATEGORY_SLUG);
     const exampleText = examples
       .map(
         (e) =>

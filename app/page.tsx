@@ -6,6 +6,7 @@ import {
   getProductsByCategory,
 } from "@/lib/product-service";
 import { getAllBagProducts, getDistinctBagBrands, getDistinctBagCategories } from "@/lib/bag-product-service";
+import { UNASSIGNED_CATEGORY_SLUG } from "@/lib/bag-post-parser";
 import { BRANDS, CATEGORIES } from "@/lib/constants";
 import { discountPercent } from "@/lib/format";
 import { Hero } from "@/components/marketing/Hero";
@@ -103,12 +104,17 @@ export default async function HomePage() {
     { slug: "accessories", name: "Accessories", href: "/danh-muc/phu-kien", imageUrl: categoryProducts["phu-kien"][0]?.images[0] ?? PLACEHOLDER },
   ];
 
-  const discoveryTiles: CategoryTile[] = bagCategories.map((c) => ({
-    slug: c.slug,
-    name: c.name,
-    href: `/hang-hieu?category=${c.slug}`,
-    imageUrl: c.coverImage,
-  }));
+  // "Chưa xác định" is a real filter on the /hang-hieu listing page so
+  // unclassified items stay findable, but it isn't a real shopping category —
+  // never surface it as a marketing tile on the homepage.
+  const discoveryTiles: CategoryTile[] = bagCategories
+    .filter((c) => c.slug !== UNASSIGNED_CATEGORY_SLUG)
+    .map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      href: `/hang-hieu?category=${c.slug}`,
+      imageUrl: c.coverImage,
+    }));
 
   const brandLinks = [
     ...luxuryBrands.map((b) => ({ slug: b.slug, name: b.name, href: `/hang-hieu?brand=${b.slug}` })),

@@ -1,6 +1,9 @@
 import { getSupabasePublic } from "@/lib/supabase-public";
+import { UNASSIGNED_CATEGORY_SLUG } from "@/lib/bag-post-parser";
 import type { BagProduct } from "@/types/bag-product";
 import type { BagSubmissionRow, BagSubmissionPhotoRow } from "@/types/bag-submission";
+
+const UNASSIGNED_CATEGORY_NAME = "Chưa xác định";
 
 /**
  * Every export here is `async` and reads through Supabase directly (no
@@ -28,8 +31,11 @@ function toBagProduct(row: SubmissionWithPhotos): BagProduct {
     name: row.name ?? "Sản phẩm hàng hiệu",
     brand: row.brand,
     brandName: row.brand_raw,
-    itemCategory: row.item_category,
-    itemCategoryName: row.item_category_raw,
+    // A published listing whose photo/text never let us determine a real
+    // category still needs to be findable on-site, not silently orphaned
+    // out of every category filter — group it under "Chưa xác định" instead.
+    itemCategory: row.item_category ?? UNASSIGNED_CATEGORY_SLUG,
+    itemCategoryName: row.item_category_raw ?? UNASSIGNED_CATEGORY_NAME,
     condition: row.condition,
     price: row.price,
     size: row.size,

@@ -37,6 +37,9 @@ export interface ItemCategory {
  * do type Vietnamese with proper diacritics for ordinary words like these
  * (unlike foreign brand names, which are often typed without accents).
  */
+/** Assigned as a display fallback (lib/bag-product-service.ts) when a published listing's category couldn't be determined by text or by photo — never a real match target. */
+export const UNASSIGNED_CATEGORY_SLUG = "chua-xac-dinh" as const;
+
 export const ITEM_CATEGORIES: ItemCategory[] = [
   { slug: "tui-xach", name: "Túi xách", keywords: ["túi xách", "túi"] },
   { slug: "vi", name: "Ví", keywords: ["ví da", "ví"] },
@@ -53,6 +56,10 @@ export const ITEM_CATEGORIES: ItemCategory[] = [
   },
   { slug: "dong-ho", name: "Đồng hồ", keywords: ["đồng hồ", "watch"] },
   { slug: "mu-non", name: "Mũ nón", keywords: ["mũ", "nón", "cap"] },
+  // Empty keywords: never matched by parseCategory()/AI — only ever assigned
+  // as the display fallback (lib/bag-product-service.ts) when a published
+  // listing's category truly couldn't be determined by text or by photo.
+  { slug: UNASSIGNED_CATEGORY_SLUG, name: "Chưa xác định", keywords: [] },
 ];
 
 export interface ParsedBagPost {
