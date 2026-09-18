@@ -1,6 +1,22 @@
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
 import { ITEM_CATEGORIES } from "@/lib/bag-post-parser";
 
+// Render's free-tier logs API only surfaces build/deploy logs, not runtime
+// console output — this is the only way to actually see what went wrong.
+async function logAiError(context: string, detail: unknown): Promise<void> {
+  try {
+    const supabase = getSupabaseAdmin();
+    await supabase.from("webhook_errors").insert({
+      event_name: `ai-extract:${context}`,
+      error_message: detail instanceof Error ? detail.message : String(detail),
+      error_stack: detail instanceof Error ? (detail.stack ?? null) : null,
+      payload: typeof detail === "object" ? (detail as Record<string, unknown>) : { detail: String(detail) },
+    });
+  } catch {
+    // best-effort — never let logging itself break the caller
+  }
+}
+
 export interface AiExtractedFields {
   name: string | null;
   category: string | null;
@@ -38,7 +54,9 @@ async function callGeminiWithRetry(url: string, body: unknown): Promise<Response
     });
     if (res.ok) return res;
     if (res.status !== 503 || attempt === MAX_RETRIES - 1) {
-      console.error("Gemini API error", res.status, await res.text());
+      const bodyText = await res.text();
+      console.error("Gemini API error", res.status, bodyText);
+      await logAiError("http-error", { status: res.status, body: bodyText });
       return null;
     }
     await sleep(1500 * (attempt + 1));
@@ -162,7 +180,10 @@ Hãy nhìn kỹ ảnh đính kèm (nếu có) để xác định loại hàng v�
 
     const json = await res.json();
     const text = json?.candidates?.[0]?.content?.parts?.[0]?.text;
-    if (!text) return null;
+    if (!text) {
+      await logAiError("no-text-in-response", { response: json });
+      return null;
+    }
 
     const parsed = JSON.parse(text);
     return {
@@ -177,6 +198,7 @@ Hãy nhìn kỹ ảnh đính kèm (nếu có) để xác định loại hàng v�
     };
   } catch (err) {
     console.error("AI field extraction failed", err);
+    await logAiError("exception", err);
     return null;
   }
 }
