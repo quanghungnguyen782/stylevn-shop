@@ -42,6 +42,17 @@ const CONFIRMATION_EXPIRY_MS = 48 * 60 * 60 * 1000;
 const OK_PATTERN = /^(ok|oke|okay)[.!\s]*$/i;
 const CANCEL_PATTERN = /^(huy|bo qua|cancel)[.!\s]*$/i;
 
+interface PendingBagEdit {
+  id: string;
+  chat_id: string;
+  submission_id: string;
+  action: "edit" | "delete";
+  patch: Record<string, unknown>;
+  change_lines: string[];
+  warnings: string[];
+  created_at: string;
+}
+
 function slugify(str: string): string {
   return removeDiacritics(str)
     .toLowerCase()
@@ -226,6 +237,45 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     return;
   }
 
+  const { data: pendingEdit } = await supabase
+    .from("pending_bag_edits")
+    .select("*")
+    .eq("chat_id", chatId)
+    .maybeSingle();
+
+  if (pendingEdit) {
+    if (OK_PATTERN.test(text.trim())) {
+      await commitPendingEdit(pendingEdit);
+      return;
+    }
+    if (CANCEL_PATTERN.test(removeDiacritics(text.trim()))) {
+      await supabase.from("pending_bag_edits").delete().eq("id", pendingEdit.id);
+      await sendZaloMessage(chatId, "Đã huỷ, chưa có gì thay đổi.");
+      return;
+    }
+    // Let a fresh command replace the pending one instead of forcing OK/Huỷ first.
+    if (isListCommand(text)) {
+      await supabase.from("pending_bag_edits").delete().eq("id", pendingEdit.id);
+      await handleListCommand(chatId);
+      return;
+    }
+    const freshDelete = parseDeleteCommand(text);
+    if (freshDelete) {
+      await prepareDeleteConfirmation(chatId, freshDelete.id);
+      return;
+    }
+    const freshEdits = parseEditCommands(text);
+    if (freshEdits.length > 0) {
+      await prepareEditConfirmation(chatId, freshEdits, parseEditTargetId(text));
+      return;
+    }
+    await sendZaloMessage(
+      chatId,
+      `Bạn đang có 1 thay đổi chưa xác nhận. Trả lời "OK" để áp dụng, hoặc "Huỷ" để bỏ qua.`
+    );
+    return;
+  }
+
   const { data: awaiting } = await supabase
     .from("bag_submissions")
     .select("*")
@@ -292,13 +342,13 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
 
   const deleteCommand = parseDeleteCommand(text);
   if (deleteCommand) {
-    await handleDeleteCommand(chatId, deleteCommand.id);
+    await prepareDeleteConfirmation(chatId, deleteCommand.id);
     return;
   }
 
   const edits = parseEditCommands(text);
   if (edits.length > 0) {
-    await applyEditCommands(chatId, edits, parseEditTargetId(text));
+    await prepareEditConfirmation(chatId, edits, parseEditTargetId(text));
     return;
   }
 
@@ -552,9 +602,11 @@ async function sendHelpMessage(chatId: string): Promise<void> {
     "",
     "Sửa sản phẩm cũ: thêm dòng \"Mã: <số>\" trước dòng Sửa.",
     "",
+    "Sửa/Xoá sau khi đã đăng lên web sẽ hỏi lại để xác nhận — trả lời \"OK\" mới thật sự áp dụng, \"Huỷ\" để bỏ qua.",
+    "",
     "\"Danh sách\" — xem mã + tên + giá mọi sản phẩm đang đăng.",
     "\"Xoá\" hoặc \"Xoá <mã>\" — gỡ sản phẩm khỏi web.",
-    "\"Huỷ\" — bỏ nhóm ảnh chưa có mô tả.",
+    "\"Huỷ\" — bỏ nhóm ảnh chưa có mô tả, hoặc bỏ 1 thay đổi đang chờ xác nhận.",
   ];
   await sendZaloMessage(chatId, lines.join("\n"));
 }
@@ -617,7 +669,7 @@ async function findPublishedTarget(chatId: string, targetId: number | null): Pro
   return data ?? null;
 }
 
-async function handleDeleteCommand(chatId: string, targetId: number | null): Promise<void> {
+async function prepareDeleteConfirmation(chatId: string, targetId: number | null): Promise<void> {
   const supabase = getSupabaseAdmin();
   const target = await findPublishedTarget(chatId, targetId);
 
@@ -631,23 +683,19 @@ async function handleDeleteCommand(chatId: string, targetId: number | null): Pro
     return;
   }
 
-  await supabase
-    .from("bag_submissions")
-    .update({ status: "unpublished", updated_at: new Date().toISOString() })
-    .eq("id", target.id);
-
-  if (target.slug) {
-    try {
-      revalidatePath("/hang-hieu");
-      revalidatePath(`/hang-hieu/${target.slug}`);
-    } catch (err) {
-      console.error("revalidatePath failed after delete command", err);
-    }
-  }
+  await supabase.from("pending_bag_edits").delete().eq("chat_id", chatId);
+  await supabase.from("pending_bag_edits").insert({
+    chat_id: chatId,
+    submission_id: target.id,
+    action: "delete",
+    patch: {},
+    change_lines: [],
+    warnings: [],
+  });
 
   await sendZaloMessage(
     chatId,
-    `🗑️ Đã gỡ sản phẩm #${target.display_id} ("${target.name ?? "-"}") khỏi website.`
+    `🗑️ Xác nhận GỠ tin đăng #${target.display_id} — ${target.name ?? "-"} khỏi website?\n\nTrả lời "OK" để xác nhận, hoặc "Huỷ" để bỏ qua.`
   );
 }
 
@@ -726,7 +774,7 @@ function buildFieldPatch(edits: FieldEdit[]): {
   return { patch, changeLines, warnings };
 }
 
-async function applyEditCommands(chatId: string, edits: FieldEdit[], targetId: number | null): Promise<void> {
+async function prepareEditConfirmation(chatId: string, edits: FieldEdit[], targetId: number | null): Promise<void> {
   const supabase = getSupabaseAdmin();
 
   const target = await findPublishedTarget(chatId, targetId);
@@ -743,25 +791,88 @@ async function applyEditCommands(chatId: string, edits: FieldEdit[], targetId: n
 
   const { patch, changeLines, warnings } = buildFieldPatch(edits);
 
-  if (Object.keys(patch).length > 0) {
-    patch.updated_at = new Date().toISOString();
-    await supabase.from("bag_submissions").update(patch).eq("id", target.id);
+  if (Object.keys(patch).length === 0) {
+    const lines = [`Không có trường nào hợp lệ để cập nhật cho tin đăng #${target.display_id} — ${target.name ?? "-"}.`];
+    if (warnings.length > 0) lines.push("", `⚠️ ${warnings.join("; ")}`);
+    await sendZaloMessage(chatId, lines.join("\n"));
+    return;
+  }
+
+  await supabase.from("pending_bag_edits").delete().eq("chat_id", chatId);
+  await supabase.from("pending_bag_edits").insert({
+    chat_id: chatId,
+    submission_id: target.id,
+    action: "edit",
+    patch,
+    change_lines: changeLines,
+    warnings,
+  });
+
+  const lines = [`✏️ Xác nhận cập nhật tin đăng #${target.display_id} — ${target.name ?? "-"}:`, ""];
+  lines.push(...changeLines.map((l) => `• ${l}`));
+  if (warnings.length > 0) lines.push("", `⚠️ ${warnings.join("; ")}`);
+  lines.push("", `Trả lời "OK" để áp dụng, hoặc "Huỷ" để bỏ qua.`);
+
+  await sendZaloMessage(chatId, lines.join("\n"));
+}
+
+async function commitPendingEdit(pending: PendingBagEdit): Promise<void> {
+  const supabase = getSupabaseAdmin();
+
+  const { data: target } = await supabase
+    .from("bag_submissions")
+    .select("*")
+    .eq("id", pending.submission_id)
+    .maybeSingle();
+
+  await supabase.from("pending_bag_edits").delete().eq("id", pending.id);
+
+  if (!target) {
+    await sendZaloMessage(pending.chat_id, "Sản phẩm này không còn tồn tại, không thể áp dụng thay đổi.");
+    return;
+  }
+
+  if (pending.action === "delete") {
+    await supabase
+      .from("bag_submissions")
+      .update({ status: "unpublished", updated_at: new Date().toISOString() })
+      .eq("id", target.id);
 
     if (target.slug) {
       try {
         revalidatePath("/hang-hieu");
         revalidatePath(`/hang-hieu/${target.slug}`);
       } catch (err) {
-        console.error("revalidatePath failed after edit command", err);
+        console.error("revalidatePath failed after delete command", err);
       }
+    }
+
+    await sendZaloMessage(pending.chat_id, `🗑️ Đã gỡ sản phẩm #${target.display_id} ("${target.name ?? "-"}") khỏi website.`);
+    return;
+  }
+
+  const patch = { ...pending.patch, updated_at: new Date().toISOString() };
+  const { data: updated } = await supabase
+    .from("bag_submissions")
+    .update(patch)
+    .eq("id", target.id)
+    .select()
+    .single();
+
+  if (target.slug) {
+    try {
+      revalidatePath("/hang-hieu");
+      revalidatePath(`/hang-hieu/${target.slug}`);
+    } catch (err) {
+      console.error("revalidatePath failed after edit command", err);
     }
   }
 
-  const lines = [`✏️ Đã cập nhật tin đăng #${target.display_id}:`, ""];
+  const finalName = updated?.name ?? target.name;
+  const lines = [`✅ Đã cập nhật tin đăng #${target.display_id} — ${finalName ?? "-"}:`, ""];
   if (target.slug) lines.push(`${SITE_URL}/hang-hieu/${target.slug}`, "");
-  lines.push(...changeLines.map((l) => `• ${l}`));
-  if (changeLines.length === 0) lines.push("(Không có trường nào được cập nhật)");
-  if (warnings.length > 0) lines.push("", `⚠️ ${warnings.join("; ")}`);
+  lines.push(...pending.change_lines.map((l) => `• ${l}`));
+  if (pending.warnings.length > 0) lines.push("", `⚠️ ${pending.warnings.join("; ")}`);
 
-  await sendZaloMessage(chatId, lines.join("\n"));
+  await sendZaloMessage(pending.chat_id, lines.join("\n"));
 }
