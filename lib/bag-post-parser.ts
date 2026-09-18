@@ -284,11 +284,57 @@ const EDIT_LABELS: Record<string, FieldEdit["field"]> = Object.fromEntries(
 
 const SORTED_EDIT_LABELS = Object.keys(EDIT_LABELS).sort((a, b) => b.length - a.length);
 
+const EDIT_LABEL_ALTERNATION = SORTED_EDIT_LABELS.map(escapeRegex).join("|");
+// A label only counts as the start of a NEW command at the very start of the
+// line, or right after a comma — this is what lets "Sửa tên: LV, sửa hãng:
+// LV" pack multiple edits into one line/message, while a comma INSIDE a
+// value (e.g. "Phụ kiện kèm theo: Hộp, túi vải, bill") is left alone, since
+// "túi vải" and "bill" don't themselves look like the start of an edit
+// command and so aren't treated as a boundary.
+const EDIT_LABEL_START = new RegExp(`(?:^|,)\\s*(${EDIT_LABEL_ALTERNATION})(?=\\s*:|\\s)`, "gi");
+
+interface LabelStart {
+  commaIndex: number;
+  valueStart: number;
+  field: FieldEdit["field"];
+}
+
+function findEditLabelStarts(stripped: string): LabelStart[] {
+  const starts: LabelStart[] = [];
+  EDIT_LABEL_START.lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = EDIT_LABEL_START.exec(stripped))) {
+    const label = match[1].toLowerCase();
+    const labelEnd = match.index + match[0].length;
+    const sep = stripped.slice(labelEnd).match(/^\s*:?\s*/);
+    const valueStart = labelEnd + (sep ? sep[0].length : 0);
+    starts.push({ commaIndex: match.index, valueStart, field: EDIT_LABELS[label] });
+    EDIT_LABEL_START.lastIndex = valueStart;
+  }
+  return starts;
+}
+
+function parseEditCommandsFromLine(line: string): FieldEdit[] {
+  const stripped = removeDiacritics(line).toLowerCase();
+  const starts = findEditLabelStarts(stripped);
+  if (starts.length === 0) return [];
+
+  const edits: FieldEdit[] = [];
+  for (let i = 0; i < starts.length; i++) {
+    const end = i + 1 < starts.length ? starts[i + 1].commaIndex : line.length;
+    const value = line.slice(starts[i].valueStart, end).trim();
+    if (value) edits.push({ field: starts[i].field, raw: value });
+  }
+  return edits;
+}
+
 /**
  * Matches both "Sửa tên: LV" (labeled-line style, like FIELD_LABELS above)
  * and "sua ten LV" (no colon) — sellers type these commands quickly and
  * often skip the colon, and silently mis-parsing it as a brand-new post
  * (the fallback when nothing matches) is much worse than being lenient here.
+ * Also matches several packed into one line/message, comma-separated:
+ * "Sửa tên: LV, sửa hãng: LV".
  */
 export function parseEditCommands(rawText: string): FieldEdit[] {
   const lines = rawText
@@ -297,18 +343,7 @@ export function parseEditCommands(rawText: string): FieldEdit[] {
     .map((l) => l.trim())
     .filter(Boolean);
 
-  const edits: FieldEdit[] = [];
-  for (const line of lines) {
-    const stripped = removeDiacritics(line).toLowerCase();
-    for (const label of SORTED_EDIT_LABELS) {
-      const match = stripped.match(new RegExp(`^${escapeRegex(label)}(?:\\s*:\\s*|\\s+)(.+)$`, "i"));
-      if (!match) continue;
-      const value = line.slice(line.length - match[1].length).trim();
-      if (value) edits.push({ field: EDIT_LABELS[label], raw: value });
-      break;
-    }
-  }
-  return edits;
+  return lines.flatMap(parseEditCommandsFromLine);
 }
 
 export function parseSingleBrand(value: string) {
