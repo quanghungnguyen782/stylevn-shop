@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import clsx from "clsx";
 import { IconButton } from "@/components/ui/IconButton";
 import { MobileMenuDrawer } from "@/components/layout/MobileMenuDrawer";
 import { SearchOverlay } from "@/components/search/SearchOverlay";
@@ -29,6 +30,10 @@ function getDropdownItems(href: string): DropdownItem[] | null {
     return ITEM_CATEGORIES.map((c) => ({ slug: c.slug, name: c.name, href: `/hang-hieu?category=${c.slug}` }));
   }
 
+  if (href === "/san-pham") {
+    return CATEGORIES.map((c) => ({ slug: c.slug, name: c.name, href: `/san-pham?category=${c.slug}` }));
+  }
+
   const gender = getGenderFromHref(href);
   if (gender) {
     return CATEGORIES.map((c) => ({
@@ -44,13 +49,28 @@ function getDropdownItems(href: string): DropdownItem[] | null {
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const { totalCount, openCart } = useCart();
   const { ids: wishlistIds } = useWishlist();
+
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY > 24);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <>
       <header className="sticky top-0 z-40 border-b border-line bg-canvas/95 backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between px-4 md:px-8">
+        <div
+          className={clsx(
+            "mx-auto flex max-w-[1440px] items-center justify-between px-4 transition-[height] duration-200 md:px-8",
+            scrolled ? "h-14" : "h-16"
+          )}
+        >
           <div className="flex items-center gap-2 md:hidden">
             <IconButton aria-label="Mở menu" onClick={() => setMenuOpen(true)}>
               <IconMenu />

@@ -64,6 +64,44 @@ export async function getBagProductBySlug(slug: string): Promise<BagProduct | un
   return toBagProduct(data as SubmissionWithPhotos);
 }
 
+export interface BagBrandSummary {
+  slug: string;
+  name: string;
+  coverImage: string | null;
+}
+
+/** Distinct brands that actually have a published listing right now — never a fixed/fabricated list. */
+export async function getDistinctBagBrands(): Promise<BagBrandSummary[]> {
+  const all = await getAllBagProducts();
+  const bySlug = new Map<string, BagBrandSummary>();
+  for (const p of all) {
+    if (!p.brand || !p.brandName) continue;
+    if (!bySlug.has(p.brand)) {
+      bySlug.set(p.brand, { slug: p.brand, name: p.brandName, coverImage: p.images[0] ?? null });
+    }
+  }
+  return [...bySlug.values()];
+}
+
+export interface BagCategorySummary {
+  slug: string;
+  name: string;
+  coverImage: string;
+}
+
+/** Item categories that actually have a published listing right now — several ITEM_CATEGORIES slugs have zero live products, so this is intentionally not the full fixed list. */
+export async function getDistinctBagCategories(): Promise<BagCategorySummary[]> {
+  const all = await getAllBagProducts();
+  const bySlug = new Map<string, BagCategorySummary>();
+  for (const p of all) {
+    if (!p.itemCategory || !p.itemCategoryName || p.images.length === 0) continue;
+    if (!bySlug.has(p.itemCategory)) {
+      bySlug.set(p.itemCategory, { slug: p.itemCategory, name: p.itemCategoryName, coverImage: p.images[0] });
+    }
+  }
+  return [...bySlug.values()];
+}
+
 export async function getRelatedBagProducts(product: BagProduct, limit = 4): Promise<BagProduct[]> {
   const all = await getAllBagProducts();
 

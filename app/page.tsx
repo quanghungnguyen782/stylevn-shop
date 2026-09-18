@@ -5,17 +5,24 @@ import {
   getNewArrivals,
   getProductsByCategory,
 } from "@/lib/product-service";
-import { getAllBagProducts } from "@/lib/bag-product-service";
-import { CATEGORIES } from "@/lib/constants";
+import { getAllBagProducts, getDistinctBagBrands, getDistinctBagCategories } from "@/lib/bag-product-service";
+import { BRANDS, CATEGORIES } from "@/lib/constants";
+import { discountPercent } from "@/lib/format";
 import { Hero } from "@/components/marketing/Hero";
+import { TrustBar } from "@/components/marketing/TrustBar";
 import { LuxuryShowcase } from "@/components/marketing/LuxuryShowcase";
-import { FeaturedCategories } from "@/components/marketing/FeaturedCategories";
+import { CategoryGrid } from "@/components/marketing/CategoryGrid";
+import type { CategoryTile } from "@/components/marketing/CategoryGrid";
+import { FeaturedBrands } from "@/components/marketing/FeaturedBrands";
 import { CollectionStory } from "@/components/marketing/CollectionStory";
 import { BestSellerCarousel } from "@/components/marketing/BestSellerCarousel";
+import { AuthenticSection } from "@/components/marketing/AuthenticSection";
 import { BrandStory } from "@/components/marketing/BrandStory";
 import { TrustSection } from "@/components/marketing/TrustSection";
 import { Newsletter } from "@/components/marketing/Newsletter";
 import { ProductGrid } from "@/components/product/ProductGrid";
+
+const PLACEHOLDER = "/images/placeholder-product.jpg";
 
 function pickModelImage(products: { images: string[] }[], fallback: string, exclude?: string): string {
   for (const p of products) {
@@ -49,47 +56,106 @@ export default async function HomePage() {
   const bestSellers = await getBestSellers(8);
   const newArrivals = await getNewArrivals(8);
   const bagProducts = (await getAllBagProducts()).slice(0, 8);
+  const luxuryBrands = await getDistinctBagBrands();
+  const bagCategories = await getDistinctBagCategories();
 
-  const categoryTiles = await Promise.all(
-    CATEGORIES.map(async (c) => {
-      const products = await getProductsByCategory(c.slug);
-      return {
-        slug: c.slug,
-        name: c.name,
-        imageUrl: products[0]?.images[0] ?? "/images/placeholder-product.jpg",
-      };
-    })
-  );
+  const [aoProducts, quanProducts, giayProducts, phuKienProducts] = await Promise.all([
+    getProductsByCategory("ao"),
+    getProductsByCategory("quan"),
+    getProductsByCategory("giay"),
+    getProductsByCategory("phu-kien"),
+  ]);
+  const categoryProducts: Record<string, { images: string[] }[]> = {
+    ao: aoProducts,
+    quan: quanProducts,
+    giay: giayProducts,
+    "phu-kien": phuKienProducts,
+  };
 
-  const heroImages = pickHeroImages(allProducts, allProducts[0]?.images[0] ?? "/images/placeholder-product.jpg");
-  const storyImage = pickModelImage(
-    allProducts.slice().reverse(),
-    allProducts[allProducts.length - 1]?.images[0] ?? "/images/placeholder-product.jpg",
-    heroImages[0]
-  );
+  const heroImages = pickHeroImages(allProducts, allProducts[0]?.images[0] ?? PLACEHOLDER);
+  const storyImage = bagProducts[0]?.images[0] ?? pickModelImage(allProducts, allProducts[0]?.images[0] ?? PLACEHOLDER);
+
+  const namProduct = allProducts.find((p) => p.gender === "Nam");
+  const nuProduct = allProducts.find((p) => p.gender === "Nữ");
+  const saleMaxDiscount = flashSale.length > 0 ? Math.max(...flashSale.map(discountPercent)) : 0;
+
+  const entryTiles: CategoryTile[] = [
+    { slug: "hang-hieu", name: "Hàng Hiệu", href: "/hang-hieu", imageUrl: bagProducts[0]?.images[0] ?? PLACEHOLDER },
+    { slug: "sale", name: "Sale", href: "/san-pham?sale=1", imageUrl: flashSale[0]?.images[0] ?? PLACEHOLDER },
+    { slug: "nam", name: "Nam", href: "/san-pham?gender=Nam", imageUrl: namProduct?.images[0] ?? PLACEHOLDER },
+    { slug: "nu", name: "Nữ", href: "/san-pham?gender=N%E1%BB%AF", imageUrl: nuProduct?.images[0] ?? PLACEHOLDER },
+    { slug: "giay", name: "Giày & Dép", href: "/danh-muc/giay", imageUrl: giayProducts[0]?.images[0] ?? PLACEHOLDER },
+    {
+      slug: "tui-xach",
+      name: "Túi Xách",
+      href: "/hang-hieu?category=tui-xach",
+      imageUrl: bagCategories.find((c) => c.slug === "tui-xach")?.coverImage ?? bagProducts[0]?.images[0] ?? PLACEHOLDER,
+    },
+    { slug: "quan-ao", name: "Quần Áo", href: "/san-pham?category=ao", imageUrl: aoProducts[0]?.images[0] ?? PLACEHOLDER },
+    { slug: "phu-kien", name: "Phụ Kiện", href: "/danh-muc/phu-kien", imageUrl: phuKienProducts[0]?.images[0] ?? PLACEHOLDER },
+  ];
+
+  const styleTiles: CategoryTile[] = [
+    { slug: "everyday", name: "Everyday", href: "/san-pham?sort=new", imageUrl: categoryProducts.ao[0]?.images[0] ?? PLACEHOLDER },
+    { slug: "sport", name: "Sport", href: "/danh-muc/giay", imageUrl: categoryProducts.giay[0]?.images[0] ?? PLACEHOLDER },
+    { slug: "streetwear", name: "Streetwear", href: "/san-pham?category=ao", imageUrl: categoryProducts.ao[1]?.images[0] ?? categoryProducts.ao[0]?.images[0] ?? PLACEHOLDER },
+    { slug: "luxury", name: "Luxury", href: "/hang-hieu", imageUrl: bagProducts[1]?.images[0] ?? bagProducts[0]?.images[0] ?? PLACEHOLDER },
+    { slug: "accessories", name: "Accessories", href: "/danh-muc/phu-kien", imageUrl: categoryProducts["phu-kien"][0]?.images[0] ?? PLACEHOLDER },
+  ];
+
+  const discoveryTiles: CategoryTile[] = bagCategories.map((c) => ({
+    slug: c.slug,
+    name: c.name,
+    href: `/hang-hieu?category=${c.slug}`,
+    imageUrl: c.coverImage,
+  }));
+
+  const brandLinks = [
+    ...luxuryBrands.map((b) => ({ slug: b.slug, name: b.name, href: `/hang-hieu?brand=${b.slug}` })),
+    ...BRANDS.map((b) => ({ slug: b.slug, name: b.name, href: `/san-pham?brand=${b.slug}` })),
+  ];
+
+  const authenticImages = bagProducts.flatMap((p) => p.images).slice(0, 4);
 
   return (
     <>
       <Hero images={heroImages} />
+      <TrustBar />
+
+      <CategoryGrid title="Danh Mục Nổi Bật" tiles={entryTiles} />
+
       <LuxuryShowcase products={bagProducts} />
-      <FeaturedCategories tiles={categoryTiles} />
 
       <section className="px-4 py-12 md:px-8 md:py-16">
-        <div className="mb-8 flex items-end justify-between">
-          <h2 className="font-display text-2xl md:text-3xl">Mới Về</h2>
-        </div>
+        <h2 className="mb-1 font-display text-2xl md:text-3xl">Mới Về</h2>
+        <p className="mb-8 text-sm text-muted">Những sản phẩm mới nhất vừa được cập nhật.</p>
         <ProductGrid products={newArrivals} />
       </section>
 
-      <section className="px-4 py-12 md:px-8 md:py-16">
-        <div className="mb-8 flex items-end justify-between">
-          <h2 className="font-display text-2xl md:text-3xl">Đang Giảm Giá Sâu</h2>
-        </div>
+      <section className="bg-surface px-4 py-12 md:px-8 md:py-16">
+        <h2 className="mb-1 font-display text-2xl md:text-3xl">
+          {saleMaxDiscount > 0 ? `Sale Đến ${saleMaxDiscount}%` : "Đang Giảm Giá Sâu"}
+        </h2>
+        <p className="mb-8 text-sm text-muted">Những món đồ chính hãng với mức giá tốt hơn.</p>
         <ProductGrid products={flashSale} />
       </section>
 
+      <FeaturedBrands brands={brandLinks} />
+
       <CollectionStory imageUrl={storyImage} />
-      <BestSellerCarousel products={bestSellers} />
+
+      <div id="ban-chay">
+        <BestSellerCarousel products={bestSellers} />
+      </div>
+
+      <CategoryGrid title="Shop By Style" subtitle="Khám phá theo phong cách của bạn." tiles={styleTiles} />
+
+      <AuthenticSection images={authenticImages} />
+
+      {discoveryTiles.length > 0 && (
+        <CategoryGrid title="Khám Phá Theo Nhu Cầu" tiles={discoveryTiles} />
+      )}
+
       <BrandStory />
       <TrustSection />
       <Newsletter />

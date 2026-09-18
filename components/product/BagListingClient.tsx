@@ -9,18 +9,25 @@ import type { BagProduct } from "@/types/bag-product";
 export function BagListingClient({ products }: { products: BagProduct[] }) {
   const searchParams = useSearchParams();
   const category = searchParams.get("category");
+  const brand = searchParams.get("brand");
 
-  const filtered = category ? products.filter((p) => p.itemCategory === category) : products;
+  let filtered = products;
+  if (category) filtered = filtered.filter((p) => p.itemCategory === category);
+  if (brand) filtered = filtered.filter((p) => p.brand === brand);
+
   const categoryName = category ? ITEM_CATEGORIES.find((c) => c.slug === category)?.name : null;
+  const brandName = brand ? filtered[0]?.brandName ?? products.find((p) => p.brand === brand)?.brandName : null;
+  const hasFilter = Boolean(category || brand);
 
   return (
     <div className="mx-auto max-w-[1440px] px-4 py-8 md:px-8 md:py-12">
       <h1 className="mb-8 font-display text-2xl md:text-3xl">
         Hàng Hiệu Chính Hãng
         {categoryName && ` — ${categoryName}`}
+        {brandName && ` — ${brandName}`}
       </h1>
 
-      {category && (
+      {hasFilter && (
         <Link href="/hang-hieu" className="mb-6 inline-block text-sm underline-offset-4 hover:underline">
           ← Xem tất cả hàng hiệu
         </Link>

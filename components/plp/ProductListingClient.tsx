@@ -26,9 +26,10 @@ export function ProductListingClient({
   const initialSaleOnly = searchParams.get("sale") === "1";
   const initialGender = searchParams.get("gender");
   const initialCategory = searchParams.get("category");
+  const initialBrand = searchParams.get("brand");
   const initialSort = (searchParams.get("sort") as SortOption) ?? (initialSaleOnly ? "discount" : "default");
 
-  const [brands, setBrands] = useState<string[]>([]);
+  const [brands, setBrands] = useState<string[]>(initialBrand ? [initialBrand] : []);
   const [gender, setGender] = useState<string | null>(initialGender);
   const [category, setCategory] = useState<string | null>(initialCategory);
   const [priceRange, setPriceRange] = useState<PriceRange | null>(null);

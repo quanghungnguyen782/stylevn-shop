@@ -18,12 +18,20 @@ export const BRANDS: Brand[] = [
   { slug: "lacoste", name: "Lacoste" },
 ];
 
+/**
+ * Luxury/hàng-hiệu brands — unlike BRANDS above (a fixed sportswear list),
+ * this is only ever whatever brand slugs currently have a published listing
+ * (Zalo-bot-driven catalog), fetched live rather than hardcoded. See
+ * lib/bag-product-service.ts's getDistinctBagBrands().
+ */
+
 export const NAV_LINKS = [
   { href: "/hang-hieu", label: "Hàng Hiệu" },
   { href: "/san-pham?sale=1", label: "Sale" },
   { href: "/san-pham?gender=Nam", label: "Nam" },
   { href: "/san-pham?gender=N%E1%BB%AF", label: "Nữ" },
-  { href: "/ve-thuong-hieu", label: "Về Chúng Tôi" },
+  { href: "/thuong-hieu", label: "Thương Hiệu" },
+  { href: "/san-pham", label: "Danh Mục" },
 ];
 
 export const POPULAR_SEARCH_KEYWORDS = [

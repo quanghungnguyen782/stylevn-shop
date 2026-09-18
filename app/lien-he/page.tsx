@@ -44,6 +44,14 @@ export default function ContactPage() {
         </p>
       </section>
 
+      <section id="thanh-toan" className="border-t border-line py-8">
+        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide">Chính Sách Thanh Toán</h2>
+        <p className="text-sm text-muted">
+          Thanh toán khi nhận hàng (COD) hoặc chuyển khoản ngân hàng. Với hàng hiệu, phương thức thanh toán cụ thể
+          sẽ được thống nhất qua Zalo trước khi giao hàng.
+        </p>
+      </section>
+
       <section id="size" className="border-t border-line py-8">
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide">Hướng Dẫn Chọn Size</h2>
         <p className="text-sm text-muted">
