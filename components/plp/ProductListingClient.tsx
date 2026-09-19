@@ -10,6 +10,7 @@ import { SortSelect } from "@/components/plp/SortSelect";
 import { Pagination } from "@/components/plp/Pagination";
 import { filterAndSortProducts } from "@/lib/product-filters";
 import type { PriceRange, SortOption } from "@/types/filters";
+import { SORT_LABELS } from "@/types/filters";
 import type { Product } from "@/types/product";
 
 const PAGE_SIZE = 24;
@@ -71,7 +72,7 @@ export function ProductListingClient({
           >
             Bộ Lọc
           </button>
-          <SortSelect value={sort} onChange={(v) => { setSort(v); setPage(1); }} />
+          <SortSelect value={sort} onChange={(v) => { setSort(v); setPage(1); }} options={SORT_LABELS} />
         </div>
       </div>
 

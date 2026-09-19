@@ -1,23 +1,22 @@
-import { SORT_LABELS } from "@/types/filters";
-import type { SortOption } from "@/types/filters";
-
-export function SortSelect({
+export function SortSelect<T extends string>({
   value,
   onChange,
+  options,
 }: {
-  value: SortOption;
-  onChange: (value: SortOption) => void;
+  value: T;
+  onChange: (value: T) => void;
+  options: Record<T, string>;
 }) {
   return (
     <select
       value={value}
-      onChange={(e) => onChange(e.target.value as SortOption)}
+      onChange={(e) => onChange(e.target.value as T)}
       className="border border-line bg-canvas px-3 py-2 text-sm outline-none focus:border-ink"
       aria-label="Sắp xếp"
     >
-      {Object.entries(SORT_LABELS).map(([key, label]) => (
+      {Object.entries(options).map(([key, label]) => (
         <option key={key} value={key}>
-          {label}
+          {label as string}
         </option>
       ))}
     </select>
