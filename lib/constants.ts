@@ -53,3 +53,11 @@ export const FREE_SHIPPING_THRESHOLD = 1_000_000;
  * site.
  */
 export const ZALO_CONTACT_URL = "/lien-he";
+
+/** Single source of truth for real business contact info — used on /lien-he and in organizationJsonLd (lib/seo.ts). */
+export const CONTACT_INFO = {
+  phone: "0983 959 892",
+  phoneE164: "+84983959892",
+  email: "lyleauthentic1992@gmail.com",
+  address: "Biển Xanh 49, Vinhomes Ocean Park 2",
+};

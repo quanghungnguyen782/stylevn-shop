@@ -6,6 +6,7 @@ import { getProductsByCategory } from "@/lib/product-service";
 import { getCategoryName } from "@/lib/product-meta";
 import { ProductListingClient } from "@/components/plp/ProductListingClient";
 import { ProductListingSkeleton } from "@/components/plp/ProductListingSkeleton";
+import { SITE_URL, breadcrumbJsonLd } from "@/lib/seo";
 import type { CategorySlug } from "@/types/product";
 
 export function generateStaticParams() {
@@ -40,10 +41,22 @@ export default async function CategoryPage({
 
   const products = await getProductsByCategory(category);
   const title = getCategoryName(category);
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Trang chủ", url: SITE_URL },
+    { name: "Sản Phẩm", url: `${SITE_URL}/san-pham` },
+    { name: title, url: `${SITE_URL}/danh-muc/${category}` },
+  ]);
 
   return (
-    <Suspense fallback={<ProductListingSkeleton title={title} />}>
-      <ProductListingClient products={products} title={title} />
-    </Suspense>
+    <>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+      <Suspense fallback={<ProductListingSkeleton title={title} />}>
+        <ProductListingClient products={products} title={title} />
+      </Suspense>
+    </>
   );
 }

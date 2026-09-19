@@ -1,5 +1,5 @@
 import { getBrandName } from "@/lib/product-meta";
-import { SITE_NAME } from "@/lib/constants";
+import { SITE_NAME, CONTACT_INFO } from "@/lib/constants";
 import type { Product } from "@/types/product";
 import type { BagProduct } from "@/types/bag-product";
 
@@ -13,6 +13,12 @@ export function organizationJsonLd() {
     url: SITE_URL,
     description:
       "Chuyên hàng hiệu authentic, ảnh chụp từ sản phẩm thật, cùng đồ thể thao chính hãng giảm giá (Adidas, Nike, Asics, Li-Ning, 361 Degrees, Lacoste).",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: CONTACT_INFO.phoneE164,
+      email: CONTACT_INFO.email,
+      contactType: "customer service",
+    },
   };
 }
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/contact/ContactForm";
-import { SITE_NAME } from "@/lib/constants";
+import { SITE_NAME, CONTACT_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Liên Hệ",
@@ -16,9 +16,9 @@ export default function ContactPage() {
         <div>
           <h2 className="mb-4 text-xs font-semibold uppercase tracking-wide">Thông Tin Cửa Hàng</h2>
           <ul className="flex flex-col gap-2 text-sm text-muted">
-            <li>Hotline: 0983 959 892</li>
-            <li>Email: lyleauthentic1992@gmail.com</li>
-            <li>Địa chỉ: Biển Xanh 49, Vinhomes Ocean Park 2</li>
+            <li>Hotline: {CONTACT_INFO.phone}</li>
+            <li>Email: {CONTACT_INFO.email}</li>
+            <li>Địa chỉ: {CONTACT_INFO.address}</li>
             <li>Hỗ trợ qua Zalo/hotline: 8:00 - 22:00, tất cả các ngày</li>
           </ul>
         </div>
