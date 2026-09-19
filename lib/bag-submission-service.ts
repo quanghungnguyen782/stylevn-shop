@@ -98,14 +98,19 @@ export async function handleImageEvent(message: ZaloImageMessage): Promise<void>
     .eq("id", submission.id);
 
   if (submission.status === "awaiting_confirmation") {
-    // Late-arriving photo attached to an already-finalized submission — resend
-    // the confirmation so the client sees the updated photo count before OK.
-    const { data: refreshed } = await supabase
-      .from("bag_submissions")
-      .select("*")
-      .eq("id", submission.id)
-      .single();
-    if (refreshed) await sendConfirmationMessage(refreshed);
+    // Late-arriving photo attached to an already-finalized submission. Zalo
+    // Bot Platform has no message-edit API, so re-sending the FULL
+    // confirmation here (as this used to do) reads as a second, duplicate
+    // "new post" announcement — confusing when several photos trickle in
+    // after the caption. A short incremental notice avoids that.
+    const { count } = await supabase
+      .from("bag_submission_photos")
+      .select("id", { count: "exact", head: true })
+      .eq("submission_id", submission.id);
+    await sendZaloMessage(
+      chatId,
+      `📷 Đã nhận thêm ảnh (hiện có ${count ?? 0} ảnh). Trả lời "OK" khi bạn đã gửi đủ ảnh để đăng lên website.`
+    );
   }
 }
 
