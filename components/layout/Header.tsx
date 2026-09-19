@@ -12,7 +12,7 @@ import { useCart } from "@/lib/cart-context";
 import { useWishlist } from "@/lib/wishlist-context";
 import { CATEGORIES, NAV_LINKS, SITE_NAME } from "@/lib/constants";
 import { ITEM_CATEGORIES } from "@/lib/bag-post-parser";
-import { IconBag, IconHeart, IconMenu, IconSearch, IconUser } from "@/components/ui/icons";
+import { IconBag, IconHeart, IconMenu, IconSearch } from "@/components/ui/icons";
 
 function getGenderFromHref(href: string): string | null {
   const queryString = href.split("?")[1];
@@ -98,6 +98,12 @@ export function Header() {
                 );
               }
 
+              // A single column reads fine up to ~6 items; the hàng-hiệu
+              // dropdown has 12, which makes for an oddly tall single list —
+              // splitting into two columns at that size keeps it scannable
+              // without turning it into a full image-mega-menu.
+              const useTwoColumns = dropdownItems.length > 6;
+
               return (
                 <div key={link.href} className="group relative flex items-center">
                   <Link
@@ -106,7 +112,12 @@ export function Header() {
                   >
                     {link.label}
                   </Link>
-                  <div className="invisible absolute left-0 top-full z-50 min-w-[200px] border border-line bg-canvas py-2 opacity-0 shadow-lg transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
+                  <div
+                    className={clsx(
+                      "invisible absolute left-0 top-full z-50 border border-line bg-canvas py-2 opacity-0 shadow-lg transition-opacity duration-150 group-hover:visible group-hover:opacity-100",
+                      useTwoColumns ? "grid min-w-[360px] grid-cols-2" : "min-w-[200px]"
+                    )}
+                  >
                     {dropdownItems.map((item) => (
                       <Link
                         key={item.slug}
@@ -127,9 +138,6 @@ export function Header() {
               <IconSearch />
             </IconButton>
             <div className="hidden md:flex md:items-center">
-              <IconButton aria-label="Tài khoản">
-                <IconUser />
-              </IconButton>
               <IconButton aria-label="Danh sách yêu thích" className="relative" onClick={openWishlist}>
                 <IconHeart />
                 {wishlistIds.length > 0 && (
