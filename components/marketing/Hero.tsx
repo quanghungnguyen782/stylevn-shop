@@ -52,7 +52,12 @@ export function Hero({ images }: { images: string[] }) {
           priority={i === 0}
           sizes="100vw"
           className={clsx(
-            "object-cover object-[50%_20%] transition-opacity duration-700 ease-out",
+            // All curated hero photos are square studio shots with the head
+            // sitting within the first ~5% from the top — in a wide/short
+            // hero band, anything less than a full top-anchor crops into the
+            // face. Top-anchoring trades a bit of lower-body visibility on
+            // the one full-body slide for a guaranteed uncropped face on all.
+            "object-cover object-top transition-opacity duration-700 ease-out",
             i === index ? "opacity-100" : "opacity-0"
           )}
         />
