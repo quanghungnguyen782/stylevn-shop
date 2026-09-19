@@ -46,15 +46,15 @@ export function Hero({ images }: { images: string[] }) {
     // needs a dark gradient sitting on top of the product to stay readable.
     <section className="relative flex w-full flex-col overflow-hidden bg-ink lg:h-[85vh] lg:min-h-[600px] lg:flex-row">
       <div className="order-2 flex flex-col justify-center px-6 py-12 text-canvas sm:px-10 sm:py-16 lg:order-1 lg:w-[46%] lg:px-10 lg:py-0 xl:px-16">
-        <p className="mb-3 text-xs uppercase tracking-[0.3em] text-canvas/80">Authentic Pieces. Better Prices.</p>
+        <p className="mb-3 text-xs uppercase tracking-[0.3em] text-canvas/80">Authentic Pieces · Better Prices</p>
         {/* At lg+ the panel is a fixed 46% of viewport width, so the font
             size is tied to vw (not a fixed breakpoint size) to keep scaling
             in lockstep with the panel — otherwise the nowrap lines below
             overflow the panel on narrower lg screens (~1024-1279px). */}
         <h1 className="font-display text-[2rem] font-semibold leading-[1.02] sm:text-4xl md:text-5xl lg:text-[clamp(1.75rem,3.4vw,3.5rem)]">
-          <span className="block whitespace-nowrap">Hàng hiệu authentic.</span>
-          <span className="block whitespace-nowrap">Thể thao chính hãng.</span>
-          <span className="block whitespace-nowrap">Giá tốt hơn.</span>
+          <span className="block whitespace-nowrap">Hàng hiệu authentic</span>
+          <span className="block whitespace-nowrap">Thể thao chính hãng</span>
+          <span className="block whitespace-nowrap">Giá tốt hơn</span>
         </h1>
         <div className="mt-7 flex flex-wrap gap-3">
           <Button href="/hang-hieu" variant="accent" size="lg">

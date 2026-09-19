@@ -5,7 +5,7 @@ export function BrandStory() {
   return (
     <section className="border-t border-line px-4 py-14 text-center md:px-8">
       <p className="mx-auto max-w-2xl font-display text-2xl leading-snug md:text-4xl">
-        &ldquo;Được tạo ra cho cuộc sống hàng ngày.&rdquo;
+        &ldquo;Được tạo ra cho cuộc sống hàng ngày&rdquo;
       </p>
       <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted">
         {SITE_NAME} chuyên hàng hiệu authentic, ảnh chụp từ sản phẩm thật, cùng những sản phẩm thể thao chính hãng

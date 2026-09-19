@@ -22,7 +22,7 @@ export default async function BrandStoryPage() {
         </div>
         <div className="flex flex-col justify-center gap-4 bg-surface px-6 py-14 md:px-16">
           <p className="text-xs uppercase tracking-[0.3em] text-muted">Câu Chuyện Của Chúng Tôi</p>
-          <h1 className="font-display text-3xl leading-tight md:text-4xl">Được tạo ra cho cuộc sống hàng ngày.</h1>
+          <h1 className="font-display text-3xl leading-tight md:text-4xl">Được tạo ra cho cuộc sống hàng ngày</h1>
           <p className="max-w-md text-sm leading-relaxed text-muted">
             {SITE_NAME} ra đời với mong muốn mang những món đồ hiệu authentic, ảnh chụp từ sản phẩm thật, đến gần
             hơn với người yêu hàng hiệu, cùng những sản phẩm thể thao chính hãng từ các thương hiệu quốc tế —
