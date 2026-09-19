@@ -299,6 +299,29 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     return;
   }
 
+  // Commands (Danh sách / Xoá / Sửa) must win over "treat this text as the
+  // caption for whatever photos are currently collecting" — otherwise typing
+  // "Xoá 22" while an unrelated photo batch is mid-collecting gets swallowed
+  // as that batch's product name instead of running the delete command
+  // (reported in production: "Xóa 22" became a garbled new post named
+  // "Xóa 22" instead of deleting listing #22).
+  if (isListCommand(text)) {
+    await handleListCommand(chatId);
+    return;
+  }
+
+  const deleteCommand = parseDeleteCommand(text);
+  if (deleteCommand) {
+    await prepareDeleteConfirmation(chatId, deleteCommand.id);
+    return;
+  }
+
+  const edits = parseEditCommands(text);
+  if (edits.length > 0) {
+    await prepareEditConfirmation(chatId, edits, parseEditTargetId(text));
+    return;
+  }
+
   const { data: collecting } = await supabase
     .from("bag_submissions")
     .select("*")
@@ -339,23 +362,6 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     await finalizeSubmission(collecting);
     const created = await insertCollecting(chatId, message.from, text);
     await finalizeSubmission(created);
-    return;
-  }
-
-  if (isListCommand(text)) {
-    await handleListCommand(chatId);
-    return;
-  }
-
-  const deleteCommand = parseDeleteCommand(text);
-  if (deleteCommand) {
-    await prepareDeleteConfirmation(chatId, deleteCommand.id);
-    return;
-  }
-
-  const edits = parseEditCommands(text);
-  if (edits.length > 0) {
-    await prepareEditConfirmation(chatId, edits, parseEditTargetId(text));
     return;
   }
 
