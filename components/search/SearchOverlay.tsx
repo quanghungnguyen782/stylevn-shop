@@ -4,13 +4,48 @@ import { useDeferredValue, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Drawer } from "@/components/ui/Drawer";
-import { searchProducts } from "@/lib/search";
+import { searchProducts, searchBagProducts } from "@/lib/search";
 import { ALL_PRODUCTS_CLIENT } from "@/lib/products-client";
 import { getBrandName } from "@/lib/product-meta";
 import { formatPrice } from "@/lib/format";
 import { POPULAR_SEARCH_KEYWORDS } from "@/lib/constants";
+import type { Product } from "@/types/product";
+import type { BagProduct } from "@/types/bag-product";
 
 const RECENT_KEY = "sv_recent_searches_v1";
+
+interface SearchResultItem {
+  key: string;
+  href: string;
+  image: string;
+  title: string;
+  subtitle: string;
+  priceLabel: string;
+  tag?: string;
+}
+
+function toSportswearResult(product: Product): SearchResultItem {
+  return {
+    key: `sp-${product.id}`,
+    href: `/san-pham/${product.slug}`,
+    image: product.images[0],
+    title: product.name,
+    subtitle: getBrandName(product.brand),
+    priceLabel: formatPrice(product.price),
+  };
+}
+
+function toBagResult(product: BagProduct): SearchResultItem {
+  return {
+    key: `hh-${product.id}`,
+    href: `/hang-hieu/${product.slug}`,
+    image: product.images[0] ?? "",
+    title: product.name,
+    subtitle: product.brandName ?? "Hàng hiệu",
+    priceLabel: product.price != null ? formatPrice(product.price) : "Liên hệ",
+    tag: "Hàng hiệu",
+  };
+}
 
 function readRecent(): string[] {
   try {
@@ -35,12 +70,31 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
   const [recent, setRecent] = useState<string[]>([]);
+  const [bagProducts, setBagProducts] = useState<BagProduct[]>([]);
 
   useEffect(() => {
     if (open) setRecent(readRecent());
   }, [open]);
 
-  const results = deferredQuery.trim() ? searchProducts(deferredQuery, ALL_PRODUCTS_CLIENT, 6) : [];
+  // Fetched once per time the overlay opens (not on every keystroke) — the
+  // hàng-hiệu catalog lives in Supabase, not the bundled JSON, so it can't
+  // be searched synchronously like the sportswear catalog.
+  useEffect(() => {
+    if (!open || bagProducts.length > 0) return;
+    fetch("/api/bag-products")
+      .then((res) => (res.ok ? res.json() : []))
+      .then(setBagProducts)
+      .catch(() => setBagProducts([]));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open]);
+
+  const trimmedQuery = deferredQuery.trim();
+  const results: SearchResultItem[] = trimmedQuery
+    ? [
+        ...searchProducts(trimmedQuery, ALL_PRODUCTS_CLIENT, 4).map(toSportswearResult),
+        ...searchBagProducts(trimmedQuery, bagProducts, 4).map(toBagResult),
+      ]
+    : [];
 
   function handleSubmit(term: string) {
     const trimmed = term.trim();
@@ -106,10 +160,10 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
 
         {query && results.length > 0 && (
           <div className="mt-6 flex flex-col gap-3">
-            {results.map((product) => (
+            {results.map((item) => (
               <Link
-                key={product.id}
-                href={`/san-pham/${product.slug}`}
+                key={item.key}
+                href={item.href}
                 onClick={() => {
                   saveRecent(query);
                   onClose();
@@ -117,12 +171,17 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
                 className="flex gap-3"
               >
                 <div className="relative h-16 w-14 shrink-0 overflow-hidden bg-canvas">
-                  <Image src={product.images[0]} alt={product.name} fill sizes="56px" className="object-cover" />
+                  {item.image && (
+                    <Image src={item.image} alt={item.title} fill sizes="56px" className="object-cover" />
+                  )}
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-muted">{getBrandName(product.brand)}</p>
-                  <p className="text-sm">{product.name}</p>
-                  <p className="text-sm font-semibold">{formatPrice(product.price)}</p>
+                  <p className="text-xs uppercase tracking-wide text-muted">
+                    {item.subtitle}
+                    {item.tag && <span className="ml-1.5 text-accent">· {item.tag}</span>}
+                  </p>
+                  <p className="text-sm">{item.title}</p>
+                  <p className="text-sm font-semibold">{item.priceLabel}</p>
                 </div>
               </Link>
             ))}

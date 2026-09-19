@@ -16,10 +16,10 @@ export default function ContactPage() {
         <div>
           <h2 className="mb-4 text-xs font-semibold uppercase tracking-wide">Thông Tin Cửa Hàng</h2>
           <ul className="flex flex-col gap-2 text-sm text-muted">
-            <li>Hotline: 1900 6868</li>
-            <li>Email: support@lyleauthentic.com</li>
-            <li>Địa chỉ: 123 Nguyễn Trãi, Q.1, TP.HCM</li>
-            <li>Giờ mở cửa: 8:00 - 22:00, tất cả các ngày</li>
+            <li>Hotline: 0983 959 892</li>
+            <li>Email: lyleauthentic1992@gmail.com</li>
+            <li>Địa chỉ: Biển Xanh 49, Vinhomes Ocean Park 2</li>
+            <li>Hỗ trợ qua Zalo/hotline: 8:00 - 22:00, tất cả các ngày</li>
           </ul>
         </div>
         <div>
