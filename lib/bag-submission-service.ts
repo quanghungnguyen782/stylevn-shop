@@ -297,8 +297,18 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
     .maybeSingle();
 
   if (awaiting) {
+    const deleteWhileAwaiting = parseDeleteCommand(text);
     if (OK_PATTERN.test(text.trim())) {
       await publishSubmission(awaiting);
+    } else if (isListCommand(text)) {
+      // "Danh sách" / "Xoá <mã>" are unrelated to whatever draft is waiting
+      // on OK — without this check, applyCorrection() below would treat
+      // the command text itself as a correction to the pending draft's
+      // caption (e.g. typing "Xoá 22" would rename the draft to "Xoá 22"
+      // instead of deleting listing #22 — reported in production).
+      await handleListCommand(chatId);
+    } else if (deleteWhileAwaiting) {
+      await prepareDeleteConfirmation(chatId, deleteWhileAwaiting.id);
     } else {
       await applyCorrection(awaiting, text);
     }
