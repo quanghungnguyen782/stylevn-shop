@@ -423,6 +423,19 @@ export function isHelpCommand(rawText: string): boolean {
   return HELP_PATTERN.test(removeDiacritics(rawText.trim()));
 }
 
+const RESET_PATTERN = /^(reset|lam lai|bat dau lai)[.!\s]*$/i;
+
+/**
+ * "Reset" — an escape hatch when the chat's draft state gets confusing
+ * (stuck photos, a pending edit/delete they don't want, an old caption they
+ * lost track of). Only ever clears IN-PROGRESS drafts for this chat
+ * (collecting/awaiting/queued + any pending edit) — never touches anything
+ * already published, so it can't be used to accidentally wipe live listings.
+ */
+export function isResetCommand(rawText: string): boolean {
+  return RESET_PATTERN.test(removeDiacritics(rawText.trim()));
+}
+
 export function parseBagPost(rawText: string): ParsedBagPost {
   const warnings: string[] = [];
   const trimmed = rawText.trim();

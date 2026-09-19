@@ -4,6 +4,7 @@ import {
   ITEM_CATEGORIES,
   isHelpCommand,
   isListCommand,
+  isResetCommand,
   parseBagPost,
   parseDeleteCommand,
   parseEditCommands,
@@ -241,6 +242,11 @@ export async function handleTextEvent(message: ZaloTextMessage): Promise<void> {
 
   if (isHelpCommand(text)) {
     await sendHelpMessage(chatId);
+    return;
+  }
+
+  if (isResetCommand(text)) {
+    await handleResetCommand(chatId);
     return;
   }
 
@@ -692,8 +698,38 @@ async function sendHelpMessage(chatId: string): Promise<void> {
     "\"Danh sách\" — xem mã + tên + giá mọi sản phẩm đang đăng.",
     "\"Xoá\" hoặc \"Xoá <mã>\" — gỡ sản phẩm khỏi web.",
     "\"Huỷ\" — bỏ nhóm ảnh chưa có mô tả, hoặc bỏ 1 thay đổi đang chờ xác nhận.",
+    "\"Reset\" — huỷ hết mọi bản nháp/thay đổi đang chờ nếu đoạn chat bị rối, không đụng đến sản phẩm đã đăng lên web.",
   ];
   await sendZaloMessage(chatId, lines.join("\n"));
+}
+
+/**
+ * "Reset" — an escape hatch for when the chat's draft state gets confusing
+ * (stuck photos, an old caption, a pending edit they no longer want). Clears
+ * every IN-PROGRESS draft for this chat (collecting/awaiting/queued
+ * submissions + any pending edit) but never touches anything already
+ * published — this is not a way to undo a live listing, only to unstick
+ * whatever hasn't gone live yet.
+ */
+async function handleResetCommand(chatId: string): Promise<void> {
+  const supabase = getSupabaseAdmin();
+
+  await supabase.from("pending_bag_edits").delete().eq("chat_id", chatId);
+
+  const { data: cleared } = await supabase
+    .from("bag_submissions")
+    .update({ status: "cancelled" })
+    .eq("chat_id", chatId)
+    .in("status", ["collecting", "awaiting_confirmation", "queued_confirmation"])
+    .select("id");
+
+  const count = cleared?.length ?? 0;
+  await sendZaloMessage(
+    chatId,
+    count > 0
+      ? `🔄 Đã reset — huỷ ${count} bản nháp/thay đổi đang chờ. Sản phẩm đã đăng lên web không bị ảnh hưởng. Gửi ảnh sản phẩm mới bất cứ lúc nào nhé!`
+      : `🔄 Không có bản nháp nào đang chờ để reset cả. Sản phẩm đã đăng lên web không bị ảnh hưởng. Gửi ảnh sản phẩm mới bất cứ lúc nào nhé!`
+  );
 }
 
 /**
