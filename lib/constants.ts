@@ -31,7 +31,7 @@ export const NAV_LINKS = [
   { href: "/san-pham?gender=Nam", label: "Nam" },
   { href: "/san-pham?gender=N%E1%BB%AF", label: "Nữ" },
   { href: "/thuong-hieu", label: "Thương Hiệu" },
-  { href: "/san-pham", label: "Danh Mục" },
+  { href: "/san-pham", label: "Sản Phẩm" },
 ];
 
 export const POPULAR_SEARCH_KEYWORDS = [

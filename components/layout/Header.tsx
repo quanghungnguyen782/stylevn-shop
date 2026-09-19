@@ -71,17 +71,17 @@ export function Header() {
             scrolled ? "h-14" : "h-16"
           )}
         >
-          <div className="flex items-center gap-2 md:hidden">
+          <div className="flex items-center gap-2 lg:hidden">
             <IconButton aria-label="Mở menu" onClick={() => setMenuOpen(true)}>
               <IconMenu />
             </IconButton>
           </div>
 
-          <Link href="/" className="font-display text-xl tracking-tight md:text-2xl">
+          <Link href="/" className="font-display text-[1.35rem] tracking-tight md:text-[1.65rem]">
             {SITE_NAME}
           </Link>
 
-          <nav className="hidden h-full items-stretch gap-7 md:flex">
+          <nav className="hidden h-full items-stretch gap-7 lg:flex">
             {NAV_LINKS.map((link) => {
               const dropdownItems = getDropdownItems(link.href);
 

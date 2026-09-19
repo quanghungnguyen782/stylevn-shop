@@ -52,22 +52,27 @@ export function Hero({ images }: { images: string[] }) {
           priority={i === 0}
           sizes="100vw"
           className={clsx(
-            "object-cover transition-opacity duration-700 ease-out",
-            i === index ? "opacity-90" : "opacity-0"
+            "object-cover object-[50%_20%] transition-opacity duration-700 ease-out",
+            i === index ? "opacity-100" : "opacity-0"
           )}
         />
       ))}
-      <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/30 to-ink/10" />
+      {/* Gradient only needs to carry the text block at the bottom — kept
+          light so the product photo itself stays the visual focal point,
+          not a dark filter over it. */}
+      <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/15 to-transparent" />
 
       <div className="relative z-10 flex w-full items-end justify-between px-4 pb-16 md:px-8 md:pb-24">
         <div className="text-canvas">
           <p className="mb-3 text-xs uppercase tracking-[0.3em] text-canvas/80">Authentic Pieces. Better Prices.</p>
-          <h1 className="max-w-xl font-display text-4xl font-semibold leading-[1.1] md:text-6xl">
-            Hàng hiệu authentic, đồ thể thao chính hãng giảm giá.
+          <h1 className="font-display text-[2rem] font-semibold leading-[1.02] sm:text-4xl md:text-5xl lg:text-6xl">
+            <span className="block whitespace-nowrap">Hàng hiệu authentic.</span>
+            <span className="block whitespace-nowrap">Thể thao chính hãng.</span>
+            <span className="block whitespace-nowrap">Giá tốt hơn.</span>
           </h1>
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-7 flex flex-wrap gap-3">
             <Button href="/hang-hieu" variant="accent" size="lg">
-              Xem Hàng Hiệu
+              Xem Hàng Authentic
             </Button>
             <Link
               href="/san-pham?sale=1"
@@ -76,6 +81,11 @@ export function Hero({ images }: { images: string[] }) {
               Xem Sale
             </Link>
           </div>
+          <p className="mt-5 flex flex-wrap gap-x-4 gap-y-1 text-[11px] uppercase tracking-wide text-canvas/60 md:text-xs">
+            <span>✓ Cam kết chính hãng</span>
+            <span>✓ Đổi trả rõ ràng</span>
+            <span>✓ Giao hàng toàn quốc</span>
+          </p>
         </div>
 
         {hasMultiple && (
