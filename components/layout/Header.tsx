@@ -7,6 +7,7 @@ import { IconButton } from "@/components/ui/IconButton";
 import { MobileMenuDrawer } from "@/components/layout/MobileMenuDrawer";
 import { SearchOverlay } from "@/components/search/SearchOverlay";
 import { CartDrawer } from "@/components/cart/CartDrawer";
+import { WishlistDrawer } from "@/components/wishlist/WishlistDrawer";
 import { useCart } from "@/lib/cart-context";
 import { useWishlist } from "@/lib/wishlist-context";
 import { CATEGORIES, NAV_LINKS, SITE_NAME } from "@/lib/constants";
@@ -51,7 +52,7 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { totalCount, openCart } = useCart();
-  const { ids: wishlistIds } = useWishlist();
+  const { ids: wishlistIds, openWishlist } = useWishlist();
 
   useEffect(() => {
     function onScroll() {
@@ -129,7 +130,7 @@ export function Header() {
               <IconButton aria-label="Tài khoản">
                 <IconUser />
               </IconButton>
-              <IconButton aria-label="Danh sách yêu thích" className="relative">
+              <IconButton aria-label="Danh sách yêu thích" className="relative" onClick={openWishlist}>
                 <IconHeart />
                 {wishlistIds.length > 0 && (
                   <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-[10px] text-canvas">
@@ -153,6 +154,7 @@ export function Header() {
       <MobileMenuDrawer open={menuOpen} onClose={() => setMenuOpen(false)} />
       <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
       <CartDrawer />
+      <WishlistDrawer />
     </>
   );
 }

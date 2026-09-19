@@ -17,6 +17,9 @@ interface WishlistContextValue {
   isHydrated: boolean;
   isWishlisted: (id: number) => boolean;
   toggle: (id: number) => void;
+  isOpen: boolean;
+  openWishlist: () => void;
+  closeWishlist: () => void;
 }
 
 const WishlistContext = createContext<WishlistContextValue | null>(null);
@@ -24,6 +27,7 @@ const WishlistContext = createContext<WishlistContextValue | null>(null);
 export function WishlistProvider({ children }: { children: ReactNode }) {
   const [ids, setIds] = useState<number[]>([]);
   const [isHydrated, setIsHydrated] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -50,10 +54,12 @@ export function WishlistProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const isWishlisted = useCallback((id: number) => ids.includes(id), [ids]);
+  const openWishlist = useCallback(() => setIsOpen(true), []);
+  const closeWishlist = useCallback(() => setIsOpen(false), []);
 
   const value = useMemo<WishlistContextValue>(
-    () => ({ ids, isHydrated, isWishlisted, toggle }),
-    [ids, isHydrated, isWishlisted, toggle]
+    () => ({ ids, isHydrated, isWishlisted, toggle, isOpen, openWishlist, closeWishlist }),
+    [ids, isHydrated, isWishlisted, toggle, isOpen, openWishlist, closeWishlist]
   );
 
   return <WishlistContext.Provider value={value}>{children}</WishlistContext.Provider>;
