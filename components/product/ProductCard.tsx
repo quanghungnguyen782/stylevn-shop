@@ -24,7 +24,7 @@ export function ProductCard({ product }: { product: Product }) {
         <div className="relative aspect-[4/5] overflow-hidden bg-canvas">
           {(discount > 0 || lowStock) && (
             <div className="absolute left-2 top-2 z-10 flex flex-col gap-1">
-              {discount > 0 && <Badge tone="accent">-{discount}%</Badge>}
+              {discount > 0 && <Badge tone="sale">-{discount}%</Badge>}
               {lowStock && <Badge tone="ink">Sắp hết hàng</Badge>}
             </div>
           )}
@@ -66,7 +66,9 @@ export function ProductCard({ product }: { product: Product }) {
           <p className="mt-0.5 line-clamp-1 text-sm">{product.name}</p>
         </Link>
         <div className="mt-1 flex items-center gap-2">
-          <span className="text-sm font-semibold">{formatPrice(product.price)}</span>
+          <span className={product.oldPrice > 0 ? "text-sm font-semibold text-sale" : "text-sm font-semibold"}>
+            {formatPrice(product.price)}
+          </span>
           {product.oldPrice > 0 && (
             <span className="text-xs text-muted line-through">{formatPrice(product.oldPrice)}</span>
           )}

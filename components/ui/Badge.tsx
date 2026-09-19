@@ -1,12 +1,13 @@
 import clsx from "clsx";
 import type { ReactNode } from "react";
 
-type Tone = "accent" | "ink" | "muted";
+type Tone = "accent" | "ink" | "muted" | "sale";
 
 const tones: Record<Tone, string> = {
   accent: "bg-accent text-canvas",
   ink: "bg-ink text-canvas",
   muted: "bg-surface text-muted border border-line",
+  sale: "bg-sale text-canvas",
 };
 
 export function Badge({

@@ -8,6 +8,10 @@
   --color-line: #e4e0d9;
   --color-accent: #a8462e;
   --color-accent-dark: #7c331f;
+  /* Distinct from --color-accent (CTAs/active states) — reserved for sale
+     signals only (discount badges, sale price) so "buy now" and "this is
+     discounted" never compete for the same color. */
+  --color-sale: #8a5a1f;
 }
 
 @theme inline {
@@ -18,6 +22,7 @@
   --color-line: var(--color-line);
   --color-accent: var(--color-accent);
   --color-accent-dark: var(--color-accent-dark);
+  --color-sale: var(--color-sale);
 
   --font-display: var(--font-fraunces);
   --font-body: var(--font-inter);

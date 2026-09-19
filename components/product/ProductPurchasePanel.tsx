@@ -34,12 +34,14 @@ export function ProductPurchasePanel({ product }: { product: Product }) {
   return (
     <div>
       <div className="mb-3 flex gap-2">
-        {discount > 0 && <Badge tone="accent">-{discount}%</Badge>}
+        {discount > 0 && <Badge tone="sale">-{discount}%</Badge>}
         {lowStock && !outOfStock && <Badge tone="ink">Sắp hết hàng</Badge>}
       </div>
 
       <div className="mb-1 flex items-center gap-3">
-        <span className="text-2xl font-semibold">{formatPrice(product.price)}</span>
+        <span className={product.oldPrice > 0 ? "text-2xl font-semibold text-sale" : "text-2xl font-semibold"}>
+          {formatPrice(product.price)}
+        </span>
         {product.oldPrice > 0 && (
           <span className="text-base text-muted line-through">{formatPrice(product.oldPrice)}</span>
         )}
