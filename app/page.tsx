@@ -10,28 +10,17 @@ import { UNASSIGNED_CATEGORY_SLUG } from "@/lib/bag-post-parser";
 import { BRANDS, CATEGORIES } from "@/lib/constants";
 import { discountPercent } from "@/lib/format";
 import { Hero } from "@/components/marketing/Hero";
-import { TrustBar } from "@/components/marketing/TrustBar";
 import { LuxuryShowcase } from "@/components/marketing/LuxuryShowcase";
 import { CategoryGrid } from "@/components/marketing/CategoryGrid";
 import type { CategoryTile } from "@/components/marketing/CategoryGrid";
 import { FeaturedBrands } from "@/components/marketing/FeaturedBrands";
-import { CollectionStory } from "@/components/marketing/CollectionStory";
 import { BestSellerCarousel } from "@/components/marketing/BestSellerCarousel";
-import { AuthenticSection } from "@/components/marketing/AuthenticSection";
 import { BrandStory } from "@/components/marketing/BrandStory";
 import { TrustSection } from "@/components/marketing/TrustSection";
 import { Newsletter } from "@/components/marketing/Newsletter";
 import { ProductGrid } from "@/components/product/ProductGrid";
 
 const PLACEHOLDER = "/images/placeholder-product.jpg";
-
-function pickModelImage(products: { images: string[] }[], fallback: string, exclude?: string): string {
-  for (const p of products) {
-    const modelShot = p.images.find((src) => src.includes("model") && src !== exclude);
-    if (modelShot) return modelShot;
-  }
-  return fallback;
-}
 
 // Hand-picked lifestyle/model shots for the homepage hero carousel — the
 // catalog only tags ~60 images as "model" shots (all Adidas), and most are
@@ -60,21 +49,13 @@ export default async function HomePage() {
   const luxuryBrands = await getDistinctBagBrands();
   const bagCategories = await getDistinctBagCategories();
 
-  const [aoProducts, quanProducts, giayProducts, phuKienProducts] = await Promise.all([
+  const [aoProducts, giayProducts, phuKienProducts] = await Promise.all([
     getProductsByCategory("ao"),
-    getProductsByCategory("quan"),
     getProductsByCategory("giay"),
     getProductsByCategory("phu-kien"),
   ]);
-  const categoryProducts: Record<string, { images: string[] }[]> = {
-    ao: aoProducts,
-    quan: quanProducts,
-    giay: giayProducts,
-    "phu-kien": phuKienProducts,
-  };
 
   const heroImages = pickHeroImages(allProducts, allProducts[0]?.images[0] ?? PLACEHOLDER);
-  const storyImage = bagProducts[0]?.images[0] ?? pickModelImage(allProducts, allProducts[0]?.images[0] ?? PLACEHOLDER);
 
   const namProduct = allProducts.find((p) => p.gender === "Nam");
   const nuProduct = allProducts.find((p) => p.gender === "Nữ");
@@ -96,14 +77,6 @@ export default async function HomePage() {
     { slug: "phu-kien", name: "Phụ Kiện", href: "/danh-muc/phu-kien", imageUrl: phuKienProducts[0]?.images[0] ?? PLACEHOLDER },
   ];
 
-  const styleTiles: CategoryTile[] = [
-    { slug: "everyday", name: "Everyday", href: "/san-pham?sort=new", imageUrl: categoryProducts.ao[0]?.images[0] ?? PLACEHOLDER },
-    { slug: "sport", name: "Sport", href: "/danh-muc/giay", imageUrl: categoryProducts.giay[0]?.images[0] ?? PLACEHOLDER },
-    { slug: "streetwear", name: "Streetwear", href: "/san-pham?category=ao", imageUrl: categoryProducts.ao[1]?.images[0] ?? categoryProducts.ao[0]?.images[0] ?? PLACEHOLDER },
-    { slug: "luxury", name: "Luxury", href: "/hang-hieu", imageUrl: bagProducts[1]?.images[0] ?? bagProducts[0]?.images[0] ?? PLACEHOLDER },
-    { slug: "accessories", name: "Accessories", href: "/danh-muc/phu-kien", imageUrl: categoryProducts["phu-kien"][0]?.images[0] ?? PLACEHOLDER },
-  ];
-
   // "Chưa xác định" is a real filter on the /hang-hieu listing page so
   // unclassified items stay findable, but it isn't a real shopping category —
   // never surface it as a marketing tile on the homepage.
@@ -121,12 +94,9 @@ export default async function HomePage() {
     ...BRANDS.map((b) => ({ slug: b.slug, name: b.name, href: `/san-pham?brand=${b.slug}` })),
   ];
 
-  const authenticImages = bagProducts.flatMap((p) => p.images).slice(0, 4);
-
   return (
     <>
       <Hero images={heroImages} />
-      <TrustBar />
 
       <CategoryGrid title="Danh Mục Nổi Bật" tiles={entryTiles} />
 
@@ -148,15 +118,9 @@ export default async function HomePage() {
 
       <FeaturedBrands brands={brandLinks} />
 
-      <CollectionStory imageUrl={storyImage} />
-
       <div id="ban-chay">
         <BestSellerCarousel products={bestSellers} />
       </div>
-
-      <CategoryGrid title="Shop By Style" subtitle="Khám phá theo phong cách của bạn." tiles={styleTiles} />
-
-      <AuthenticSection images={authenticImages} />
 
       {discoveryTiles.length > 0 && (
         <CategoryGrid title="Khám Phá Theo Nhu Cầu" tiles={discoveryTiles} />
