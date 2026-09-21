@@ -20,7 +20,9 @@ export type BrandSlug =
   | "khac"
   | "new-era"
   | "moschino"
-  | "lifework";
+  | "lifework"
+  | "whoau"
+  | "spao";
 
 export interface Category {
   slug: CategorySlug;

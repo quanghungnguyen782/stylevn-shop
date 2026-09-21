@@ -28,6 +28,8 @@ export const BRANDS: Brand[] = [
   { slug: "new-era", name: "New Era" },
   { slug: "moschino", name: "Moschino" },
   { slug: "lifework", name: "Lifework" },
+  { slug: "whoau", name: "Whoau" },
+  { slug: "spao", name: "Spao" },
 ];
 
 /**
