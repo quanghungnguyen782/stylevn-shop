@@ -22983,5 +22983,2658 @@
       "quan",
       "Unisex"
     ]
+  },
+  {
+    "id": 869,
+    "slug": "polo-dia-nu-den-chim-ny-3fpqm0353",
+    "name": "Polo dia nữ Đen chìm Ny 3FPQM0353",
+    "code": "3FPQM0353",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/869.jpg"
+    ],
+    "description": "Polo dia nữ Đen chìm Ny 3FPQM0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 870,
+    "slug": "polo-nam-ke-navy",
+    "name": "Polo Nam kẻ Navy",
+    "code": "CTV870",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/870.jpg"
+    ],
+    "description": "Polo Nam kẻ Navy — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 871,
+    "slug": "vay-polo-dia-den-ny-3fopm0443",
+    "name": "váy polo dia đen Ny 3FOPM0443",
+    "code": "3FOPM0443",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/871.jpg"
+    ],
+    "description": "váy polo dia đen Ny 3FOPM0443 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 872,
+    "slug": "polo-dia-nu-hong-chim-ny-3fpqm0353",
+    "name": "Polo dia nữ Hồng chìm NY 3FPQM0353",
+    "code": "3FPQM0353",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/872.jpg"
+    ],
+    "description": "Polo dia nữ Hồng chìm NY 3FPQM0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 873,
+    "slug": "polo-nam-ke-trang",
+    "name": "Polo Nam kẻ trắng",
+    "code": "CTV873",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/873.jpg"
+    ],
+    "description": "Polo Nam kẻ trắng — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 874,
+    "slug": "vay-maxi-trang-3fopb0153",
+    "name": "Váy maxi trắng 3FOPB0153",
+    "code": "3FOPB0153",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/874.jpg"
+    ],
+    "description": "Váy maxi trắng 3FOPB0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 875,
+    "slug": "chan-vay-nau-99kw-3fskb0324-k-co-quan-bao-ho",
+    "name": "chân váy nâu 99kw 3FSKB0324 K có quần bảo hộ",
+    "code": "3FSKB0324",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/875.jpg"
+    ],
+    "description": "chân váy nâu 99kw 3FSKB0324 K có quần bảo hộ — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 876,
+    "slug": "polo-dia-nu-trang-chim-3fpqm0353",
+    "name": "Polo dia nữ Trắng chìm 3FPQM0353",
+    "code": "3FPQM0353",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/876.jpg"
+    ],
+    "description": "Polo dia nữ Trắng chìm 3FPQM0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 877,
+    "slug": "polo-ke-hong-den-3apqv0253",
+    "name": "polo kẻ hồng đen 3APQV0253",
+    "code": "3APQV0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/877.jpg"
+    ],
+    "description": "polo kẻ hồng đen 3APQV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 878,
+    "slug": "vay-polo-mono-trang-3fopm0353",
+    "name": "váy polo mono trắng 3FOPM0353",
+    "code": "3FOPM0353",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/878.jpg"
+    ],
+    "description": "váy polo mono trắng 3FOPM0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 879,
+    "slug": "chan-vay-trang-ny-3fskv0253",
+    "name": "chân váy trắng ny 3FSKV0253",
+    "code": "3FSKV0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/879.jpg"
+    ],
+    "description": "chân váy trắng ny 3FSKV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 880,
+    "slug": "polo-dia-chim-ny-trang-3apqm0253",
+    "name": "polo dia chìm Ny trắng 3APQM0253",
+    "code": "3APQM0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/880.jpg"
+    ],
+    "description": "polo dia chìm Ny trắng 3APQM0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 881,
+    "slug": "polo-ke-xanh-la-den-3apqv0253",
+    "name": "polo kẻ xanh lá đen 3APQV0253",
+    "code": "3APQV0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/881.jpg"
+    ],
+    "description": "polo kẻ xanh lá đen 3APQV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 882,
+    "slug": "vay-polo-yankes-den-3fopb0253",
+    "name": "váy polo yankes đen 3FOPB0253",
+    "code": "3FOPB0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/882.jpg"
+    ],
+    "description": "váy polo yankes đen 3FOPB0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 883,
+    "slug": "chan-vay-den-ny-3fskv0253",
+    "name": "chân váy đen Ny 3FSKV0253",
+    "code": "3FSKV0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/883.jpg"
+    ],
+    "description": "chân váy đen Ny 3FSKV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 884,
+    "slug": "polo-dia-chim-ny-den-3apqm0253",
+    "name": "polo dia chìm Ny Đen 3APQM0253",
+    "code": "3APQM0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/884.jpg"
+    ],
+    "description": "polo dia chìm Ny Đen 3APQM0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 885,
+    "slug": "polo-b-nau-vien-3apqb0243",
+    "name": "polo B nâu viền 3APQB0243",
+    "code": "3APQB0243",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/885.jpg"
+    ],
+    "description": "polo B nâu viền 3APQB0243 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 886,
+    "slug": "vay-polo-tim-trang-3foph0143",
+    "name": "váy polo tim Trắng 3FOPH0143",
+    "code": "3FOPH0143",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 770000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/886.jpg"
+    ],
+    "description": "váy polo tim Trắng 3FOPH0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 887,
+    "slug": "chan-vay-hong-c-3fskv0253",
+    "name": "chân váy Hồng C 3FSKV0253",
+    "code": "3FSKV0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/887.jpg"
+    ],
+    "description": "chân váy Hồng C 3FSKV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 888,
+    "slug": "polo-dia-den-ny-3fpqm0243",
+    "name": "polo dia Đen Ny 3FPQM0243",
+    "code": "3FPQM0243",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/888.jpg"
+    ],
+    "description": "polo dia Đen Ny 3FPQM0243 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 889,
+    "slug": "polo-b-xam-vien-3apqb0243",
+    "name": "polo B Xám viền 3APQB0243",
+    "code": "3APQB0243",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/889.jpg"
+    ],
+    "description": "polo B Xám viền 3APQB0243 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 890,
+    "slug": "vay-polo-basic-vang-3fop00623",
+    "name": "váy polo basic vàng 3FOP00623",
+    "code": "3FOP00623",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 420000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/890.jpg"
+    ],
+    "description": "váy polo basic vàng 3FOP00623 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 891,
+    "slug": "chan-vay-lung-xam-3fskb0453",
+    "name": "chân váy lửng Xám 3FSKB0453",
+    "code": "3FSKB0453",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1000000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/891.jpg"
+    ],
+    "description": "chân váy lửng Xám 3FSKB0453 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 892,
+    "slug": "polo-basic-b-hong-vien-3apqb0253",
+    "name": "polo basic B hồng viền 3APQB0253",
+    "code": "3APQB0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/892.jpg"
+    ],
+    "description": "polo basic B hồng viền 3APQB0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 893,
+    "slug": "polo-la-xanh-vien-3apqb0243",
+    "name": "polo La xanh viền 3APQB0243",
+    "code": "3APQB0243",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/893.jpg"
+    ],
+    "description": "polo La xanh viền 3APQB0243 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 894,
+    "slug": "vay-polo-basic-hong-3fop00623",
+    "name": "váy polo basic hồng 3FOP00623",
+    "code": "3FOP00623",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 420000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/894.jpg"
+    ],
+    "description": "váy polo basic hồng 3FOP00623 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 895,
+    "slug": "chan-vay-lung-hong-3fskb0453",
+    "name": "chân váy lửng hồng 3FSKB0453",
+    "code": "3FSKB0453",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1000000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/895.jpg"
+    ],
+    "description": "chân váy lửng hồng 3FSKB0453 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 896,
+    "slug": "polo-basic-den-vien-3apqb0253",
+    "name": "polo basic đen viền 3APQB0253",
+    "code": "3APQB0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/896.jpg"
+    ],
+    "description": "polo basic đen viền 3APQB0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 897,
+    "slug": "polo-la-xanh-vien-3lpqb0133",
+    "name": "polo La xanh viền 3LPQB0133",
+    "code": "3LPQB0133",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/897.jpg"
+    ],
+    "description": "polo La xanh viền 3LPQB0133 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 898,
+    "slug": "vay-sat-nach-trang-vien-3fopv0353",
+    "name": "váy sát nách trắng viền 3FOPV0353",
+    "code": "3FOPV0353",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/898.jpg"
+    ],
+    "description": "váy sát nách trắng viền 3FOPV0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 899,
+    "slug": "chan-vay-denim-2-mau-3fdsm0453",
+    "name": "chân váy denim 2 màu 3FDSM0453",
+    "code": "3FDSM0453",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/899.jpg"
+    ],
+    "description": "chân váy denim 2 màu 3FDSM0453 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 900,
+    "slug": "polo-basic-trang-full-3apqb0153",
+    "name": "polo basic trắng full 3APQB0153",
+    "code": "3APQB0153",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/900.jpg"
+    ],
+    "description": "polo basic trắng full 3APQB0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 901,
+    "slug": "polo-redsox-navy-3apqb0263",
+    "name": "polo redsox NAVY 3APQB0263",
+    "code": "3APQB0263",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/901.jpg"
+    ],
+    "description": "polo redsox NAVY 3APQB0263 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 902,
+    "slug": "vay-polo-trang-xanh-3fopv0443",
+    "name": "váy polo Trắng xanh 3FOPV0443",
+    "code": "3FOPV0443",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/902.jpg"
+    ],
+    "description": "váy polo Trắng xanh 3FOPV0443 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 903,
+    "slug": "chan-vay-denim-3fdsm0253",
+    "name": "chân váy denim 3FDSM0253",
+    "code": "3FDSM0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/903.jpg"
+    ],
+    "description": "chân váy denim 3FDSM0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 904,
+    "slug": "polo-basic-den-full-3apqb0153",
+    "name": "polo basic đen full 3APQB0153",
+    "code": "3APQB0153",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/904.jpg"
+    ],
+    "description": "polo basic đen full 3APQB0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 905,
+    "slug": "polo-yankes-den-3apqb0263",
+    "name": "polo yankes ĐEN 3APQB0263",
+    "code": "3APQB0263",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/905.jpg"
+    ],
+    "description": "polo yankes ĐEN 3APQB0263 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 906,
+    "slug": "vay-polo-navy-co-xanh-3fopv0443",
+    "name": "váy polo Navy cổ xanh 3FOPV0443",
+    "code": "3FOPV0443",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/906.jpg"
+    ],
+    "description": "váy polo Navy cổ xanh 3FOPV0443 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 907,
+    "slug": "chan-vay-la-trang-3fskv0143",
+    "name": "chân váy La Trắng 3FSKV0143",
+    "code": "3FSKV0143",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/907.jpg"
+    ],
+    "description": "chân váy La Trắng 3FSKV0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 908,
+    "slug": "polo-ny-xam-3apqb0353",
+    "name": "Polo Ny xám 3APQB0353",
+    "code": "3APQB0353",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/908.jpg"
+    ],
+    "description": "Polo Ny xám 3APQB0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 909,
+    "slug": "polo-crop-hong-vien-3fpqb0243",
+    "name": "polo crop Hồng viền 3FPQB0243",
+    "code": "3FPQB0243",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/909.jpg"
+    ],
+    "description": "polo crop Hồng viền 3FPQB0243 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 910,
+    "slug": "vay-2-day-yankes-trang-3fopv0253",
+    "name": "Váy 2 dây yankes Trắng 3FOPV0253",
+    "code": "3FOPV0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 620000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/910.jpg"
+    ],
+    "description": "Váy 2 dây yankes Trắng 3FOPV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 911,
+    "slug": "chan-vay-ny-den-3fskv0143",
+    "name": "chân váy Ny đen 3FSKV0143",
+    "code": "3FSKV0143",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/911.jpg"
+    ],
+    "description": "chân váy Ny đen 3FSKV0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 912,
+    "slug": "polo-la-xanh-la-3apqb0353",
+    "name": "Polo La Xanh lá 3APQB0353",
+    "code": "3APQB0353",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/912.jpg"
+    ],
+    "description": "Polo La Xanh lá 3APQB0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 913,
+    "slug": "polo-crop-trang-co-xanh-3fkpv0543",
+    "name": "polo crop trắng cổ xanh 3FKPV0543",
+    "code": "3FKPV0543",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/913.jpg"
+    ],
+    "description": "polo crop trắng cổ xanh 3FKPV0543 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 914,
+    "slug": "vay-2-day-yankes-navy-vien-3fopv0253",
+    "name": "Váy 2 dây yankes Navy Viền 3FOPV0253",
+    "code": "3FOPV0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 620000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/914.jpg"
+    ],
+    "description": "Váy 2 dây yankes Navy Viền 3FOPV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 915,
+    "slug": "chan-vay-b-mono-trang-3fskm0143",
+    "name": "chân váy B mono trắng 3FSKM0143",
+    "code": "3FSKM0143",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/915.jpg"
+    ],
+    "description": "chân váy B mono trắng 3FSKM0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 916,
+    "slug": "polo-ny-den-3apqb0353",
+    "name": "Polo Ny Đen 3APQB0353",
+    "code": "3APQB0353",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/916.jpg"
+    ],
+    "description": "Polo Ny Đen 3APQB0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 917,
+    "slug": "polo-crop-len-ke-vang-3fkpv0253",
+    "name": "Polo crop Len kẻ vàng 3FKPV0253",
+    "code": "3FKPV0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/917.jpg"
+    ],
+    "description": "Polo crop Len kẻ vàng 3FKPV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 918,
+    "slug": "vay-2-day-redsox-b-xam-3fopv0253",
+    "name": "Váy 2 dây Redsox B Xam 3FOPV0253",
+    "code": "3FOPV0253",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 620000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/918.jpg"
+    ],
+    "description": "Váy 2 dây Redsox B Xam 3FOPV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 919,
+    "slug": "chan-vay-c-mono-hong-3fskm0143",
+    "name": "chân váy C mono Hồng 3FSKM0143",
+    "code": "3FSKM0143",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/919.jpg"
+    ],
+    "description": "chân váy C mono Hồng 3FSKM0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 920,
+    "slug": "polo-ny-trang-kem-3apqb0353",
+    "name": "Polo Ny Trắng Kem 3APQB0353",
+    "code": "3APQB0353",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/920.jpg"
+    ],
+    "description": "Polo Ny Trắng Kem 3APQB0353 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 921,
+    "slug": "polo-crop-len-ke-hong-3fkpv0253",
+    "name": "Polo crop Len kẻ Hồng 3FKPV0253",
+    "code": "3FKPV0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/921.jpg"
+    ],
+    "description": "Polo crop Len kẻ Hồng 3FKPV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 922,
+    "slug": "vay-2-day-dai-hong-3fopb0643",
+    "name": "váy 2 dây dài Hồng 3FOPB0643",
+    "code": "3FOPB0643",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/922.jpg"
+    ],
+    "description": "váy 2 dây dài Hồng 3FOPB0643 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 923,
+    "slug": "chan-vay-mono-den-3fskm0143",
+    "name": "chân váy mono Đen 3FSKM0143",
+    "code": "3FSKM0143",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/923.jpg"
+    ],
+    "description": "chân váy mono Đen 3FSKM0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 924,
+    "slug": "polo-vien-vai-trang-3apqv0143",
+    "name": "polo viền vai Trắng 3APQV0143",
+    "code": "3APQV0143",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/924.jpg"
+    ],
+    "description": "polo viền vai Trắng 3APQV0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 925,
+    "slug": "polo-den-tay-trang-crop-3fpqb0663",
+    "name": "Polo đen tay trắng crop 3FPQB0663",
+    "code": "3FPQB0663",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/925.jpg"
+    ],
+    "description": "Polo đen tay trắng crop 3FPQB0663 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 926,
+    "slug": "vay-2-day-dai-trang-3fopb0643",
+    "name": "váy 2 dây dài Trắng 3FOPB0643",
+    "code": "3FOPB0643",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/926.jpg"
+    ],
+    "description": "váy 2 dây dài Trắng 3FOPB0643 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 927,
+    "slug": "chan-vay-trang-cam-3fskm0133",
+    "name": "chân váy trắng cam 3FSKM0133",
+    "code": "3FSKM0133",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/927.jpg"
+    ],
+    "description": "chân váy trắng cam 3FSKM0133 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 928,
+    "slug": "polo-vien-vai-navy-3apqv0143",
+    "name": "polo viền vai Navy 3APQV0143",
+    "code": "3APQV0143",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/928.jpg"
+    ],
+    "description": "polo viền vai Navy 3APQV0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 929,
+    "slug": "polo-crop-trang-co-navy-3fpqb0163",
+    "name": "polo crop trắng cổ navy 3FPQB0163",
+    "code": "3FPQB0163",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/929.jpg"
+    ],
+    "description": "polo crop trắng cổ navy 3FPQB0163 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 930,
+    "slug": "vay-co-tron-trang-vien-3fopb0453",
+    "name": "váy cổ tròn Trắng viền 3FOPB0453",
+    "code": "3FOPB0453",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/930.jpg"
+    ],
+    "description": "váy cổ tròn Trắng viền 3FOPB0453 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 931,
+    "slug": "chan-vay-mono-xanh-3fskm0133",
+    "name": "chân váy mono xanh 3FSKM0133",
+    "code": "3FSKM0133",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/931.jpg"
+    ],
+    "description": "chân váy mono xanh 3FSKM0133 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 932,
+    "slug": "polo-nu-xanh-mint-3fpqb0433",
+    "name": "polo nữ Xanh mint 3FPQB0433",
+    "code": "3FPQB0433",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/932.jpg"
+    ],
+    "description": "polo nữ Xanh mint 3FPQB0433 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 933,
+    "slug": "polo-crop-ke-b-hong-3fpqv0253",
+    "name": "polo crop Kẻ B Hồng 3FPQV0253",
+    "code": "3FPQV0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/933.jpg"
+    ],
+    "description": "polo crop Kẻ B Hồng 3FPQV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 934,
+    "slug": "vay-xuong-ny-xanh-31op05131",
+    "name": "Váy xuông Ny Xanh 31OP05131",
+    "code": "CTV934",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 290000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/934.jpg"
+    ],
+    "description": "Váy xuông Ny Xanh 31OP05131 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 935,
+    "slug": "chan-vay-den-vien-3fskv0153",
+    "name": "chân váy đen viền 3FSKV0153",
+    "code": "3FSKV0153",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/935.jpg"
+    ],
+    "description": "chân váy đen viền 3FSKV0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 936,
+    "slug": "polo-mono-trang-cam-3fpqm0233",
+    "name": "polo mono Trắng cam 3FPQM0233",
+    "code": "3FPQM0233",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/936.jpg"
+    ],
+    "description": "polo mono Trắng cam 3FPQM0233 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 937,
+    "slug": "polo-crop-ny-den-vien-3fpqb0253",
+    "name": "polo crop Ny đen viền 3FPQB0253",
+    "code": "3FPQB0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1000000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/937.jpg"
+    ],
+    "description": "polo crop Ny đen viền 3FPQB0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 938,
+    "slug": "vay-polo-xanh-la-3fopb0333",
+    "name": "Váy polo xanh La 3FOPB0333",
+    "code": "3FOPB0333",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 470000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/938.jpg"
+    ],
+    "description": "Váy polo xanh La 3FOPB0333 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 939,
+    "slug": "chan-vay-hop-gio-den-3fskb0154",
+    "name": "chân váy hộp gió Đen 3FSKB0154",
+    "code": "3FSKB0154",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/939.jpg"
+    ],
+    "description": "chân váy hộp gió Đen 3FSKB0154 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 940,
+    "slug": "polo-ny-den-vien-3fpqm0433",
+    "name": "polo ny đen viền 3FPQM0433",
+    "code": "3FPQM0433",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/940.jpg"
+    ],
+    "description": "polo ny đen viền 3FPQM0433 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 941,
+    "slug": "polo-crop-xanh-dod-3akpv0543",
+    "name": "polo crop Xanh dod 3AKPV0543",
+    "code": "3AKPV0543",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/941.jpg"
+    ],
+    "description": "polo crop Xanh dod 3AKPV0543 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 942,
+    "slug": "vay-co-tron-mono-do-3fopm0123",
+    "name": "váy cổ tròn mono đỏ 3FOPM0123",
+    "code": "3FOPM0123",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/942.jpg"
+    ],
+    "description": "váy cổ tròn mono đỏ 3FOPM0123 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 943,
+    "slug": "chan-vay-den-vien-3fskv0144",
+    "name": "chân váy Đen viền 3FSKV0144",
+    "code": "3FSKV0144",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/943.jpg"
+    ],
+    "description": "chân váy Đen viền 3FSKV0144 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 944,
+    "slug": "polo-yankes-den-full-3apqv0163",
+    "name": "polo yankes đen full 3APQV0163",
+    "code": "3APQV0163",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/944.jpg"
+    ],
+    "description": "polo yankes đen full 3APQV0163 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 945,
+    "slug": "polo-nu-trang-co-xanh-3fpqb0343",
+    "name": "polo nữ trắng cổ xanh 3FPQB0343",
+    "code": "3FPQB0343",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/945.jpg"
+    ],
+    "description": "polo nữ trắng cổ xanh 3FPQB0343 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 946,
+    "slug": "vay-co-tron-mono-la-xanh-3fopm0123",
+    "name": "váy cổ tròn mono La xanh 3FOPM0123",
+    "code": "3FOPM0123",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/946.jpg"
+    ],
+    "description": "váy cổ tròn mono La xanh 3FOPM0123 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 947,
+    "slug": "chan-vay-nau-vien-3fskv0144",
+    "name": "chân váy nâu viền 3FSKV0144",
+    "code": "3FSKV0144",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/947.jpg"
+    ],
+    "description": "chân váy nâu viền 3FSKV0144 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 948,
+    "slug": "polo-yankes-trang-full-3apqv0163",
+    "name": "polo yankes Trắng full 3APQV0163",
+    "code": "3APQV0163",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/948.jpg"
+    ],
+    "description": "polo yankes Trắng full 3APQV0163 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 949,
+    "slug": "polo-navy-vien-vai-3apqv0153",
+    "name": "polo Navy viền vai 3APQV0153",
+    "code": "3APQV0153",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/949.jpg"
+    ],
+    "description": "polo Navy viền vai 3APQV0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 950,
+    "slug": "so-mi-hoa-van-dam-la-31wsh3131",
+    "name": "sơ mi hoa văn đậm La 31WSH3131",
+    "code": "CTV950",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/950.jpg"
+    ],
+    "description": "sơ mi hoa văn đậm La 31WSH3131 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 951,
+    "slug": "chan-vay-trang-vien-3fskv0144",
+    "name": "chân váy Trắng vien 3FSKV0144",
+    "code": "3FSKV0144",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/951.jpg"
+    ],
+    "description": "chân váy Trắng vien 3FSKV0144 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 952,
+    "slug": "polo-mono-trang-vien-3apqm0443",
+    "name": "polo mono trắng viền 3APQM0443",
+    "code": "3APQM0443",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/952.jpg"
+    ],
+    "description": "polo mono trắng viền 3APQM0443 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 953,
+    "slug": "polo-yankes-trang-vien-vai-3apqv0153",
+    "name": "polo yankes trắng viền vai 3APQV0153",
+    "code": "3APQV0153",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/953.jpg"
+    ],
+    "description": "polo yankes trắng viền vai 3APQV0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 954,
+    "slug": "so-mi-hoa-van-ny-dam-3awsp0123",
+    "name": "sơ mi hoa Văn Ny đậm 3AWSP0123",
+    "code": "3AWSP0123",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/954.jpg"
+    ],
+    "description": "sơ mi hoa Văn Ny đậm 3AWSP0123 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 955,
+    "slug": "chan-vay-who-ke-nho-nau",
+    "name": "chân váy who kẻ nhỏ NÂU",
+    "code": "CTV955",
+    "brand": "khac",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/955.jpg"
+    ],
+    "description": "chân váy who kẻ nhỏ NÂU — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 956,
+    "slug": "polo-mono-den-vien-3apqm0443",
+    "name": "polo mono đen viền 3APQM0443",
+    "code": "3APQM0443",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/956.jpg"
+    ],
+    "description": "polo mono đen viền 3APQM0443 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 957,
+    "slug": "polo-la-xanh-vien-trang-3fpqb0233",
+    "name": "polo La xanh viền trắng 3FPQB0233",
+    "code": "3FPQB0233",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/957.jpg"
+    ],
+    "description": "polo La xanh viền trắng 3FPQB0233 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 958,
+    "slug": "so-mi-ny-be-logo-mono-3awsm0341",
+    "name": "sơ mi ny Be logo mono 3awsm0341",
+    "code": "3AWSM0341",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/958.jpg"
+    ],
+    "description": "sơ mi ny Be logo mono 3awsm0341 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 959,
+    "slug": "chan-vay-who-ke-nho-xam",
+    "name": "chân váy who kẻ nhỏ XÁM",
+    "code": "CTV959",
+    "brand": "khac",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/959.jpg"
+    ],
+    "description": "chân váy who kẻ nhỏ XÁM — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 960,
+    "slug": "polo-mono-nau-vien-3apqm0443",
+    "name": "polo mono nâu viền 3APQM0443",
+    "code": "3APQM0443",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/960.jpg"
+    ],
+    "description": "polo mono nâu viền 3APQM0443 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 961,
+    "slug": "so-mi-dod-trang-3adrv0253",
+    "name": "sơ mi dod Trắng 3ADRV0253",
+    "code": "3ADRV0253",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/961.jpg"
+    ],
+    "description": "sơ mi dod Trắng 3ADRV0253 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 962,
+    "slug": "chan-vay-denim-3fdsm0343",
+    "name": "chân váy denim 3FDSM0343",
+    "code": "3FDSM0343",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/962.jpg"
+    ],
+    "description": "chân váy denim 3FDSM0343 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 963,
+    "slug": "polo-den-ny-vai-vien-3apqm0343",
+    "name": "polo Đen Ny vai viền 3APQM0343",
+    "code": "3APQM0343",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/963.jpg"
+    ],
+    "description": "polo Đen Ny vai viền 3APQM0343 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 964,
+    "slug": "chan-vay-dia-b-den-3fdsm0324",
+    "name": "chân váy dia B đen 3FDSM0324",
+    "code": "3FDSM0324",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 880000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/964.jpg"
+    ],
+    "description": "chân váy dia B đen 3FDSM0324 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 965,
+    "slug": "polo-slim-trang-vien-3fpqv0763",
+    "name": "Polo slim Trắng viền 3FPQV0763",
+    "code": "3FPQV0763",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/965.jpg"
+    ],
+    "description": "Polo slim Trắng viền 3FPQV0763 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 966,
+    "slug": "chan-vay-basic-den-3fskg0134",
+    "name": "chân váy Basic đen 3FSKG0134",
+    "code": "3FSKG0134",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/966.jpg"
+    ],
+    "description": "chân váy Basic đen 3FSKG0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 967,
+    "slug": "polo-ny-trang-full-3apqb0163",
+    "name": "polo ny trắng full 3APQB0163",
+    "code": "3APQB0163",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/967.jpg"
+    ],
+    "description": "polo ny trắng full 3APQB0163 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 968,
+    "slug": "chan-vay-hong-dam-3fskg0134",
+    "name": "Chân váy hồng đậm 3FSKG0134",
+    "code": "3FSKG0134",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/968.jpg"
+    ],
+    "description": "Chân váy hồng đậm 3FSKG0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 969,
+    "slug": "polo-basic-b-be-3apqb0143",
+    "name": "polo basic B be 3APQB0143",
+    "code": "3APQB0143",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/969.jpg"
+    ],
+    "description": "polo basic B be 3APQB0143 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 970,
+    "slug": "chan-vay-b-be-3fskg0134",
+    "name": "chân váy B be 3FSKG0134",
+    "code": "3FSKG0134",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/970.jpg"
+    ],
+    "description": "chân váy B be 3FSKG0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 971,
+    "slug": "chan-vay-yankes-denim-3fdsr0134",
+    "name": "chân váy yankes denim 3FDSR0134",
+    "code": "3FDSR0134",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/971.jpg"
+    ],
+    "description": "chân váy yankes denim 3FDSR0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 972,
+    "slug": "chan-vay-len-den-vien-3fskg0236",
+    "name": "chân váy Len đen viền 3FSKG0236",
+    "code": "3FSKG0236",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/972.jpg"
+    ],
+    "description": "chân váy Len đen viền 3FSKG0236 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 973,
+    "slug": "chan-vay-dai-hop-ny-den-full-3fskv0351",
+    "name": "chân váy dài hộp Ny Đen Full 3FSKV0351",
+    "code": "3FSKV0351",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/973.jpg"
+    ],
+    "description": "chân váy dài hộp Ny Đen Full 3FSKV0351 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 974,
+    "slug": "chan-vay-hop-ny-nau-3fskb0153",
+    "name": "chân váy hộp Ny NÂU 3FSKB0153",
+    "code": "3FSKB0153",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/974.jpg"
+    ],
+    "description": "chân váy hộp Ny NÂU 3FSKB0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 975,
+    "slug": "chan-vay-hop-ny-den-3fskb0153",
+    "name": "chân váy hộp Ny ĐEN 3FSKB0153",
+    "code": "3FSKB0153",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/975.jpg"
+    ],
+    "description": "chân váy hộp Ny ĐEN 3FSKB0153 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 976,
+    "slug": "chan-vay-tui-hop-be-3fskn0243",
+    "name": "chân váy túi hộp BE 3FSKN0243",
+    "code": "3FSKN0243",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/976.jpg"
+    ],
+    "description": "chân váy túi hộp BE 3FSKN0243 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 977,
+    "slug": "chan-vay-cube-xanh",
+    "name": "chân váy cube xanh",
+    "code": "CTV977",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/polo-vay-chanvay/977.jpg"
+    ],
+    "description": "chân váy cube xanh — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
   }
 ]
