@@ -37,6 +37,7 @@ export const BRANDS: Brand[] = [
   { slug: "rayban", name: "Ray-Ban" },
   { slug: "elephant", name: "The Elephant" },
   { slug: "badblood", name: "Badblood" },
+  { slug: "fila", name: "Fila" },
 ];
 
 /**

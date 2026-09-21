@@ -44813,5 +44813,341 @@
       "ao",
       "Unisex"
     ]
+  },
+  {
+    "id": 1769,
+    "slug": "vali-fila-24-ky-gui-size-60x39x27",
+    "name": "Vali FILA 24 ký gửi size 60x39x27",
+    "code": "CTV1769",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2350000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1769.jpg"
+    ],
+    "description": "Vali FILA 24 ký gửi size 60x39x27 — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1770,
+    "slug": "vali-adidas-size-22-xach-tay-size-50x45x22",
+    "name": "Vali Adidas size 22 xách tay size 50x45x22",
+    "code": "CTV1770",
+    "brand": "adidas",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 1500000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1770.jpg"
+    ],
+    "description": "Vali Adidas size 22 xách tay size 50x45x22 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1771,
+    "slug": "vali-fila-24-ky-gui-size-60x39x27-2",
+    "name": "Vali FILA 24 ký gửi size 60x39x27",
+    "code": "CTV1771",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2350000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1771.jpg"
+    ],
+    "description": "Vali FILA 24 ký gửi size 60x39x27 — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1772,
+    "slug": "vali-adidas-size-22-xach-tay-size-50x45x22-2",
+    "name": "Vali Adidas size 22 xách tay size 50x45x22",
+    "code": "CTV1772",
+    "brand": "adidas",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1772.jpg"
+    ],
+    "description": "Vali Adidas size 22 xách tay size 50x45x22 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1773,
+    "slug": "vali-fila-24-ky-gui-size-60x39x27-3",
+    "name": "Vali FILA 24 ký gửi size 60x39x27",
+    "code": "CTV1773",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1773.jpg"
+    ],
+    "description": "Vali FILA 24 ký gửi size 60x39x27 — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1774,
+    "slug": "vali-adidas-size-22-xach-tay-vali-50x45x22-cop-size-30x15x20",
+    "name": "Vali Adidas size 22 xách tay vali 50x45x22, cốp size 30x15x20",
+    "code": "CTV1774",
+    "brand": "adidas",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1774.jpg"
+    ],
+    "description": "Vali Adidas size 22 xách tay vali 50x45x22, cốp size 30x15x20 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1775,
+    "slug": "vali-fila-24-ky-gui",
+    "name": "Vali FILA 24 ký gửi",
+    "code": "CTV1775",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1775.jpg"
+    ],
+    "description": "Vali FILA 24 ký gửi — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1776,
+    "slug": "vali-adidas-size-22-xach-tay-vali-50x45x22-cop-size-30x15x20-2",
+    "name": "Vali Adidas size 22 xách tay vali 50x45x22, cốp size 30x15x20",
+    "code": "CTV1776",
+    "brand": "adidas",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1776.jpg"
+    ],
+    "description": "Vali Adidas size 22 xách tay vali 50x45x22, cốp size 30x15x20 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1777,
+    "slug": "vali-fila-24-ky-gui-size-60x39x27-4",
+    "name": "Vali FILA 24 ký gửi size 60x39x27",
+    "code": "CTV1777",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1777.jpg"
+    ],
+    "description": "Vali FILA 24 ký gửi size 60x39x27 — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1778,
+    "slug": "vali-adidas-vali-das-power-03-size-50x45x22",
+    "name": "Vali Adidas Vali das power 03 size 50x45x22",
+    "code": "CTV1778",
+    "brand": "adidas",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1778.jpg"
+    ],
+    "description": "Vali Adidas Vali das power 03 size 50x45x22 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1779,
+    "slug": "vali-fila-24-ky-gui-size-60x39x27-do-cam",
+    "name": "Vali FILA 24 ký gửi size 60x39x27 đỏ cam",
+    "code": "CTV1779",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1779.jpg"
+    ],
+    "description": "Vali FILA 24 ký gửi size 60x39x27 đỏ cam — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1780,
+    "slug": "vali-fila-24-ky-gui-size-60x39x27-xanh-mint",
+    "name": "Vali FILA 24 ký gửi size 60x39x27 xanh mint",
+    "code": "CTV1780",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1780.jpg"
+    ],
+    "description": "Vali FILA 24 ký gửi size 60x39x27 xanh mint — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1781,
+    "slug": "vali-fila-22-xach-tay",
+    "name": "Vali FILA 22 xách tay",
+    "code": "CTV1781",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2100000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1781.jpg"
+    ],
+    "description": "Vali FILA 22 xách tay — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1782,
+    "slug": "vali-fila-22-xach-tay-size-39x23x49",
+    "name": "Vali FILA 22 xách tay size 39x23x49",
+    "code": "CTV1782",
+    "brand": "fila",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 2100000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/vali/1782.jpg"
+    ],
+    "description": "Vali FILA 22 xách tay size 39x23x49 — nguồn hàng CTV.",
+    "tags": [
+      "fila",
+      "phu-kien",
+      "Unisex"
+    ]
   }
 ]
