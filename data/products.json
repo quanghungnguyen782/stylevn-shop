@@ -35914,5 +35914,666 @@
       "ao",
       "Unisex"
     ]
+  },
+  {
+    "id": 1401,
+    "slug": "bomber-yankes-den-3ajpv0244",
+    "name": "bomber Yankes đen 3AJPV0244",
+    "code": "3AJPV0244",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 3200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1401.jpg"
+    ],
+    "description": "bomber Yankes đen 3AJPV0244 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1402,
+    "slug": "bomber-yankes-hong-3ajpv0244",
+    "name": "bomber yankes hồng 3AJPV0244",
+    "code": "3AJPV0244",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 3200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1402.jpg"
+    ],
+    "description": "bomber yankes hồng 3AJPV0244 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1403,
+    "slug": "bomber-yankes-navy-3ajpv0244",
+    "name": "bomber yankes Navy 3AJPV0244",
+    "code": "3AJPV0244",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 3200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1403.jpg"
+    ],
+    "description": "bomber yankes Navy 3AJPV0244 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1404,
+    "slug": "bomber-mono-nau-3ajpm0141",
+    "name": "bomber mono nâu 3AJPM0141",
+    "code": "3AJPM0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2250000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1404.jpg"
+    ],
+    "description": "bomber mono nâu 3AJPM0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1405,
+    "slug": "bomber-mono-den-3ajpm0141",
+    "name": "bomber mono đen 3AJPM0141",
+    "code": "3AJPM0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2250000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1405.jpg"
+    ],
+    "description": "bomber mono đen 3AJPM0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1406,
+    "slug": "bomber-ny-den-full-3ajpv0634",
+    "name": "bomber ny đen full 3AJPV0634",
+    "code": "3AJPV0634",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1406.jpg"
+    ],
+    "description": "bomber ny đen full 3AJPV0634 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1407,
+    "slug": "bomber-ny-tay-trang-3ajpv0634",
+    "name": "bomber ny tay trắng 3AJPV0634",
+    "code": "3AJPV0634",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1407.jpg"
+    ],
+    "description": "bomber ny tay trắng 3AJPV0634 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1408,
+    "slug": "bomber-crop-navy-3fjpv0134",
+    "name": "bomber crop Navy 3FJPV0134",
+    "code": "3FJPV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1408.jpg"
+    ],
+    "description": "bomber crop Navy 3FJPV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1409,
+    "slug": "bomber-ny-den-3ajpv0234",
+    "name": "bomber Ny đen 3AJPV0234",
+    "code": "3AJPV0234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 3200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1409.jpg"
+    ],
+    "description": "bomber Ny đen 3AJPV0234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1410,
+    "slug": "bomber-crop-hong-3fjpv0134",
+    "name": "bomber crop Hồng 3FJPV0134",
+    "code": "3FJPV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1410.jpg"
+    ],
+    "description": "bomber crop Hồng 3FJPV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1411,
+    "slug": "bomber-den-ny-vien-3ajpv1546",
+    "name": "bomber đen Ny viền 3AJPV1546",
+    "code": "3AJPV1546",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2800000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1411.jpg"
+    ],
+    "description": "bomber đen Ny viền 3AJPV1546 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1412,
+    "slug": "varsity-den-ny",
+    "name": "varsity đen Ny",
+    "code": "CTV1412",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1412.jpg"
+    ],
+    "description": "varsity đen Ny — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1413,
+    "slug": "bomber-b-nau-3ajpv0634",
+    "name": "bomber B nâu 3AJPV0634",
+    "code": "3AJPV0634",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2050000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1413.jpg"
+    ],
+    "description": "bomber B nâu 3AJPV0634 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1414,
+    "slug": "bomber-phao-yankes-den-3adjv0346",
+    "name": "bomber phao yankes đen 3ADJV0346",
+    "code": "3ADJV0346",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1414.jpg"
+    ],
+    "description": "bomber phao yankes đen 3ADJV0346 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1415,
+    "slug": "bomber-ny-xanh-la-3ajpb0131",
+    "name": "Bomber Ny Xanh lá 3AJPB0131",
+    "code": "3AJPB0131",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1415.jpg"
+    ],
+    "description": "Bomber Ny Xanh lá 3AJPB0131 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1416,
+    "slug": "bomber-phao-yankes-trang-3adjv0346",
+    "name": "bomber phao yankes trắng 3ADJV0346",
+    "code": "3ADJV0346",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1416.jpg"
+    ],
+    "description": "bomber phao yankes trắng 3ADJV0346 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1417,
+    "slug": "bomber-c-navy-3ajpv0634",
+    "name": "bomber C Navy 3AJPV0634",
+    "code": "3AJPV0634",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1417.jpg"
+    ],
+    "description": "bomber C Navy 3AJPV0634 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1418,
+    "slug": "bomber-b-do-redsox-3ajpv0534",
+    "name": "Bomber B Đỏ redsox 3AJPV0534",
+    "code": "3AJPV0534",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1418.jpg"
+    ],
+    "description": "Bomber B Đỏ redsox 3AJPV0534 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1419,
+    "slug": "bomber-dia-ny-den-3ajpm0224",
+    "name": "bomber dia Ny đen 3AJPM0224",
+    "code": "3AJPM0224",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1950000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1419.jpg"
+    ],
+    "description": "bomber dia Ny đen 3AJPM0224 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1420,
+    "slug": "bomber-ny-den-3ajpv0141",
+    "name": "bomber ny đen 3AJPV0141",
+    "code": "3AJPV0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2800000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1420.jpg"
+    ],
+    "description": "bomber ny đen 3AJPV0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1421,
+    "slug": "bomber-dia-b-nau-3ajpm0224",
+    "name": "bomber dia B nâu 3AJPM0224",
+    "code": "3AJPM0224",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1421.jpg"
+    ],
+    "description": "bomber dia B nâu 3AJPM0224 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1422,
+    "slug": "bomber-dia-la-navy-3ajpm0634",
+    "name": "bomber dia La Navy 3AJPM0634",
+    "code": "3AJPM0634",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 3400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1422.jpg"
+    ],
+    "description": "bomber dia La Navy 3AJPM0634 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1423,
+    "slug": "bomber-ny-den-3ajpv0134",
+    "name": "bomber Ny Đen 3AJPV0134",
+    "code": "3AJPV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1423.jpg"
+    ],
+    "description": "bomber Ny Đen 3AJPV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1424,
+    "slug": "bomber-dia-ny-den-3ajpm0634",
+    "name": "bomber dia Ny đen 3AJPM0634",
+    "code": "3AJPM0634",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 3400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1424.jpg"
+    ],
+    "description": "bomber dia Ny đen 3AJPM0634 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1425,
+    "slug": "bomber-ny-den-vien-3ajpv0934",
+    "name": "bomber ny đen viền 3AJPV0934",
+    "code": "3AJPV0934",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1425.jpg"
+    ],
+    "description": "bomber ny đen viền 3AJPV0934 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1426,
+    "slug": "bomber-ny-gio-den-3ajpb0151",
+    "name": "bomber ny Gió đen 3AJPB0151",
+    "code": "3AJPB0151",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2000000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1426.jpg"
+    ],
+    "description": "bomber ny Gió đen 3AJPB0151 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1427,
+    "slug": "bomber-b-navy-3fdj99901",
+    "name": "bomber B navy 3FDJ99901",
+    "code": "3FDJ99901",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/bomber-mlb/1427.jpg"
+    ],
+    "description": "bomber B navy 3FDJ99901 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
   }
 ]
