@@ -29331,5 +29331,3574 @@
       "phu-kien",
       "Unisex"
     ]
+  },
+  {
+    "id": 1131,
+    "slug": "ao-ni-mega-ny-den-3amtb3146",
+    "name": "áo nỉ mega Ny đen 3AMTB3146",
+    "code": "3AMTB3146",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1131.jpg"
+    ],
+    "description": "áo nỉ mega Ny đen 3AMTB3146 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1132,
+    "slug": "ao-thun-logo-to-be-3atsb0544",
+    "name": "áo thun logo to BE 3ATSB0544",
+    "code": "3ATSB0544",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1132.jpg"
+    ],
+    "description": "áo thun logo to BE 3ATSB0544 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1133,
+    "slug": "ao-len-dia-nau-b-3akpm0226",
+    "name": "Áo len dia nâu B 3AKPM0226",
+    "code": "3AKPM0226",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1133.jpg"
+    ],
+    "description": "Áo len dia nâu B 3AKPM0226 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1134,
+    "slug": "swe-basic-trang-ny-3amtb0151",
+    "name": "swe basic' trắng ny 3AMTB0151",
+    "code": "3AMTB0151",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1120000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1134.jpg"
+    ],
+    "description": "swe basic' trắng ny 3AMTB0151 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1135,
+    "slug": "thun-c-den-3atsv1034",
+    "name": "thun C đen 3ATSV1034",
+    "code": "3ATSV1034",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1135.jpg"
+    ],
+    "description": "thun C đen 3ATSV1034 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1136,
+    "slug": "swe-logo-mono-trang-3amtm0444",
+    "name": "swe logo mono trắng 3amtm0444",
+    "code": "3AMTM0444",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1136.jpg"
+    ],
+    "description": "swe logo mono trắng 3amtm0444 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1137,
+    "slug": "ao-len-nau-dat-3akpm0226",
+    "name": "áo len Nâu đất 3AKPM0226",
+    "code": "3AKPM0226",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1137.jpg"
+    ],
+    "description": "áo len Nâu đất 3AKPM0226 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1138,
+    "slug": "swe-ny-den-vien-3amtb0251",
+    "name": "swe ny đen viền 3AMTB0251",
+    "code": "3AMTB0251",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1138.jpg"
+    ],
+    "description": "swe ny đen viền 3AMTB0251 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1139,
+    "slug": "thun-yankes-den-ny-3atsb0351",
+    "name": "thun yankes đen ny 3ATSB0351",
+    "code": "3ATSB0351",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 990000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1139.jpg"
+    ],
+    "description": "thun yankes đen ny 3ATSB0351 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1140,
+    "slug": "swe-logo-mono-hong-3amtm0444",
+    "name": "swe logo mono hồng 3AMTM0444",
+    "code": "3AMTM0444",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1140.jpg"
+    ],
+    "description": "swe logo mono hồng 3AMTM0444 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1141,
+    "slug": "ao-len-dia-den-3akpm0226",
+    "name": "Áo len Dia đen 3AKPM0226",
+    "code": "3AKPM0226",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1141.jpg"
+    ],
+    "description": "Áo len Dia đen 3AKPM0226 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1142,
+    "slug": "swe-yankes-den-xanh-vien-3amtv0251",
+    "name": "swe yankes đen xanh viền 3AMTV0251",
+    "code": "3AMTV0251",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1142.jpg"
+    ],
+    "description": "swe yankes đen xanh viền 3AMTV0251 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1143,
+    "slug": "thun-yankes-trang-ny-3atsb0351",
+    "name": "thun yankes trắng Ny 3ATSB0351",
+    "code": "3ATSB0351",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 990000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1143.jpg"
+    ],
+    "description": "thun yankes trắng Ny 3ATSB0351 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1144,
+    "slug": "swe-logo-mono-xanh-3amtm0444",
+    "name": "swe logo mono xanh 3AMTM0444",
+    "code": "3AMTM0444",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1144.jpg"
+    ],
+    "description": "swe logo mono xanh 3AMTM0444 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1145,
+    "slug": "ao-len-mono-den-3akpm0126",
+    "name": "áo len mono đen 3AKPM0126",
+    "code": "3AKPM0126",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1145.jpg"
+    ],
+    "description": "áo len mono đen 3AKPM0126 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1146,
+    "slug": "halfzip-c-nau-3amtb0534",
+    "name": "halfzip C nâu 3AMTB0534",
+    "code": "3AMTB0534",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1146.jpg"
+    ],
+    "description": "halfzip C nâu 3AMTB0534 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1147,
+    "slug": "thun-b-logo-vuong-3atsm1034",
+    "name": "thun B Logo vuông 3ATSM1034",
+    "code": "3ATSM1034",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1147.jpg"
+    ],
+    "description": "thun B Logo vuông 3ATSM1034 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1148,
+    "slug": "swe-logo-mono-trang-3amtm0451",
+    "name": "swe logo mono trắng 3AMTM0451",
+    "code": "3AMTM0451",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1148.jpg"
+    ],
+    "description": "swe logo mono trắng 3AMTM0451 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1149,
+    "slug": "ao-len-mono-xanh-3akpm0126",
+    "name": "áo len mono xanh 3AKPM0126",
+    "code": "3AKPM0126",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1149.jpg"
+    ],
+    "description": "áo len mono xanh 3AKPM0126 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1150,
+    "slug": "halfzip-c-nau-3amtb0241",
+    "name": "halfzip C nâu 3AMTB0241",
+    "code": "3AMTB0241",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1150.jpg"
+    ],
+    "description": "halfzip C nâu 3AMTB0241 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1151,
+    "slug": "thun-trang-logo-nho-3amtb0754",
+    "name": "thun trắng logo nhỏ 3AMTB0754",
+    "code": "3AMTB0754",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1151.jpg"
+    ],
+    "description": "thun trắng logo nhỏ 3AMTB0754 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1152,
+    "slug": "swe-logo-mono-hong-3amtm0451",
+    "name": "swe logo mono hồng 3AMTM0451",
+    "code": "3AMTM0451",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1152.jpg"
+    ],
+    "description": "swe logo mono hồng 3AMTM0451 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1153,
+    "slug": "swe-dia-xam-ny-3amtm0724",
+    "name": "swe dia xám Ny 3AMTM0724",
+    "code": "3AMTM0724",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1153.jpg"
+    ],
+    "description": "swe dia xám Ny 3AMTM0724 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1154,
+    "slug": "halfzip-redsox-navy-3amtv0341",
+    "name": "halfzip redsox Navy 3AMTV0341",
+    "code": "3AMTV0341",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1154.jpg"
+    ],
+    "description": "halfzip redsox Navy 3AMTV0341 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1155,
+    "slug": "thun-den-logo-nho-3atsb0151",
+    "name": "thun đen logo nhỏ 3ATSB0151",
+    "code": "3ATSB0151",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1155.jpg"
+    ],
+    "description": "thun đen logo nhỏ 3ATSB0151 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1156,
+    "slug": "swe-logo-b-xam-3amtm0444",
+    "name": "swe logo B xám 3AMTM0444",
+    "code": "3AMTM0444",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1156.jpg"
+    ],
+    "description": "swe logo B xám 3AMTM0444 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1157,
+    "slug": "len-ny-xanh-logo-to-3akpb0126",
+    "name": "len Ny xanh logo to 3AKPB0126",
+    "code": "3AKPB0126",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1157.jpg"
+    ],
+    "description": "len Ny xanh logo to 3AKPB0126 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1158,
+    "slug": "halfzip-navy-vien-trang-3fmtv0644",
+    "name": "halfzip Navy viền trắng 3FMTV0644",
+    "code": "3FMTV0644",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1158.jpg"
+    ],
+    "description": "halfzip Navy viền trắng 3FMTV0644 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1159,
+    "slug": "thun-ny-den-logo-mono-3atsb0554",
+    "name": "thun Ny đen logo mono 3ATSB0554",
+    "code": "3ATSB0554",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1159.jpg"
+    ],
+    "description": "thun Ny đen logo mono 3ATSB0554 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1160,
+    "slug": "swe-la-xanh-mint-3amtm0121",
+    "name": "swe La xanh mint 3AMTM0121",
+    "code": "3AMTM0121",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1160.jpg"
+    ],
+    "description": "swe La xanh mint 3AMTM0121 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1161,
+    "slug": "len-ny-den-logo-to-3akpb0126",
+    "name": "len Ny đen logo to 3AKPB0126",
+    "code": "3AKPB0126",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1161.jpg"
+    ],
+    "description": "len Ny đen logo to 3AKPB0126 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1162,
+    "slug": "halfzip-ny-xam-yankes-3amtb0351",
+    "name": "halfzip Ny Xám yankes 3AMTB0351",
+    "code": "3AMTB0351",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1162.jpg"
+    ],
+    "description": "halfzip Ny Xám yankes 3AMTB0351 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1163,
+    "slug": "thun-b-xam-logo-mono-3atsb0554",
+    "name": "thun B xám logo mono 3ATSB0554",
+    "code": "3ATSB0554",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1163.jpg"
+    ],
+    "description": "thun B xám logo mono 3ATSB0554 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1164,
+    "slug": "swe-xam-b-logo-mono-3amtm1234",
+    "name": "swe xám B logo mono 3AMTM1234",
+    "code": "3AMTM1234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1000000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1164.jpg"
+    ],
+    "description": "swe xám B logo mono 3AMTM1234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1165,
+    "slug": "swe-crop-len-dia-xam-3fkpm0134",
+    "name": "swe crop len dia xám 3FKPM0134",
+    "code": "3FKPM0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1165.jpg"
+    ],
+    "description": "swe crop len dia xám 3FKPM0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1166,
+    "slug": "halfzip-ny-den-yankes-3amtb0351",
+    "name": "halfzip Ny Đen yankes 3AMTB0351",
+    "code": "3AMTB0351",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1166.jpg"
+    ],
+    "description": "halfzip Ny Đen yankes 3AMTB0351 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1167,
+    "slug": "thun-b-trang-logo-mono-3atsb0554",
+    "name": "thun B trắng logo mono 3ATSB0554",
+    "code": "3ATSB0554",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1167.jpg"
+    ],
+    "description": "thun B trắng logo mono 3ATSB0554 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1168,
+    "slug": "swe-logo-mono-den-3amtm0234",
+    "name": "swe logo mono đen 3AMTM0234",
+    "code": "3AMTM0234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1168.jpg"
+    ],
+    "description": "swe logo mono đen 3AMTM0234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1169,
+    "slug": "swe-crop-len-dia-den-3fkpm0134",
+    "name": "swe crop len dia đen 3FKPM0134",
+    "code": "3FKPM0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1169.jpg"
+    ],
+    "description": "swe crop len dia đen 3FKPM0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1170,
+    "slug": "halfzip-ny-hong-yankes-3amtb0351",
+    "name": "halfzip Ny hồng yankes 3AMTB0351",
+    "code": "3AMTB0351",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1170.jpg"
+    ],
+    "description": "halfzip Ny hồng yankes 3AMTB0351 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1171,
+    "slug": "ao-thun-xanh-la-dodger",
+    "name": "áo thun xanh lá dodger",
+    "code": "CTV1171",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1171.jpg"
+    ],
+    "description": "áo thun xanh lá dodger — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1172,
+    "slug": "swe-trang-logo-mono-3amtm0234",
+    "name": "swe trắng logo mono 3AMTM0234",
+    "code": "3AMTM0234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1172.jpg"
+    ],
+    "description": "swe trắng logo mono 3AMTM0234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1173,
+    "slug": "swe-len-dia-tim-3akph0131",
+    "name": "swe len dia tim 3AKPH0131",
+    "code": "3AKPH0131",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1173.jpg"
+    ],
+    "description": "swe len dia tim 3AKPH0131 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1174,
+    "slug": "halfzip-den-ny-3fmtv1244",
+    "name": "halfzip đen NY 3FMTV1244",
+    "code": "3FMTV1244",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1174.jpg"
+    ],
+    "description": "halfzip đen NY 3FMTV1244 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1175,
+    "slug": "ao-thun-xam-den-yankes",
+    "name": "áo thun xám đen yankes",
+    "code": "CTV1175",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1175.jpg"
+    ],
+    "description": "áo thun xám đen yankes — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1176,
+    "slug": "swe-hong-logo-mono-3amtm0234",
+    "name": "swe hồng logo mono 3AMTM0234",
+    "code": "3AMTM0234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1176.jpg"
+    ],
+    "description": "swe hồng logo mono 3AMTM0234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1177,
+    "slug": "halfzip-trang-ny-3fmtv1244",
+    "name": "halfzip trắng Ny 3FMTV1244",
+    "code": "3FMTV1244",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1177.jpg"
+    ],
+    "description": "halfzip trắng Ny 3FMTV1244 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1178,
+    "slug": "ao-thun-dod-la",
+    "name": "áo thun dod la",
+    "code": "CTV1178",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1178.jpg"
+    ],
+    "description": "áo thun dod la — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1179,
+    "slug": "swe-logo-mono-den-3amtm0444",
+    "name": "swe logo mono đen 3AMTM0444",
+    "code": "3AMTM0444",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1179.jpg"
+    ],
+    "description": "swe logo mono đen 3AMTM0444 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1180,
+    "slug": "swe-mono-trang-ny-3amtm0334",
+    "name": "Swe mono trắng ny 3AMTM0334",
+    "code": "3AMTM0334",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "XS",
+      "M",
+      "L",
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1180.jpg"
+    ],
+    "description": "Swe mono trắng ny 3AMTM0334 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1181,
+    "slug": "ao-gio-ny-den-3awjb0234",
+    "name": "áo gió Ny Đen 3AWJB0234",
+    "code": "3AWJB0234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1181.jpg"
+    ],
+    "description": "áo gió Ny Đen 3AWJB0234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1182,
+    "slug": "phong-co-tim-redsox-do-3amtv1254",
+    "name": "phông cổ tim redsox đỏ 3AMTV1254",
+    "code": "3AMTV1254",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1182.jpg"
+    ],
+    "description": "phông cổ tim redsox đỏ 3AMTV1254 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1183,
+    "slug": "swe-25-logo-mono-den-3amtm0654",
+    "name": "swe 25 logo mono đen 3AMTM0654",
+    "code": "3AMTM0654",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1183.jpg"
+    ],
+    "description": "swe 25 logo mono đen 3AMTM0654 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1184,
+    "slug": "swe-len-ny-hong-3amtm0334",
+    "name": "swe len Ny hồng 3AMTM0334",
+    "code": "3AMTM0334",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1184.jpg"
+    ],
+    "description": "swe len Ny hồng 3AMTM0334 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1185,
+    "slug": "ao-gio-b-nau-3awjb0234",
+    "name": "áo gió B nâu 3AWJB0234",
+    "code": "3AWJB0234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1185.jpg"
+    ],
+    "description": "áo gió B nâu 3AWJB0234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1186,
+    "slug": "phong-co-tim-yankes-den-3amtv1254",
+    "name": "phông cổ tim yankes Đen 3AMTV1254",
+    "code": "3AMTV1254",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1186.jpg"
+    ],
+    "description": "phông cổ tim yankes Đen 3AMTV1254 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1187,
+    "slug": "swe-logo-denim-den-3amtm0961",
+    "name": "swe logo Denim đen 3AMTM0961",
+    "code": "3AMTM0961",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1187.jpg"
+    ],
+    "description": "swe logo Denim đen 3AMTM0961 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1188,
+    "slug": "ni-len-mono-la-xanh-3amtm0334",
+    "name": "nỉ Len mono LA xanh 3AMTM0334",
+    "code": "3AMTM0334",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1188.jpg"
+    ],
+    "description": "nỉ Len mono LA xanh 3AMTM0334 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1189,
+    "slug": "swe-01-den-vien-3amtv3041",
+    "name": "swe 01 đen viền 3AMTV3041",
+    "code": "3AMTV3041",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1189.jpg"
+    ],
+    "description": "swe 01 đen viền 3AMTV3041 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1190,
+    "slug": "phong-co-tim-yankes-trang-3amtv1254",
+    "name": "phông cổ tim Yankes Trắng 3AMTV1254",
+    "code": "3AMTV1254",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1190.jpg"
+    ],
+    "description": "phông cổ tim Yankes Trắng 3AMTV1254 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1191,
+    "slug": "swe-logo-mono-den-ny-3amtm0341",
+    "name": "swe logo mono đen Ny 3AMTM0341",
+    "code": "3AMTM0341",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1191.jpg"
+    ],
+    "description": "swe logo mono đen Ny 3AMTM0341 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1192,
+    "slug": "ni-da-ca-mono-la-xanh-3amtm0926",
+    "name": "Nỉ da cá mono la xanh 3AMTM0926",
+    "code": "3AMTM0926",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1192.jpg"
+    ],
+    "description": "Nỉ da cá mono la xanh 3AMTM0926 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1193,
+    "slug": "swe-03-den-vien-3amtv1044",
+    "name": "swe 03 đen viền 3AMTV1044",
+    "code": "3AMTV1044",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1193.jpg"
+    ],
+    "description": "swe 03 đen viền 3AMTV1044 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1194,
+    "slug": "phong-co-tim-redsox-navy-3amtv1254",
+    "name": "phông cổ tim redsox Navy 3AMTV1254",
+    "code": "3AMTV1254",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1194.jpg"
+    ],
+    "description": "phông cổ tim redsox Navy 3AMTV1254 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1195,
+    "slug": "swe-mono-ny-trang-3amtm0926",
+    "name": "swe mono Ny trắng 3AMTM0926",
+    "code": "3AMTM0926",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1195.jpg"
+    ],
+    "description": "swe mono Ny trắng 3AMTM0926 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1196,
+    "slug": "ni-crop-yankes-den-3fmtv0344",
+    "name": "nỉ crop yankes đen 3FMTV0344",
+    "code": "3FMTV0344",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1196.jpg"
+    ],
+    "description": "nỉ crop yankes đen 3FMTV0344 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1197,
+    "slug": "swe-gio-yankes-nau-3amtb0754",
+    "name": "swe gió yankes nâu 3AMTB0754",
+    "code": "3AMTB0754",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1197.jpg"
+    ],
+    "description": "swe gió yankes nâu 3AMTB0754 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1198,
+    "slug": "swe-len-gua-vang-3akpv0134",
+    "name": "swe len gua Vàng 3AKPV0134",
+    "code": "3AKPV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1198.jpg"
+    ],
+    "description": "swe len gua Vàng 3AKPV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1199,
+    "slug": "ni-crop-dod-trang-3fmtv0344",
+    "name": "nỉ crop dod trắng 3FMTV0344",
+    "code": "3FMTV0344",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1199.jpg"
+    ],
+    "description": "nỉ crop dod trắng 3FMTV0344 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1200,
+    "slug": "swe-ny-logo-cheo-3amtb0434",
+    "name": "swe Ny Logo chéo 3AMTB0434",
+    "code": "3AMTB0434",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1200.jpg"
+    ],
+    "description": "swe Ny Logo chéo 3AMTB0434 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1201,
+    "slug": "swe-len-dod-xanh-3akpv0134",
+    "name": "swe len dod Xanh 3AKPV0134",
+    "code": "3AKPV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1201.jpg"
+    ],
+    "description": "swe len dod Xanh 3AKPV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1202,
+    "slug": "swe-tim-nau-b-3amth0234",
+    "name": "swe tim nâu B 3AMTH0234",
+    "code": "3AMTH0234",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1202.jpg"
+    ],
+    "description": "swe tim nâu B 3AMTH0234 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1203,
+    "slug": "phong-co-tim-yankes-trang-3amtv0544",
+    "name": "phông cổ tim yankes trắng 3AMTV0544",
+    "code": "3AMTV0544",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1203.jpg"
+    ],
+    "description": "phông cổ tim yankes trắng 3AMTV0544 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1204,
+    "slug": "swe-la-navy-vuong-3amtm0934",
+    "name": "swe La navy vuông 3AMTM0934",
+    "code": "3AMTM0934",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1000000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1204.jpg"
+    ],
+    "description": "swe La navy vuông 3AMTM0934 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1205,
+    "slug": "swe-len-yankes-den-3akpv0134",
+    "name": "swe len yankes đen 3AKPV0134",
+    "code": "3AKPV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1205.jpg"
+    ],
+    "description": "swe len yankes đen 3AKPV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1206,
+    "slug": "swe-den-logo-ny-vang",
+    "name": "swe đen logo Ny vàng",
+    "code": "CTV1206",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1206.jpg"
+    ],
+    "description": "swe đen logo Ny vàng — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1207,
+    "slug": "phong-co-tim-redsox-do-3amtv0544",
+    "name": "phông cổ tim redsox đỏ 3AMTV0544",
+    "code": "3AMTV0544",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1207.jpg"
+    ],
+    "description": "phông cổ tim redsox đỏ 3AMTV0544 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1208,
+    "slug": "swe-gau-redsox-trang-3amte0246",
+    "name": "swe gấu redsox Trắng 3AMTE0246",
+    "code": "3AMTE0246",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1208.jpg"
+    ],
+    "description": "swe gấu redsox Trắng 3AMTE0246 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1209,
+    "slug": "swe-len-trang-xanh-3akpm0434",
+    "name": "swe len Trắng xanh 3AKPM0434",
+    "code": "3AKPM0434",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1209.jpg"
+    ],
+    "description": "swe len Trắng xanh 3AKPM0434 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1210,
+    "slug": "swe-xanh-la-logo-b-bac",
+    "name": "swe xanh lá logo B bạc",
+    "code": "CTV1210",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1210.jpg"
+    ],
+    "description": "swe xanh lá logo B bạc — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1211,
+    "slug": "phong-co-tim-yankes-den-3amtv0544",
+    "name": "phông cổ tim yankes đen 3AMTV0544",
+    "code": "3AMTV0544",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1211.jpg"
+    ],
+    "description": "phông cổ tim yankes đen 3AMTV0544 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1212,
+    "slug": "swe-tho-cream-3amtq0131",
+    "name": "swe thỏ cream 3AMTQ0131",
+    "code": "3AMTQ0131",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1212.jpg"
+    ],
+    "description": "swe thỏ cream 3AMTQ0131 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1213,
+    "slug": "gile-dia-xanh-ny-3fkpm0334",
+    "name": "gile dia xanh ny 3FKPM0334",
+    "code": "3FKPM0334",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1213.jpg"
+    ],
+    "description": "gile dia xanh ny 3FKPM0334 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1214,
+    "slug": "swe-la-hoa-xanh-la-3fmtg0134",
+    "name": "swe La Hoa xanh lá 3FMTG0134",
+    "code": "3FMTG0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1214.jpg"
+    ],
+    "description": "swe La Hoa xanh lá 3FMTG0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1215,
+    "slug": "thun-cutout-la-den-3ftsb0464",
+    "name": "Thun cutout La đen 3FTSB0464",
+    "code": "3FTSB0464",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1220000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1215.jpg"
+    ],
+    "description": "Thun cutout La đen 3FTSB0464 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1216,
+    "slug": "swe-b-den-logo-caro",
+    "name": "swe B đen logo caro",
+    "code": "CTV1216",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1216.jpg"
+    ],
+    "description": "swe B đen logo caro — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1217,
+    "slug": "gile-dia-b-hong-tim-3fkpm0334",
+    "name": "gile dia B hồng tím 3FKPM0334",
+    "code": "3FKPM0334",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1217.jpg"
+    ],
+    "description": "gile dia B hồng tím 3FKPM0334 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1218,
+    "slug": "swe-ny-hoa-trang-3fmtg0134",
+    "name": "swe Ny Hoa trắng 3FMTG0134",
+    "code": "3FMTG0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1218.jpg"
+    ],
+    "description": "swe Ny Hoa trắng 3FMTG0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1219,
+    "slug": "thun-cutout-ny-trang-3ftsb0464",
+    "name": "Thun cutout Ny Trắng 3FTSB0464",
+    "code": "3FTSB0464",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1220000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1219.jpg"
+    ],
+    "description": "Thun cutout Ny Trắng 3FTSB0464 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1220,
+    "slug": "swe-logo-cube-xanh-3amtm0631",
+    "name": "swe logo cube xanh 3AMTM0631",
+    "code": "3AMTM0631",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1220.jpg"
+    ],
+    "description": "swe logo cube xanh 3AMTM0631 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1221,
+    "slug": "gile-dia-ny-hong-3fkpm0334",
+    "name": "gile dia Ny hồng 3FKPM0334",
+    "code": "3FKPM0334",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1221.jpg"
+    ],
+    "description": "gile dia Ny hồng 3FKPM0334 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1222,
+    "slug": "swe-mat-cuoi-trang",
+    "name": "swe mặt cười trắng",
+    "code": "CTV1222",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1222.jpg"
+    ],
+    "description": "swe mặt cười trắng — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1223,
+    "slug": "thun-cutout-la-xanh-3ftsb0464",
+    "name": "Thun cutout La xanh 3FTSB0464",
+    "code": "3FTSB0464",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1220000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1223.jpg"
+    ],
+    "description": "Thun cutout La xanh 3FTSB0464 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1224,
+    "slug": "swe-logo-p-nau-3amtm0631",
+    "name": "swe logo P Nâu 3AMTM0631",
+    "code": "3AMTM0631",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1224.jpg"
+    ],
+    "description": "swe logo P Nâu 3AMTM0631 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1225,
+    "slug": "gile-len-mono-den-ny",
+    "name": "gile len mono đen Ny",
+    "code": "CTV1225",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 540000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1225.jpg"
+    ],
+    "description": "gile len mono đen Ny — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1226,
+    "slug": "swe-mat-cuoi-tim",
+    "name": "swe mặt cười tím",
+    "code": "CTV1226",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1226.jpg"
+    ],
+    "description": "swe mặt cười tím — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1227,
+    "slug": "swe-mono-tonton-trang-3amtm0951",
+    "name": "swe mono tonton Trắng 3AMTM0951",
+    "code": "3AMTM0951",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 2050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1227.jpg"
+    ],
+    "description": "swe mono tonton Trắng 3AMTM0951 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1228,
+    "slug": "gile-len-mono-trang-la",
+    "name": "gile len mono trắng la",
+    "code": "CTV1228",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 540000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1228.jpg"
+    ],
+    "description": "gile len mono trắng la — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1229,
+    "slug": "swe-mat-cuoi-den",
+    "name": "swe mặt cười đen",
+    "code": "CTV1229",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1229.jpg"
+    ],
+    "description": "swe mặt cười đen — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1230,
+    "slug": "thun-neck-layer-ny-trang-3ftsb1564",
+    "name": "Thun neck layer Ny Trắng 3FTSB1564",
+    "code": "3FTSB1564",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1120000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1230.jpg"
+    ],
+    "description": "Thun neck layer Ny Trắng 3FTSB1564 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1231,
+    "slug": "swe-03-den-3amtv0254",
+    "name": "Swe 03 Đen 3AMTV0254",
+    "code": "3AMTV0254",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1231.jpg"
+    ],
+    "description": "Swe 03 Đen 3AMTV0254 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1232,
+    "slug": "swe-like-cartoon-xanh-3amtl0224",
+    "name": "swe like cartoon xanh 3AMTL0224",
+    "code": "3AMTL0224",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1232.jpg"
+    ],
+    "description": "swe like cartoon xanh 3AMTL0224 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1233,
+    "slug": "thun-neck-layer-sf-nau-3ftsb1564",
+    "name": "Thun neck layer Sf nâu 3FTSB1564",
+    "code": "3FTSB1564",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1120000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1233.jpg"
+    ],
+    "description": "Thun neck layer Sf nâu 3FTSB1564 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1234,
+    "slug": "swe-b-be-vien-3amtm0644",
+    "name": "Swe B be Viền 3AMTM0644",
+    "code": "3AMTM0644",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1234.jpg"
+    ],
+    "description": "Swe B be Viền 3AMTM0644 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1235,
+    "slug": "swe-dia-den-ny-3amtm0134",
+    "name": "swe dia đen Ny 3AMTM0134",
+    "code": "3AMTM0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1235.jpg"
+    ],
+    "description": "swe dia đen Ny 3AMTM0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1236,
+    "slug": "swe-like-p-hong-3amtl5116",
+    "name": "swe like P hồng 3AMTL5116",
+    "code": "3AMTL5116",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1236.jpg"
+    ],
+    "description": "swe like P hồng 3AMTL5116 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1237,
+    "slug": "swe-yankes-ny-trang-3amtb0551",
+    "name": "swe yankes Ny trắng 3AMTB0551",
+    "code": "3AMTB0551",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1237.jpg"
+    ],
+    "description": "swe yankes Ny trắng 3AMTB0551 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1238,
+    "slug": "swe-dia-nau-dat-b-3amtm0134",
+    "name": "swe dia nâu đất B 3AMTM0134",
+    "code": "3AMTM0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1238.jpg"
+    ],
+    "description": "swe dia nâu đất B 3AMTM0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1239,
+    "slug": "swe-la-los-xanh-3amtv0131",
+    "name": "swe La Los xanh 3AMTV0131",
+    "code": "3AMTV0131",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1239.jpg"
+    ],
+    "description": "swe La Los xanh 3AMTV0131 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1240,
+    "slug": "swe-b-nau-logo-cube-3amtm0624",
+    "name": "swe B nâu logo cube 3AMTM0624",
+    "code": "3AMTM0624",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1240.jpg"
+    ],
+    "description": "swe B nâu logo cube 3AMTM0624 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1241,
+    "slug": "swe-dia-b-nau-cam-3amtm0134",
+    "name": "swe dia B Nâu Cam 3AMTM0134",
+    "code": "3AMTM0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1241.jpg"
+    ],
+    "description": "swe dia B Nâu Cam 3AMTM0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1242,
+    "slug": "swe-dod-la-navy-3amtv0134",
+    "name": "swe dod La navy 3AMTV0134",
+    "code": "3AMTV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1242.jpg"
+    ],
+    "description": "swe dod La navy 3AMTV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1243,
+    "slug": "swe-navy-logo-cube-3amtm0624",
+    "name": "swe navy logo cube 3AMTM0624",
+    "code": "3AMTM0624",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1243.jpg"
+    ],
+    "description": "swe navy logo cube 3AMTM0624 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1244,
+    "slug": "swe-mono-den-ny-3amtm0241",
+    "name": "swe mono đen NY 3AMTM0241",
+    "code": "3AMTM0241",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1244.jpg"
+    ],
+    "description": "swe mono đen NY 3AMTM0241 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1245,
+    "slug": "swe-dod-la-xanh-la-3amtv0134",
+    "name": "swe dod La xanh lá 3AMTV0134",
+    "code": "3AMTV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1245.jpg"
+    ],
+    "description": "swe dod La xanh lá 3AMTV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1246,
+    "slug": "thun-co-vien-trang-3fpqb0141",
+    "name": "thun cổ viền Trắng 3FPQB0141",
+    "code": "3FPQB0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 890000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1246.jpg"
+    ],
+    "description": "thun cổ viền Trắng 3FPQB0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1247,
+    "slug": "swe-c-xanh-mint-3amtl2034",
+    "name": "swe C xanh mint 3AMTL2034",
+    "code": "3AMTL2034",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1247.jpg"
+    ],
+    "description": "swe C xanh mint 3AMTL2034 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1248,
+    "slug": "swe-dia-trang-ny-3amtm0144",
+    "name": "swe dia trắng Ny 3AMTM0144",
+    "code": "3AMTM0144",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1248.jpg"
+    ],
+    "description": "swe dia trắng Ny 3AMTM0144 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1249,
+    "slug": "swe-yankes-den-ny-3amtv0134",
+    "name": "swe yankes đen NY 3AMTV0134",
+    "code": "3AMTV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1249.jpg"
+    ],
+    "description": "swe yankes đen NY 3AMTV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1250,
+    "slug": "thun-co-vien-xanh-3fpqb0141",
+    "name": "thun cổ viền Xanh 3FPQB0141",
+    "code": "3FPQB0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 890000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1250.jpg"
+    ],
+    "description": "thun cổ viền Xanh 3FPQB0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1251,
+    "slug": "swe-xam-logo-cartoon-3amtl2034",
+    "name": "swe xám Logo cartoon 3AMTL2034",
+    "code": "3AMTL2034",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1251.jpg"
+    ],
+    "description": "swe xám Logo cartoon 3AMTL2034 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1252,
+    "slug": "swe-dia-nau-b-3amtm0144",
+    "name": "swe dia nâu B 3AMTM0144",
+    "code": "3AMTM0144",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1252.jpg"
+    ],
+    "description": "swe dia nâu B 3AMTM0144 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1253,
+    "slug": "swe-redsox-do-do-3amtv0134",
+    "name": "swe redsox Đỏ đô 3AMTV0134",
+    "code": "3AMTV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1253.jpg"
+    ],
+    "description": "swe redsox Đỏ đô 3AMTV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1254,
+    "slug": "len-crop-ny-xam-3fkpb0151",
+    "name": "len crop Ny xám 3FKPB0151",
+    "code": "3FKPB0151",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1254.jpg"
+    ],
+    "description": "len crop Ny xám 3FKPB0151 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1255,
+    "slug": "swe-redsox-trang-tay-vien-3atsb1054",
+    "name": "Swe redsox Trắng tay viền 3ATSB1054",
+    "code": "3ATSB1054",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 990000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1255.jpg"
+    ],
+    "description": "Swe redsox Trắng tay viền 3ATSB1054 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1256,
+    "slug": "swe-mono-trang-b-3amtm0744",
+    "name": "swe mono trắng B 3AMTM0744",
+    "code": "3AMTM0744",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1256.jpg"
+    ],
+    "description": "swe mono trắng B 3AMTM0744 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1257,
+    "slug": "swe-newyork-den-yankes-3amtv0131",
+    "name": "Swe newyork Đen yankes 3amtv0131",
+    "code": "3AMTV0131",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1257.jpg"
+    ],
+    "description": "Swe newyork Đen yankes 3amtv0131 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1258,
+    "slug": "len-tam-ny-xam-3fkpb0354",
+    "name": "Len tăm Ny xám 3FKPB0354",
+    "code": "3FKPB0354",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1258.jpg"
+    ],
+    "description": "Len tăm Ny xám 3FKPB0354 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1259,
+    "slug": "swe-redsox-xam-tay-vien-3atsb1054",
+    "name": "Swe redsox Xam tay viền 3ATSB1054",
+    "code": "3ATSB1054",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 990000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1259.jpg"
+    ],
+    "description": "Swe redsox Xam tay viền 3ATSB1054 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1260,
+    "slug": "swe-dia-b-be-3amtm0331",
+    "name": "swe dia B Be 3AMTM0331",
+    "code": "3AMTM0331",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1260.jpg"
+    ],
+    "description": "swe dia B Be 3AMTM0331 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1261,
+    "slug": "swe-trang-logo-hoa-van-3amti0121",
+    "name": "Swe trắng Logo hoa văn 3amti0121",
+    "code": "3AMTI0121",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1261.jpg"
+    ],
+    "description": "Swe trắng Logo hoa văn 3amti0121 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1262,
+    "slug": "len-tam-b-xanh-3fkpb0354",
+    "name": "Len tăm B xanh 3FKPB0354",
+    "code": "3FKPB0354",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1262.jpg"
+    ],
+    "description": "Len tăm B xanh 3FKPB0354 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1263,
+    "slug": "swe-lod-hong-3fmtv0134",
+    "name": "swe lod hồng 3FMTV0134",
+    "code": "3FMTV0134",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1263.jpg"
+    ],
+    "description": "swe lod hồng 3FMTV0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1264,
+    "slug": "len-tam-b-nau-3fkpb0354",
+    "name": "len tăm B nâu 3FKPB0354",
+    "code": "3FKPB0354",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1264.jpg"
+    ],
+    "description": "len tăm B nâu 3FKPB0354 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1265,
+    "slug": "swe-la-den-art-3amtl2034",
+    "name": "swe La đen art 3AMTL2034",
+    "code": "3AMTL2034",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1265.jpg"
+    ],
+    "description": "swe La đen art 3AMTL2034 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1266,
+    "slug": "swe-like-dia-cau-xanh",
+    "name": "swe like địa cầu Xanh",
+    "code": "CTV1266",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1266.jpg"
+    ],
+    "description": "swe like địa cầu Xanh — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1267,
+    "slug": "swe-rong-xanh-la-3amtq0141",
+    "name": "swe rồng xanh lá 3AMTQ0141",
+    "code": "3AMTQ0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1267.jpg"
+    ],
+    "description": "swe rồng xanh lá 3AMTQ0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1268,
+    "slug": "swe-rong-den-3amtq0141",
+    "name": "swe rồng đen 3AMTQ0141",
+    "code": "3AMTQ0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1268.jpg"
+    ],
+    "description": "swe rồng đen 3AMTQ0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1269,
+    "slug": "thun-tre-vai-cream-3ftsb2164",
+    "name": "Thun trễ vai Cream 3FTSB2164",
+    "code": "3FTSB2164",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1269.jpg"
+    ],
+    "description": "Thun trễ vai Cream 3FTSB2164 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1270,
+    "slug": "swe-rong-trang-3amtq0141",
+    "name": "swe rồng Trắng 3AMTQ0141",
+    "code": "3AMTQ0141",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1270.jpg"
+    ],
+    "description": "swe rồng Trắng 3AMTQ0141 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1271,
+    "slug": "swe-la-hong-3amtb0626",
+    "name": "swe La hông 3AMTB0626",
+    "code": "3AMTB0626",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1271.jpg"
+    ],
+    "description": "swe La hông 3AMTB0626 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1272,
+    "slug": "phong-gio-redsox-hong-3amtv0851",
+    "name": "Phông gió Redsox Hồng 3AMTV0851",
+    "code": "3AMTV0851",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1272.jpg"
+    ],
+    "description": "Phông gió Redsox Hồng 3AMTV0851 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1273,
+    "slug": "swe-ny-den-logo-xanh-3amtb0224",
+    "name": "swe Ny đen logo xanh 3AMTB0224",
+    "code": "3AMTB0224",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1273.jpg"
+    ],
+    "description": "swe Ny đen logo xanh 3AMTB0224 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1274,
+    "slug": "thun-dodger-trang-xanh-3atsv0364",
+    "name": "Thun dodger Trắng Xanh 3ATSV0364",
+    "code": "3ATSV0364",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1220000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1274.jpg"
+    ],
+    "description": "Thun dodger Trắng Xanh 3ATSV0364 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1275,
+    "slug": "thun-yankes-trang-do-3atsv0364",
+    "name": "Thun Yankes Trắng Đỏ 3ATSV0364",
+    "code": "3ATSV0364",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1220000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1275.jpg"
+    ],
+    "description": "Thun Yankes Trắng Đỏ 3ATSV0364 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1276,
+    "slug": "thun-cotton-ribbon-p-hong-3fmtv0964",
+    "name": "Thun Cotton Ribbon P Hồng 3FMTV0964",
+    "code": "3FMTV0964",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ni-thun-mlb/1276.jpg"
+    ],
+    "description": "Thun Cotton Ribbon P Hồng 3FMTV0964 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
   }
 ]
