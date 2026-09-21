@@ -10745,5 +10745,182 @@
       "Unisex",
       "Phụ Kiện"
     ]
+  },
+  {
+    "id": 371,
+    "slug": "tee-rl-desrtrore-904510",
+    "name": "Tee RL Desrtrore",
+    "code": "323832904510",
+    "brand": "ralph-lauren",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1070000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ralph-lauren/tee-rl-0.jpg"
+    ],
+    "description": "Áo thun Ralph Lauren, phối màu Desrtrore, nguồn hàng CTV.",
+    "tags": [
+      "ralph-lauren",
+      "ao",
+      "Unisex",
+      "Áo & Áo Khoác"
+    ]
+  },
+  {
+    "id": 372,
+    "slug": "tee-rl-o-nhat-904512",
+    "name": "Tee RL Đỏ Nhạt",
+    "code": "323832904512",
+    "brand": "ralph-lauren",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1070000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ralph-lauren/tee-rl-1.jpg"
+    ],
+    "description": "Áo thun Ralph Lauren, phối màu Đỏ Nhạt, nguồn hàng CTV.",
+    "tags": [
+      "ralph-lauren",
+      "ao",
+      "Unisex",
+      "Áo & Áo Khoác"
+    ]
+  },
+  {
+    "id": 373,
+    "slug": "tee-rl-o-am-904038",
+    "name": "Tee RL Đỏ Đậm",
+    "code": "323832904038",
+    "brand": "ralph-lauren",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1070000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ralph-lauren/tee-rl-2.jpg"
+    ],
+    "description": "Áo thun Ralph Lauren, phối màu Đỏ Đậm, nguồn hàng CTV.",
+    "tags": [
+      "ralph-lauren",
+      "ao",
+      "Unisex",
+      "Áo & Áo Khoác"
+    ]
+  },
+  {
+    "id": 374,
+    "slug": "tee-rl-cam-poppy-904508",
+    "name": "Tee RL Cam Poppy",
+    "code": "323832904508",
+    "brand": "ralph-lauren",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1070000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ralph-lauren/tee-rl-3.jpg"
+    ],
+    "description": "Áo thun Ralph Lauren, phối màu Cam Poppy, nguồn hàng CTV.",
+    "tags": [
+      "ralph-lauren",
+      "ao",
+      "Unisex",
+      "Áo & Áo Khoác"
+    ]
+  },
+  {
+    "id": 375,
+    "slug": "tee-rl-replen-pink-904040",
+    "name": "Tee RL Replen Pink",
+    "code": "323832904040",
+    "brand": "ralph-lauren",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1070000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ralph-lauren/tee-rl-4.jpg"
+    ],
+    "description": "Áo thun Ralph Lauren, phối màu Replen Pink, nguồn hàng CTV.",
+    "tags": [
+      "ralph-lauren",
+      "ao",
+      "Unisex",
+      "Áo & Áo Khoác"
+    ]
+  },
+  {
+    "id": 376,
+    "slug": "tee-rl-black-904036",
+    "name": "Tee RL Black",
+    "code": "323832904036",
+    "brand": "ralph-lauren",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1070000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ralph-lauren/tee-rl-5.jpg"
+    ],
+    "description": "Áo thun Ralph Lauren, phối màu Black, nguồn hàng CTV.",
+    "tags": [
+      "ralph-lauren",
+      "ao",
+      "Unisex",
+      "Áo & Áo Khoác"
+    ]
+  },
+  {
+    "id": 377,
+    "slug": "tee-rl-khaki-904191",
+    "name": "Tee RL Khaki",
+    "code": "323832904191",
+    "brand": "ralph-lauren",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1070000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/ralph-lauren/tee-rl-6.jpg"
+    ],
+    "description": "Áo thun Ralph Lauren, phối màu Khaki, nguồn hàng CTV.",
+    "tags": [
+      "ralph-lauren",
+      "ao",
+      "Unisex",
+      "Áo & Áo Khoác"
+    ]
   }
 ]
