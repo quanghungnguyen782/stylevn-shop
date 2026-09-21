@@ -17,7 +17,9 @@ export type BrandSlug =
   | "jeep"
   | "puma"
   | "new-balance"
-  | "khac";
+  | "khac"
+  | "new-era"
+  | "moschino";
 
 export interface Category {
   slug: CategorySlug;
