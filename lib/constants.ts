@@ -17,6 +17,7 @@ export const BRANDS: Brand[] = [
   { slug: "361-degrees", name: "361 Degrees" },
   { slug: "lacoste", name: "Lacoste" },
   { slug: "ralph-lauren", name: "Ralph Lauren" },
+  { slug: "jordan", name: "Jordan" },
 ];
 
 /**

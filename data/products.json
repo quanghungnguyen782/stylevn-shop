@@ -10922,5 +10922,950 @@
       "Unisex",
       "Áo & Áo Khoác"
     ]
+  },
+  {
+    "id": 378,
+    "slug": "nike-v2k-run-grey-pink-fz5061-100",
+    "name": "Nike V2K Run 'Grey Pink' FZ5061-100",
+    "code": "FZ5061-100",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "36.0",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p0.jpg"
+    ],
+    "description": "Nike V2K Run 'Grey Pink' FZ5061-100 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 379,
+    "slug": "nike-v2k-run-pink-foam-wmns-hj5269-600",
+    "name": "Nike V2K Run 'Pink Foam' (WMNS) HJ5269-600",
+    "code": "HJ5269-600",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Nữ",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "36.5",
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p1.jpg"
+    ],
+    "description": "Nike V2K Run 'Pink Foam' (WMNS) HJ5269-600 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 380,
+    "slug": "jd-1-low-dc0774-105",
+    "name": "JD 1 LOW DC0774-105",
+    "code": "DC0774-105",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2150000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "36.0",
+      "40.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p2.jpg"
+    ],
+    "description": "JD 1 LOW DC0774-105 — nguồn hàng CTV. Giá có thể chênh lệch nhẹ theo size, vui lòng hỏi Zalo để xác nhận giá đúng size bạn chọn.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 381,
+    "slug": "jordan-1-low-panda-dc0774-101",
+    "name": "Jordan 1 Low 'Panda' DC0774-101",
+    "code": "DC0774-101",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2100000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "35.5",
+      "36.0",
+      "36.5",
+      "40.0",
+      "40.5",
+      "44.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p3.jpg"
+    ],
+    "description": "Jordan 1 Low 'Panda' DC0774-101 — nguồn hàng CTV. Giá có thể chênh lệch nhẹ theo size, vui lòng hỏi Zalo để xác nhận giá đúng size bạn chọn.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 382,
+    "slug": "set-tat-nike-trang-co-cao-1-pack-3-oi",
+    "name": "Set Tất Nike Trắng Cổ Cao 1 Pack 3 Đôi",
+    "code": "CTV382",
+    "brand": "nike",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 280000,
+    "oldPrice": 0,
+    "stock": 15,
+    "sizes": [
+      "L ( 27-29cm )",
+      "S ( 23-25cm )",
+      "M ( 25-27 cm )"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p4.jpg"
+    ],
+    "description": "Set Tất Nike Trắng Cổ Cao 1 Pack 3 Đôi — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 383,
+    "slug": "nike-women-hard-court-tennis-fb3146-001",
+    "name": "Nike Women Hard Court Tennis FB3146-001",
+    "code": "FB3146-001",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Nữ",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p5.jpg"
+    ],
+    "description": "Nike Women Hard Court Tennis FB3146-001 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 384,
+    "slug": "nike-v2k-run-summit-white-metallic-silver-fd0736-100",
+    "name": "Nike V2K Run Summit White Metallic Silver FD0736-100",
+    "code": "FD0736-100",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2000000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "35.5",
+      "36.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p6.jpg"
+    ],
+    "description": "Nike V2K Run Summit White Metallic Silver FD0736-100 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 385,
+    "slug": "jordan-1-mid-panda-dv0991-101",
+    "name": "Jordan 1 Mid 'Panda'  DV0991-101",
+    "code": "DV0991-101",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2250000,
+    "oldPrice": 0,
+    "stock": 10,
+    "sizes": [
+      "35.5",
+      "36.0",
+      "36.5",
+      "37.5",
+      "38.0",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p7.jpg"
+    ],
+    "description": "Jordan 1 Mid 'Panda'  DV0991-101 — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 386,
+    "slug": "jordan-low-dutch-smoke-grey-tokyo",
+    "name": "Jordan low dutch smoke Grey Tokyo",
+    "code": "CTV386",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "41.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p8.jpg"
+    ],
+    "description": "Jordan low dutch smoke Grey Tokyo — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 387,
+    "slug": "set-tat-nike-co-mid-trang-1-pack-3-oi",
+    "name": "Set Tất Nike Cổ Mid Trắng 1 Pack 3 Đôi",
+    "code": "CTV387",
+    "brand": "nike",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 280000,
+    "oldPrice": 0,
+    "stock": 6,
+    "sizes": [
+      "L ( 27-29cm )",
+      "S ( 23-25cm )",
+      "M ( 25-27 cm )"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p9.jpg"
+    ],
+    "description": "Set Tất Nike Cổ Mid Trắng 1 Pack 3 Đôi — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 388,
+    "slug": "nike-court-vapor-12-premium-hc-cactus-green-hj6650-300",
+    "name": "Nike Court Vapor 12 Premium HC 'Cactus Green' HJ6650-300",
+    "code": "HJ6650-300",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2900000,
+    "oldPrice": 0,
+    "stock": 6,
+    "sizes": [
+      "37.5",
+      "38.0",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p10.jpg"
+    ],
+    "description": "Nike Court Vapor 12 Premium HC 'Cactus Green' HJ6650-300 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 389,
+    "slug": "nike-v2k-run-pink-hv5997-161",
+    "name": "nike v2k run pink HV5997-161",
+    "code": "HV5997-161",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "36.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p11.jpg"
+    ],
+    "description": "nike v2k run pink HV5997-161 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 390,
+    "slug": "nike-air-jordan-1-low-smoke-grey-v3-553558-040",
+    "name": "Nike Air Jordan 1 Low Smoke Grey V3 553558-040",
+    "code": "CTV390",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2300000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "42.5",
+      "43.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p12.jpg"
+    ],
+    "description": "Nike Air Jordan 1 Low Smoke Grey V3 553558-040 — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 391,
+    "slug": "jd-1-low-light-brown-dc0774-130",
+    "name": "JD 1 Low Light Brown DC0774-130",
+    "code": "DC0774-130",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1800000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "38.0",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p13.jpg"
+    ],
+    "description": "JD 1 Low Light Brown DC0774-130 — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 392,
+    "slug": "set-tat-nike-co-mid-en-1-pack-3-oi",
+    "name": "Set Tất Nike Cổ Mid Đen 1 Pack 3 Đôi",
+    "code": "CTV392",
+    "brand": "nike",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 280000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "L ( 27-29cm )",
+      "S ( 23-25cm )",
+      "M ( 25-27 cm )"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p14.jpg"
+    ],
+    "description": "Set Tất Nike Cổ Mid Đen 1 Pack 3 Đôi — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 393,
+    "slug": "nike-vapor-pro-3-light-lemon-twist-ib6550-700",
+    "name": "Nike Vapor Pro 3 'Light Lemon Twist' IB6550-700",
+    "code": "IB6550-700",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "37.5",
+      "38.5",
+      "39.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p15.jpg"
+    ],
+    "description": "Nike Vapor Pro 3 'Light Lemon Twist' IB6550-700 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 394,
+    "slug": "nike-v2k-run-light-pumice-pink-foam-hq4046-001",
+    "name": "Nike V2K Run 'Light Pumice Pink Foam' HQ4046-001",
+    "code": "HQ4046-001",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "35.5",
+      "36.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p16.jpg"
+    ],
+    "description": "Nike V2K Run 'Light Pumice Pink Foam' HQ4046-001 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 395,
+    "slug": "jd-flight-club-dc0774-107",
+    "name": "Jd Flight club DC0774-107",
+    "code": "DC0774-107",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2100000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "36.5",
+      "37.5",
+      "38.0",
+      "38.5",
+      "39.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p17.jpg"
+    ],
+    "description": "Jd Flight club DC0774-107 — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 396,
+    "slug": "jordan-1-olive-grey-ib7109-005",
+    "name": "jordan 1 Olive Grey IB7109-005",
+    "code": "IB7109-005",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2450000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "40.0",
+      "40.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p18.jpg"
+    ],
+    "description": "jordan 1 Olive Grey IB7109-005 — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 397,
+    "slug": "pack-3-oi-nike-cushioned-high-socks-black-sx7664-010",
+    "name": "Pack 3 Đôi Nike Cushioned High Socks Black SX7664-010",
+    "code": "SX7664-010",
+    "brand": "nike",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 280000,
+    "oldPrice": 0,
+    "stock": 15,
+    "sizes": [
+      "L ( 27-29cm )",
+      "S ( 23-25cm )",
+      "M ( 25-27 cm )"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p19.jpg"
+    ],
+    "description": "Pack 3 Đôi Nike Cushioned High Socks Black SX7664-010 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 398,
+    "slug": "nike-vapor-12-hf7834-300",
+    "name": "Nike Vapor 12 HF7834-300",
+    "code": "HF7834-300",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2800000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "36.0",
+      "36.5",
+      "37.5",
+      "38.0",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p20.jpg"
+    ],
+    "description": "Nike Vapor 12 HF7834-300 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 399,
+    "slug": "nike-vapor-pro-3-white-black-fz2158-001",
+    "name": "Nike Vapor Pro 3 White Black FZ2158-001",
+    "code": "FZ2158-001",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2050000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "36.5",
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p21.jpg"
+    ],
+    "description": "Nike Vapor Pro 3 White Black FZ2158-001 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 400,
+    "slug": "dunk-photon-dd1503-103",
+    "name": "Dunk Photon DD1503-103",
+    "code": "DD1503-103",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "36.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p22.jpg"
+    ],
+    "description": "Dunk Photon DD1503-103 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 401,
+    "slug": "nike-air-jordan-1-low-madder-root-dc0774-180",
+    "name": "Nike Air Jordan 1 Low 'Madder Root' DC0774-180",
+    "code": "DC0774-180",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1800000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "38.0",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p23.jpg"
+    ],
+    "description": "Nike Air Jordan 1 Low 'Madder Root' DC0774-180 — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 402,
+    "slug": "nike-court-air-zoom-vapor-12-hc-black-light-ma-ib6554-001",
+    "name": "Nike Court Air Zoom Vapor 12 HC 'Black Light' - mã IB6554-001",
+    "code": "IB6554-001",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 9,
+    "sizes": [
+      "36.0",
+      "36.5",
+      "37.5",
+      "38.0",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p24.jpg"
+    ],
+    "description": "Nike Court Air Zoom Vapor 12 HC 'Black Light' - mã IB6554-001 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 403,
+    "slug": "nike-zoom-vapor-pro-3-hc-white-hot-lava-grey-wolf-hv1376-100",
+    "name": "Nike Zoom Vapor Pro 3 HC 'White Hot / Lava Grey-Wolf' HV1376-100/ HV1453-100",
+    "code": "HV1453-100",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "36.5",
+      "37.5",
+      "38.5",
+      "43.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p25.jpg"
+    ],
+    "description": "Nike Zoom Vapor Pro 3 HC 'White Hot / Lava Grey-Wolf' HV1376-100/ HV1453-100 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 404,
+    "slug": "jd-shadow-brown-dc0774-200",
+    "name": "JD Shadow Brown DC0774-200",
+    "code": "DC0774-200",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2100000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "35.5",
+      "36.0",
+      "36.5",
+      "40.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p26.jpg"
+    ],
+    "description": "JD Shadow Brown DC0774-200 — nguồn hàng CTV. Giá có thể chênh lệch nhẹ theo size, vui lòng hỏi Zalo để xác nhận giá đúng size bạn chọn.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 405,
+    "slug": "jd-1-low-rare-men-553558-147",
+    "name": "Jd 1 Low rare men 553558-147",
+    "code": "CTV405",
+    "brand": "jordan",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1900000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "40.5",
+      "42.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p27.jpg"
+    ],
+    "description": "Jd 1 Low rare men 553558-147 — nguồn hàng CTV.",
+    "tags": [
+      "jordan",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 406,
+    "slug": "nike-vapor-12-pearl-pink-hv1449-601",
+    "name": "Nike Vapor 12 Pearl Pink HV1449-601",
+    "code": "HV1449-601",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 3350000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "36.0",
+      "36.5",
+      "38.5",
+      "39.0",
+      "40.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p28.jpg"
+    ],
+    "description": "Nike Vapor 12 Pearl Pink HV1449-601 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 407,
+    "slug": "nike-wmns-v2k-run-white-dark-obsidian-hq3484-121",
+    "name": "Nike Wmns V2K RUN 'White Dark Obsidian' HQ3484-121",
+    "code": "HQ3484-121",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Nữ",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "36.0",
+      "36.5",
+      "42.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p29.jpg"
+    ],
+    "description": "Nike Wmns V2K RUN 'White Dark Obsidian' HQ3484-121 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 408,
+    "slug": "nike-vapor-pro-3-barely-green-fz2158-301",
+    "name": "Nike Vapor Pro 3 Barely Green FZ2158-301",
+    "code": "FZ2158-301",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2400000,
+    "oldPrice": 0,
+    "stock": 6,
+    "sizes": [
+      "36.0",
+      "36.5",
+      "37.5",
+      "38.0",
+      "38.5",
+      "40.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p30.jpg"
+    ],
+    "description": "Nike Vapor Pro 3 Barely Green FZ2158-301 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 409,
+    "slug": "nike-vapor-12-light-liquid-lime-fv5554-300",
+    "name": "Nike Vapor 12 'Light Liquid Lime' FV5554-300",
+    "code": "FV5554-300",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "36.0",
+      "36.5",
+      "38.5",
+      "39.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p31.jpg"
+    ],
+    "description": "Nike Vapor 12 'Light Liquid Lime' FV5554-300 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 410,
+    "slug": "nike-zoom-vapor-pro-3-pink-hv1376-601",
+    "name": "Nike Zoom Vapor Pro 3 Pink HV1376-601",
+    "code": "HV1376-601",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "37.5",
+      "38.0",
+      "38.5",
+      "39.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p32.jpg"
+    ],
+    "description": "Nike Zoom Vapor Pro 3 Pink HV1376-601 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 411,
+    "slug": "nike-vapor-pro-3-light-green-fz2161-003",
+    "name": "Nike Vapor Pro 3 Light Green FZ2161-003",
+    "code": "FZ2161-003",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2450000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "40.5",
+      "41.0",
+      "42.0",
+      "42.5",
+      "43.0",
+      "44.0",
+      "44.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p33.jpg"
+    ],
+    "description": "Nike Vapor Pro 3 Light Green FZ2161-003 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 412,
+    "slug": "nike-vapor-12-fv5554-301",
+    "name": "Nike Vapor 12 FV5554-301",
+    "code": "FV5554-301",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2850000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "36.0",
+      "36.5",
+      "37.5",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p34.jpg"
+    ],
+    "description": "Nike Vapor 12 FV5554-301 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 413,
+    "slug": "nike-zoom-vapor-12-light-silver-fv5552-003",
+    "name": "Nike Zoom Vapor 12 Light Silver FV5552-003",
+    "code": "FV5552-003",
+    "brand": "nike",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 3000000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "42.5",
+      "43.0",
+      "44.0",
+      "44.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/nike-jordan/p35.jpg"
+    ],
+    "description": "Nike Zoom Vapor 12 Light Silver FV5552-003 — nguồn hàng CTV.",
+    "tags": [
+      "nike",
+      "giay",
+      "Unisex"
+    ]
   }
 ]
