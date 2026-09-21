@@ -12715,5 +12715,3076 @@
       "giay",
       "Unisex"
     ]
+  },
+  {
+    "id": 445,
+    "slug": "flare-mary-jane-trang-3asxmj56n",
+    "name": "Flare Mary Jane Trắng 3ASXMJ56N",
+    "code": "CTV445",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1690000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p0.jpg"
+    ],
+    "description": "Flare Mary Jane Trắng 3ASXMJ56N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 446,
+    "slug": "liner-embo-en-vien",
+    "name": "Liner embo Đen viền",
+    "code": "CTV446",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "230",
+      "245",
+      "250",
+      "260"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p1.jpg"
+    ],
+    "description": "Liner embo Đen viền — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 447,
+    "slug": "runner-mery-be",
+    "name": "Runner mery Be",
+    "code": "CTV447",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "260"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p2.jpg"
+    ],
+    "description": "Runner mery Be — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 449,
+    "slug": "liner-embo-hong",
+    "name": "Liner embo Hồng",
+    "code": "CTV449",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p4.jpg"
+    ],
+    "description": "Liner embo Hồng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 450,
+    "slug": "runner-mery-bac",
+    "name": "Runner mery Bạc",
+    "code": "CTV450",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "260"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p5.jpg"
+    ],
+    "description": "Runner mery Bạc — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 451,
+    "slug": "sleek-mary-jane-3asxmj76n",
+    "name": "Sleek Mary Jane 3ASXMJ76N",
+    "code": "CTV451",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "225"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p6.jpg"
+    ],
+    "description": "Sleek Mary Jane 3ASXMJ76N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 452,
+    "slug": "liner-embo-xam-en",
+    "name": "Liner embo Xám Đen",
+    "code": "CTV452",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p7.jpg"
+    ],
+    "description": "Liner embo Xám Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 453,
+    "slug": "runner-mery-en",
+    "name": "Runner Mery Đen",
+    "code": "CTV453",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p8.jpg"
+    ],
+    "description": "Runner Mery Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 454,
+    "slug": "runny-ny-en-3asxc016n",
+    "name": "Runny Ny Đen 3ASXC016N",
+    "code": "ASXC016N",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p9.jpg"
+    ],
+    "description": "Runny Ny Đen 3ASXC016N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 455,
+    "slug": "liner-denim-mono-be",
+    "name": "Liner denim mono Be",
+    "code": "CTV455",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2450000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p10.jpg"
+    ],
+    "description": "Liner denim mono Be — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 456,
+    "slug": "field-mask-trang",
+    "name": "Field mask Trắng",
+    "code": "CTV456",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "240",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p11.jpg"
+    ],
+    "description": "Field mask Trắng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 457,
+    "slug": "trophy-vintage-hong-ny",
+    "name": "trophy vintage Hồng Ny",
+    "code": "CTV457",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p12.jpg"
+    ],
+    "description": "trophy vintage Hồng Ny — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 458,
+    "slug": "liner-denim-mono-xanh",
+    "name": "Liner denim mono Xanh",
+    "code": "CTV458",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p13.jpg"
+    ],
+    "description": "Liner denim mono Xanh — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 459,
+    "slug": "field-mask-en",
+    "name": "Field mask Đen",
+    "code": "CTV459",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "240",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p14.jpg"
+    ],
+    "description": "Field mask Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 460,
+    "slug": "trophy-runner-bac-ny",
+    "name": "Trophy runner bạc NY",
+    "code": "CTV460",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p15.jpg"
+    ],
+    "description": "Trophy runner bạc NY — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 462,
+    "slug": "field-mask-bac",
+    "name": "Field mask Bạc",
+    "code": "CTV462",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "240",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p17.jpg"
+    ],
+    "description": "Field mask Bạc — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 464,
+    "slug": "field-mask-be",
+    "name": "Field Mask Be",
+    "code": "CTV464",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "240",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p19.jpg"
+    ],
+    "description": "Field Mask Be — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 465,
+    "slug": "trophy-runner-nau-ny",
+    "name": "Trophy runner Nâu Ny",
+    "code": "CTV465",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "230",
+      "235",
+      "240",
+      "245",
+      "255",
+      "260",
+      "265"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p20.jpg"
+    ],
+    "description": "Trophy runner Nâu Ny — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 466,
+    "slug": "liner-poket-mono-nau",
+    "name": "Liner poket mono Nâu",
+    "code": "CTV466",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "245"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p21.jpg"
+    ],
+    "description": "Liner poket mono Nâu — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 467,
+    "slug": "merry-jane-la-bac",
+    "name": "Merry Jane La Bạc",
+    "code": "CTV467",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p22.jpg"
+    ],
+    "description": "Merry Jane La Bạc — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 468,
+    "slug": "trophy-runner-trang-ny",
+    "name": "Trophy runner Trắng Ny",
+    "code": "CTV468",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p23.jpg"
+    ],
+    "description": "Trophy runner Trắng Ny — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 469,
+    "slug": "liner-poket-mono-en",
+    "name": "Liner poket mono đen",
+    "code": "CTV469",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p24.jpg"
+    ],
+    "description": "Liner poket mono đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 470,
+    "slug": "classic-logo-ny-en-3asxcbh4n",
+    "name": "Classic logo Ny đen 3ASXCBH4N",
+    "code": "CTV470",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p25.jpg"
+    ],
+    "description": "Classic logo Ny đen 3ASXCBH4N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 472,
+    "slug": "liner-basic-hong",
+    "name": "Liner basic Hồng",
+    "code": "CTV472",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p27.jpg"
+    ],
+    "description": "Liner basic Hồng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 473,
+    "slug": "classic-logo-b-nau-3asxcbh4n",
+    "name": "Classic logo B nâu 3ASXCBH4N",
+    "code": "CTV473",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p28.jpg"
+    ],
+    "description": "Classic logo B nâu 3ASXCBH4N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 475,
+    "slug": "liner-basic-xanh-la",
+    "name": "Liner basic Xanh lá",
+    "code": "CTV475",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p30.jpg"
+    ],
+    "description": "Liner basic Xanh lá — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 476,
+    "slug": "classic-la-be",
+    "name": "Classic La Be",
+    "code": "CTV476",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p31.jpg"
+    ],
+    "description": "Classic La Be — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 477,
+    "slug": "xlg-en",
+    "name": "XLG Đen",
+    "code": "CTV477",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "235",
+      "245"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p32.jpg"
+    ],
+    "description": "XLG Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 478,
+    "slug": "liner-vien-xanh-la-ny",
+    "name": "Liner viền xanh lá Ny",
+    "code": "CTV478",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p33.jpg"
+    ],
+    "description": "Liner viền xanh lá Ny — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 479,
+    "slug": "mule-nhung-hong",
+    "name": "Mule nhung hồng",
+    "code": "CTV479",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p34.jpg"
+    ],
+    "description": "Mule nhung hồng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 480,
+    "slug": "ace-runner-en",
+    "name": "ACE Runner Đen",
+    "code": "CTV480",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p35.jpg"
+    ],
+    "description": "ACE Runner Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 481,
+    "slug": "liner-thap-co-en-chim",
+    "name": "Liner thấp cổ đen chìm",
+    "code": "CTV481",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1500000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "240",
+      "245"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p36.jpg"
+    ],
+    "description": "Liner thấp cổ đen chìm — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 482,
+    "slug": "mule-dia-long-nau-b",
+    "name": "mule dia lông nâu B",
+    "code": "CTV482",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "240",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p37.jpg"
+    ],
+    "description": "mule dia lông nâu B — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 483,
+    "slug": "runner-la-be",
+    "name": "Runner La be",
+    "code": "CTV483",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p38.jpg"
+    ],
+    "description": "Runner La be — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 484,
+    "slug": "liner-dia-ny-hong",
+    "name": "Liner dia Ny hồng",
+    "code": "CTV484",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p39.jpg"
+    ],
+    "description": "Liner dia Ny hồng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 485,
+    "slug": "dadded-slip-la-trang",
+    "name": "Dadded slip La trắng",
+    "code": "CTV485",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "240",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p40.jpg"
+    ],
+    "description": "Dadded slip La trắng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 486,
+    "slug": "chunky-wide-en-ny",
+    "name": "chunky wide đen Ny",
+    "code": "CTV486",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "235",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p41.jpg"
+    ],
+    "description": "chunky wide đen Ny — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 487,
+    "slug": "liner-mid-mono-be",
+    "name": "Liner mid mono Be",
+    "code": "CTV487",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1500000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p42.jpg"
+    ],
+    "description": "Liner mid mono Be — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 488,
+    "slug": "mule-quinting-bac",
+    "name": "Mule quinting Bạc",
+    "code": "CTV488",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p43.jpg"
+    ],
+    "description": "Mule quinting Bạc — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 489,
+    "slug": "jogger-hong-3asxx111n",
+    "name": "Jogger Hồng 3ASXX111N",
+    "code": "ASXX111N",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p44.jpg"
+    ],
+    "description": "Jogger Hồng 3ASXX111N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 490,
+    "slug": "liner-mid-mono-en",
+    "name": "Liner mid mono Đen",
+    "code": "CTV490",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1500000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "235",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p45.jpg"
+    ],
+    "description": "Liner mid mono Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 491,
+    "slug": "mule-quinting-trang",
+    "name": "Mule quinting Trắng",
+    "code": "CTV491",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p46.jpg"
+    ],
+    "description": "Mule quinting Trắng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 492,
+    "slug": "hunter-en-co-thap-wfs4001r",
+    "name": "Hunter đen cổ thấp WFS4001R",
+    "code": "WFS4001R",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "220"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p47.jpg"
+    ],
+    "description": "Hunter đen cổ thấp WFS4001R — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 493,
+    "slug": "liner-mid-xam-en",
+    "name": "Liner mid xám đen",
+    "code": "CTV493",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p48.jpg"
+    ],
+    "description": "Liner mid xám đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 494,
+    "slug": "liner-mule-trang-ny",
+    "name": "Liner mule Trắng NY",
+    "code": "CTV494",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 770000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p49.jpg"
+    ],
+    "description": "Liner mule Trắng NY — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 495,
+    "slug": "hunter-en-co-cao-wft1000rm",
+    "name": "hunter đen cổ cao WFT1000RM",
+    "code": "WFT1000RM",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 3150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "220"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p50.jpg"
+    ],
+    "description": "hunter đen cổ cao WFT1000RM — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 496,
+    "slug": "liner-mid-la-xanh",
+    "name": "Liner mid La xanh",
+    "code": "CTV496",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p51.jpg"
+    ],
+    "description": "Liner mid La xanh — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 497,
+    "slug": "suc-han-nau-k-lot-long",
+    "name": "Sục Hàn Nâu k lót lông",
+    "code": "CTV497",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 590000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p52.jpg"
+    ],
+    "description": "Sục Hàn Nâu k lót lông — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 498,
+    "slug": "athflow-ny-en",
+    "name": "ATHFLOW Ny Đen",
+    "code": "CTV498",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p53.jpg"
+    ],
+    "description": "ATHFLOW Ny Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 499,
+    "slug": "liner-mid-denim-ny-en",
+    "name": "Liner mid denim ny đen",
+    "code": "CTV499",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p54.jpg"
+    ],
+    "description": "Liner mid denim ny đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 500,
+    "slug": "suc-han-nau-lot-long",
+    "name": "Sục Hàn Nâu lót lông",
+    "code": "CTV500",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 590000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "235",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p55.jpg"
+    ],
+    "description": "Sục Hàn Nâu lót lông — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 501,
+    "slug": "liner-ny-hong",
+    "name": "Liner ny Hồng",
+    "code": "CTV501",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 550000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p56.jpg"
+    ],
+    "description": "Liner ny Hồng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 502,
+    "slug": "liner-mid-navy-3asxemn4n",
+    "name": "Liner mid Navy  3ASXEMN4N",
+    "code": "CTV502",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "235"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p57.jpg"
+    ],
+    "description": "Liner mid Navy  3ASXEMN4N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 503,
+    "slug": "giay-luoi-noi-ia-han",
+    "name": "Giày lười nội địa Hàn",
+    "code": "CTV503",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p58.jpg"
+    ],
+    "description": "Giày lười nội địa Hàn — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 504,
+    "slug": "classic-boston-o",
+    "name": "Classic Boston Đỏ",
+    "code": "CTV504",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p59.jpg"
+    ],
+    "description": "Classic Boston Đỏ — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 505,
+    "slug": "liner-mid-en-3asxemn4n",
+    "name": "Liner mid đen 3ASXEMN4N",
+    "code": "CTV505",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p60.jpg"
+    ],
+    "description": "Liner mid đen 3ASXEMN4N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 506,
+    "slug": "classic-dodger-xanh",
+    "name": "Classic Dodger Xanh",
+    "code": "CTV506",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p61.jpg"
+    ],
+    "description": "Classic Dodger Xanh — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 507,
+    "slug": "liner-wide-en",
+    "name": "Liner wide đen",
+    "code": "CTV507",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p62.jpg"
+    ],
+    "description": "Liner wide đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 508,
+    "slug": "bump-chunky-trang-xanh-3ashb025n",
+    "name": "Bump chunky Trắng xanh 3ASHB025N",
+    "code": "ASHB025N",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p63.jpg"
+    ],
+    "description": "Bump chunky Trắng xanh 3ASHB025N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 509,
+    "slug": "liner-mid-denim-xam-ny-3asxmdm6n",
+    "name": "Liner mid denim Xám NY 3ASXMDM6N",
+    "code": "CTV509",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p64.jpg"
+    ],
+    "description": "Liner mid denim Xám NY 3ASXMDM6N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 510,
+    "slug": "bump-chunky-en-trang-3ashb025n",
+    "name": "Bump chunky ĐEN Trắng 3ASHB025N",
+    "code": "ASHB025N",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p65.jpg"
+    ],
+    "description": "Bump chunky ĐEN Trắng 3ASHB025N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 511,
+    "slug": "liner-mid-denim-xanh-ny-3asxmdm6n",
+    "name": "Liner mid denim Xanh NY 3ASXMDM6N",
+    "code": "CTV511",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p66.jpg"
+    ],
+    "description": "Liner mid denim Xanh NY 3ASXMDM6N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 512,
+    "slug": "pastry-runner-mask-trang-3asdpa163",
+    "name": "Pastry runner Mask Trắng 3ASDPA163",
+    "code": "SDPA163",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "270"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p67.jpg"
+    ],
+    "description": "Pastry runner Mask Trắng 3ASDPA163 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 513,
+    "slug": "liner-denim-vien-en-3asxd015n",
+    "name": "Liner Denim viền Đen 3ASXD015N",
+    "code": "ASXD015N",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/giay-mlb/p68.jpg"
+    ],
+    "description": "Liner Denim viền Đen 3ASXD015N — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 514,
+    "slug": "xo-ngon-base-hong",
+    "name": "Xỏ ngón base Hồng",
+    "code": "CTV514",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p0.jpg"
+    ],
+    "description": "Xỏ ngón base Hồng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 515,
+    "slug": "sandal-runner-trang-3asdrns43",
+    "name": "Sandal runner Trắng 3ASDRNS43",
+    "code": "CTV515",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p1.jpg"
+    ],
+    "description": "Sandal runner Trắng 3ASDRNS43 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 516,
+    "slug": "xo-ngon-base-en",
+    "name": "Xỏ ngón base Đen",
+    "code": "CTV516",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 550000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "250",
+      "260"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p2.jpg"
+    ],
+    "description": "Xỏ ngón base Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 517,
+    "slug": "sandal-basic-trang",
+    "name": "sandal basic trắng",
+    "code": "CTV517",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "270"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p3.jpg"
+    ],
+    "description": "sandal basic trắng — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 518,
+    "slug": "xo-ngon-b-hong-3alps0253",
+    "name": "Xỏ ngón B Hồng 3ALPS0253",
+    "code": "ALPS0253",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p4.jpg"
+    ],
+    "description": "Xỏ ngón B Hồng 3ALPS0253 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 519,
+    "slug": "sandal-3-day-kid-en-7asdb0133",
+    "name": "sandal 3 dây kid đen 7ASDB0133",
+    "code": "ASDB0133",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p5.jpg"
+    ],
+    "description": "sandal 3 dây kid đen 7ASDB0133 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 520,
+    "slug": "xo-ngon-ny-trang-3alps0253",
+    "name": "Xỏ ngón Ny trắng 3ALPS0253",
+    "code": "ALPS0253",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p6.jpg"
+    ],
+    "description": "Xỏ ngón Ny trắng 3ALPS0253 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 521,
+    "slug": "dep-bouncer-en-3alpfbs33",
+    "name": "dép Bouncer Đen 3ALPFBS33",
+    "code": "CTV521",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p7.jpg"
+    ],
+    "description": "dép Bouncer Đen 3ALPFBS33 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 522,
+    "slug": "xo-ngon-la-xanh-3alps0253",
+    "name": "Xỏ ngón La Xanh 3ALPS0253",
+    "code": "ALPS0253",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p8.jpg"
+    ],
+    "description": "Xỏ ngón La Xanh 3ALPS0253 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 523,
+    "slug": "dep-bouncer-o-3alpfbs33",
+    "name": "dép Bouncer đỏ 3ALPFBS33",
+    "code": "CTV523",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p9.jpg"
+    ],
+    "description": "dép Bouncer đỏ 3ALPFBS33 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 524,
+    "slug": "slide-skiper-en-3alps0153",
+    "name": "slide skiper đen 3ALPS0153",
+    "code": "ALPS0153",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1030000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "230",
+      "240",
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p10.jpg"
+    ],
+    "description": "slide skiper đen 3ALPS0153 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 525,
+    "slug": "dep-dia-en-3alpcdm33",
+    "name": "dép dia đen 3ALPCDM33",
+    "code": "CTV525",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p11.jpg"
+    ],
+    "description": "dép dia đen 3ALPCDM33 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 526,
+    "slug": "slide-skiper-hong-3alps0153",
+    "name": "slide skiper Hồng 3ALPS0153",
+    "code": "ALPS0153",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1030000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p12.jpg"
+    ],
+    "description": "slide skiper Hồng 3ALPS0153 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 527,
+    "slug": "dep-jq-xam-3alpctm33",
+    "name": "dép JQ Xám 3ALPCTM33",
+    "code": "CTV527",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "260"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p13.jpg"
+    ],
+    "description": "dép JQ Xám 3ALPCTM33 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 528,
+    "slug": "slide-skiper-trang-3alps0153",
+    "name": "slide skiper Trắng 3ALPS0153",
+    "code": "ALPS0153",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1030000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "250"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p14.jpg"
+    ],
+    "description": "slide skiper Trắng 3ALPS0153 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 529,
+    "slug": "anicane-slide-be",
+    "name": "Anicane slide Be",
+    "code": "CTV529",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "37"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p15.jpg"
+    ],
+    "description": "Anicane slide Be — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 530,
+    "slug": "dep-long-ny-xanh-3alppb116",
+    "name": "dép lông ny xanh 3ALPPB116",
+    "code": "LPPB116",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 280000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "230"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p16.jpg"
+    ],
+    "description": "dép lông ny xanh 3ALPPB116 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 531,
+    "slug": "anicane-slide-en",
+    "name": "Anicane slide Đen",
+    "code": "CTV531",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 300000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "37",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p17.jpg"
+    ],
+    "description": "Anicane slide Đen — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 532,
+    "slug": "dep-lw-trang-chim",
+    "name": "dép lw trắng chìm",
+    "code": "CTV532",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 370000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "260"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p18.jpg"
+    ],
+    "description": "dép lw trắng chìm — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 533,
+    "slug": "dep-pepper-en-3alppe163",
+    "name": "Dép Pepper ĐEN 3ALPPE163",
+    "code": "LPPE163",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p19.jpg"
+    ],
+    "description": "Dép Pepper ĐEN 3ALPPE163 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 534,
+    "slug": "dep-pepper-trang-3alppe163",
+    "name": "Dép Pepper TRẮNG 3ALPPE163",
+    "code": "LPPE163",
+    "brand": "mlb",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "240"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/dep-mlb/p20.jpg"
+    ],
+    "description": "Dép Pepper TRẮNG 3ALPPE163 — nguồn hàng CTV, thương hiệu MLB. Size ghi theo mm.",
+    "tags": [
+      "mlb",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 535,
+    "slug": "jeep-lifestyle-shoes-women-s-low-top-grey-px231was575",
+    "name": "Jeep Lifestyle Shoes Women’s Low-top Grey PX231WAS575",
+    "code": "WAS575",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "40"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p0.jpg"
+    ],
+    "description": "Jeep Lifestyle Shoes Women’s Low-top Grey PX231WAS575 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 536,
+    "slug": "jeep-slip-on-mary-jane-gray-p661w13360",
+    "name": "Jeep Slip-On Mary Jane Gray P661W13360",
+    "code": "CTV536",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "35",
+      "36",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p1.jpg"
+    ],
+    "description": "Jeep Slip-On Mary Jane Gray P661W13360 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 537,
+    "slug": "adidas-hanball-hong-if6561",
+    "name": "adidas hanball hồng IF6561",
+    "code": "IF6561",
+    "brand": "adidas",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "230",
+      "245"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p2.jpg"
+    ],
+    "description": "adidas hanball hồng IF6561 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 538,
+    "slug": "puma-speedcat-ballet-black-mauve-mist-401287-02",
+    "name": "Puma Speedcat Ballet Black Mauve Mist 401287-02",
+    "code": "CTV538",
+    "brand": "puma",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1700000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "36",
+      "35.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p3.jpg"
+    ],
+    "description": "Puma Speedcat Ballet Black Mauve Mist 401287-02 — nguồn hàng CTV.",
+    "tags": [
+      "puma",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 539,
+    "slug": "jeep-outdoor-w-low-top-grey-px241was932",
+    "name": "Jeep Outdoor W Low Top Grey PX241WAS932",
+    "code": "WAS932",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p4.jpg"
+    ],
+    "description": "Jeep Outdoor W Low Top Grey PX241WAS932 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 540,
+    "slug": "jeep-light-beige-p651w13112",
+    "name": "Jeep Light Beige'' [P651W13112]",
+    "code": "CTV540",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 6,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p5.jpg"
+    ],
+    "description": "Jeep Light Beige'' [P651W13112] — nguồn hàng CTV. Giá có thể chênh lệch nhẹ theo size, vui lòng hỏi Zalo để xác nhận giá đúng size bạn chọn.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 541,
+    "slug": "adifom-superstar-core-black-hq8752",
+    "name": "adiFOM Superstar 'Core Black' HQ8752",
+    "code": "HQ8752",
+    "brand": "adidas",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "225"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p6.jpg"
+    ],
+    "description": "adiFOM Superstar 'Core Black' HQ8752 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 542,
+    "slug": "puma-speedcat-ballet-black-white-women-s-401287-06",
+    "name": "Puma Speedcat Ballet Black White (Women's) 401287-06",
+    "code": "CTV542",
+    "brand": "puma",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "35.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p7.jpg"
+    ],
+    "description": "Puma Speedcat Ballet Black White (Women's) 401287-06 — nguồn hàng CTV.",
+    "tags": [
+      "puma",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 543,
+    "slug": "jeep-3-day-quai-p651w13111-nau-trang",
+    "name": "Jeep 3 Dây Quai P651W13111 Nâu Trắng",
+    "code": "CTV543",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 870000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p8.jpg"
+    ],
+    "description": "Jeep 3 Dây Quai P651W13111 Nâu Trắng — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 544,
+    "slug": "jeep-light-hong",
+    "name": "Jeep Light Hồng",
+    "code": "CTV544",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p9.jpg"
+    ],
+    "description": "Jeep Light Hồng — nguồn hàng CTV. Giá có thể chênh lệch nhẹ theo size, vui lòng hỏi Zalo để xác nhận giá đúng size bạn chọn.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 545,
+    "slug": "asic-court-gum-1203a127-500",
+    "name": "Asic Court Gum 1203A127-500",
+    "code": "CTV545",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "37"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p10.jpg"
+    ],
+    "description": "Asic Court Gum 1203A127-500 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 546,
+    "slug": "puma-speedcat-ballet-dark-chocolate-406758-02",
+    "name": "Puma Speedcat Ballet 'Dark Chocolate' 406758-02",
+    "code": "CTV546",
+    "brand": "puma",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1750000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "36",
+      "35.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p11.jpg"
+    ],
+    "description": "Puma Speedcat Ballet 'Dark Chocolate' 406758-02 — nguồn hàng CTV.",
+    "tags": [
+      "puma",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 547,
+    "slug": "jeep-3-day-quai-p651w13111-o-trang",
+    "name": "Jeep 3 Dây Quai P651W13111 đỏ trắng",
+    "code": "CTV547",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 870000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p12.jpg"
+    ],
+    "description": "Jeep 3 Dây Quai P651W13111 đỏ trắng — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 548,
+    "slug": "jeep-platform-carol",
+    "name": "Jeep Platform carol",
+    "code": "CTV548",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p13.jpg"
+    ],
+    "description": "Jeep Platform carol — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 549,
+    "slug": "adidas-ki3598",
+    "name": "Adidas KI3598",
+    "code": "KI3598",
+    "brand": "adidas",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "43 1/3"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p14.jpg"
+    ],
+    "description": "Adidas KI3598 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 550,
+    "slug": "puma-speedcat-ballet-silver-401581-01",
+    "name": "Puma Speedcat Ballet Silver 401581-01",
+    "code": "CTV550",
+    "brand": "puma",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "35.5",
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p15.jpg"
+    ],
+    "description": "Puma Speedcat Ballet Silver 401581-01 — nguồn hàng CTV.",
+    "tags": [
+      "puma",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 551,
+    "slug": "jeep-cream-light-green-p651w13112",
+    "name": "Jeep''Cream Light Green'' [P651W13112]",
+    "code": "CTV551",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "35",
+      "36",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p16.jpg"
+    ],
+    "description": "Jeep''Cream Light Green'' [P651W13112] — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 552,
+    "slug": "jeep-mary-jane-lightweight-brown-p661w13404",
+    "name": "Jeep Mary Jane Lightweight Brown P661W13404",
+    "code": "CTV552",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p17.jpg"
+    ],
+    "description": "Jeep Mary Jane Lightweight Brown P661W13404 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 553,
+    "slug": "adidas-ki3595",
+    "name": "Adidas KI3595",
+    "code": "KI3595",
+    "brand": "adidas",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1500000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "40 2/3",
+      "41 1/3",
+      "42 2/3",
+      "43 1/3"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p18.jpg"
+    ],
+    "description": "Adidas KI3595 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 554,
+    "slug": "new-balance-530-retro-running-navy-mr530sg",
+    "name": "New Balance 530 Retro Running Navy MR530SG",
+    "code": "MR530SG",
+    "brand": "new-balance",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2000000,
+    "oldPrice": 0,
+    "stock": 11,
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "37.5",
+      "38.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p19.jpg"
+    ],
+    "description": "New Balance 530 Retro Running Navy MR530SG — nguồn hàng CTV.",
+    "tags": [
+      "new-balance",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 555,
+    "slug": "jeep-mary-jane-gat-sneakers-p661w13346",
+    "name": "Jeep Mary Jane GAT Sneakers P661W13346",
+    "code": "CTV555",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "35",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p20.jpg"
+    ],
+    "description": "Jeep Mary Jane GAT Sneakers P661W13346 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 556,
+    "slug": "jeep-vintage-toe-ballet-white-grey-p661w13310",
+    "name": "Jeep Vintage Toe Ballet White Grey P661W13310",
+    "code": "CTV556",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "36",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p21.jpg"
+    ],
+    "description": "Jeep Vintage Toe Ballet White Grey P661W13310 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 557,
+    "slug": "adidas-kk4412",
+    "name": "Adidas KK4412",
+    "code": "KK4412",
+    "brand": "adidas",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2500000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "38",
+      "40",
+      "37 1/3",
+      "38 2/3",
+      "39 1/3"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p22.jpg"
+    ],
+    "description": "Adidas KK4412 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 558,
+    "slug": "new-balance-530-retro-running-navy-mr530sg-2",
+    "name": "New Balance 530 Retro Running Navy MR530SG",
+    "code": "MR530SG",
+    "brand": "new-balance",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2000000,
+    "oldPrice": 0,
+    "stock": 10,
+    "sizes": [
+      "40",
+      "42",
+      "43",
+      "44",
+      "45",
+      "40.5",
+      "42.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p23.jpg"
+    ],
+    "description": "New Balance 530 Retro Running Navy MR530SG — nguồn hàng CTV.",
+    "tags": [
+      "new-balance",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 559,
+    "slug": "jeep-vintage-toe-ballet-pink-p661w13310",
+    "name": "Jeep Vintage Toe Ballet Pink P661W13310",
+    "code": "CTV559",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p24.jpg"
+    ],
+    "description": "Jeep Vintage Toe Ballet Pink P661W13310 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 560,
+    "slug": "jeep-sport-ballet-soft-sole-dusty-pink-p661w12375",
+    "name": "Jeep Sport Ballet Soft Sole Dusty Pink P661W12375",
+    "code": "CTV560",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "37"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p25.jpg"
+    ],
+    "description": "Jeep Sport Ballet Soft Sole Dusty Pink P661W12375 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 561,
+    "slug": "adidas-adizero-evo-sl-black-jp7149",
+    "name": "Adidas adizero evo SL black JP7149",
+    "code": "JP7149",
+    "brand": "adidas",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 6,
+    "sizes": [
+      "42",
+      "44",
+      "40 2/3",
+      "41 1/3",
+      "42 2/3",
+      "43 1/3"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p26.jpg"
+    ],
+    "description": "Adidas adizero evo SL black JP7149 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 562,
+    "slug": "jeep-hong-px231was575c",
+    "name": "Jeep Hồng PX231WAS575C",
+    "code": "WAS575C",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 970000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "35",
+      "36"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p27.jpg"
+    ],
+    "description": "Jeep Hồng PX231WAS575C — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 563,
+    "slug": "jeep-vintage-chic-lightweight-white-p661w13404",
+    "name": "Jeep Vintage Chic Lightweight White P661W13404",
+    "code": "CTV563",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p28.jpg"
+    ],
+    "description": "Jeep Vintage Chic Lightweight White P661W13404 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 564,
+    "slug": "jeep-mary-jane-hybrid-grey-p651w13147",
+    "name": "Jeep Mary Jane Hybrid Grey P651W13147",
+    "code": "CTV564",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "36",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p30.jpg"
+    ],
+    "description": "Jeep Mary Jane Hybrid Grey P651W13147 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 565,
+    "slug": "jeep-mary-jane-hybrid-brown-p651w13147",
+    "name": "Jeep Mary Jane Hybrid Brown P651W13147",
+    "code": "CTV565",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "36",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p31.jpg"
+    ],
+    "description": "Jeep Mary Jane Hybrid Brown P651W13147 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 566,
+    "slug": "jeep-velcro-mary-jane-gray-p661w13358",
+    "name": "Jeep Velcro Mary Jane Gray P661W13358",
+    "code": "CTV566",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "35",
+      "37",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p33.jpg"
+    ],
+    "description": "Jeep Velcro Mary Jane Gray P661W13358 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 567,
+    "slug": "jeep-french-mary-jane-shoes-brown-p661w13363",
+    "name": "Jeep French Mary Jane Shoes Brown P661W13363",
+    "code": "CTV567",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 950000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "35",
+      "37",
+      "38",
+      "39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p34.jpg"
+    ],
+    "description": "Jeep French Mary Jane Shoes Brown P661W13363 — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 568,
+    "slug": "jeep-mind-xam",
+    "name": "Jeep mind Xám",
+    "code": "CTV568",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 460000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "40-41",
+      "42-43",
+      "44-45"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p36.jpg"
+    ],
+    "description": "Jeep mind Xám — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 569,
+    "slug": "jeep-mind-hong-kem",
+    "name": "Jeep mind Hồng Kem",
+    "code": "CTV569",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 460000,
+    "oldPrice": 0,
+    "stock": 6,
+    "sizes": [
+      "36-37",
+      "38-39"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p37.jpg"
+    ],
+    "description": "Jeep mind Hồng Kem — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 570,
+    "slug": "jeep-mind-xanh",
+    "name": "Jeep mind Xanh",
+    "code": "CTV570",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 460000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "38-39",
+      "42-43"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p38.jpg"
+    ],
+    "description": "Jeep mind Xanh — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 571,
+    "slug": "jeep-mind-en",
+    "name": "Jeep mind Đen",
+    "code": "CTV571",
+    "brand": "jeep",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 460000,
+    "oldPrice": 0,
+    "stock": 11,
+    "sizes": [
+      "36-37",
+      "38-39",
+      "40-41",
+      "42-43",
+      "44-45"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/jeep-adidas-nb/p39.jpg"
+    ],
+    "description": "Jeep mind Đen — nguồn hàng CTV.",
+    "tags": [
+      "jeep",
+      "giay",
+      "Unisex"
+    ]
   }
 ]

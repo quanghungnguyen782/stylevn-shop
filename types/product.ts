@@ -12,7 +12,11 @@ export type BrandSlug =
   | "ralph-lauren"
   | "jordan"
   | "skechers"
-  | "wilson";
+  | "wilson"
+  | "mlb"
+  | "jeep"
+  | "puma"
+  | "new-balance";
 
 export interface Category {
   slug: CategorySlug;
