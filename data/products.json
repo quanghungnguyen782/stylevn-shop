@@ -32900,5 +32900,368 @@
       "ao",
       "Unisex"
     ]
+  },
+  {
+    "id": 1277,
+    "slug": "hoodie-ny-be-3ahdb3044",
+    "name": "hoodie Ny Be 3AHDB3044",
+    "code": "3AHDB3044",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1277.jpg"
+    ],
+    "description": "hoodie Ny Be 3AHDB3044 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1278,
+    "slug": "vay-dai-dia-trang-3fopm0134",
+    "name": "váy dài dia trắng 3fopm0134",
+    "code": "3FOPM0134",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1278.jpg"
+    ],
+    "description": "váy dài dia trắng 3fopm0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1279,
+    "slug": "hoodie-ny-den-3ahdb3044",
+    "name": "hoodie NY đen 3AHDB3044",
+    "code": "3AHDB3044",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1279.jpg"
+    ],
+    "description": "hoodie NY đen 3AHDB3044 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1280,
+    "slug": "vay-dai-dia-den-b-3fopm0134",
+    "name": "váy dài dia đen B 3fopm0134",
+    "code": "3FOPM0134",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1280.jpg"
+    ],
+    "description": "váy dài dia đen B 3fopm0134 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1281,
+    "slug": "hoodie-zip-ny-xam-3atrb3044",
+    "name": "hoodie zip Ny xám 3ATRB3044",
+    "code": "3ATRB3044",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1281.jpg"
+    ],
+    "description": "hoodie zip Ny xám 3ATRB3044 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1282,
+    "slug": "vay-ny-trang-logo-to-3fopu0124",
+    "name": "váy ny trắng logo to 3FOPU0124",
+    "code": "3FOPU0124",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1282.jpg"
+    ],
+    "description": "váy ny trắng logo to 3FOPU0124 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1283,
+    "slug": "hoodie-yankes-trang-3ahdb0551",
+    "name": "hoodie yankes trắng 3AHDB0551",
+    "code": "3AHDB0551",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1283.jpg"
+    ],
+    "description": "hoodie yankes trắng 3AHDB0551 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1284,
+    "slug": "vay-ny-den-logo-to-3fopu0124",
+    "name": "váy ny đen logo to 3FOPU0124",
+    "code": "3FOPU0124",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1284.jpg"
+    ],
+    "description": "váy ny đen logo to 3FOPU0124 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1285,
+    "slug": "hoodie-logo-ny-vien-3ahdb0451",
+    "name": "hoodie logo Ny viền 3AHDB0451",
+    "code": "3AHDB0451",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1285.jpg"
+    ],
+    "description": "hoodie logo Ny viền 3AHDB0451 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1286,
+    "slug": "vay-dai-dia-b-nau-3fopm0314",
+    "name": "váy dài dia B nâu 3FOPM0314",
+    "code": "3FOPM0314",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 830000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1286.jpg"
+    ],
+    "description": "váy dài dia B nâu 3FOPM0314 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1287,
+    "slug": "hd-gau-boston-den-3ahde0126",
+    "name": "hd gấu boston ĐEN 3AHDE0126",
+    "code": "3AHDE0126",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1287.jpg"
+    ],
+    "description": "hd gấu boston ĐEN 3AHDE0126 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1288,
+    "slug": "vay-dai-dia-b-nau-3fopm0314-2",
+    "name": "váy dài dia B nâu 3FOPM0314",
+    "code": "3FOPM0314",
+    "brand": "mlb",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1288.jpg"
+    ],
+    "description": "váy dài dia B nâu 3FOPM0314 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1289,
+    "slug": "hd-zip-ny-den-3atrb0224",
+    "name": "hd zip Ny Đen 3ATRB0224",
+    "code": "3ATRB0224",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1289.jpg"
+    ],
+    "description": "hd zip Ny Đen 3ATRB0224 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1290,
+    "slug": "hd-zip-ny-trang-3atrb0224",
+    "name": "hd zip Ny Trắng 3ATRB0224",
+    "code": "3ATRB0224",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1290.jpg"
+    ],
+    "description": "hd zip Ny Trắng 3ATRB0224 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1291,
+    "slug": "hd-zip-ny-den-3atrb3044",
+    "name": "hd zip ny đen 3ATRB3044",
+    "code": "3ATRB3044",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/hoodie-vay-thudong/1291.jpg"
+    ],
+    "description": "hd zip ny đen 3ATRB3044 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Unisex"
+    ]
   }
 ]
