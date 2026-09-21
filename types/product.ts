@@ -23,7 +23,8 @@ export type BrandSlug =
   | "lifework"
   | "whoau"
   | "spao"
-  | "mcm";
+  | "mcm"
+  | "nerdy";
 
 export interface Category {
   slug: CategorySlug;
