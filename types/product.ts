@@ -22,7 +22,8 @@ export type BrandSlug =
   | "moschino"
   | "lifework"
   | "whoau"
-  | "spao";
+  | "spao"
+  | "mcm";
 
 export interface Category {
   slug: CategorySlug;
