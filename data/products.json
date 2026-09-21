@@ -38645,5 +38645,472 @@
       "phu-kien",
       "Unisex"
     ]
+  },
+  {
+    "id": 1514,
+    "slug": "tee-ny-yankes-navy",
+    "name": "tee Ny yankes Navy",
+    "code": "CTV1514",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1514.jpg"
+    ],
+    "description": "tee Ny yankes Navy — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1515,
+    "slug": "tee-3-chu-ny-do",
+    "name": "tee 3 chữ Ny đỏ",
+    "code": "CTV1515",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 120000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1515.jpg"
+    ],
+    "description": "tee 3 chữ Ny đỏ — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1516,
+    "slug": "swe-era-den",
+    "name": "swe era đen",
+    "code": "CTV1516",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 370000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "XL"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1516.jpg"
+    ],
+    "description": "swe era đen — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1517,
+    "slug": "tee-yankes-logo-truoc",
+    "name": "tee yankes logo trước",
+    "code": "CTV1517",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 150000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1517.jpg"
+    ],
+    "description": "tee yankes logo trước — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1518,
+    "slug": "tee-newyork-xanh-chu-trang",
+    "name": "tee newyork xanh Chữ trắng",
+    "code": "CTV1518",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 240000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1518.jpg"
+    ],
+    "description": "tee newyork xanh Chữ trắng — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1519,
+    "slug": "swe-era-la-navy",
+    "name": "Swe era LA navy",
+    "code": "CTV1519",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 370000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1519.jpg"
+    ],
+    "description": "Swe era LA navy — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1520,
+    "slug": "vay-era-logo-mono-trang",
+    "name": "Váy era logo mono trắng",
+    "code": "CTV1520",
+    "brand": "new-era",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 150000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1520.jpg"
+    ],
+    "description": "Váy era logo mono trắng — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1521,
+    "slug": "hd-zip-era-navy",
+    "name": "hd zip era navy",
+    "code": "CTV1521",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1521.jpg"
+    ],
+    "description": "hd zip era navy — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1522,
+    "slug": "vay-era-logo-mono-c-hong",
+    "name": "Váy era logo mono C hồng",
+    "code": "CTV1522",
+    "brand": "new-era",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1522.jpg"
+    ],
+    "description": "Váy era logo mono C hồng — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1523,
+    "slug": "tee-era-mono-navy",
+    "name": "tee era mono navy",
+    "code": "CTV1523",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1523.jpg"
+    ],
+    "description": "tee era mono navy — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1524,
+    "slug": "hoodie-logo-caro",
+    "name": "hoodie logo caro",
+    "code": "CTV1524",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1524.jpg"
+    ],
+    "description": "hoodie logo caro — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1525,
+    "slug": "vay-xuong-era-trang",
+    "name": "váy xuông era trắng",
+    "code": "CTV1525",
+    "brand": "new-era",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 150000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1525.jpg"
+    ],
+    "description": "váy xuông era trắng — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1526,
+    "slug": "tee-era-mono-nau",
+    "name": "tee era mono Nâu",
+    "code": "CTV1526",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1526.jpg"
+    ],
+    "description": "tee era mono Nâu — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1527,
+    "slug": "cdg-ny-new-era",
+    "name": "cdg Ny new era",
+    "code": "CTV1527",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1527.jpg"
+    ],
+    "description": "cdg Ny new era — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1528,
+    "slug": "vay-xuong-era-hong",
+    "name": "váy xuông era hồng",
+    "code": "CTV1528",
+    "brand": "new-era",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1528.jpg"
+    ],
+    "description": "váy xuông era hồng — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1529,
+    "slug": "tee-era-mono-den",
+    "name": "tee era mono đen",
+    "code": "CTV1529",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1529.jpg"
+    ],
+    "description": "tee era mono đen — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1530,
+    "slug": "cdg-ny-new-era-2",
+    "name": "cdg Ny new era",
+    "code": "CTV1530",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1530.jpg"
+    ],
+    "description": "cdg Ny new era — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1531,
+    "slug": "ni-so-mi-era-la-den",
+    "name": "Nỉ sơ mi Era La đen",
+    "code": "CTV1531",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1531.jpg"
+    ],
+    "description": "Nỉ sơ mi Era La đen — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1532,
+    "slug": "tee-era-logo-vuong-trang",
+    "name": "tee era logo vuông Trắng",
+    "code": "CTV1532",
+    "brand": "new-era",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 230000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/new-era-sheet/1532.jpg"
+    ],
+    "description": "tee era logo vuông Trắng — nguồn hàng CTV.",
+    "tags": [
+      "new-era",
+      "ao",
+      "Unisex"
+    ]
   }
 ]
