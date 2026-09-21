@@ -39112,5 +39112,389 @@
       "ao",
       "Unisex"
     ]
+  },
+  {
+    "id": 1533,
+    "slug": "tat-dai-be-nd-han",
+    "name": "Tất dài be nđ Hàn",
+    "code": "CTV1533",
+    "brand": "khac",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 170000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1533.jpg"
+    ],
+    "description": "Tất dài be nđ Hàn — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1534,
+    "slug": "tee-das-is0236",
+    "name": "Tee Das IS0236",
+    "code": "CTV1534",
+    "brand": "adidas",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1534.jpg"
+    ],
+    "description": "Tee Das IS0236 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1535,
+    "slug": "ni-phoi-so-mi-cream",
+    "name": "nỉ phối sơ mi Cream",
+    "code": "CTV1535",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1535.jpg"
+    ],
+    "description": "nỉ phối sơ mi Cream — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1536,
+    "slug": "tee-das-xam-jx2713",
+    "name": "Tee Das Xám JX2713",
+    "code": "CTV1536",
+    "brand": "adidas",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1536.jpg"
+    ],
+    "description": "Tee Das Xám JX2713 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1537,
+    "slug": "cdg-noi-dia-nau",
+    "name": "CDG nội địa NÂU",
+    "code": "CTV1537",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 170000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1537.jpg"
+    ],
+    "description": "CDG nội địa NÂU — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1538,
+    "slug": "tee-das-xam-jd0812",
+    "name": "Tee Das Xám JD0812",
+    "code": "CTV1538",
+    "brand": "adidas",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1538.jpg"
+    ],
+    "description": "Tee Das Xám JD0812 — nguồn hàng CTV.",
+    "tags": [
+      "adidas",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1539,
+    "slug": "cdg-ke-nau-nd-han",
+    "name": "cdg kẻ nâu nđ Hàn",
+    "code": "CTV1539",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 480000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1539.jpg"
+    ],
+    "description": "cdg kẻ nâu nđ Hàn — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1540,
+    "slug": "polo-dai-vang-ke-navy",
+    "name": "polo dài Vàng kẻ navy",
+    "code": "CTV1540",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1540.jpg"
+    ],
+    "description": "polo dài Vàng kẻ navy — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1541,
+    "slug": "le-1-ao-polo-dai-ke-nau-xam",
+    "name": "lẻ 1 áo polo dài kẻ nâu xám",
+    "code": "CTV1541",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1541.jpg"
+    ],
+    "description": "lẻ 1 áo polo dài kẻ nâu xám — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1542,
+    "slug": "legging-handmade-den",
+    "name": "legging handmade ĐEN",
+    "code": "CTV1542",
+    "brand": "khac",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 270000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1542.jpg"
+    ],
+    "description": "legging handmade ĐEN — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1543,
+    "slug": "legging-handmade-xam",
+    "name": "legging handmade Xám",
+    "code": "CTV1543",
+    "brand": "khac",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 270000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1543.jpg"
+    ],
+    "description": "legging handmade Xám — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1544,
+    "slug": "quan-nd-soc-trang-den",
+    "name": "quần nđ sọc trắng đen",
+    "code": "CTV1544",
+    "brand": "khac",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1544.jpg"
+    ],
+    "description": "quần nđ sọc trắng đen — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1545,
+    "slug": "quan-jeans-nd-han",
+    "name": "quần Jeans nđ Hàn",
+    "code": "CTV1545",
+    "brand": "khac",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1545.jpg"
+    ],
+    "description": "quần Jeans nđ Hàn — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1546,
+    "slug": "set-36-nau",
+    "name": "Set 36 Nâu",
+    "code": "CTV1546",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 790000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1546.jpg"
+    ],
+    "description": "Set 36 Nâu — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1547,
+    "slug": "set-nd-twins-xam",
+    "name": "set nđ Twins Xám",
+    "code": "CTV1547",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 420000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1547.jpg"
+    ],
+    "description": "set nđ Twins Xám — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1548,
+    "slug": "bomber-something-navy",
+    "name": "Bomber something Navy",
+    "code": "CTV1548",
+    "brand": "khac",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/noidia-hangkhac/1548.jpg"
+    ],
+    "description": "Bomber something Navy — nguồn hàng CTV.",
+    "tags": [
+      "khac",
+      "ao",
+      "Unisex"
+    ]
   }
 ]
