@@ -38021,5 +38021,629 @@
       "ao",
       "Unisex"
     ]
+  },
+  {
+    "id": 1488,
+    "slug": "kant-01-bl",
+    "name": "Kant 01 BL",
+    "code": "CTV1488",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1488.jpg"
+    ],
+    "description": "Kant 01 BL — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1489,
+    "slug": "bandoneon-01",
+    "name": "Bandoneon 01",
+    "code": "CTV1489",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1489.jpg"
+    ],
+    "description": "Bandoneon 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1490,
+    "slug": "kinh-elephant-iker-gold",
+    "name": "Kính Elephant Iker Gold",
+    "code": "CTV1490",
+    "brand": "elephant",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1490.jpg"
+    ],
+    "description": "Kính Elephant Iker Gold — nguồn hàng CTV.",
+    "tags": [
+      "elephant",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1491,
+    "slug": "kafka-01-v",
+    "name": "Kafka 01 V",
+    "code": "CTV1491",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1491.jpg"
+    ],
+    "description": "Kafka 01 V — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1492,
+    "slug": "cali-br",
+    "name": "Cali BR",
+    "code": "CTV1492",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1492.jpg"
+    ],
+    "description": "Cali BR — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1493,
+    "slug": "rayban-orb3774d-dark-grey",
+    "name": "Rayban ORB3774D DARK GREY",
+    "code": "CTV1493",
+    "brand": "rayban",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 3200000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1493.jpg"
+    ],
+    "description": "Rayban ORB3774D DARK GREY — nguồn hàng CTV.",
+    "tags": [
+      "rayban",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1494,
+    "slug": "kafka-01",
+    "name": "Kafka 01",
+    "code": "CTV1494",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1494.jpg"
+    ],
+    "description": "Kafka 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1495,
+    "slug": "cali-02",
+    "name": "Cali 02",
+    "code": "CTV1495",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1495.jpg"
+    ],
+    "description": "Cali 02 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1496,
+    "slug": "mowa-01",
+    "name": "Mowa 01",
+    "code": "CTV1496",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1496.jpg"
+    ],
+    "description": "Mowa 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1497,
+    "slug": "musubi-031",
+    "name": "Musubi 031",
+    "code": "CTV1497",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1497.jpg"
+    ],
+    "description": "Musubi 031 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1498,
+    "slug": "gisele-01",
+    "name": "Gisele 01",
+    "code": "CTV1498",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1498.jpg"
+    ],
+    "description": "Gisele 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1499,
+    "slug": "musubi-02-brg",
+    "name": "Musubi 02 BRG",
+    "code": "CTV1499",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1499.jpg"
+    ],
+    "description": "Musubi 02 BRG — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1500,
+    "slug": "jade-br",
+    "name": "Jade BR",
+    "code": "CTV1500",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1500.jpg"
+    ],
+    "description": "Jade BR — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1501,
+    "slug": "rococco-01",
+    "name": "Rococco 01",
+    "code": "CTV1501",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1501.jpg"
+    ],
+    "description": "Rococco 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1502,
+    "slug": "moody-02",
+    "name": "Moody 02",
+    "code": "CTV1502",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1502.jpg"
+    ],
+    "description": "Moody 02 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1503,
+    "slug": "carat-02",
+    "name": "Carat 02",
+    "code": "CTV1503",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1503.jpg"
+    ],
+    "description": "Carat 02 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1504,
+    "slug": "boni-01",
+    "name": "Boni 01",
+    "code": "CTV1504",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1504.jpg"
+    ],
+    "description": "Boni 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1505,
+    "slug": "pico-02",
+    "name": "Pico 02",
+    "code": "CTV1505",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 6000000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1505.jpg"
+    ],
+    "description": "Pico 02 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1506,
+    "slug": "alma-01",
+    "name": "Alma 01",
+    "code": "CTV1506",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1506.jpg"
+    ],
+    "description": "Alma 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1507,
+    "slug": "alma-br",
+    "name": "Alma BR",
+    "code": "CTV1507",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1507.jpg"
+    ],
+    "description": "Alma BR — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1508,
+    "slug": "soho-01",
+    "name": "Soho 01",
+    "code": "CTV1508",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1508.jpg"
+    ],
+    "description": "Soho 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1509,
+    "slug": "soho-01-br",
+    "name": "Soho 01 BR",
+    "code": "CTV1509",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1509.jpg"
+    ],
+    "description": "Soho 01 BR — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1510,
+    "slug": "noho-01",
+    "name": "Noho 01",
+    "code": "CTV1510",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4550000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1510.jpg"
+    ],
+    "description": "Noho 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1511,
+    "slug": "cuscus-01",
+    "name": "Cuscus 01",
+    "code": "CTV1511",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1511.jpg"
+    ],
+    "description": "Cuscus 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1512,
+    "slug": "dodo-01",
+    "name": "Dodo 01",
+    "code": "CTV1512",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 4950000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1512.jpg"
+    ],
+    "description": "Dodo 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1513,
+    "slug": "jasmin-01",
+    "name": "Jasmin 01",
+    "code": "CTV1513",
+    "brand": "gentle-monster",
+    "category": "phu-kien",
+    "gender": "Unisex",
+    "price": 5450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "Freesize"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/kinh/1513.jpg"
+    ],
+    "description": "Jasmin 01 — nguồn hàng CTV.",
+    "tags": [
+      "gentle-monster",
+      "phu-kien",
+      "Unisex"
+    ]
   }
 ]
