@@ -10,7 +10,9 @@ export type BrandSlug =
   | "361-degrees"
   | "lacoste"
   | "ralph-lauren"
-  | "jordan";
+  | "jordan"
+  | "skechers"
+  | "wilson";
 
 export interface Category {
   slug: CategorySlug;

@@ -11867,5 +11867,853 @@
       "giay",
       "Unisex"
     ]
+  },
+  {
+    "id": 414,
+    "slug": "asics-trang-xanh-1042a279-100",
+    "name": "Asics Trắng Xanh 1042A279-100",
+    "code": "CTV414",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "35.5",
+      "36.0",
+      "37.0",
+      "37.5",
+      "38.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p0.jpg"
+    ],
+    "description": "Asics Trắng Xanh 1042A279-100 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 415,
+    "slug": "ascis-resolution-1042a279-104",
+    "name": "Ascis Resolution 1042A279-104",
+    "code": "CTV415",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p1.jpg"
+    ],
+    "description": "Ascis Resolution 1042A279-104 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 416,
+    "slug": "skechers-viper-court-pro-2-0-white-246109-wbk",
+    "name": "Skechers Viper Court Pro 2.0 White 246109/WBK",
+    "code": "CTV416",
+    "brand": "skechers",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "42.5",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p2.jpg"
+    ],
+    "description": "Skechers Viper Court Pro 2.0 White 246109/WBK — nguồn hàng CTV.",
+    "tags": [
+      "skechers",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 417,
+    "slug": "asics-gel-white-pure-silver-1042a294-101",
+    "name": "Asics Gel White Pure Silver 1042A294-101",
+    "code": "CTV417",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "37.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p3.jpg"
+    ],
+    "description": "Asics Gel White Pure Silver 1042A294-101 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 418,
+    "slug": "asics-white-green-1042a279-103",
+    "name": "Asics White Green 1042A279-103",
+    "code": "CTV418",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2900000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "37.5",
+      "38.0",
+      "39.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p4.jpg"
+    ],
+    "description": "Asics White Green 1042A279-103 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 419,
+    "slug": "skechers-viper-white-pink-172109-wmlt",
+    "name": "Skechers Viper White Pink 172109-WMLT",
+    "code": "CTV419",
+    "brand": "skechers",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "35.0",
+      "38.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p5.jpg"
+    ],
+    "description": "Skechers Viper White Pink 172109-WMLT — nguồn hàng CTV.",
+    "tags": [
+      "skechers",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 420,
+    "slug": "asics-trang-tim-1042a279-105",
+    "name": "Asics Trắng Tím 1042A279-105",
+    "code": "CTV420",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2750000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "37.0",
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p6.jpg"
+    ],
+    "description": "Asics Trắng Tím 1042A279-105 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 421,
+    "slug": "asics-white-morganite-1042a281-103",
+    "name": "Asics White Morganite 1042A281-103",
+    "code": "CTV421",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1750000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "37.0",
+      "37.5",
+      "39.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p7.jpg"
+    ],
+    "description": "Asics White Morganite 1042A281-103 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 422,
+    "slug": "skechers-246069-bkhp",
+    "name": "Skechers 246069-BKHP",
+    "code": "CTV422",
+    "brand": "skechers",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "40.0",
+      "41.0",
+      "42.0",
+      "42.5",
+      "43.0",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p8.jpg"
+    ],
+    "description": "Skechers 246069-BKHP — nguồn hàng CTV.",
+    "tags": [
+      "skechers",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 423,
+    "slug": "asics-solution-swuit-rose-rouge-1042a265-702",
+    "name": "Asics Solution Swừit Rose Rouge 1042A265-702",
+    "code": "CTV423",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1900000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "36.0",
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p9.jpg"
+    ],
+    "description": "Asics Solution Swừit Rose Rouge 1042A265-702 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 424,
+    "slug": "asics-gel-game-ff-pickleball-white-calm-indigo-1042a280-102",
+    "name": "Asics Gel-Game FF Pickleball 'White/Calm Indigo' 1042A280-102",
+    "code": "CTV424",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1750000,
+    "oldPrice": 0,
+    "stock": 8,
+    "sizes": [
+      "36.0",
+      "37.5",
+      "38.0",
+      "39.0",
+      "39.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p10.jpg"
+    ],
+    "description": "Asics Gel-Game FF Pickleball 'White/Calm Indigo' 1042A280-102 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 425,
+    "slug": "skechers-246109-pkbk",
+    "name": "Skechers 246109-PKBK",
+    "code": "CTV425",
+    "brand": "skechers",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "40.0",
+      "41.0",
+      "42.0",
+      "42.5",
+      "43.0",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p11.jpg"
+    ],
+    "description": "Skechers 246109-PKBK — nguồn hàng CTV.",
+    "tags": [
+      "skechers",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 426,
+    "slug": "asics-1042a279-250",
+    "name": "Asics 1042A279-250",
+    "code": "CTV426",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "36.0",
+      "37.0",
+      "37.5",
+      "38.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p12.jpg"
+    ],
+    "description": "Asics 1042A279-250 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 427,
+    "slug": "asics-game-ff-white-green-1041a489-102",
+    "name": "ASICS GAME FF - White-Green 1041A489-102",
+    "code": "CTV427",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "39.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p13.jpg"
+    ],
+    "description": "ASICS GAME FF - White-Green 1041A489-102 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 428,
+    "slug": "wilson-wrs340120",
+    "name": "Wilson WRS340120",
+    "code": "CTV428",
+    "brand": "wilson",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2300000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "38.0",
+      "38 2/3"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p14.jpg"
+    ],
+    "description": "Wilson WRS340120 — nguồn hàng CTV.",
+    "tags": [
+      "wilson",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 429,
+    "slug": "asics-gel-dedicate-8-gs-1044a077-402",
+    "name": "Asics Gel Dedicate 8 GS 1044A077-402",
+    "code": "CTV429",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1550000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "37.0",
+      "37.5",
+      "39.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p15.jpg"
+    ],
+    "description": "Asics Gel Dedicate 8 GS 1044A077-402 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 430,
+    "slug": "asics-gel-resolution-white-black-1041a481-100",
+    "name": "Asics Gel Resolution  White Black 1041A481-100",
+    "code": "CTV430",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 8,
+    "sizes": [
+      "39.5",
+      "40.5",
+      "41.5",
+      "42.0",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p16.jpg"
+    ],
+    "description": "Asics Gel Resolution  White Black 1041A481-100 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 431,
+    "slug": "asics-court-ff-3-grey-blue-white-1041a370-404",
+    "name": "Asics Court FF 3 Grey Blue White 1041A370-404",
+    "code": "CTV431",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 3100000,
+    "oldPrice": 0,
+    "stock": 8,
+    "sizes": [
+      "39.0",
+      "39.5",
+      "40.0",
+      "40.5",
+      "42.0",
+      "42.5",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p17.jpg"
+    ],
+    "description": "Asics Court FF 3 Grey Blue White 1041A370-404 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 432,
+    "slug": "asics-1042a294-100",
+    "name": "Asics 1042A294-100",
+    "code": "CTV432",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2200000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "37.0",
+      "37.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p18.jpg"
+    ],
+    "description": "Asics 1042A294-100 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 433,
+    "slug": "asics-court-ff3-white-sky-1042a220-107",
+    "name": "Asics Court FF3 White Sky 1042A220-107",
+    "code": "CTV433",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 3150000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "36.0",
+      "37.0",
+      "37.5",
+      "40.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p19.jpg"
+    ],
+    "description": "Asics Court FF3 White Sky 1042A220-107 — nguồn hàng CTV. Giá có thể chênh lệch nhẹ theo size, vui lòng hỏi Zalo để xác nhận giá đúng size bạn chọn.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 434,
+    "slug": "asics-1041a481-104",
+    "name": "Asics 1041A481-104",
+    "code": "CTV434",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 8,
+    "sizes": [
+      "39.0",
+      "40.0",
+      "40.5",
+      "41.5",
+      "42.0",
+      "42.5",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p20.jpg"
+    ],
+    "description": "Asics 1041A481-104 — nguồn hàng CTV. Giá có thể chênh lệch nhẹ theo size, vui lòng hỏi Zalo để xác nhận giá đúng size bạn chọn.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 435,
+    "slug": "asics-white-dark-neptune-1041a489-104",
+    "name": "Asics White Dark Neptune 1041A489-104",
+    "code": "CTV435",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1750000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "40.0",
+      "40.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p21.jpg"
+    ],
+    "description": "Asics White Dark Neptune 1041A489-104 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 436,
+    "slug": "asics-1041a492-100",
+    "name": "Asics 1041A492-100",
+    "code": "CTV436",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "39.5",
+      "40.0",
+      "40.5",
+      "41.5",
+      "42.0",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p22.jpg"
+    ],
+    "description": "Asics 1041A492-100 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 437,
+    "slug": "asics-gel-dedicate-9-white-gunmetal-1041a545-100",
+    "name": "Asics Gel-Dedicate 9 ‘White/Gunmetal’ 1041A545-100",
+    "code": "CTV437",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1700000,
+    "oldPrice": 0,
+    "stock": 8,
+    "sizes": [
+      "39.0",
+      "40.0",
+      "40.5",
+      "41.5",
+      "42.0",
+      "42.5",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p23.jpg"
+    ],
+    "description": "Asics Gel-Dedicate 9 ‘White/Gunmetal’ 1041A545-100 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 438,
+    "slug": "asics-1041a532-102",
+    "name": "Asics 1041A532-102",
+    "code": "CTV438",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2550000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "40.0",
+      "42.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p24.jpg"
+    ],
+    "description": "Asics 1041A532-102 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 439,
+    "slug": "asics-1041a370-107",
+    "name": "Asics 1041A370-107",
+    "code": "CTV439",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 3000000,
+    "oldPrice": 0,
+    "stock": 11,
+    "sizes": [
+      "40.0",
+      "40.5",
+      "41.5",
+      "42.0",
+      "42.5",
+      "43.5",
+      "44.0",
+      "44.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p25.jpg"
+    ],
+    "description": "Asics 1041A370-107 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 440,
+    "slug": "asics-1041a543-100",
+    "name": "Asics 1041A543-100",
+    "code": "CTV440",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 5,
+    "sizes": [
+      "39.5",
+      "40.5",
+      "41.5",
+      "42.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p26.jpg"
+    ],
+    "description": "Asics 1041A543-100 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 441,
+    "slug": "asics-1041a492-300",
+    "name": "Asics 1041A492-300",
+    "code": "CTV441",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 7,
+    "sizes": [
+      "39.5",
+      "40.0",
+      "41.5",
+      "42.0",
+      "42.5",
+      "43.5",
+      "44.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p27.jpg"
+    ],
+    "description": "Asics 1041A492-300 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 442,
+    "slug": "asics-1042a285-250",
+    "name": "Asics 1042A285-250",
+    "code": "CTV442",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2700000,
+    "oldPrice": 0,
+    "stock": 4,
+    "sizes": [
+      "37.0",
+      "37.5",
+      "38.0",
+      "39.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p28.jpg"
+    ],
+    "description": "Asics 1042A285-250 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 443,
+    "slug": "asics-1042a307-102",
+    "name": "Asics 1042A307-102",
+    "code": "CTV443",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2600000,
+    "oldPrice": 0,
+    "stock": 10,
+    "sizes": [
+      "35.5",
+      "37.0",
+      "37.5",
+      "38.0",
+      "39.0",
+      "39.5"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p29.jpg"
+    ],
+    "description": "Asics 1042A307-102 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 444,
+    "slug": "asics-1042a294-105",
+    "name": "Asics 1042A294-105",
+    "code": "CTV444",
+    "brand": "asics",
+    "category": "giay",
+    "gender": "Unisex",
+    "price": 2100000,
+    "oldPrice": 0,
+    "stock": 6,
+    "sizes": [
+      "37.0",
+      "37.5",
+      "38.0",
+      "39.0",
+      "39.5",
+      "40.0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/asics-skechers/p30.jpg"
+    ],
+    "description": "Asics 1042A294-105 — nguồn hàng CTV.",
+    "tags": [
+      "asics",
+      "giay",
+      "Unisex"
+    ]
   }
 ]
