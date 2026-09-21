@@ -39568,5 +39568,1693 @@
       "ao",
       "Nữ"
     ]
+  },
+  {
+    "id": 1552,
+    "slug": "badblood-tnk24-069",
+    "name": "Badblood tnk24-069",
+    "code": "TNK24-069",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 480000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1552.jpg"
+    ],
+    "description": "Badblood tnk24-069 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1553,
+    "slug": "badblood-tee25-011",
+    "name": "Badblood tee25 011",
+    "code": "TEE25-011",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1553.jpg"
+    ],
+    "description": "Badblood tee25 011 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1554,
+    "slug": "badblood-tee26-055-den",
+    "name": "Badblood Tee26 055 Đen",
+    "code": "TEE26-055-ĐEN",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1554.jpg"
+    ],
+    "description": "Badblood Tee26 055 Đen — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1555,
+    "slug": "badblood-srt26-011",
+    "name": "Badblood srt26 011",
+    "code": "SRT26-011",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 1000000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1555.jpg"
+    ],
+    "description": "Badblood srt26 011 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1556,
+    "slug": "badblood-tnk24-034",
+    "name": "Badblood tnk24 034",
+    "code": "TNK24-034",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1556.jpg"
+    ],
+    "description": "Badblood tnk24 034 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1557,
+    "slug": "badblood-tee25-010",
+    "name": "Badblood tee25 010",
+    "code": "TEE25-010",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1557.jpg"
+    ],
+    "description": "Badblood tee25 010 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1558,
+    "slug": "badblood-tee26-056-xam",
+    "name": "Badblood tee26 056 Xám",
+    "code": "TEE26-056-XÁM",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1558.jpg"
+    ],
+    "description": "Badblood tee26 056 Xám — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1559,
+    "slug": "badblood-srt24-090",
+    "name": "Badblood Srt24 090",
+    "code": "SRT24-090",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1559.jpg"
+    ],
+    "description": "Badblood Srt24 090 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1560,
+    "slug": "badblood-tnk23-039",
+    "name": "Badblood tnk23 039",
+    "code": "TNK23-039",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1560.jpg"
+    ],
+    "description": "Badblood tnk23 039 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1561,
+    "slug": "badblood-tee24-053",
+    "name": "Badblood tee24 053",
+    "code": "TEE24-053",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1561.jpg"
+    ],
+    "description": "Badblood tee24 053 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1562,
+    "slug": "badblood-tee26-069-hong",
+    "name": "Badblood tee26 069 Hồng",
+    "code": "TEE26-069-HỒNG",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1562.jpg"
+    ],
+    "description": "Badblood tee26 069 Hồng — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1563,
+    "slug": "badblood-srt24-054",
+    "name": "Badblood srt24 054",
+    "code": "SRT24-054",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1563.jpg"
+    ],
+    "description": "Badblood srt24 054 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1564,
+    "slug": "badblood-bra25-002",
+    "name": "Badblood bra25 002",
+    "code": "BRA25-002",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1564.jpg"
+    ],
+    "description": "Badblood bra25 002 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1565,
+    "slug": "badblood-tee25-149",
+    "name": "Badblood tee25 149",
+    "code": "TEE25-149",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1565.jpg"
+    ],
+    "description": "Badblood tee25 149 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1566,
+    "slug": "badblood-tee26-051",
+    "name": "Badblood tee26 051",
+    "code": "TEE26-051",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1566.jpg"
+    ],
+    "description": "Badblood tee26 051 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1567,
+    "slug": "badblood-srt25-044",
+    "name": "Badblood srt25 044",
+    "code": "SRT25-044",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1567.jpg"
+    ],
+    "description": "Badblood srt25 044 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1568,
+    "slug": "badblood-bra25-001",
+    "name": "Badblood bra25 001",
+    "code": "BRA25-001",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1568.jpg"
+    ],
+    "description": "Badblood bra25 001 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1569,
+    "slug": "badblood-tee25-151",
+    "name": "Badblood tee25 151",
+    "code": "TEE25-151",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1569.jpg"
+    ],
+    "description": "Badblood tee25 151 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1570,
+    "slug": "badblood-tee26-052-navy",
+    "name": "Badblood Tee26 052 Navy",
+    "code": "TEE26-052-NAVY",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1570.jpg"
+    ],
+    "description": "Badblood Tee26 052 Navy — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1571,
+    "slug": "badblood-srt25-031",
+    "name": "Badblood Srt25 031",
+    "code": "SRT25-031",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XXS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1571.jpg"
+    ],
+    "description": "Badblood Srt25 031 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1572,
+    "slug": "badblood-tnk25-016",
+    "name": "Badblood tnk25 016",
+    "code": "TNK25-016",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1572.jpg"
+    ],
+    "description": "Badblood tnk25 016 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1573,
+    "slug": "badblood-tee25-096",
+    "name": "Badblood tee25 096",
+    "code": "TEE25-096",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1573.jpg"
+    ],
+    "description": "Badblood tee25 096 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1574,
+    "slug": "badblood-tee26-156",
+    "name": "Badblood Tee26 156",
+    "code": "TEE26-156",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1574.jpg"
+    ],
+    "description": "Badblood Tee26 156 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1575,
+    "slug": "badblood-srt25-030",
+    "name": "Badblood Srt25 030",
+    "code": "SRT25-030",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 1650000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XXS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1575.jpg"
+    ],
+    "description": "Badblood Srt25 030 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1576,
+    "slug": "badblood-tnk25-017",
+    "name": "Badblood tnk25 017",
+    "code": "TNK25-017",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1576.jpg"
+    ],
+    "description": "Badblood tnk25 017 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1577,
+    "slug": "badblood-tee25-097",
+    "name": "Badblood tee25 097",
+    "code": "TEE25-097",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1577.jpg"
+    ],
+    "description": "Badblood tee25 097 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1578,
+    "slug": "badblood-tee26-155",
+    "name": "Badblood tee26 155",
+    "code": "TEE26-155",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1250000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1578.jpg"
+    ],
+    "description": "Badblood tee26 155 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1579,
+    "slug": "badblood-skt25-002",
+    "name": "Badblood skt25 002",
+    "code": "SKT25-002",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1579.jpg"
+    ],
+    "description": "Badblood skt25 002 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1580,
+    "slug": "badblood-tnk24-002",
+    "name": "Badblood tnk24 002",
+    "code": "TNK24-002",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1580.jpg"
+    ],
+    "description": "Badblood tnk24 002 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1581,
+    "slug": "badblood-tee25-067",
+    "name": "Badblood tee25 067",
+    "code": "TEE25-067",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 890000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1581.jpg"
+    ],
+    "description": "Badblood tee25 067 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1582,
+    "slug": "badblood-tee26-187",
+    "name": "Badblood Tee26-187",
+    "code": "TEE26-187",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1582.jpg"
+    ],
+    "description": "Badblood Tee26-187 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1583,
+    "slug": "badblood-skt25-007",
+    "name": "Badblood skt25 007",
+    "code": "SKT25-007",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1583.jpg"
+    ],
+    "description": "Badblood skt25 007 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1584,
+    "slug": "badblood-tnk26-010",
+    "name": "Badblood tnk26 010",
+    "code": "TNK26-010",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1584.jpg"
+    ],
+    "description": "Badblood tnk26 010 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1585,
+    "slug": "badblood-tee25-078",
+    "name": "Badblood tee25 078",
+    "code": "TEE25-078",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1585.jpg"
+    ],
+    "description": "Badblood tee25 078 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1586,
+    "slug": "badblood-tee26-188",
+    "name": "Badblood Tee26-188",
+    "code": "TEE26-188",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1586.jpg"
+    ],
+    "description": "Badblood Tee26-188 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1587,
+    "slug": "badblood-skt25-006",
+    "name": "Badblood skt25 006",
+    "code": "SKT25-006",
+    "brand": "badblood",
+    "category": "quan",
+    "gender": "Nữ",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1587.jpg"
+    ],
+    "description": "Badblood skt25 006 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "quan",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1588,
+    "slug": "badblood-tnk26-015",
+    "name": "Badblood tnk26 015",
+    "code": "TNK26-015",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1588.jpg"
+    ],
+    "description": "Badblood tnk26 015 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1589,
+    "slug": "badblood-tee25-076",
+    "name": "Badblood tee25 076",
+    "code": "TEE25-076",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1589.jpg"
+    ],
+    "description": "Badblood tee25 076 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1590,
+    "slug": "badblood-tee26-189",
+    "name": "Badblood Tee26-189",
+    "code": "TEE26-189",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1590.jpg"
+    ],
+    "description": "Badblood Tee26-189 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1591,
+    "slug": "badblood-hbn24-009",
+    "name": "Badblood hbn24 009",
+    "code": "HBN24-009",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1591.jpg"
+    ],
+    "description": "Badblood hbn24 009 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1592,
+    "slug": "badblood-tee25-090",
+    "name": "Badblood tee25 090",
+    "code": "TEE25-090",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1592.jpg"
+    ],
+    "description": "Badblood tee25 090 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1593,
+    "slug": "badblood-tee26-016",
+    "name": "Badblood tee26 016",
+    "code": "TEE26-016",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1050000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1593.jpg"
+    ],
+    "description": "Badblood tee26 016 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1594,
+    "slug": "badblood-hbn24-010",
+    "name": "Badblood hbn24 010",
+    "code": "HBN24-010",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1594.jpg"
+    ],
+    "description": "Badblood hbn24 010 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1595,
+    "slug": "badblood-tnk26-037",
+    "name": "Badblood tnk26 037",
+    "code": "TNK26-037",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1160000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1595.jpg"
+    ],
+    "description": "Badblood tnk26 037 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1596,
+    "slug": "badblood-tee25-089",
+    "name": "Badblood tee25 089",
+    "code": "TEE25-089",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1596.jpg"
+    ],
+    "description": "Badblood tee25 089 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1597,
+    "slug": "badblood-tee25-029",
+    "name": "Badblood tee25 029",
+    "code": "TEE25-029",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "XS",
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1597.jpg"
+    ],
+    "description": "Badblood tee25 029 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1598,
+    "slug": "badblood-hbn24-008",
+    "name": "Badblood hbn24 008",
+    "code": "HBN24-008",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1598.jpg"
+    ],
+    "description": "Badblood hbn24 008 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1599,
+    "slug": "badblood-tnk26-043",
+    "name": "Badblood tnk26 043",
+    "code": "TNK26-043",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1160000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1599.jpg"
+    ],
+    "description": "Badblood tnk26 043 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1600,
+    "slug": "badblood-tee25-095",
+    "name": "Badblood tee25 095",
+    "code": "TEE25-095",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 690000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1600.jpg"
+    ],
+    "description": "Badblood tee25 095 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1601,
+    "slug": "badblood-tee25-030",
+    "name": "Badblood tee25 030",
+    "code": "TEE25-030",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1601.jpg"
+    ],
+    "description": "Badblood tee25 030 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1602,
+    "slug": "badblood-hbn24-001",
+    "name": "Badblood hbn24 001",
+    "code": "HBN24-001",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1602.jpg"
+    ],
+    "description": "Badblood hbn24 001 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1603,
+    "slug": "badblood-tnk25-024",
+    "name": "Badblood tnk25 024",
+    "code": "TNK25-024",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1603.jpg"
+    ],
+    "description": "Badblood tnk25 024 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1604,
+    "slug": "badblood-tee24-065",
+    "name": "Badblood tee24 065",
+    "code": "TEE24-065",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1604.jpg"
+    ],
+    "description": "Badblood tee24 065 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1605,
+    "slug": "badblood-tee25-034",
+    "name": "Badblood tee25 034",
+    "code": "TEE25-034",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1605.jpg"
+    ],
+    "description": "Badblood tee25 034 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1606,
+    "slug": "badblood-hbn24-003",
+    "name": "Badblood hbn24 003",
+    "code": "HBN24-003",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1606.jpg"
+    ],
+    "description": "Badblood hbn24 003 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1607,
+    "slug": "badblood-tnk25-020",
+    "name": "Badblood tnk25 020",
+    "code": "TNK25-020",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1607.jpg"
+    ],
+    "description": "Badblood tnk25 020 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1608,
+    "slug": "badblood-sht25-007",
+    "name": "Badblood sht25 007",
+    "code": "SHT25-007",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1608.jpg"
+    ],
+    "description": "Badblood sht25 007 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1609,
+    "slug": "badblood-tee25-035",
+    "name": "Badblood tee25 035",
+    "code": "TEE25-035",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1609.jpg"
+    ],
+    "description": "Badblood tee25 035 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1610,
+    "slug": "badblood-tnk26-075",
+    "name": "Badblood tnk26 075",
+    "code": "TNK26-075",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1120000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1610.jpg"
+    ],
+    "description": "Badblood tnk26 075 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1611,
+    "slug": "badblood-sht25-006",
+    "name": "Badblood sht25 006",
+    "code": "SHT25-006",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 3,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1611.jpg"
+    ],
+    "description": "Badblood sht25 006 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1612,
+    "slug": "badblood-tee25-034-2",
+    "name": "Badblood tee25 034",
+    "code": "TEE25-034",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 350000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1612.jpg"
+    ],
+    "description": "Badblood tee25 034 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1613,
+    "slug": "badblood-tnk26-058",
+    "name": "Badblood tnk26 058",
+    "code": "TNK26-058",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1613.jpg"
+    ],
+    "description": "Badblood tnk26 058 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1614,
+    "slug": "badblood-sht25-009",
+    "name": "Badblood sht25 009",
+    "code": "SHT25-009",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1614.jpg"
+    ],
+    "description": "Badblood sht25 009 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1615,
+    "slug": "badblood-tee26-104",
+    "name": "Badblood tee26 104",
+    "code": "TEE26-104",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 900000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1615.jpg"
+    ],
+    "description": "Badblood tee26 104 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1616,
+    "slug": "badblood-tnk26-059",
+    "name": "Badblood tnk26 059",
+    "code": "TNK26-059",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1616.jpg"
+    ],
+    "description": "Badblood tnk26 059 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1617,
+    "slug": "badblood-sht25-008",
+    "name": "Badblood sht25 008",
+    "code": "SHT25-008",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 850000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1617.jpg"
+    ],
+    "description": "Badblood sht25 008 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1618,
+    "slug": "badblood-tee26-236",
+    "name": "Badblood tee26 236",
+    "code": "TEE26-236",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1280000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1618.jpg"
+    ],
+    "description": "Badblood tee26 236 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1619,
+    "slug": "badblood-tnk26-061",
+    "name": "Badblood tnk26 061",
+    "code": "TNK26-061",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1100000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1619.jpg"
+    ],
+    "description": "Badblood tnk26 061 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1620,
+    "slug": "badblood-tee26-237",
+    "name": "Badblood tee26 237",
+    "code": "TEE26-237",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1280000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1620.jpg"
+    ],
+    "description": "Badblood tee26 237 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1621,
+    "slug": "badblood-tee26-238",
+    "name": "Badblood tee26 238",
+    "code": "TEE26-238",
+    "brand": "badblood",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1280000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/badblood-tee-he/1621.jpg"
+    ],
+    "description": "Badblood tee26 238 — nguồn hàng CTV.",
+    "tags": [
+      "badblood",
+      "ao",
+      "Nữ"
+    ]
   }
 ]

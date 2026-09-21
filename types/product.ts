@@ -28,7 +28,8 @@ export type BrandSlug =
   | "adlv"
   | "gentle-monster"
   | "rayban"
-  | "elephant";
+  | "elephant"
+  | "badblood";
 
 export interface Category {
   slug: CategorySlug;
