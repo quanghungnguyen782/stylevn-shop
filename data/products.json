@@ -39496,5 +39496,77 @@
       "ao",
       "Unisex"
     ]
+  },
+  {
+    "id": 1549,
+    "slug": "ao-bien-den-logo-to",
+    "name": "Áo biển đen logo to",
+    "code": "CTV1549",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1150000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "XS"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/doboi-bikini/1549.jpg"
+    ],
+    "description": "Áo biển đen logo to — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1550,
+    "slug": "set-bien-dia-den",
+    "name": "Set biển dia Đen",
+    "code": "CTV1550",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 1300000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/doboi-bikini/1550.jpg"
+    ],
+    "description": "Set biển dia Đen — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Nữ"
+    ]
+  },
+  {
+    "id": 1551,
+    "slug": "bikini-la-xanh-trang-3fsw60723",
+    "name": "Bikini La Xanh Trắng 3FSW60723",
+    "code": "3FSW60723",
+    "brand": "mlb",
+    "category": "ao",
+    "gender": "Nữ",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "S"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/doboi-bikini/1551.jpg"
+    ],
+    "description": "Bikini La Xanh Trắng 3FSW60723 — nguồn hàng CTV.",
+    "tags": [
+      "mlb",
+      "ao",
+      "Nữ"
+    ]
   }
 ]
