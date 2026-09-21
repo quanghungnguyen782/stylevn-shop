@@ -24,7 +24,8 @@ export type BrandSlug =
   | "whoau"
   | "spao"
   | "mcm"
-  | "nerdy";
+  | "nerdy"
+  | "adlv";
 
 export interface Category {
   slug: CategorySlug;

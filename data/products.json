@@ -36575,5 +36575,1451 @@
       "ao",
       "Unisex"
     ]
+  },
+  {
+    "id": 1428,
+    "slug": "basic-adlv-xanh-mint-form-over",
+    "name": "basic adlv xanh mint Form Over",
+    "code": "CTV1428",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1428.jpg"
+    ],
+    "description": "basic adlv xanh mint Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1429,
+    "slug": "alien-fuzzy-rabit-trang",
+    "name": "alien fuzzy rabit Trắng",
+    "code": "CTV1429",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1429.jpg"
+    ],
+    "description": "alien fuzzy rabit Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1430,
+    "slug": "adlv-jawelry-den",
+    "name": "adlv Jawelry Đen",
+    "code": "CTV1430",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1430.jpg"
+    ],
+    "description": "adlv Jawelry Đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1431,
+    "slug": "quan-blade-den",
+    "name": "quần blade đen",
+    "code": "CTV1431",
+    "brand": "adlv",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1431.jpg"
+    ],
+    "description": "quần blade đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1432,
+    "slug": "basic-adlv-xanh-nhat-form-over",
+    "name": "basic adlv xanh nhạt Form Over",
+    "code": "CTV1432",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1432.jpg"
+    ],
+    "description": "basic adlv xanh nhạt Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1433,
+    "slug": "heart-alien-vang",
+    "name": "heart alien Vàng",
+    "code": "CTV1433",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1433.jpg"
+    ],
+    "description": "heart alien Vàng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1434,
+    "slug": "adlv-jewelry",
+    "name": "ADLV Jewelry",
+    "code": "CTV1434",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1434.jpg"
+    ],
+    "description": "ADLV Jewelry — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1435,
+    "slug": "quan-adlv-basic-den",
+    "name": "quần adlv Basic đen",
+    "code": "CTV1435",
+    "brand": "adlv",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 600000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1435.jpg"
+    ],
+    "description": "quần adlv Basic đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1436,
+    "slug": "basic-adlv-trang-form-nu",
+    "name": "basic adlv trắng Form Nữ",
+    "code": "CTV1436",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1436.jpg"
+    ],
+    "description": "basic adlv trắng Form Nữ — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1437,
+    "slug": "bad-bunny-logo-trang",
+    "name": "bad bunny logo Trắng",
+    "code": "CTV1437",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1437.jpg"
+    ],
+    "description": "bad bunny logo Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1438,
+    "slug": "adlv-gift-den",
+    "name": "ADLV Gift Đen",
+    "code": "CTV1438",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1438.jpg"
+    ],
+    "description": "ADLV Gift Đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1439,
+    "slug": "chan-vay-denim-sz-0-xanh",
+    "name": "chân váy denim sz 0 xanh",
+    "code": "CTV1439",
+    "brand": "adlv",
+    "category": "quan",
+    "gender": "Unisex",
+    "price": 800000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ0"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1439.jpg"
+    ],
+    "description": "chân váy denim sz 0 xanh — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "quan",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1440,
+    "slug": "basic-adlv-trang-form-over",
+    "name": "basic adlv trắng Form Over",
+    "code": "CTV1440",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "SZ1",
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1440.jpg"
+    ],
+    "description": "basic adlv trắng Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1441,
+    "slug": "adlv-ac-teddy-bear-trang",
+    "name": "adlv AC Teddy bear Trắng",
+    "code": "CTV1441",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1441.jpg"
+    ],
+    "description": "adlv AC Teddy bear Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1442,
+    "slug": "adlv-gift-trang",
+    "name": "ADLV Gift Trắng",
+    "code": "CTV1442",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1442.jpg"
+    ],
+    "description": "ADLV Gift Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1443,
+    "slug": "knit-gau-hong",
+    "name": "knit gấu Hồng",
+    "code": "CTV1443",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1443.jpg"
+    ],
+    "description": "knit gấu Hồng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1444,
+    "slug": "basic-adlv-den-form-over",
+    "name": "basic adlv đen Form Over",
+    "code": "CTV1444",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1444.jpg"
+    ],
+    "description": "basic adlv đen Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1445,
+    "slug": "neon-rabbit-navy",
+    "name": "Neon rabbit Navy",
+    "code": "CTV1445",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1445.jpg"
+    ],
+    "description": "Neon rabbit Navy — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1446,
+    "slug": "adlv-bubble-den",
+    "name": "Adlv Bubble Đen",
+    "code": "CTV1446",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1446.jpg"
+    ],
+    "description": "Adlv Bubble Đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1447,
+    "slug": "knit-gau-den",
+    "name": "knit gấu Đen",
+    "code": "CTV1447",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1447.jpg"
+    ],
+    "description": "knit gấu Đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1448,
+    "slug": "basic-adlv-xanh-duong-form-over",
+    "name": "basic adlv xanh dương Form Over",
+    "code": "CTV1448",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1448.jpg"
+    ],
+    "description": "basic adlv xanh dương Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1449,
+    "slug": "neon-rabbit-nau",
+    "name": "Neon rabbit Nâu",
+    "code": "CTV1449",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 400000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1449.jpg"
+    ],
+    "description": "Neon rabbit Nâu — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1450,
+    "slug": "adlv-bubble-trang",
+    "name": "adlv bubble Trắng",
+    "code": "CTV1450",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1450.jpg"
+    ],
+    "description": "adlv bubble Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1451,
+    "slug": "knit-gau-nau",
+    "name": "knit gấu Nâu",
+    "code": "CTV1451",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 1450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1451.jpg"
+    ],
+    "description": "knit gấu Nâu — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1452,
+    "slug": "basic-adlv-cocoa-form-over",
+    "name": "basic adlv Cocoa Form Over",
+    "code": "CTV1452",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "SZ1",
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1452.jpg"
+    ],
+    "description": "basic adlv Cocoa Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1453,
+    "slug": "stan-ac-beer-trang",
+    "name": "Stan Ac beer Trắng",
+    "code": "CTV1453",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 390000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1453.jpg"
+    ],
+    "description": "Stan Ac beer Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1454,
+    "slug": "adlv-yawn-den",
+    "name": "adlv Yawn đen",
+    "code": "CTV1454",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1454.jpg"
+    ],
+    "description": "adlv Yawn đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1455,
+    "slug": "hoodie-alien-be",
+    "name": "hoodie alien Be",
+    "code": "CTV1455",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 860000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1455.jpg"
+    ],
+    "description": "hoodie alien Be — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1456,
+    "slug": "basic-adlv-hong-nhat-form-over",
+    "name": "basic adlv Hồng nhạt Form Over",
+    "code": "CTV1456",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1456.jpg"
+    ],
+    "description": "basic adlv Hồng nhạt Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1457,
+    "slug": "stan-ac-beer-vang",
+    "name": "Stan Ac beer Vàng",
+    "code": "CTV1457",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 390000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1457.jpg"
+    ],
+    "description": "Stan Ac beer Vàng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1458,
+    "slug": "adlv-snow-den",
+    "name": "adlv Snow đen",
+    "code": "CTV1458",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1458.jpg"
+    ],
+    "description": "adlv Snow đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1459,
+    "slug": "hoodie-alien-hong",
+    "name": "hoodie alien Hồng",
+    "code": "CTV1459",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 860000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1459.jpg"
+    ],
+    "description": "hoodie alien Hồng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1460,
+    "slug": "basic-adlv-hong-nhat-form-nu",
+    "name": "basic adlv Hồng nhạt Form Nữ",
+    "code": "CTV1460",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1460.jpg"
+    ],
+    "description": "basic adlv Hồng nhạt Form Nữ — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1461,
+    "slug": "stan-ac-beer-grey",
+    "name": "Stan Ac beer Grey",
+    "code": "CTV1461",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 390000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1461.jpg"
+    ],
+    "description": "Stan Ac beer Grey — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1462,
+    "slug": "adlv-snow-trang",
+    "name": "adlv Snow Trắng",
+    "code": "CTV1462",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1462.jpg"
+    ],
+    "description": "adlv Snow Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1463,
+    "slug": "knit-adlv-basic-den",
+    "name": "knit adlv basic đen",
+    "code": "CTV1463",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1463.jpg"
+    ],
+    "description": "knit adlv basic đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1464,
+    "slug": "basic-adlv-vang-form-over",
+    "name": "basic adlv Vàng Form Over",
+    "code": "CTV1464",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1464.jpg"
+    ],
+    "description": "basic adlv Vàng Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1465,
+    "slug": "simple-logo-xanh",
+    "name": "simple logo Xanh",
+    "code": "CTV1465",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 500000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1465.jpg"
+    ],
+    "description": "simple logo Xanh — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1466,
+    "slug": "adlv-cap-den",
+    "name": "adlv Cap đen",
+    "code": "CTV1466",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1466.jpg"
+    ],
+    "description": "adlv Cap đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1467,
+    "slug": "knit-adlv-basic-trang",
+    "name": "knit adlv basic trắng",
+    "code": "CTV1467",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1467.jpg"
+    ],
+    "description": "knit adlv basic trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1468,
+    "slug": "basic-cursive-den-logo-hong-form-over",
+    "name": "basic Cursive đen logo Hồng Form Over",
+    "code": "CTV1468",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1468.jpg"
+    ],
+    "description": "basic Cursive đen logo Hồng Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1469,
+    "slug": "adlv-basic-vang",
+    "name": "adlv Basic vàng",
+    "code": "CTV1469",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 420000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1469.jpg"
+    ],
+    "description": "adlv Basic vàng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1470,
+    "slug": "adlv-tiara-den",
+    "name": "adlv Tiara Đen",
+    "code": "CTV1470",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1470.jpg"
+    ],
+    "description": "adlv Tiara Đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1471,
+    "slug": "basic-cursive-hong-logo-vang-form-over",
+    "name": "basic Cursive Hồng logo Vàng Form Over",
+    "code": "CTV1471",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1471.jpg"
+    ],
+    "description": "basic Cursive Hồng logo Vàng Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1472,
+    "slug": "adlv-gau-meo-xanh",
+    "name": "adlv gấu mèo Xanh",
+    "code": "CTV1472",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1472.jpg"
+    ],
+    "description": "adlv gấu mèo Xanh — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1473,
+    "slug": "basic-cursive-vang-logo-xanh-form-over",
+    "name": "basic Cursive Vàng logo Xanh Form Over",
+    "code": "CTV1473",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 520000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1473.jpg"
+    ],
+    "description": "basic Cursive Vàng logo Xanh Form Over — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1474,
+    "slug": "adlv-donut-den",
+    "name": "adlv Donut đen",
+    "code": "CTV1474",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1474.jpg"
+    ],
+    "description": "adlv Donut đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1475,
+    "slug": "blur-alien-hong",
+    "name": "blur alien Hồng",
+    "code": "CTV1475",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 420000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1475.jpg"
+    ],
+    "description": "blur alien Hồng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1476,
+    "slug": "adlv-rabit-trang",
+    "name": "adlv rabit Trắng",
+    "code": "CTV1476",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1476.jpg"
+    ],
+    "description": "adlv rabit Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1477,
+    "slug": "adlv-santa-bear-trang",
+    "name": "adlv santa bear trắng",
+    "code": "CTV1477",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 450000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1477.jpg"
+    ],
+    "description": "adlv santa bear trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1478,
+    "slug": "adlv-rabbit-den",
+    "name": "adlv rabbit Đen",
+    "code": "CTV1478",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1478.jpg"
+    ],
+    "description": "adlv rabbit Đen — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1479,
+    "slug": "chu-nghieng-trang-adlv",
+    "name": "chữ nghiêng trắng adlv",
+    "code": "CTV1479",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 590000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1479.jpg"
+    ],
+    "description": "chữ nghiêng trắng adlv — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1480,
+    "slug": "spongebob-trang",
+    "name": "Spongebob Trắng",
+    "code": "CTV1480",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "SZ1",
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1480.jpg"
+    ],
+    "description": "Spongebob Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1481,
+    "slug": "outline-logo-xanh",
+    "name": "Outline logo Xanh",
+    "code": "CTV1481",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 340000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "SZ1",
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1481.jpg"
+    ],
+    "description": "Outline logo Xanh — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1482,
+    "slug": "spongebob-vang",
+    "name": "Spongebob Vàng",
+    "code": "CTV1482",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1482.jpg"
+    ],
+    "description": "Spongebob Vàng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1483,
+    "slug": "adlv-bear-pixcel-nau",
+    "name": "adlv bear pixcel nâu",
+    "code": "CTV1483",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 750000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1483.jpg"
+    ],
+    "description": "adlv bear pixcel nâu — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1484,
+    "slug": "spongebob-xam",
+    "name": "Spongebob XÁM",
+    "code": "CTV1484",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1484.jpg"
+    ],
+    "description": "Spongebob XÁM — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1485,
+    "slug": "bubble-font-spongebob-nau",
+    "name": "Bubble Font Spongebob NÂU",
+    "code": "CTV1485",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 1,
+    "sizes": [
+      "SZ1"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1485.jpg"
+    ],
+    "description": "Bubble Font Spongebob NÂU — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1486,
+    "slug": "bubble-font-spongebob-trang",
+    "name": "Bubble Font Spongebob Trắng",
+    "code": "CTV1486",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "SZ1",
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1486.jpg"
+    ],
+    "description": "Bubble Font Spongebob Trắng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 1487,
+    "slug": "bubble-font-spongebob-hong",
+    "name": "Bubble Font Spongebob Hồng",
+    "code": "CTV1487",
+    "brand": "adlv",
+    "category": "ao",
+    "gender": "Unisex",
+    "price": 700000,
+    "oldPrice": 0,
+    "stock": 2,
+    "sizes": [
+      "SZ1",
+      "SZ2"
+    ],
+    "images": [
+      "https://ftcmwjoogfhaaitkkxlb.supabase.co/storage/v1/object/public/ctv-photos/adlv/1487.jpg"
+    ],
+    "description": "Bubble Font Spongebob Hồng — nguồn hàng CTV.",
+    "tags": [
+      "adlv",
+      "ao",
+      "Unisex"
+    ]
   }
 ]
