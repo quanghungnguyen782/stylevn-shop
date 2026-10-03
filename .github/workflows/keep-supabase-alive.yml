@@ -1,0 +1,26 @@
+name: Keep Supabase Alive
+
+# Supabase free-tier projects auto-pause after ~7 days with no API activity.
+# This pings a real database query every 3 days (comfortable safety margin)
+# so the project never goes long enough without activity to trigger that.
+on:
+  schedule:
+    - cron: "0 3 */3 * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query Supabase to keep the project active
+        run: |
+          http_code=$(curl -s -o /tmp/response.json -w "%{http_code}" \
+            "https://ftcmwjoogfhaaitkkxlb.supabase.co/rest/v1/bag_submissions?select=id&limit=1" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}")
+          echo "HTTP status: $http_code"
+          cat /tmp/response.json
+          if [ "$http_code" -ge 400 ]; then
+            echo "::error::Supabase ping failed with HTTP $http_code"
+            exit 1
+          fi
